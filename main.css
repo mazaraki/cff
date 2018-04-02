@@ -1,0 +1,155 @@
+* {
+	margin: 0 auto;
+}
+
+/*div#container{
+	position: fixed;
+	top: 10vh;
+}*/
+
+nav {
+	background-color: #722872 !important;
+	position: fixed;
+	border: 1.6vw solid #722872;
+
+}
+
+a > img[title~="qlip"] {
+	position: fixed;
+	left: 13vw; /*177px*/
+	width: 3vw;
+	top: 2vh;
+	/*background-color: black;*/
+}
+
+#navbarSupportedContent {
+	position: fixed;
+	left: 66.2vw; /*177px*/
+	top: 2vh;
+}
+
+#btn-1, #btn-2, #btn-3 {
+	border-radius: 0;
+}
+
+.active {
+	/*background-color: #EFEFEF;*/
+	background-color: white !important;
+	color: white;
+}
+
+/*#btn-1:hover, #btn-2:hover, #btn-3:hover {
+	box-shadow: 0.15rem 0.15rem 0.15rem #722872;
+}*/
+
+#glip-jumbotron {
+	
+}
+
+/*@media screen and (max-width: ){
+	a > img[title~="qlip"] {
+	width: 3vw;
+	}
+}*/
+/*
+li {
+
+}*/
+
+/*body {
+	font-family: 'Lato', sans-serif;
+	margin: 0 auto;
+	margin: 3vw 6.7vw 4vw;
+}
+
+.container{
+	background-color: #eee;
+	border-radius: 10px;	
+}
+
+h1 {
+	font-size: 6vh;
+	margin-left: 1.2vw;
+}
+
+#subscript{
+	font-size: 3vh;
+	font-style: italic;
+	margin-left: 1.2vw;
+}
+
+#drNorman{
+	background-color: white;
+	margin-left: 1vw;
+}
+
+figcaption {
+	padding: 1vw;
+	margin-left: -0.2vw;
+}
+
+#dr {
+	margin-left: 0;
+	margin-right: 0;
+	border: none;
+}  
+
+h4{
+	margin-left: -2vw;
+}
+
+ul, #q {
+	margin-left: 19vw;
+}
+
+li {
+	width: 30vw;
+}
+
+#q {
+	width: 33vw;
+	margin-left: 21vw;
+}
+
+cite::before{
+	content: "‒";
+}
+
+cite {
+	font-size: .9vw;
+}
+
+#wiki {
+	font-size: x-large;
+	width: 40vw;
+	margin-left: 20vw;
+}
+
+#footer {
+	position: relative;
+}
+
+footer {
+	position: absolute;
+	bottom: -2vw;
+	left: 27vw;
+}
+
+a[alt*="Quincy"] {
+	text-decoration: underline;
+}
+
+footer > a[alt="Dimitra Mazaraki"] {
+	font-size: 2.5vh;
+	transition: height 1s;
+	-moz-webkit-transition: height;
+	-ms-webkit-transition: height;
+	-o-webkit-transition: height;
+	webkit-transition: height;
+}
+
+footer > a[alt="Dimitra Mazaraki"]:hover {
+	color: red;
+	text-decoration: none;
+	font-size: 4.5vh;
+}*/
