@@ -8,24 +8,40 @@
 }*/
 
 nav {
-	background-color: #722872 !important;
+	background-color: #4fd6dd !important;
 	position: fixed;
-	border: 1.6vw solid #722872;
-
+	border: 1.6vw solid #4fd6dd;
+	z-index: 1001;
+	height: 20.4vh;
 }
 
 a > img[title~="qlip"] {
 	position: fixed;
-	left: 13vw; /*177px*/
+	/*left: 13vw; /*177px*/
+	/*width: 3vw;
+	top: 2vh;*/
+	/*background-color: black;*/
+	left: 48vw; /*656px*/
 	width: 3vw;
 	top: 2vh;
-	/*background-color: black;*/
+	transition: width left 2s;
+	-moz-webkit-transition: width 2s;
+	-ms-webkit-transition: width 2s;
+	-o-webkit-transition: width 2s;
+	webkit-transition: width 2s;
 }
 
+/*.scrolledLogo {
+	width: 2rem;
+    left: 13vw;
+}
+*/
 #navbarSupportedContent {
 	position: fixed;
-	left: 66.2vw; /*177px*/
-	top: 2vh;
+	left: 39vw; /*534px;*/
+	top: 12vh;
+	/*left: 66.2vw; 177px
+	top: 2vh;*/
 }
 
 #btn-1, #btn-2, #btn-3 {
@@ -34,13 +50,12 @@ a > img[title~="qlip"] {
 
 .active {
 	/*background-color: #EFEFEF;*/
-	width: 10rem;
 	background-color: white !important;
 	color: white;
 }
 
 /*#btn-1:hover, #btn-2:hover, #btn-3:hover {
-	box-shadow: 0.15rem 0.15rem 0.15rem #722872;
+	box-shadow: 0.15rem 0.15rem 0.15rem #4fd6dd;
 }*/
 
 #glip-jumbotron {

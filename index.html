@@ -8,35 +8,35 @@
     <!-- favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   	<script src="script.js"></script>
     <!-- Styles -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-   	<script src="script.js"></script>
+    
   </head>
   <body>
   <div id="container">
-  		<nav class="navbar navbar-expand-lg navbar-light fixed-top">
-  		<a class="navbar-brand" href="#top"><img src="http://qlip.in/images/qlip.png" alt="qlip | UI/UX Design and Development" title="qlip | UI/UX Design and Development"></a>
+  		<nav class="navbar navbar-expand-lg navbar-light fixed-top" role="navigation">
+  		<a class="navbar-brand" href="#top"><img src="http://qlip.in/images/qlip.png" alt="qlip | UI/UX Design and Development" title="qlip | UI/UX Design and Development" id="logo"></a>
   		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     		<span class="navbar-toggler-icon"></span>
   		</button>
-
- 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+ 		<div class="collapse navbar-collapse navbar-toggleable-xs" id="navbarSupportedContent">
     		<ul class="navbar-nav mr-auto">
-     			<li class="nav-item">
-        			<button id="btn-1" type="button" class="btn btn-secondary">
-        				<a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+     			<li id="li1" class="nav-item">
+        			<button id="btn-1" type="button" class="btn btn-secondary active">
+        				<a class="nav-link scrollable" href="#about">About <span class="sr-only">(current)</span></a>
         			</button>
       			</li>
       			<li class="nav-item">
       				<button id="btn-2" type="button" class="btn btn-secondary">
-        				<a class="nav-link" href="#portfolio">Portfolio</a>
+        				<a class="nav-link scrollable" href="#portfolio">Portfolio</a>
         			</button>
       			</li>
       			<li class="nav-item">
       				<button id="btn-3" type="button" class="btn btn-secondary">
-        				<a class="nav-link" href="#contact">Contact</a>
+        				<a class="nav-link scrollable" href="#contact">Contact</a>
         			</button>
       			</li>
     		</ul>
@@ -46,6 +46,7 @@
 
   	<div id="qlip-jumbotron" class="jumbotron">
   		<div class="container">
+  			<br><br>
   			<h1 class="display-3">Hello, world!</h1>
 			<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
 			<hr class="my-4">
@@ -53,15 +54,14 @@
 			<p class="lead">
 				<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
 			</p>
+			<div>
+				<p id="about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat sequi consequatur maxime ipsa nesciunt nihil ab amet assumenda possimus. Iste dignissimos, aperiam sit molestiae ex rerum reprehenderit, nobis fugiat sed similique aut perspiciatis odit! Incidunt cumque est, autem, distinctio natus enim iure pariatur, omnis, doloremque suscipit libero sunt mollitia dolor ipsum consectetur cupiditate sed. Qui tempora at porro laboriosam, praesentium, quasi in assumenda reprehenderit. Cupiditate veritatis voluptas odio commodi hic at et ex! Quo praesentium optio quisquam est, nemo, expedita corporis aliquid debitis rerum ut sit quia enim officiis similique. Possimus, necessitatibus aliquam quidem, cum asperiores alias fuga aut mollitia, reprehenderit accusantium repudiandae tenetur earum enim consectetur!</p>
+				<br><br><br>
+				<p id="portfolio">Adipisci inventore qui deleniti minus odit ratione magni id eveniet, consectetur exercitationem officia velit, dolorem corporis! Dolorum quas temporibus, esse quibusdam enim rem reprehenderit fuga nobis pariatur ad, nam nemo commodi earum a non! Maiores, accusantium laborum a autem illum? Nihil eum incidunt fugit ea architecto aliquam culpa, quasi nobis debitis dolorum voluptates laboriosam magnam ad, eligendi ducimus alias. Praesentium repellat quasi autem et sint, ipsam suscipit assumenda nostrum cum aliquid perspiciatis voluptate iusto libero obcaecati laudantium repellendus temporibus rerum voluptatibus in officiis non. Deserunt cupiditate, corporis, tenetur vero incidunt cum. Vero ipsum a nihil illo explicabo, voluptate, quos architecto accusamus aspernatur amet provident laboriosam labore. Rem facilis saepe ipsum distinctio hic dolore voluptatibus impedit reiciendis nemo illo odit numquam dicta, omnis incidunt ipsa dolor ea, aspernatur sapiente voluptate eius tempora optio rerum et iure dignissimos. In, eveniet maxime vitae ut reprehenderit, culpa ab minima recusandae quos. Modi, distinctio iusto dolores dolor atque reiciendis quo numquam cum voluptatum ducimus, iste laborum quia quas ab, ipsam praesentium sequi rerum nemo! </p>
+				<br><br><br><br>
+				<p id="contact">Non adipisci rem laboriosam, blanditiis, vel et temporibus repellat autem quis eaque amet praesentium debitis ad illum illo, dignissimos quas quaerat quod impedit officiis? Nostrum quos saepe dolores vero in, porro cumque, minima consequuntur, temporibus ratione adipisci. Amet porro maiores unde aliquid officiis dicta nesciunt sequi eum similique corrupti repellat odio est, perferendis ipsam reiciendis dignissimos ad atque a repudiandae animi incidunt! Assumenda unde, voluptatum repellendus omnis autem adipisci voluptatibus, in consequatur deleniti perferendis. Voluptatum voluptatem consequuntur quidem optio aspernatur quia inventore quisquam facere omnis quam nam non rem, possimus praesentium asperiores culpa modi, repellendus esse laborum corporis, reiciendis tenetur eaque? Voluptates sed et sit voluptatum dolorem quidem asperiores accusantium autem repellat ut dicta consequatur, nulla nemo debitis perferendis magni vitae eos, quibusdam porro. Sint voluptas quas molestiae, veniam blanditiis ratione et, necessitatibus quasi eos aliquam, ab adipisci id possimus eaque iusto, voluptates eveniet aliquid eligendi reprehenderit. Quam reiciendis modi dolorum voluptatem voluptas vel nisi aut rem ut ab quis alias eum necessitatibus, iste officia minus doloremque, reprehenderit tempore laudantium placeat repudiandae cupiditate quisquam provident! Reiciendis consequatur quasi aut natus quisquam iste rerum magni numquam voluptatum ipsam assumenda ullam, quod quo minima quae! Error aperiam quisquam nobis sunt facere accusamus sequi officiis, ut excepturi enim dicta modi adipisci id mollitia sed nihil iure! Voluptate atque officia tempore quas accusantium veritatis deleniti quod temporibus illum.</p>
+			</div>
   		</div>
-
-      <div class="ipsum">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid perspiciatis ipsum consequatur, sed impedit dolore nobis error rem, quam fugiat beatae nemo debitis alias labore est repellendus fuga numquam in? Ipsam quis quam numquam magni corporis porro dolorum laborum, dolore sed, quidem voluptatibus doloribus, reprehenderit iste. Voluptatum ab quasi voluptate architecto consectetur aut, ad eligendi consequatur mollitia, molestias, culpa rem? Nemo nam incidunt quasi quod natus ut earum a porro, deleniti delectus quas ex omnis libero minus eum, aut sequi qui recusandae. Similique officiis rem suscipit corporis ipsum voluptatum tempora, provident. Consectetur dignissimos pariatur, error et, blanditiis iusto magnam fugit.</p>
-        <br><br><br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore dolores officia officiis veritatis quisquam vero sed, voluptatum nesciunt mollitia quam harum fugit, autem fugiat ipsum reiciendis eos aliquam velit vitae consectetur voluptatem aut nostrum debitis. Officia voluptas aut suscipit impedit illo, iusto at eius! Beatae quos, iste dignissimos ratione, voluptate at porro dolorem dicta, provident neque sequi. Nemo excepturi nostrum nulla eligendi at, alias molestiae repudiandae quos fugit laboriosam sequi aliquid architecto nisi modi, incidunt porro quo quia placeat autem minus cumque beatae? Molestias sapiente rem debitis atque nesciunt nisi modi nostrum, voluptatum, earum unde ipsum pariatur, quibusdam maxime perspiciatis?</p>
-        <br><br><br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum praesentium, odio facilis, totam reprehenderit voluptates explicabo? Ratione voluptate quis sint aliquam deserunt facere ab repellat quos odio, ullam, ad dolorem, mollitia ut enim, aliquid amet similique vitae. Modi quisquam vero deserunt repellendus, mollitia illum, nam perferendis ipsum, quibusdam quasi accusantium saepe nobis quidem dignissimos.</p>
-      </div>
 	</div>
 
 	<footer>
