@@ -31,11 +31,42 @@ a > img[title~="qlip"] {
 	webkit-transition: width 2s;
 }
 
-/*.scrolledLogo {
+#nebulla-jumbotron {
+	padding: 0;
+	margin: 0;
+}
+
+.parallax-start, .parallax {
+	background-image: url('parallax.png');
+	height: 50vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div.container {
+	padding-top: 10vh;
+}
+
+@media screen and (max-width: 768px){
+	.parallax-start, .parallax {
+		background-image: none;
+		height: 0;
+	}
+
+	div.container {
+		padding-top: 20vh;
+		font-size: smaller;
+		font-weight: 200;
+	}
+}
+
+.scrolledLogo {
 	width: 2rem;
     left: 13vw;
 }
-*/
+
 #navbarSupportedContent {
 	position: fixed;
 	left: 39vw; /*534px;*/
@@ -62,110 +93,34 @@ a > img[title~="qlip"] {
 	
 }
 
-/*@media screen and (max-width: ){
-	a > img[title~="qlip"] {
-	width: 3vw;
-	}
-}*/
-/*
-li {
-
-}*/
-
-/*body {
-	font-family: 'Lato', sans-serif;
-	margin: 0 auto;
-	margin: 3vw 6.7vw 4vw;
-}
-
-.container{
-	background-color: #eee;
-	border-radius: 10px;	
-}
-
-h1 {
-	font-size: 6vh;
-	margin-left: 1.2vw;
-}
-
-#subscript{
-	font-size: 3vh;
-	font-style: italic;
-	margin-left: 1.2vw;
-}
-
-#drNorman{
-	background-color: white;
-	margin-left: 1vw;
-}
-
-figcaption {
-	padding: 1vw;
-	margin-left: -0.2vw;
-}
-
-#dr {
-	margin-left: 0;
-	margin-right: 0;
-	border: none;
-}  
-
-h4{
-	margin-left: -2vw;
-}
-
-ul, #q {
-	margin-left: 19vw;
-}
-
-li {
-	width: 30vw;
-}
-
-#q {
-	width: 33vw;
-	margin-left: 21vw;
-}
-
-cite::before{
-	content: "‒";
-}
-
-cite {
-	font-size: .9vw;
-}
-
-#wiki {
-	font-size: x-large;
-	width: 40vw;
-	margin-left: 20vw;
-}
-
-#footer {
-	position: relative;
+iframe {
+	position: absolute;
+	top: 10vh;
+	width: 100px;
+	height: 100px;
 }
 
 footer {
+	position: fixed;
+	top: 97vh;
+	bottom: 0;
+	background-color: #4fd6dd;
+	width: 100%;
+	max-width: 100%;
+	z-index: 1002;
+}
+
+footer > #to-top {
+	width: 2rem;
 	position: absolute;
-	bottom: -2vw;
-	left: 27vw;
+	border: white solid 4px;
+	background-color: white;
+	border-radius: 50%;
+	right: 10px;
+	top: 15%;
 }
 
-a[alt*="Quincy"] {
-	text-decoration: underline;
-}
-
-footer > a[alt="Dimitra Mazaraki"] {
-	font-size: 2.5vh;
-	transition: height 1s;
-	-moz-webkit-transition: height;
-	-ms-webkit-transition: height;
-	-o-webkit-transition: height;
-	webkit-transition: height;
-}
-
-footer > a[alt="Dimitra Mazaraki"]:hover {
-	color: red;
-	text-decoration: none;
-	font-size: 4.5vh;
+/*#to-top > i {
+	position: absolute;
+	left: 15px;
 }*/
