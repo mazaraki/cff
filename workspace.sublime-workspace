@@ -1,0 +1,3523 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"scroll",
+				"scrolledLogo"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ba",
+				"backface-visibility"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"main",
+				"main-container"
+			],
+			[
+				"co",
+				"collapse"
+			],
+			[
+				"top",
+				"top"
+			],
+			[
+				"colla",
+				"collapse"
+			],
+			[
+				"container",
+				"container"
+			],
+			[
+				"navbar-exa",
+				"navbar-expand-lg"
+			],
+			[
+				"navbar",
+				"navbar-fixed"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"fa",
+				"fa-2x"
+			],
+			[
+				"is",
+				"is-invisible"
+			],
+			[
+				"sub",
+				"subscription"
+			],
+			[
+				"subscri",
+				"subscription"
+			],
+			[
+				"subs",
+				"subscription"
+			],
+			[
+				"subsc",
+				"subscribed"
+			],
+			[
+				"app",
+				"applicationServerPublicKey"
+			],
+			[
+				"init",
+				"initializeUI"
+			],
+			[
+				"swR",
+				"swReg"
+			],
+			[
+				"swre",
+				"swRegistration"
+			],
+			[
+				"ons",
+				"onscroll"
+			],
+			[
+				"sp",
+				"space-around"
+			],
+			[
+				"grid-te",
+				"grid-template-columns"
+			],
+			[
+				"gr",
+				"inline-grid"
+			],
+			[
+				"camp",
+				"Camp"
+			],
+			[
+				"Ype",
+				"YPE"
+			],
+			[
+				"ype",
+				"YPE"
+			],
+			[
+				"peir",
+				"Peiraeus"
+			],
+			[
+				"super",
+				"Supervisor"
+			],
+			[
+				"cen",
+				"Centre"
+			],
+			[
+				"gene",
+				"General"
+			],
+			[
+				"setmarkers",
+				"setMarkersEKAV"
+			],
+			[
+				"d_map_",
+				"d_map_pin_shadow"
+			],
+			[
+				"grid-colu",
+				"grid-column-gap"
+			],
+			[
+				"setmar",
+				"setMarkersSupers"
+			],
+			[
+				"point",
+				"Point"
+			],
+			[
+				"περιφε",
+				"Περιφέρειας"
+			],
+			[
+				"Λεωφ",
+				"Λεωφόρος"
+			],
+			[
+				"Διαβατ",
+				"Διαβατά"
+			],
+			[
+				"Θεσσα",
+				"Θεσσαλονίκης"
+			],
+			[
+				"ΘΕσσ",
+				"Θεσσαλονίκης"
+			],
+			[
+				"Νοσκο",
+				"Νοσοκομείο"
+			],
+			[
+				"mult",
+				"multiplyBy3"
+			],
+			[
+				"m",
+				"multiplier"
+			],
+			[
+				"image",
+				"imagesLoaded"
+			],
+			[
+				"mysqlicon",
+				"mysqli_connect_errno"
+			],
+			[
+				"suggest",
+				"suggestion"
+			],
+			[
+				"us",
+				"usr"
+			],
+			[
+				"program",
+				"programme"
+			],
+			[
+				"head",
+				"headers"
+			],
+			[
+				"alet",
+				"alert-danger"
+			],
+			[
+				"em",
+				"email"
+			],
+			[
+				"SUBMIT",
+				"submit"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"min",
+				"min_range"
+			],
+			[
+				"inpu",
+				"INPUT_POST"
+			],
+			[
+				"filterinpu",
+				"filter_input_array"
+			],
+			[
+				"validateint",
+				"FILTER_VALIDATE_INT"
+			],
+			[
+				"filter",
+				"filter_var"
+			],
+			[
+				"a",
+				"afar"
+			],
+			[
+				"rand",
+				"random"
+			],
+			[
+				"εμβολι",
+				"Εμβολιασμοί"
+			],
+			[
+				"logged",
+				"loggedIn"
+			],
+			[
+				"Hello",
+				"Hello"
+			],
+			[
+				"Hell",
+				"Hello"
+			],
+			[
+				"trn",
+				"transform"
+			],
+			[
+				"req",
+				"_REQUEST"
+			],
+			[
+				"re",
+				"_REQUEST"
+			],
+			[
+				"po",
+				"_POST"
+			],
+			[
+				"html",
+				"htmlentities"
+			],
+			[
+				"G",
+				"_GET"
+			],
+			[
+				"list",
+				"list-group-item"
+			],
+			[
+				"lis",
+				"list-group"
+			],
+			[
+				"PRINT",
+				"print_r"
+			],
+			[
+				"dOC",
+				"Document"
+			],
+			[
+				"date",
+				"dateNow"
+			],
+			[
+				"timestap",
+				"timeStamp2"
+			],
+			[
+				"timeSTa",
+				"timeStamp2"
+			],
+			[
+				"date_defau",
+				"date_default_timezone_get"
+			],
+			[
+				"date_default",
+				"date_default_timezone_set"
+			],
+			[
+				"ΙΩ",
+				"Ιωαννίνων"
+			],
+			[
+				"num",
+				"num3"
+			],
+			[
+				"texal",
+				"text-align"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"bra",
+				"brandico-twitter-bird"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"gre",
+				"greeting2"
+			],
+			[
+				"string",
+				"string2"
+			],
+			[
+				"stri",
+				"string1"
+			],
+			[
+				"strin",
+				"string2"
+			],
+			[
+				"nu",
+				"num1"
+			],
+			[
+				"wor",
+				"World"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"Fro",
+				"FormsModule\talias"
+			],
+			[
+				"comp",
+				"bidder.component\tscript"
+			],
+			[
+				"templa",
+				"templateUrl\tproperty"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"trams",
+				"transform"
+			],
+			[
+				"ease",
+				"ease-in-out"
+			],
+			[
+				"textal",
+				"text-align"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"Her",
+				"HeroService\talias"
+			],
+			[
+				"transomr",
+				"transform"
+			],
+			[
+				"mem",
+				"mem2"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"c",
+				"cover"
+			],
+			[
+				"long",
+				"longitude"
+			],
+			[
+				"lat",
+				"latitude"
+			],
+			[
+				"get",
+				"getCurrentPosition"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"word",
+				"word-wrap"
+			],
+			[
+				"conta",
+				"contact"
+			],
+			[
+				"lar",
+				"larger"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"javascr",
+				"javascript"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"col",
+				"col-lg-3"
+			],
+			[
+				"location",
+				"location"
+			],
+			[
+				"loade",
+				"loader-body"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/bird-flying.html",
+			"settings":
+			{
+				"buffer_size": 500,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Downloads/mapFixed.html",
+			"settings":
+			{
+				"buffer_size": 25544,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/maps/mapLinks.html",
+			"settings":
+			{
+				"buffer_size": 25115,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/css grid/css-grid-house.html",
+			"settings":
+			{
+				"buffer_size": 602,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/2.html",
+			"settings":
+			{
+				"buffer_size": 47501,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/2.html",
+			"settings":
+			{
+				"buffer_size": 47501,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/3.html",
+			"settings":
+			{
+				"buffer_size": 44616,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "<div id=\"photo-container\" style=\"display: inline-t"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/courseraTest.html",
+			"settings":
+			{
+				"buffer_size": 438,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n <title>Ο PHILOS στο χάρτη</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=nο\">\n    <meta charset=\"utf-8\">\n    <meta name=\"description\" content=\"Ενεργά σημεία του PHILOS στο χάρτη\">\n    <meta name=\"keywords\" content=\"\">\n    <meta name=\"author\" content=\"Dimitra-Niki Mazaraki\">\n<style type=\"text/css\">\n  html { height: 100% }\n  body { height: 100%; margin: 0 auto; padding: 0 }\n  #default { height: 100% }\n\n  #legend {\n    font-family: Arial, sans-serif;\n    font-size: 0.7rem;\n    background: #fff;\n    padding: 10px;\n    margin: 10px;\n    border: 3px solid #000;\n   /* display: grid;\n    grid-template-columns: auto auto;\n    grid-column-gap: 1px;   */\n    width: 25rem;\n  }\n\n  #legend h3 {\n    margin-top: 0;\n  }\n  #legend img {\n    vertical-align: middle;\n    height: 22px;\n  }\n\n  @-moz-document url-prefix() {\n    html { height: 100% }\n  body { height: 100%; margin: 0 auto; padding: 0 }\n  #default { height: 100% }\n\n  #legend {\n    font-family: Arial, sans-serif;\n    font-size: 0.7rem;\n    background: #fff;\n    padding: 10px;\n    margin: 10px;\n    border: 3px solid #000;\n   /* display: grid;\n    grid-template-columns: auto auto;\n    grid-column-gap: 1px;*/   \n    width: 25rem;\n  }\n  #legend h3 {\n    margin-top: 0;\n  }\n  #legend img {\n    vertical-align: middle;\n    height: 22px;\n  }\n  \n  }\n\n</style>\n<script type=\"text/javascript\"\n  src=\n\"https://maps.googleapis.com/maps/api/js?key=AIzaSyDsrcwr-VLlZQSqgG45sTu5Z8-93cen9tw&sensor=false&language=gr&region=GR\">\n</script>\n<script type=\"text/javascript\">\n  /**\nCopyright 2018 Dimitra-Niki Mazaraki\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.*/\n//hospitals, pedy\n var pinColor = \"009933\";\n var pinImage = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|\" + pinColor,\n     new google.maps.Size(21, 34),\n     new google.maps.Point(0,0),\n     new google.maps.Point(10, 34));\n var pinShadow = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_shadow\",\n     new google.maps.Size(40, 37),\n     new google.maps.Point(0, 0),\n     new google.maps.Point(12, 35));\n \n\n//ype\n var pinColor2 = \"4d4dff\";\n var pinImage2 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|\" + pinColor2,\n     new google.maps.Size(21, 34),\n     new google.maps.Point(0,0),\n     new google.maps.Point(10, 34));\n var pinShadow2 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_shadow\",\n     new google.maps.Size(40, 37),\n     new google.maps.Point(0, 0),\n     new google.maps.Point(12, 35));\n\n //official\n var pinColor3 = \"e6e600\";\n var pinImage3 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|\" + pinColor3,\n     new google.maps.Size(21, 34),\n     new google.maps.Point(0,0),\n     new google.maps.Point(10, 34));\n var pinShadow3 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_shadow\",\n     new google.maps.Size(40, 37),\n     new google.maps.Point(0, 0),\n     new google.maps.Point(12, 35));\n\n //camps\n var pinColor4 = \"33cccc\";\n var pinImage4 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|\" + pinColor4,\n     new google.maps.Size(21, 34),\n     new google.maps.Point(0,0),\n     new google.maps.Point(10, 34));\n var pinShadow4 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_shadow\",\n     new google.maps.Size(40, 37),\n     new google.maps.Point(0, 0),\n     new google.maps.Point(12, 35));\n\n//supervisors\nvar pinColor5 = \"6A6A69\";\nvar pinImage5 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|\" + pinColor5,\n    new google.maps.Size(21, 34),\n    new google.maps.Point(0, 0),\n    new google.maps.Point(10, 34));\nvar pinShadow5 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_shadow\",\n     new google.maps.Size(40, 37),\n     new google.maps.Point(0, 0),\n     new google.maps.Point(12, 35));\n\n//EKAV\nvar pinColor6 = \"F07539\";\nvar pinImage6 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|\" + pinColor6,\n    new google.maps.Size(21, 34),\n    new google.maps.Point(0, 0),\n    new google.maps.Point(10, 34)\n);\nvar pinShadow6 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_shadow\",\n    new google.maps.Size(40, 37),\n    new google.maps.Point(0, 0),\n    new google.maps.Point(12, 35)\n);\n\n//for the legends\nvar iconBase = 'https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|';\nvar iconsLeft = {\n  hospitals: {\n    name: 'Νοσοκομεία, Κέντρα Υγείας',\n    icon: iconBase + pinColor\n  },\n  ekav: {\n    name: 'EKAB',\n    icon: iconBase + pinColor6\n  },\n  ypes: {\n    name: 'Υγειονομικές Περιφέρειες (ΥΠΕ)',\n    icon: iconBase + pinColor2\n  }\n}\nvar iconsRight = {\n  offices: {\n    name: 'ΚΕΕΛΠΝΟ, ΕΚΕΠΥ, Υπουργείο Υγείας, <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Υπουργείο Μεταναστευτικής Πολιτικής',\n    icon: iconBase + pinColor3\n  },\n  camps: {\n    name: 'Χώροι Φιλοξενίας',\n    icon: iconBase + pinColor4\n  },\n  supervisorsPin: {\n    name: 'Επόπτες Υγείας',\n    icon: iconBase + pinColor5\n  }\n} //end of icons objects\n\nvar locations = [\n\n//nosokomeia, pedy...\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο Βέροιας', 'κυρία Μεταλίδου', '23313-51100, 23313-51400', 40.503268, 22.216287, 'Συνοικισμός Παπάγου, 59132, Βέροια'],\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο Γιαννιτσών', 'κυρία Κωστίδου', '23823-50200, 23823-50300', 40.794359, 22.414448, 'Γιαννιτσά, 58100, Γιαννιτσά'],\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο Κατερίνης', 'κυρία Χαβέλα', '23513-50200', 40.293706, 22.445165, '6ο χλμ Επαρχιακή οδός Αρωνάς - Μοσχοπόταμος, 60100, Νέο Κεραμίδι Πιερίας'],\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο Θεσσαλονίκης \"Άγιος Δημήτριος\"', 'κύριος Τσίκουρας', '23133-22100', 40.635040, 22.955976, 'Ελένης Ζωγράφου 2, 546 34, Θεσσαλονίκη'],\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο Θεσσαλονίκης \"Γεννηματάς\"', 'κύριος Σαμαράς', '23133-08100, 2310-963100', 40.633835, 22.955698, 'Εθνικής Αμύνης 41, 54635, Θεσσαλονίκη'],\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο \"Παπαγεωργίου\"', 'κυρία Ζαχαρούδη', '23133-323000', 40.676480, 22.962334, 'Αγίου Παύλου 76, Περιφερειακή οδός Δήμου Παύλος Μελάς, 564 29, Θεσσαλονίκη'],\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο \"Παπανικολάου\"', 'κύριος Κυριακίδης / κυρία Χωματά', '23133-07000', 40.676082, 22.962311, 'Χορτιάτης, 57010, Θεσσαλονίκη'],\n  ['3η Υ.ΠΕ., ΠΕΔΥ - Κέντρο Υγείας Διαβατών', 'κύριος Φοροτζίτης', '2310-781840, 2310-781881', 40.684809, 22.860129, 'Βενιζέλου Ελευθερίου 5, Διαβατά, 57008, Θεσσαλονίκη'],\n  ['3η Υ.ΠΕ., ΠΕΔΥ - Κέντρο Υγείας Λαγκαδά', 'κυρία Μοσχίδου', '23943-30701', 40.749702, 23.067668, 'Λουτρών 20, 57200, Λαγκαδάς'],\n  ['3η Υ.ΠΕ., ΠΕΔΥ Κατερίνης', 'κυρία Σταθακοπούλου', '23510-35913', 40.684809, 22.860129, 'Κανελλόπουλου Παναγιώτη 1, 601 32, Κατερίνη Πιερίας'],\n  ['3η Υ.ΠΕ., ΠΕΔΥ ΜΥ Πύλη Αξιού', 'κυρία Ιακωβίδου', '2310-597848', 40.637592, 22.934252, 'Πολυτεχνείου 1, 546 26, Θεσσαλονίκη'],\n  ['5η Υ.ΠΕ., Γενικό Νοσοκομείο Λαμίας', 'κυρία Κόντου', '22313-56000', 38.914249, 22.427544, ' Παπασιοπούλου, 351 00, Λαμία'],\n  ['5η Υ.ΠΕ., Γενικό Νοσοκομείο Βόλου &quot;Αχιλλοπούλειο&quot;', 'κυρία Σιτζάκη', '24213-51000, 24210-94200', 39.352631, 22.962701, 'Πολυμέρη 134, 38222, Βόλος'],\n  ['5η Υ.ΠΕ., Γενικό Νοσοκομείο Λάρισας &quot;Κουτλιμπάνειο&quot;', 'κυρία Λάμπρου', '2413-504100', 39.642292, 22.422548, 'Τσακάλωφ, 412 21, Λάρισα'],\n  ['5η Υ.ΠΕ., Γενικό Νοσοκομείο Χαλκίδας', 'κυρία Ρέππα', '2221-350100', 38.463395, 23.599557, 'Γαζέπη Ηρακλή 48, 341 00, Χαλκίδα'],\n  ['5η Υ.ΠΕ., Πανεπιστημιακό Γενικό Νοσοκομείο (ΠΑΓΝ) Λάρισας', 'κυρία Γουτοπούλου', '2413-504100', 39.617155, 22.3871949, 'Μεζούρλο, Λάρισα, 411 10, ΤΘ 1425'],\n  ['5η Υ.ΠΕ., Κέντρο Υγείας Αγιάς', 'κυρία Βαλιατζά', '24943-50000', 39.697826, 22.875364, 'Αγιόκαμπος, Αγιά, 400 03, Λάρισα'],\n  ['2η Υ.ΠΕ., Αντικαρκινικό Νοσοκομείο Πειραιά &quot;Μεταξά&quot;', 'κύριος Παπαδόπουλος', '213-2079100', 37.929755, 23.643430, 'Μπόταση 51, 185 37, Πειραιάς'],\n  // ['2η Υ.ΠΕ., Γενικό Νοσοκομείο Ασκληπείο Βούλας', 'κυρία Κριμπογιάννη', '213-2163000', 37.847845, 23.757393, 'Λεωφόρος Βασιλέως Παύλου 1,  16673, Βάρη Βούλα Βουλιαγμένη'],\n  // ['2η Υ.ΠΕ., Γενικό Νοσοκομείο Νίκαιας Άγιος Παντελεήμων', 'κυρία Κατουφά', '213-2077000', 37.966957, 23.644283, 'Μαντούβαλου 3, Οσία Ξένη, 18454, Νίκαια Αττικής'],\n  ['2η Υ.ΠΕ., Γενικό Νοσοκομείο Πειραιά &quot;Τζάνειο&quot;', 'κυρία Πετράτου', '213-2081000', 37.934468, 23.645242, ' Λεωφόρος Αφεντούλη και Ζαννή, 185 36, Πειραιάς'],\n  ['2η Υ.ΠΕ., Πανεπιστημιακό Γενικό Νοσοκομείο (ΠΑΓΝ) Αττικό', 'κυρία Σταυρινάβη', '210-5831000', 38.016581, 23.665685, 'Ρίμινι 1, 124 62, Χαϊδάρι'],\n  ['6η Υ.ΠΕ., Γενικό Νοσοκομείο Ηλείας (Πύργου)', 'κυρία Γρίβα', '26213-61300', 37.685178, 21.422292, ' Συντριάδα, 27100, Πύργος Ηλείας'],\n  ['6η Υ.ΠΕ., Γενικό Νοσοκομείο Ηλείας (Αμαλιάδας)', 'κυρία Γρίβα', '26220-25939, 26220-22222', 37.791495, 21.357442, ' Ευαγγελιστρίας 128, 272 00, Αμαλιάδα Ηλείας'],\n  ['6η Υ.ΠΕ., Γενικό Νοσοκομείο Ιωαννίνων &quot;Χατζηκώστα&quot;', 'κυρία Ηλιάδου / κυρία Βλάχου', '26513-66688', 39.677786, 20.834928, ' Λεωφόρος Στρατηγού Μακρυγιάννη 1, 454 45, Ιωάννινα'],\n  ['6η Υ.ΠΕ., Γενικό Νοσοκομείο Πρέβεζας', 'κυρία Μερισιώτη', '26823-61390', 38.965394, 20.753990, 'Σελευκείας 2, 481 00, Πρέβεζα'],\n  ['6η Υ.ΠΕ., Πανεπιστημιακό Γενικό Νοσοκομείο (ΠΑΓΝ) Ιωαννίνων', 'κυρία Μπλάτσιου', '26510-99111', 39.625572, 20.848436, 'Λεωφόρος Σταύρου Νιάρχου, 455 00, Ιωάννινα'],\n  ['6η Υ.ΠΕ., ΠΕΔΥ - Κέντρο Υγείας Δελβινακίου', 'κύριος Μάντζιος / κύριος Βίλης', '26570-22222, 26570-22540', 39.933965, 20.465450, 'Δελβινάκι, Δελβινάκι, 440 02, Ιωάννινα'],\n  ['6η Υ.ΠΕ., ΠΕΔΥ - Κέντρο Υγείας Ιωαννίνων', 'κύριος Φώτος / κυρία Φούκα', '26510-26519, 26510-59662', 39.672130, 20.847175, 'Μελά Παύλου 34, 454 44, Ιωάννινα'],\n  ['6η Υ.ΠΕ., ΠΕΔΥ - Κέντρο Υγείας Κόνιτσας', 'κύριος Φυσέκης', '26550-22022', 40.047506, 20.752335, 'Αγίου Νικολάου 1, 44100, Κόνιτσα, Ιωάννινα'],\n  // ['1η Υ.ΠΕ., Αλεξάνδρα', 'κυρία Παντικίδη', '213-216200, 210-3381100', 37.980401, 23.754944, 'Λεωφόρος Βασιλίσσης Σοφίας 80, 11528, Αθήνα'],\n  // ['1η Υ.ΠΕ., Ευαγγελισμός', 'κυρία Δανιηλίδου', '213-2041000', 37.977510, 23.748164, 'Υψηλάντου 45, 10676, Αθήνα'],\n  // ['1η Υ.ΠΕ., Κέντρο Υγείας Καπανδριτίου', 'κυρία Πριμυκίρη', '22950-52612', 38.215738, 23.882484, 'Γραμματικογιάννη, 19014, Καπανδρίτι'],\n  // ['1η Υ.ΠΕ., Κέντρο Υγείας Νέας Μάκρης', 'κύριος Στάμος', '22943-21000', 38.088382, 23.962598, 'Λεωφόρος Μαραθώνος και Αρτέμιδος, 19005, Νέα Μάκρη'],\n  // ['1η Υ.ΠΕ., Κέντρο Υγείας Λαυρίου', 'κύριος Βλαχογιάννης', '22923-20300', 37.716828, 24.053912, 'Διαμαντοπούλου Ιακώβου, 19500, Λαύριο'],\n  // ['1η Υ.ΠΕ., Έλενας Βενιζέλου', 'κυρία Καστραντά', '213-2051000', 37.985055, 23.755273, 'Πλατεία Έλενας Βενιζέλου 2, 11521, Αμπελόκηποι'],\n  // ['1η Υ.ΠΕ., Κέντρο Ψυχικής Υγείας Βύρωνα', 'κυρία Δούκα', '210-7640111, 210-7644705', 37.962405, 23.759756, 'Δήλου 14, 16121, Καισαριανή'],\n  // ['1η Υ.ΠΕ., Λαϊκό', 'κύριος Καραγκιοζόπουλος', '213-2060800', 37.984674, 23.764180, 'Αγίου Θωμά 17, 11527, Αθήνα'],\n  // ['1η Υ.ΠΕ., Παίδων Αγλαΐα Κυριακού', 'κυρία Καρατζαφέρη', '213-2009000', 37.985283, 23.766911, 'Λεβαδείας 3 & Θηβών, 11527, Αθήνα'],\n  // ['1η Υ.ΠΕ., Παίδων Αγία Σοφία', 'κυρία Μαρκογιαννάκη', '213-2013000', 37.983497, 23.768688, 'Θηβών και Παπαδιαμαντοπούλου, 11527, Αθήνα'],\n  ['4η Υ.ΠΕ., Γενικό Νοσοκομείο Δράμας', 'κυρία Τσιτλίδου', '25210 23351-5', 38.000841, 23.714901, 'Ιπποκράτους Τέρμα, 661 32, Δράμα'],\n  ['4η Υ.ΠΕ., Γενικό Νοσοκομείο Καβάλας', 'κυρία Παπάκη', '25135-01100', 40.940905, 24.376925, 'Άγιος Σίλας, 655 00, Καβάλα'],\n  ['4η Υ.ΠΕ., Γενικό Νοσοκομείο Κιλκίς', 'κυρία Ιωαννίδου', '23413-51736', 40.990418, 22.867203, 'Νοσοκομείου 1, 611 00, Κιλκίς'],\n  ['4η Υ.ΠΕ., Γενικό Νοσοκομείο Θεσσαλονίκης \"Ιπποκράτειο\"', 'κυρία Ξεπαπαδάκη', '2313-312000', 40.611484, 22.961733, 'Κωνσταντινοπούλεως 49, 546 42, Θεσσαλονίκη'],\n  ['4η Υ.ΠΕ., Μονάδα Υγείας ΠΕΔΥ Δροσάτου', 'κυρία Αποστολάκη', '23410-97202', 41.167046, 22.801571, 'Δροσάτο, 610 03'],\n  ['4η Υ.ΠΕ., Κέντρο Υγείας Ζαγκλιβερίου', 'κυρία Παυλίδου', '23933-30400', 40.574480, 23.284947, 'Επαρχιακή Οδός Ζαγκλιβερίου-Νέας Χαλκιδικής 45, 570 12, Ζαγκλιβέρι'],\n  ['4η Υ.ΠΕ., Κέντρο Υγείας Θέρμης', 'κυρία Κατσιώμη', '23133 10824-6', 40.544823, 23.032766, 'Θέρμη Θεσσαλονίκης, 570 01, Θεσσαλονίκη'],\n  ['4η Υ.ΠΕ., Κέντρο Υγείας Παρανεστίου', 'κυρία Τσαλγαρίδου', '25240-22171, 25240-22222', 41.266145, 24.502995, 'Ε.Ο. Δράμας - Ξάνθης 57, 660 35, Παρανέστι'],\n  ['4η Υ.ΠΕ., Κέντρο Υγείας Πολυκάστρου', 'κυρία Γάκη', '23430-22051', 40.995048, 22.577083, 'Βενιζέλου, 612 00, Πολύκαστρο'],\n  ['4η Υ.ΠΕ., Κέντρο Υγείας Σοχού', 'κυρία Δημητρίου', '23950-22222', 40.818183, 23.356642, 'Σοχός, 570 02, Θεσσαλονίκη'],\n  // /* change - adding new locations - 7/2/2018 - @author Dimitra M. */\n  ['2η Υ.ΠΕ., Γενικό Νοσοκομείο Ρόδου', '', '2241-360000', 36.418008, 28.192882, 'Άγιοι Απόστολοι, 851 33, Ρόδος'],\n  ['2η Υ.ΠΕ., Γενικό Νοσοκομείο Κω', '', '22423-60200', 36.892793, 27.291458, 'Ιπποκράτους 34, 853 00, Κως'],\n  ['2η Υ.ΠΕ., Γενικό Νοσοκομείο Λέρου', '', '22470-23300', 37.133164, 26.847947, 'Βασιλίσσης Όλγας, 853 01, Λακκί, Λέρος'],\n  ['2η Υ.ΠΕ., Νοσοκομείο Χίου', '', '22713-50108', 38.384162, 26.136965, 'Έλενας Βενιζέλου 2, 821 00, Χίος'],\n  ['2η Υ.ΠΕ., Νοσοκομείο Σάμου', '', '22713-50108', 37.761543, 26.969652, 'Λεωφ. Καλλίστρατου 17, 831 00, Σάμος'],\n  ['2η Υ.ΠΕ., Γενικό Νοσοκομείο Μυτιλήνης', '', '22510-57700', 39.090613, 26.549465, 'Ευστράτιου Βοστάνη 46, 811 32, Μυτιλήνη, Λέσβος'],\n  ['4η Υ.ΠΕ., ΠΕΔΥ Δράμας', '', '25210-20977', 39.0997404,26.5518111, 'Αγαμέμνονος 2 (Κτίριο ΙΚΑ), 661 33, Δράμα'],\n  ['4η Υ.ΠΕ., Κέντρο Υγείας Μηχανιώνας', '', '', 40.458777, 22.862209, 'Τέρμα Πολυτεχνείου, 570 04, Μηχανιώνα Θεσσαλονίκης'],\n  ['4η Υ.ΠΕ., Κέντρο Υγείας Αγίου Νικολάου Χαλκιδικής', '', '', 40.248743, 23.698947, 'Οδός Παυλούδη Παύλου, Άγιος Νικόλαος, 630 78, Χαλκιδική'],\n  ['5η Υ.ΠΕ., Γενικό Νοσοκομείο Λιβαδειάς', '', '22613-50500', 38.446733, 22.883218, 'Τέρμα Αγίου Βλάσιου, 321 00, Λιβαδειά, Βοιωτία'],\n  ['6η Υ.ΠΕ., ΠΕΔΥ Άρτας', '', '', 39.157624, 20.981725, 'Αλεξάνδρου Ζάρα 2, Παλαιό Νοσοκομείο (Απέναντι από το μαιευτήριο \"Μητέρα\"), 471 00, Άρτα']\n];\n\n  var locationsEKAV = [\n    ['ΕΚΑΒ Θεσσαλονίκης', 'κυρία Τσορμπατζόγλου', '2310-397100', 40.990418, 22.867203, 'Μαβίλη 33, 555 35, Θεσσαλονίκη'],\n    ['ΕΚΑΒ Ιωαννίνων', 'κύριος Παπαδιώτης', '26510-54334', 39.671129, 20.854862, 'Χατζηκώστα Γεώργιου και Γεωργίου Παπανδρέου 1, 454 44 Ιωάννινα'],\n    ['ΕΚΑΒ Αττικής', 'κύριος Μπόρας', '213-2143000', 37.998564, 23.783817, 'Τέρμα Υγείας & Λεωφόρος Μεσογείων (πλησίον νοσοκομείου Γ. Γεννηματάς), 115 27, Αθήνα'],\n    ['ΕΚΑΒ Καβάλας - Δράμας', 'κυρία Τουρτούνη', '', 41.159045, 24.148861, 'Παιδόπολη Καβάλας, 652 04, Καβάλα'],\n    ['ΕΚΑΒ Λάρισας', 'κυρία Δαλαμπίρα / κύριος Σχοινάς', '2410-685102', 39.610923, 22.385844, 'Λάρισα, Εντός Πανεπιστημιακού Νοσοκομείου, Λάρισα - Μεζούρλο, 411 10, Λάρισα'],\n    ['4η Υ.ΠΕ., ΕΚΑΒ (Ημαθίας) Θεσσαλονίκης', '', '', 40.503344, 22.216743, 'Βέροια, 591 00, Βέροια Ημαθίας'],\n    ['4η Υ.ΠΕ., ΕΚΑΒ (Πελλας) Θεσσαλονίκης', '', '', 40.797536, 22.048931, 'Φιλίππου 37, 582 00, Έδεσσα Πέλλας'],\n    ['ΕΚΑΒ Μυτιλήνης', '', '22713-50108', 39.090613, 26.549465, 'Ευστράτιου Βοστάνη 37, 811 32, Μυτιλήνη, Λέσβος'],\n    ['ΕΚΑΒ Ρόδου', '', '2241-360000', 36.418008, 28.192882, 'Άγιοι Απόστολοι, 851 33, Ρόδος'],\n    ['ΕΚΑΒ Λέρου', '', '22470-23300 ', 37.133164, 26.847947, 'Βασιλίσσης Όλγας, 853 01, Λακκί, Λέρος'],\n    ['ΕΚΑΒ Καλύμνου', '', '22430-23027', 36.957227, 26.972500, 'Νικολάου Ζερβού 22, 852 00, Κάλυμνος'],\n    ['ΕΚΑΒ Κω', '', '22423-60200', 36.892793, 27.291458, 'Ιπποκράτους 34, 853 00, Κως']\n  ];\n\n  var locationsYpe = [\n    ['1η ΥΠΕ ΑΤΤΙΚΗΣ', 'Ζαχάρωφ 3, 115 21, Αμπελόκηποι, Αθήνα', '213-2010400', 'http://www.1dype.gov.gr/', 37.986184, 23.760324],\n    ['2η ΥΠΕ ΠΕΙΡΑΙΩΣ & ΑΙΓΑΙΟΥ', 'Θηβών 46-48, 185 43, Πειραιάς', '213-2004200 , 213-2004205', 'http://www.2dype.gr/', 37.957189, 23.651598],\n   // /* ['3η ΥΠΕ ΜΑΚΕΔΟΝΙΑΣ', 'Αριστοτέλους 16, 54623, Θεσσαλονίκη', '2313-320500', 'http://www.3ype.gr/', 40.634353, 22.942907],*/\n    ['3η ΥΠΕ ΜΑΚΕΔΟΝΙΑΣ και 4η ΥΠΕ ΜΑΚΕΔΟΝΙΑΣ & ΘΡΑΚΗΣ', 'Αριστοτέλους 16, 546 23, Θεσσαλονίκη', '3η ΥΠΕ: 2313-320500 , 4η ΥΠΕ: 2313-327800', 'http://www.3ype.gr/ , https://www.4ype.gr/', 40.634353, 22.942907],\n    ['5η ΥΠΕ ΘΕΣΣΑΛΙΑΣ & ΣΤΕΡΕΑΣ ΕΛΛΑΔΑΣ', 'Νικηταρά 18, 412 21, Λάρισα', '2413-500800', 'http://www.dypethessaly.gr', 39.639236, 22.421518],\n    ['6η ΥΠΕ ΠΕΛΟΠΟΝΝΗΣΟΥ, ΙΟΝΙΩΝ ΝΗΣΩΝ, ΗΠΕΙΡΟΥ & ΔΥΤΙΚΗΣ ΕΛΛΑΔΑΣ', 'Ν.Ε.Ο. Πατρών - Αθηνών & Υπάτης 1, 264 41, Πάτρα', '2610-463500 , 2610-463503', 'http://www.dypede.gr', 38.260500, 21.749365],\n    ['7η ΥΠΕ ΚΡΗΤΗΣ', '3ο χλμ Ηρακλείου - Μοιρών, Εσταυρωμένος, 715 00, Ηράκλειο Κρήτης', '2813-404400', 'https://www.hc-crete.gr/', 35.3383895, 25.1423351]\n  ];\n\n  var locationsOfficial = [\n    ['ΚΕΕΛΠΝΟ', 'Αγράφων 3-5, 15123, Μαρούσι Αττικής', '210-5212000', 'http://www.keelpno.gr/', 38.033120, 23.788603],\n    ['ΕΚΕΠΥ', 'Λεωφόρος Κηφισίας 39, 15123, Μαρούσι Αττικής', '210-6822445', '', 38.034328, 23.795601],\n    ['Υπουργείο Υγείας', 'Αριστοτέλους 17, 10187, Αθήνα', '213-2161000-1', 'http://www.moh.gov.gr/', 37.988304, 23.727715],\n    ['Υπουργείο Μεταναστευτικής Πολιτικής', 'Ευαγγελιστρίας 2, 10563, Αθήνα', '210-4141641, 210-4141671', 'http://www.ypes.gr/el/Generalsecretariat_PopulationSC/general_directorate_ithageneias_migratation/', 37.975836, 23.729906],\n    ['Υπουργείο Μεταναστευτικής Πολιτικής (εξυπηρέτηση κοινού)', 'Αγίου Διονυσίου 5, 18545, Πειραιάς', '210-4141641, 210-4141671', 'http://www.ypes.gr/el/Generalsecretariat_PopulationSC/general_directorate_ithageneias_migratation/', 37.949444, 23.643635]\n  ];\n\n  var locationsSupervisors = [\n    ['Επόπτης Υγείας Περιφέρειας Αττικής', 'Λεωφόρος Μεσογείων 448, 153 42, Αγία Παρασκευή Αττικής', '213 2100566 / -535 / -511', 38.013804, 23.8292478],\n    ['Επόπτης Υγείας Περιφέρειας Πελοποννήσου', 'Γενική Διεύθυνση Δημόσιας Υγείας & Κοινωνικής Μέριμνας, Ελευθερίου Βενιζέλου 34, 221 32, Τρίπολη Αρκαδίας', '27136 10225 / -221 / -229', 37.509553, 22.3752807],\n    ['Επόπτες Υγείας Περιφέρειας Κεντρικής Μακεδονίας', '26ης Οκτωβρίου 64, 546 27, Θεσσαλονίκη', '2313-330889', 40.6412744, 22.9156096],\n    ['Επόπτες Υγείας Περιφέρειας Στερεάς Ελλάδας (Λαμία)', 'Γενική Διεύθυνση Δημόσιας Υγείας Στερεάς Ελλάδας (Λαμία), Υψηλάντου 1, 351 31, Λαμία, Φθιώτιδα', '22313 51275 / -278', 38.902213, 22.4305998],\n    ['Επόπτης Υγείας Περιφέρειας Δυτικής Ελλάδας (Πάτρα)', 'Παλαιών Πατρών Γερμανού 98, 262 25, Πάτρα, Αχαΐα', '2613-620716', 38.2416583, 21.7386787],\n    ['Επόπτης Υγείας Περιφέρειας Ανατολικής Μακεδονίας & Θράκης (Κομοτηνή)', 'Υψηλάντου και Συμεωνίδη 1, 691 32, Κομοτηνή, Ροδόπη', '25313-54137', 41.1173375, 25.3975913],\n    ['Επόπτης Υγείας Περιφέρειας Δυτικής Μακεδονίας (Κοζάνη)', 'Δημοκρατίας 27, 501 00, Κοζάνη', '24613 51106 / -119', 40.3050482,21.7816449],\n    ['Επόπτης Υγείας Ιονίων Νήσων', 'Σπύρου Σαμαρά 13, 491 00, Κέρκυρα', '26613 62134 / -130', 39.621458, 19.9177729]\n  ];\n\n  var locationsCamps = [\n    ['1η Υ.ΠΕ (Αττικής), Δομή Φιλοξενίας προσφύγων / μεταναστών Ελαιώνα', 'Αγίου Πολυκάρπου 87, Αθήνα', 37.982904, 23.698797],\n    ['1η Υ.ΠΕ (Αττικής), Δομή Φιλοξενίας προσφύγων / μεταναστών Μαλακάσας', 'Παλιά Εθνική Οδός Αθηνών - Θεσσαλονίκης, Στρατόπεδο Γερακινής, Μαλακάσα, 190 11', 38.239828, 23.780181],\n    ['1η Υ.ΠΕ (Αττικής), Δομή Φιλοξενίας προσφύγων / μεταναστών Λαυρίου', 'Πρώην Κατασκηνώσεις Υπουργείου Αγροτικής Ανάπτυξης, Λεωφόρος Σουνίου, Λαύριο Αττικής, 195 00', 37.6769403, 24.0426933],\n    ['2η Υ.ΠΕ (Πειραιώς & Αιγαίου), Δομή Φιλοξενίας προσφύγων / μεταναστών Σκαραμαγκά', 'Μακαρίου, Σκαραμαγκάς, 124 61', 38.013397, 23.599303],\n    ['2η Υ.ΠΕ (Πειραιώς & Αιγαίου), Δομή Φιλοξενίας προσφύγων / μεταναστών Σχιστού', 'Λεωφόρος Σχιστού - Σκαραμαγκά 102, Βιομηχανικό Πάρκο Σχιστού (πρώην Στρατόπεδο Στεφανάκη), 188 63', 37.9859999, 23.6071865],\n    // // ['2η Υ.ΠΕ (Πειραιώς & Αιγαίου), Δομή Φιλοξενίας προσφύγων / μεταναστών Ελευσίνας', 'Παλαιά Εθνική Οδός Αθηνών - Κορίνθου, Μάνδρα - Ειδυλλία, 19200', 38.031305, 23.491218],\n    ['2η Υ.ΠΕ.(Πειραιώς & Αιγαίου), Κέντρο Υποδοχής και Ταυτοποίησης (ΚΥΤ) Λέσβου', 'ΚΥΤ Μόριας Μυτιλήνης, 811 00, Λέσβος', 39.134458, 26.503571],\n    ['2η Υ.ΠΕ.(Πειραιώς & Αιγαίου), Κέντρο Υποδοχής και Ταυτοποίησης (ΚΥΤ) Χίου', 'ΒΙΑΛ Χίου, 821 00', 38.3232715, 26.0900285],\n    // // ['2η Υ.ΠΕ.(Πειραιώς & Αιγαίου), Κέντρο Υποδοχής και Ταυτοποίησης (ΚΥΤ) Χίου', 'Καπασούλη 15, Καμμένος Πύργος, 821 00, Χίος', 37.140914, 26.848843],\n    ['2η Υ.ΠΕ.(Πειραιώς & Αιγαίου), Κέντρο Υποδοχής και Ταυτοποίησης (ΚΥΤ) Λέρου', 'Λέπιδα, 854 00, Λέρος', 37.140914, 26.848843],\n    ['2η Υ.ΠΕ.(Πειραιώς & Αιγαίου), Κέντρο Υποδοχής και Ταυτοποίησης (ΚΥΤ) Κω', 'Πυλί, 853 01, Κως', 36.856669, 27.165734],\n    ['2η Υ.ΠΕ.(Πειραιώς & Αιγαίου), Κέντρο Υποδοχής και Ταυτοποίησης (ΚΥΤ) Σάμου', 'Βαθύ Σάμου, 831 00, Σάμος', 37.725748, 27.042202],\n    ['3η Υ.ΠΕ (Μακεδονίας), Δομή Φιλοξενίας προσφύγων / μεταναστών Αλεξάνδρειας Ημαθίας (Στρατόπεδο Ταγματάρχου Γεώργιου Πελάγου)', 'Παλιά Εθνική Οδός Θεσσαλονίκης - Βέροιας, Αλεξάνδρεια Ημαθίας, 593 00', 40.6211206, 22.4422578],\n    // // ['3η Υ.ΠΕ (Μακεδονίας), Δομή Φιλοξενίας προσφύγων / μεταναστών Κορδελιού Θεσσαλονίκης (Softex)', 'Μικράς Ασίας, Κορδελιό Εύοσμος 54628', 40.67067, 22.8749],\n    ['3η Υ.ΠΕ (Μακεδονίας), Δομή Φιλοξενίας προσφύγων / μεταναστών Διαβατών (πρώην Στρατόπεδο Αναγνωστοπούλου)', 'Παλαιά Συμμαχική Οδός Ωραιοκάστρου, Διαβατά Θεσσαλονίκης, 545 00', 40.7015625, 22.8632428],\n    ['3η Υ.ΠΕ (Μακεδονίας), Δομή Φιλοξενίας προσφύγων / μεταναστών Αγίας Βαρβάρας Ημαθίας (Στρατόπεδο Αρματωλού Κόκκινου)', 'Βέροια, 591 32', 40.487948, 22.2494297],\n    ['3η Υ.ΠΕ (Μακεδονίας), Δομή Φιλοξενίας προσφύγων / μεταναστών Κάτω Μηλιά Πιερίας', '13ο χλμ Κατερίνης - Ελασσόνας, 601 00, Πιερία', 40.2551401, 22.3642383],\n    // // ['3η Υ.ΠΕ (Μακεδονίας), Δομή Φιλοξενίας προσφύγων / μεταναστών Βασιλικών (κτήμα Κορδογιάννη)', 'Βασιλικά Θεσσαλονίκης, 57006', 40.480024, 23.138470],\n    ['4η Υ.ΠΕ (Μακεδονίας & Θράκης), Δομή Φιλοξενίας προσφύγων / μεταναστών Νέας Καβάλας', 'Νέα Καβάλα, δρόμος Κιλκίς - Αξιούπολης, Αερολέσχη Πολυκάστρου, 612 00', 40.990634, 22.624710],\n    ['4η Υ.ΠΕ (Μακεδονίας & Θράκης), Δομή Φιλοξενίας προσφύγων / μεταναστών Σερρών', 'Περιφερειακή Οδός Σερρών, 621 24, Σέρρες', 41.0753468, 23.539967],\n    // // ['4η Υ.ΠΕ (Μακεδονίας & Θράκης), Δομή Φιλοξενίας προσφύγων / μεταναστών Δράμας', 'Δράμα, 66100', 41.149001, 24.147080],\n    // // ['4η Υ.ΠΕ (Μακεδονίας & Θράκης), Δομή Φιλοξενίας προσφύγων / μεταναστών Καβάλας', 'Εθνική Οδός Καβάλας - Ξάνθης 68, Καβάλα 65201', 40.945127, 24.428048],\n    ['4η Υ.ΠΕ (Μακεδονίας & Θράκης), Δομή Φιλοξενίας προσφύγων / μεταναστών Λαγκαδικίων (πρώην Στρατόπεδο Βογιατζόγλου)', 'Λαγκαδάς, 570 20, Ελλάδα', 40.629885, 23.2325582],\n    ['4η Υ.ΠΕ (Μακεδονίας & Θράκης), Δομή Φιλοξενίας προσφύγων / μεταναστών Λουτρών Νέας Απολλωνίας', 'Λουτρά Νέας Απολλωνίας, 570 15, Νέα Απολλωνία Θεσσαλονίκης', 40.659063, 23.403482],\n    ['5η Υ.ΠΕ (Θεσσαλίας & Στερεάς Ελλάδας), Δομή Φιλοξενίας προσφύγων / μεταναστών Κουτσόχερου Λάρισας (Μάνδρα)', '18ο χλμ Εθνικής Οδού Λάρισας - Τρικάλων (πρώην Στρατόπεδο Ευθυμιόπουλου), Κουτσόχερο Λάρισας, 41500', 39.6103652, 22.243228],    \n    ['5η Υ.ΠΕ (Θεσσαλίας & Στερεάς Ελλάδας), Δομή Φιλοξενίας προσφύγων / μεταναστών Ριτσώνας', 'Εθνική Οδός Θήβας - Χαλκίδας (παλιό Στρατόπεδο Αεροπορίας), Ριτσώνα, 341 00', 38.3899401, 23.4412756],\n    // // ['5η Υ.ΠΕ (Θεσσαλίας & Στερεάς Ελλάδας), Δομή Φιλοξενίας προσφύγων / μεταναστών Οινοφύτων', 'Παλιά Εθνική Οδός Αθηνών - Θεσσαλονίκης, Τανάγρα, 32009', 38.323616, 23.619438],\n    ['6η Υ.ΠΕ (Πελοποννήσου, Ιονίων Νήσων, Ηπείρου & Δυτικής Ελλάδας), Δομή Φιλοξενίας προσφύγων / μεταναστών Πρέβεζας - Φιλιππιάδας', 'Ιονία Οδός (πρώην Στρατόπεδο Πετρουλάκη), Ζήρος δήμου Ζηρού, 48200', 39.226875, 20.871201],\n    // ['6η Υ.ΠΕ (Πελοποννήσου, Ιονίων Νήσων, Ηπείρου & Δυτικής Ελλάδας), Δομή Φιλοξενίας προσφύγων / μεταναστών Κόνιτσας', 'Επαρχιακή Οδός Κόνιτσας - Αετόπετρας 103, Κόνιτσα, 44100', 40.049564, 20.749676],\n    ['6η Υ.ΠΕ (Πελοποννήσου, Ιονίων Νήσων, Ηπείρου & Δυτικής Ελλάδας), Δομή Φιλοξενίας προσφύγων / μεταναστών Ανδραβίδας', 'Πρώην Κέντρο Αναψυχής Αεροπορίας (Θερινές Κατοικίες) - Μυρσίνη', 37.9383119, 21.2073535],\n    ['6η Υ.ΠΕ.(Πελοποννήσου, Ιονίων Νήσων, Ηπείρου & Δυτικής Ελλάδας), Κέντρο Προστασίας Παιδιού, μονάδα Ιωαννίνων, παράρτημα Κόνιτσας', 'Αναγνωστοπούλου 4, Κόνιτσα, 441 00, Ιωάννινα', 40.048072, 20.752838]\n  ];\n\n  function initialize() {\n\n    //map object\n    var myOptions = {\n      center: new google.maps.LatLng(38.410962, 24.183826),//somewhere in Euvoia\n      zoom: 6,\n      mapTypeId: 'hybrid',\n      styles: [\n            {\n              \"featureType\": \"administrative.country\",\n              \"elementType\": \"labels.text\",\n              \"stylers\": [\n                  {\n                      \"visibility\": \"off\"\n                  }\n              ]\n            }\n        ]\n    };\n\n    var map = new google.maps.Map(document.getElementById(\"default\"),\n        myOptions);\n\n    setMarkers(map,locations)\n    setMarkersYpe(map,locationsYpe);\n    setMarkersOfficial(map,locationsOfficial);\n    setMarkersCamps(map, locationsCamps);\n    setMarkersSupers(map, locationsSupervisors);\n    setMarkersEKAV(map, locationsEKAV);\n\n    //acceptance for geolocation\n    var infoWindowGeoL = new google.maps.InfoWindow({map: map});\n\n    // Try HTML5 geolocation.\n    if (navigator.geolocation) {\n      navigator.geolocation.getCurrentPosition(function(position) {\n        var pos = {\n          lat: position.coords.latitude,\n          lng: position.coords.longitude\n        };\n\n        infoWindowGeoL.setPosition(pos);\n        infoWindowGeoL.setContent('<p>Η τοποθεσία σας βρέθηκε.<br/>Μπορείτε να μετατοπίσετε την κουκκίδα,<br/> κλείνοντας το παράθυρο.</p>');\n        var markerGeoL = new google.maps.Marker({  \n            map: map,\n            position: pos,\n            draggable: true\n        });\n      }, function() {\n        handleLocationError(true, infoWindowGeoL, map.getCenter());\n      });\n    } else {\n      // Browser doesn't support Geolocation\n       handleLocationError(false, infoWindowGeoL, map.getCenter());\n    }\n \n    var legend = document.getElementById('legend');\n      \n    var div = document.createElement('div');\n    for (var key in iconsLeft) {\n      var type = iconsLeft[key];\n      var name = type.name;\n      var icon = type.icon;\n      var div = document.createElement('div');\n      div.innerHTML = '<img src=\"' + icon + '\"> ' + name;\n      legend.appendChild(div);\n    }\n\n    for (var key in iconsRight) {\n      var type = iconsRight[key];\n      var name = type.name;\n      var icon = type.icon;\n      var div = document.createElement('div');\n      div.innerHTML = '<img src=\"' + icon + '\"> ' + name;\n      legend.appendChild(div);\n    }\n    \n    map.controls[google.maps.ControlPosition.LEFT_BOTTOM].push(document.getElementById('legend'));\n  } //end of initialize()\n\n  function setMarkers(map,locations){\n    var markerHosp, i\n    for (i = 0; i < locations.length; i++) {  \n      var infos = locations[i][0]\n      var telNo = locations[i][2]\n      var lat = locations[i][3]\n      var long = locations[i][4]\n      var add =  locations[i][5]\n\n      latlngset = new google.maps.LatLng(lat, long);\n\n      var markerHosp = new google.maps.Marker({\n        position: latlngset,\n        map: map,\n        icon: pinImage,\n        title: infos,\n        shadow: pinShadow\n      });\n        \n\n      var content = \"<h4>Πληροφορίες: </h4>\" + infos  + \"<h4>Τηλέφωνο επικοινωνίας: </h4>\" + telNo + \"<h4>Διεύθυνση: </h4> \" + add;   \n\n      var infowindow = new google.maps.InfoWindow()\n\n      google.maps.event.addListener(markerHosp, 'click',(function(markerHosp, content, infowindow){\n        return function(){\n          infowindow.setContent(content);\n          infowindow.open(map,markerHosp);\n        };\n      })(markerHosp,content,infowindow));\n   }//end of for()\n  } //end of setMarkers func\n\n  function setMarkersYpe(map,locationsYpe){\n\n    var markerYpe, i\n\n    for (i = 0; i < locationsYpe.length; i++) {  \n      var infos = locationsYpe[i][0]\n      var telNo = locationsYpe[i][2]\n      var onlineSite = locationsYpe[i][3]\n      var lat = locationsYpe[i][4]\n      var long = locationsYpe[i][5]\n      var add =  locationsYpe[i][1]\n\n      latlngset = new google.maps.LatLng(lat, long);\n\n      var markerYpe = new google.maps.Marker({\n        position: latlngset,\n        map: map,\n        icon: pinImage2,\n        title: infos,\n        shadow: pinShadow2\n      });\n        \n      var content =  \"<h4>\" + infos + \"</h4>\"  + \"<h4>Τηλέφωνο επικοινωνίας: </h4>\" + telNo + \"<h4>Διεύθυνση: </h4> \" + add + \"<h4>Ιστότοπος: </h4>\" + onlineSite;   \n\n      var infowindow = new google.maps.InfoWindow()\n\n      google.maps.event.addListener(markerYpe, 'click',(function(markerYpe, content, infowindow){\n        return function(){\n          infowindow.setContent(content);\n          infowindow.open(map,markerYpe);\n        };\n      })(markerYpe,content,infowindow));\n    }//end of for()\n  } //end of setMarkersYpe func\n\n  function setMarkersOfficial(map,locationsOfficial){\n    var markerOfficial, i\n\n    for (i = 0; i < locationsOfficial.length; i++) {  \n      var infos = locationsOfficial[i][0]\n      var telNo = locationsOfficial[i][2]\n      var onlineSite = locationsOfficial[i][3]\n      var lat = locationsOfficial[i][4]\n      var long = locationsOfficial[i][5]\n      var add =  locationsOfficial[i][1]\n\n      latlngset = new google.maps.LatLng(lat, long);\n\n      var markerOfficial = new google.maps.Marker({\n        position: latlngset,\n        map: map,\n        icon: pinImage3,\n        title: infos,\n        shadow: pinShadow3\n      });\n        \n      var content =  \"<h4>\" + infos + \"</h4>\"  + \"<h4>Τηλέφωνο επικοινωνίας: </h4>\" + telNo + \"<h4>Διεύθυνση: </h4> \" + add + \"<h4>Ιστότοπος: </h4>\" + onlineSite;   \n\n      var infowindow = new google.maps.InfoWindow()\n\n      google.maps.event.addListener(markerOfficial, 'click',(function(markerOfficial, content, infowindow){\n        return function(){\n          infowindow.setContent(content);\n          infowindow.open(map,markerOfficial);\n        };\n      })(markerOfficial,content,infowindow));\n    }//end of for()\n  } //end of setMarkersYpe func\n\n/* markers camps */\n  function setMarkersCamps(map,locationsCamps){\n    var markerCamp, i\n    for (i = 0; i < locationsCamps.length; i++) {  \n      var infos = locationsCamps[i][0]\n      var add =  locationsCamps[i][1]\n      var lat = locationsCamps[i][2]\n      var long = locationsCamps[i][3]\n\n      latlngset = new google.maps.LatLng(lat, long);\n\n      var markerCamp = new google.maps.Marker({\n        position: latlngset,\n        map: map,\n        icon: pinImage4,\n        title: infos,\n        shadow: pinShadow4\n      });\n     \n      var content = \"<h4>Πληροφορίες: </h4>\" + infos  + \"<h4>Διεύθυνση: </h4> \" + add;   \n\n      var infowindow = new google.maps.InfoWindow()\n\n      google.maps.event.addListener(markerCamp, 'click',(function(markerCamp, content, infowindow){\n        return function(){\n          infowindow.setContent(content);\n          infowindow.open(map,markerCamp);\n        };\n      })(markerCamp,content,infowindow));\n   }//end of for()\n  } //end of setMarkers func\n\n  function setMarkersOfficial(map,locationsOfficial){\n    var markerOfficial, i\n\n    for (i = 0; i < locationsOfficial.length; i++) {  \n      var infos = locationsOfficial[i][0]\n      var telNo = locationsOfficial[i][2]\n      var onlineSite = locationsOfficial[i][3]\n      var lat = locationsOfficial[i][4]\n      var long = locationsOfficial[i][5]\n      var add =  locationsOfficial[i][1]\n\n      latlngset = new google.maps.LatLng(lat, long);\n\n      var markerOfficial = new google.maps.Marker({\n        position: latlngset,\n        map: map,\n        icon: pinImage3,\n        title: infos,\n        shadow: pinShadow3\n      });\n        \n      var content =  \"<h4>\" + infos + \"</h4>\"  + \"<h4>Τηλέφωνο επικοινωνίας: </h4>\" + telNo + \"<h4>Διεύθυνση: </h4> \" + add + \"<h4>Ιστότοπος: </h4>\" + onlineSite;   \n\n      var infowindow = new google.maps.InfoWindow()\n\n      google.maps.event.addListener(markerOfficial, 'click',(function(markerOfficial, content, infowindow){\n        return function(){\n          infowindow.setContent(content);\n          infowindow.open(map,markerOfficial);\n        };\n      })(markerOfficial,content,infowindow));\n    }//end of for()\n  } //end of setMarkersYpe func\n\n/* markers supervisors */\n  function setMarkersSupers(map, locationsSupervisors){\n    var markerSuper, i\n    for (i = 0; i < locationsSupervisors.length; i++) {  \n      var infos = locationsSupervisors[i][0]\n      var add =  locationsSupervisors[i][1]\n      var telNo = locationsSupervisors[i][2]\n      var lat = locationsSupervisors[i][3]\n      var long = locationsSupervisors[i][4]\n\n      latlngset = new google.maps.LatLng(lat, long);\n\n      var markerSuper = new google.maps.Marker({\n        position: latlngset,\n        map: map,\n        icon: pinImage5,\n        title: infos,\n        shadow: pinShadow5\n      });\n        \n\n      var content = \"<h4>Πληροφορίες: </h4>\" + infos  + \"<h4>Διεύθυνση: </h4> \" + add + \"<h4>Τηλέφωνο: </h4>\" + telNo;   \n\n      var infowindow = new google.maps.InfoWindow()\n\n      google.maps.event.addListener(markerSuper, 'click',(function(markerSuper, content, infowindow){\n        return function(){\n          infowindow.setContent(content);\n          infowindow.open(map,markerSuper);\n        };\n      })(markerSuper,content,infowindow));\n   }//end of for()\n  } //end of setMarkers func\n\n  /* markers EKAV */\n  function setMarkersEKAV(map, locationsEKAV){\n    var markerEKAV, i\n    for (i = 0; i < locationsEKAV.length; i++) {  \n      var infos = locationsEKAV[i][0]\n      var add =  locationsEKAV[i][5]\n      var telNo = locationsEKAV[i][2]\n      var lat = locationsEKAV[i][3]\n      var long = locationsEKAV[i][4]\n\n      latlngset = new google.maps.LatLng(lat, long);\n\n      var markerEKAV = new google.maps.Marker({\n        position: latlngset,\n        map: map,\n        icon: pinImage6,\n        title: infos,\n        shadow: pinShadow6\n      });\n        \n      var content = \"<h4>Πληροφορίες: </h4>\" + infos  + \"<h4>Διεύθυνση: </h4> \" + add + \"<h4>Τηλέφωνο: </h4>\" + telNo;   \n\n      var infowindow = new google.maps.InfoWindow()\n\n      google.maps.event.addListener(markerEKAV, 'click',(function(markerEKAV, content, infowindow){\n        return function(){\n          infowindow.setContent(content);\n          infowindow.open(map,markerEKAV);\n        };\n      })(markerEKAV,content,infowindow));\n   }//end of for()\n  } //end of setMarkers func\n</script>\n</head>\n<body onload=\"initialize()\">\n<div id=\"default\" style=\"width:75vw; height:100vh;\"></div>\n<div id=\"legend\"><h4>Υπόμνημα</h4>\n  <div class=\"legend__item1\">\n    \n  </div>\n  <div class=\"legend__item2\">\n    \n  </div>\n</div>\n</body>\n</html>",
+			"file": "/C/Users/philos17/Sync/επικαιροποίηση χάρτη/mapUpdateMine.html",
+			"file_size": 45764,
+			"file_write_time": 131630807414357103,
+			"settings":
+			{
+				"buffer_size": 35545,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Sync/επικαιροποίηση χάρτη/original.html",
+			"settings":
+			{
+				"buffer_size": 25988,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/KN_OS/translation.txt",
+			"settings":
+			{
+				"buffer_size": 2673,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/MathRandom.html",
+			"settings":
+			{
+				"buffer_size": 5280,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/MathRandomTest.html",
+			"settings":
+			{
+				"buffer_size": 1168,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n\t<head>\n\t\t<title>Bugs and Pigeons</title>\n\t</head>\n</html>",
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture44/bugs.html",
+			"file_size": 91,
+			"file_write_time": 131515044933199524,
+			"settings":
+			{
+				"buffer_size": 81,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Desktop/mapWithChoice.html",
+			"settings":
+			{
+				"buffer_size": 26170,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Desktop/MathRandom.html",
+			"settings":
+			{
+				"buffer_size": 5389,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Desktop/history.txt",
+			"settings":
+			{
+				"buffer_size": 190,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/phpSandbox/website8-mysql/dbInstructions.txt",
+			"settings":
+			{
+				"buffer_size": 603,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/phpSandbox/website8-mysql/posts.php",
+			"settings":
+			{
+				"buffer_size": 796,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Desktop/2.html",
+			"settings":
+			{
+				"buffer_size": 40349,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/phpSandbox/websiteInfoServerClient/logoPhilosLink.html",
+			"settings":
+			{
+				"buffer_size": 641,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/history.txt",
+			"settings":
+			{
+				"buffer_size": 148,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/phpSandbox/website8-mysql/config/db.php",
+			"settings":
+			{
+				"buffer_size": 415,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/bugs/main.css",
+			"settings":
+			{
+				"buffer_size": 539,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Desktop/dummyIrini2.html",
+			"settings":
+			{
+				"buffer_size": 3908,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/bugs/index.html",
+			"settings":
+			{
+				"buffer_size": 3349,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/project/responsiveGalleryWithDirectionalAwareHover.html",
+			"settings":
+			{
+				"buffer_size": 2711,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<meta charset=\"utf-8\">\n\t<title>Menu asteras</title>\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t<script type=\"text/javascript\" src=\"myscript.js\"></script>\n\t<link rel=\"stylesheet\" href=\"main.css\">\n</head>\n<body>\n\t<nav id=\"my-nav\" class=\"\">\n\t\t<ul class=\"grid-container\">\n\t\t\t<li class=\"list-item li-txt\" id=\"li1\"><a href=\"#\">HOME</a></li>\n\t\t\t<li class=\"list-item li-txt\" id=\"li2\"><a href=\"#\">ΠΟΔΟΣΦΑΙΡΟ</a></li>\t\n\t\t\t<li class=\"list-item li-txt\" id=\"li3\"><a href=\"#\">Γ. ΜΠΑΣΚΕΤ</a></li>\t\n\t\t\t<li class=\"list-item li-txt\" id=\"li4\"><a href=\"#\">Α. ΜΠΑΣΚΕΤ</a></li>\t\n\t\t\t<li class=\"list-item li-txt\" id=\"li5\"><a href=\"#\">MEDIA</a></li>\n\t\t\t<li class=\"list-item li-txt\" id=\"li-logo\"><a href=\"#\"><img src=\"asteras-logo.png\" height=\"90\" width=\"100\"></a></li>\t\n\t\t\t<li class=\"list-item li-txt\" id=\"li6\"><a href=\"#\">ΓΗΠΕΔΑ</a></li>\n\t\t\t<li class=\"list-item li-txt\" id=\"li7\"><a href=\"#\">ΣΥΝΕΛΕΥΣΗ</a></li>\t\n\t\t\t<li class=\"list-item li-txt\" id=\"li8\"><a href=\"#\">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>\t\n\t\t\t<li class=\"list-item li-txt\" id=\"li9\"><a href=\"#\">MERCH</a></li>\n\t\t\t<li class=\"list-item li-txt\" id=\"li10\"><a href=\"#\">LINKS</a></li>\n\t\t</ul>\n\t</nav>\n\t<div id=\"container\">\n\t\t<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cum possimus temporibus et reiciendis provident quam iure recusandae, voluptates iste repudiandae soluta eaque natus ipsam corporis distinctio quas, magnam obcaecati itaque ducimus dolore amet explicabo tempore? Id qui suscipit reiciendis debitis, modi saepe tempore quas illum, aliquid cum quisquam animi.</p>\n\t\t<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cum possimus temporibus et reiciendis provident quam iure recusandae, voluptates iste repudiandae soluta eaque natus ipsam corporis distinctio quas, magnam obcaecati itaque ducimus dolore amet explicabo tempore? Id qui suscipit reiciendis debitis, modi saepe tempore quas illum, aliquid cum quisquam animi.</p>\n\t\t<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cum possimus temporibus et reiciendis provident quam iure recusandae, voluptates iste repudiandae soluta eaque natus ipsam corporis distinctio quas, magnam obcaecati itaque ducimus dolore amet explicabo tempore? Id qui suscipit reiciendis debitis, modi saepe tempore quas illum, aliquid cum quisquam animi.</p>\n\t\t<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cum possimus temporibus et reiciendis provident quam iure recusandae, voluptates iste repudiandae soluta eaque natus ipsam corporis distinctio quas, magnam obcaecati itaque ducimus dolore amet explicabo tempore? Id qui suscipit reiciendis debitis, modi saepe tempore quas illum, aliquid cum quisquam animi.</p>\n\t\t<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cum possimus temporibus et reiciendis provident quam iure recusandae, voluptates iste repudiandae soluta eaque natus ipsam corporis distinctio quas, magnam obcaecati itaque ducimus dolore amet explicabo tempore? Id qui suscipit reiciendis debitis, modi saepe tempore quas illum, aliquid cum quisquam animi.</p>\n\t\t<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cum possimus temporibus et reiciendis provident quam iure recusandae, voluptates iste repudiandae soluta eaque natus ipsam corporis distinctio quas, magnam obcaecati itaque ducimus dolore amet explicabo tempore? Id qui suscipit reiciendis debitis, modi saepe tempore quas illum, aliquid cum quisquam animi.</p>\n\t\t<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cum possimus temporibus et reiciendis provident quam iure recusandae, voluptates iste repudiandae soluta eaque natus ipsam corporis distinctio quas, magnam obcaecati itaque ducimus dolore amet explicabo tempore? Id qui suscipit reiciendis debitis, modi saepe tempore quas illum, aliquid cum quisquam animi.</p>\n\t\t<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cum possimus temporibus et reiciendis provident quam iure recusandae, voluptates iste repudiandae soluta eaque natus ipsam corporis distinctio quas, magnam obcaecati itaque ducimus dolore amet explicabo tempore? Id qui suscipit reiciendis debitis, modi saepe tempore quas illum, aliquid cum quisquam animi.</p>\n\t\t<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cum possimus temporibus et reiciendis provident quam iure recusandae, voluptates iste repudiandae soluta eaque natus ipsam corporis distinctio quas, magnam obcaecati itaque ducimus dolore amet explicabo tempore? Id qui suscipit reiciendis debitis, modi saepe tempore quas illum, aliquid cum quisquam animi.</p>\n\t</div>\n</body>\n</html>",
+			"file": "/C/Users/philos17/Dropbox/sublime files/asteras/menu.html",
+			"file_size": 4746,
+			"file_write_time": 131648986392502575,
+			"settings":
+			{
+				"buffer_size": 4651,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/project/css/styles.css",
+			"settings":
+			{
+				"buffer_size": 1728,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/project/js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 2085,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/MyGit/githubInstructions.txt",
+			"settings":
+			{
+				"buffer_size": 1336,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/YeomanAndMore/instructions.txt",
+			"settings":
+			{
+				"buffer_size": 170,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/YeomanAndMore/gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 4737,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-AngularJS/index.html",
+			"settings":
+			{
+				"buffer_size": 119,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Downloads/Bug Off!_files/ScrollMagic.js",
+			"settings":
+			{
+				"buffer_size": 104189,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <script src=\"js/script.js\"></script>\n  </head>\n<body>\n  <h1>Lecture 46</h1>\n</body>\n</html>\n",
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture46/index.html",
+			"file_size": 165,
+			"file_write_time": 131528739739693222,
+			"settings":
+			{
+				"buffer_size": 165,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "(function (window) {\n  var yaakovGreeter = {};\n  yaakovGreeter.name = \"Yaakov\";\n  var greeting = \"Hello \";\n  yaakovGreeter.sayHello = function () {\n    console.log(greeting + yaakovGreeter.name);\n  }\n\n  window.yaakovGreeter = yaakovGreeter;\n\n})(window);\n",
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture52/js/script1.js",
+			"file_size": 254,
+			"file_write_time": 131632555931870514,
+			"settings":
+			{
+				"buffer_size": 254,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "// Functions are First-Class Data Types\n// Functions ARE objects\nfunction multiply(x, y) {\n  return x * y;\n}\nmultiply.version = \"v.1.0.0\";\nconsole.log(multiply.version);\n\n\n// Function factory\nfunction makeMultiplier(multiplier) {\n  var myFunc = function (x) {\n    return multiplier * x;\n\t};\n\n  return myFunc;\n}\n\nvar multiplyBy3 = makeMultiplier(3);\nconsole.log('what is what ' + makeMultiplier);\nconsole.log('my function is : ' + makeMultiplier(3));\nconsole.log(multiplyBy3(10));\nconsole.log('my function too is :' + multiplyBy3);\nvar doubleAll = makeMultiplier(2);\nconsole.log(doubleAll(100));\n\n\n\n// Passing functions as arguments\nfunction doOperationOn(x, operation) {\n  return operation(x);\n}\n\nvar result = doOperationOn(5, multiplyBy3);\nconsole.log(result);\nresult = doOperationOn(100, doubleAll);\nconsole.log(result);",
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture46/js/script.js",
+			"file_size": 822,
+			"file_write_time": 131602313589777978,
+			"settings":
+			{
+				"buffer_size": 822,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<html prefix=\"og: http://ogp.me/ns#\">\n<head>\n <title>Ο PHILOS στο χάρτη</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=nο\">\n    <meta charset=\"utf-8\">\n    <meta name=\"author\" content=\"Dimitra Mazaraki\">\n<style type=\"text/css\">\n  html { height: 100% }\n  body { height: 100%; margin: 0 auto; padding: 0 }\n  #default { height: 100% }\n\n  #legend {\n    font-family: Arial, sans-serif;\n    font-size: 0.7rem;\n    background: #fff;\n    padding: 10px;\n    margin: 10px;\n    border: 3px solid #000;\n\n  }\n  #legend h3 {\n    margin-top: 0;\n  }\n  #legend img {\n    vertical-align: middle;\n    height: 22px;\n  }\n\n  @-moz-document url-prefix() {\n    html { height: 100% }\n  body { height: 100%; margin: 0 auto; padding: 0 }\n  #default { height: 100% }\n\n  #legend {\n    font-family: Arial, sans-serif;\n    font-size: 0.7rem;\n    background: #fff;\n    padding: 10px;\n    margin: 10px;\n    border: 3px solid #000;\n  }\n  #legend h3 {\n    margin-top: 0;\n  }\n  #legend img {\n    vertical-align: middle;\n    height: 22px;\n  }\n  \n  }\n\n</style>\n<script type=\"text/javascript\"\n  src=\n\"https://maps.googleapis.com/maps/api/js?key=AIzaSyDsrcwr-VLlZQSqgG45sTu5Z8-93cen9tw&sensor=false&language=gr&region=GR\">\n</script>\n<script type=\"text/javascript\">\n/**\n@author Dimitra Mazaraki\nphilosgreece.eu\n\nLicenced under \"Apache License 2.0\". The license is included in the root file of the project.\n\nAny change should mention the original author.\n\n*/\n\n//hospitals, pedy, ekav\n var pinColor = \"009933\";\n var pinImage = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|\" + pinColor,\n     new google.maps.Size(21, 34),\n     new google.maps.Point(0,0),\n     new google.maps.Point(10, 34));\n var pinShadow = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_shadow\",\n     new google.maps.Size(40, 37),\n     new google.maps.Point(0, 0),\n     new google.maps.Point(12, 35));\n \n\n//ype\n var pinColor2 = \"4d4dff\";\n var pinImage2 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|\" + pinColor2,\n     new google.maps.Size(21, 34),\n     new google.maps.Point(0,0),\n     new google.maps.Point(10, 34));\n var pinShadow2 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_shadow\",\n     new google.maps.Size(40, 37),\n     new google.maps.Point(0, 0),\n     new google.maps.Point(12, 35));\n\n //official\n var pinColor3 = \"e6e600\";\n var pinImage3 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|\" + pinColor3,\n     new google.maps.Size(21, 34),\n     new google.maps.Point(0,0),\n     new google.maps.Point(10, 34));\n var pinShadow3 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_shadow\",\n     new google.maps.Size(40, 37),\n     new google.maps.Point(0, 0),\n     new google.maps.Point(12, 35));\n\n //camps\n var pinColor4 = \"33cccc\";\n var pinImage4 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|\" + pinColor4,\n     new google.maps.Size(21, 34),\n     new google.maps.Point(0,0),\n     new google.maps.Point(10, 34));\n var pinShadow4 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_shadow\",\n     new google.maps.Size(40, 37),\n     new google.maps.Point(0, 0),\n     new google.maps.Point(12, 35));\n\n\n//for the legends\nvar iconBase = 'https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|';\nvar icons = {\n  hospitalsEKAV: {\n    name: 'Νοσοκομεία, ΕΚΑΒ, Κέντρα Υγείας',\n    icon: iconBase + pinColor\n  },\n  ypes: {\n    name: 'Υγειονομικές Περιφέρειες (ΥΠΕ)',\n    icon: iconBase + pinColor2\n  },\n  offices: {\n    name: 'ΚΕΕΛΠΝΟ, ΕΚΕΠΥ, Υπουργείο Υγείας, Υπουργείο Μεταναστευτικής Πολιτικής',\n    icon: iconBase + pinColor3\n  },\n  camps: {\n    name: 'Χώροι Φιλοξενίας',\n    icon: iconBase + pinColor4\n  }\n} //end of icons objects\n\nvar locations = [\n\n//nosokomeia, ekav, pedy...\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο Βέροιας', 'κυρία Μεταλίδου', '23313-51100, 23313-51400', 40.503268, 22.216287, 'Συνοικισμός Παπάγου, 59132'],\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο Γιαννιτσών', 'κυρία Κωστίδου', '23823-50200, 23823-50300', 40.794359, 22.414448, 'Γιαννιτσά, 58100'],\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο Κατερίνης', 'κυρία Χαβέλα', '23513-50200', 40.293706, 22.445165, '6ο χλμ Επαρχιακή οδός Αρωνάς - Μοσχοπόταμος, 60100, Νέο Κεραμίδι Πιερίας'],\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο Θεσσαλονίκης Άγιος Δημήτριος', 'κύριος Τσίκουρας', '23133-22100', 40.635040, 22.955976, 'Ελένης Ζωγράφου 2, 54634, Θεσσαλονίκη'],\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο Θεσσαλονίκης Γεννηματάς', 'κύριος Σαμαράς', '23133-08100, 2310-963100', 40.633835, 22.955698, 'Εθνικής Αμύνης 41, 54635, Θεσσαλονίκη'],\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο Παπαγεωργίου', 'κυρία Ζαχαρούδη', '23133-323000', 40.676480, 22.962334, 'Περιφερειακή οδός Δήμου Παύλος Μελάς, 56429, Θεσσαλονίκη'],\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο Παπανικολάου', 'κύριος Κυριακίδης / κυρία Χωματά', '23133-07000', 40.609572, 23.101459, 'Χορτιάτης, 57010, Θεσσαλονίκη'],\n  ['3η Υ.ΠΕ., ΠΕΔΥ - Κέντρο Υγείας Διαβατών', 'κύριος Φοροτζίτης', '2310-781840, 2310-781881', 40.684809, 22.860129, 'Βενιζέλου Ελευθερίου 5, Διαβατά, 57008, Θεσσαλονίκη'],\n  ['3η Υ.ΠΕ., ΠΕΔΥ - Κέντρο Υγείας Λαγκαδά', 'κυρία Μοσχίδου', '23943-30701', 40.749702, 23.067668, 'Λουτρών 20, 57200, Λαγκαδάς'],\n  ['3η Υ.ΠΕ., ΠΕΔΥ Κατερίνης', 'κυρία Σταθακοπούλου', '23510-35913', 40.684809, 22.860129, 'Κανελλόπουλου Παναγιώτη 1, 60132, Κατερίνη Πιερίας'],\n  ['3η Υ.ΠΕ., ΠΕΔΥ ΜΥ Πύλη Αξιού', 'κυρία Ιακωβίδου', '2310-597848', 40.637592, 22.934252, 'Πολυτεχνείου 1, 54626, Θεσσαλονίκη'],\n  ['5η Υ.ΠΕ., Γενικό Νοσοκομείο Λαμίας', 'κυρία Κόντου', '22313-56000', 38.914249, 22.427544, ' Παπασιοπούλου, 35100, Λαμία'],\n  ['5η Υ.ΠΕ., Γενικό Νοσοκομείο Βόλου Αχιλλοπούλειο', 'κυρία Σιτζάκη', '24213-51000, 24210-94200', 39.352631, 22.962701, 'Πολυμέρη 134, 38222, Βόλος'],\n  ['5η Υ.ΠΕ., Γενικό Νοσοκομείο Λάρισας Κουτλιμπάνειο', 'κυρία Λάμπρου', '2413-504100', 39.642292, 22.422548, 'Τσακάλωφ, 41221, Λάρισα'],\n  ['5η Υ.ΠΕ., Γενικό Νοσοκομείο Χαλκίδας', 'κυρία Ρέππα', '2221-350100', 38.463395, 23.599557, 'Γαζέπη Ηρακλή 48, 34100, Χαλκίδα'],\n  ['5η Υ.ΠΕ., ΠΑΓΝ Λάρισας', 'κυρία Γουτοπούλου', '2413-504100', 39.610923, 22.385844, 'Τσακάλωφ 1, Λάρισα, 41334'],\n  ['5η Υ.ΠΕ., Κέντρο Υγείας Αγιάς', 'κυρία Βαλιατζά', '24943-50000', 39.697826, 22.875364, 'Αγιόκαμπος, Αγιά, 40003, Λάρισα'],\n  ['2η Υ.ΠΕ., Αντικαρκινικό Νοσοκομείο Πειραιά Μεταξά', 'κύριος Παπαδόπουλος', '213-2079100', 37.929755, 23.643430, 'Μπόταση 51, 18537, Πειραιάς'],\n  ['2η Υ.ΠΕ., Γενικό Νοσοκομείο Ασκληπείο Βούλας', 'κυρία Κριμπογιάννη', '213-2163000', 37.847845, 23.757393, 'Λεωφόρος Βασιλέως Παύλου 1,  16673, Βάρη Βούλα Βουλιαγμένη'],\n  ['2η Υ.ΠΕ., Γενικό Νοσοκομείο Νίκαιας Άγιος Παντελεήμων', 'κυρία Κατουφά', '213-2077000', 37.966957, 23.644283, 'Μαντούβαλου 3, Οσία Ξένη, 18454, Νίκαια Αττικής'],\n  ['2η Υ.ΠΕ., Γενικό Νοσοκομείο Πειραιά Τζάνειο', 'κυρία Πετράτου', '213-2081000', 37.934468, 23.645242, ' Λεωφόρος Αφεντούλη και Ζαννή, 18536, Πειραιάς'],\n  ['2η Υ.ΠΕ., ΠΑΓΝ Αττικό', 'κυρία Σταυρινάβη', '210-5831000', 38.016581, 23.665685, 'Ρίμινι 1, 12462, Χαϊδάρι'],\n  ['6η Υ.ΠΕ., Γενικό Νοσοκομείο Ηλείας (Πύργου)', 'κυρία Γρίβα', '26213-61300', 37.685178, 21.422292, ' Συντριάδα, 27100, Πύργος Ηλείας'],\n  ['6η Υ.ΠΕ., Γενικό Νοσοκομείο Ηλείας (Αμαλιάδας)', 'κυρία Γρίβα', '26220-25939, 26220-22222', 37.791495, 21.357442, ' Ευαγγελιστρίας 128, 27200, Αμαλιάδα Ηλείας'],\n  ['6η Υ.ΠΕ., Γενικό Νοσοκομείο Ιωαννίνων Χατζηκώστα', 'κυρία Ηλιάδου / κυρία Βλάχου', '26513-66688', 39.677786, 20.834928, ' Λεωφόρος Στρατηγού Μακρυγιάννη 1, 45445, Ιωάννινα'],\n  ['6η Υ.ΠΕ., Γενικό Νοσοκομείο Πρέβεζας', 'κυρία Μερισιώτη', '26823-61390', 38.965394, 20.753990, 'Σελευκείας 2, 48100, Πρέβεζα'],\n  ['6η Υ.ΠΕ., ΠΑΓΝ Ιωαννίνων', 'κυρία Μπλάτσιου', '26510-99111', 39.625572, 20.848436, 'Λεωφόρος Σταύρου Νιάρχου, 45500, Ιωάννινα'],\n  ['6η Υ.ΠΕ., ΠΕΔΥ - Κέντρο Υγείας Δελβινακίου', 'κύριος Μάντζιος / κύριος Βίλης', '26570-22222, 26570-22540', 39.933965, 20.465450, 'Δελβινάκι, Δελβινάκι, 44002, Ιωάννινα'],\n  ['6η Υ.ΠΕ., ΠΕΔΥ - Κέντρο Υγείας Ιωαννίνων', 'κύριος Φώτος / κυρία Φούκα', '26510-26519, 26510-59662', 39.672130, 20.847175, 'Μελά Παύλου 34, 45444, Ιωάννινα'],\n  ['6η Υ.ΠΕ., ΠΕΔΥ - Κέντρο Υγείας Κόνιτσας', 'κύριος Φυσέκης', '26550-22022', 40.048072, 20.752838, 'Κόνιτσα, Κόνιτσα, 44100, Ιωάννινα'],\n  ['1η Υ.ΠΕ., Αλεξάνδρα', 'κυρία Παντικίδη', '213-216200, 210-3381100', 37.980401, 23.754944, 'Λεωφόρος Βασιλίσσης Σοφίας 80, 11528, Αθήνα'],\n  ['1η Υ.ΠΕ., Ευαγγελισμός', 'κυρία Δανιηλίδου', '213-2041000', 37.977510, 23.748164, 'Υψηλάντου 45, 10676, Αθήνα'],\n  ['1η Υ.ΠΕ., Κέντρο Υγείας Καπανδριτίου', 'κυρία Πριμυκίρη', '22950-52612', 38.215738, 23.882484, 'Γραμματικογιάννη, 19014, Καπανδρίτι'],\n  ['1η Υ.ΠΕ., Κέντρο Υγείας Νέας Μάκρης', 'κύριος Στάμος', '22943-21000', 38.088382, 23.962598, 'Λεωφόρος Μαραθώνος και Αρτέμιδος, 19005, Νέα Μάκρη'],\n  ['1η Υ.ΠΕ., Κέντρο Υγείας Λαυρίου', 'κύριος Βλαχογιάννης', '22923-20300', 37.716828, 24.053912, 'Διαμαντοπούλου Ιακώβου, 19500, Λαύριο'],\n  ['1η Υ.ΠΕ., Έλενας Βενιζέλου', 'κυρία Καστραντά', '213-2051000', 37.985055, 23.755273, 'Πλατεία Έλενας Βενιζέλου 2, 11521, Αμπελόκηποι'],\n  ['1η Υ.ΠΕ., Κέντρο Ψυχικής Υγείας Βύρωνα', 'κυρία Δούκα', '210-7640111, 210-7644705', 37.962405, 23.759756, 'Δήλου 14, 16121, Καισαριανή'],\n  ['1η Υ.ΠΕ., Λαϊκό', 'κύριος Καραγκιοζόπουλος', '213-2060800', 37.984674, 23.764180, 'Αγίου Θωμά 17, 11527, Αθήνα'],\n  ['1η Υ.ΠΕ., Παίδων Αγλαΐα Κυριακού', 'κυρία Καρατζαφέρη', '213-2009000', 37.985283, 23.766911, 'Λεβαδείας 3 & Θηβών, 11527, Αθήνα'],\n  ['1η Υ.ΠΕ., Παίδων Αγία Σοφία', 'κυρία Μαρκογιαννάκη', '213-2013000', 37.983497, 23.768688, 'Θηβών και Παπαδιαμαντοπούλου, 11527, Αθήνα'],\n  ['4η Υ.ΠΕ., Γενικό Νοσοκομείο Δράμας', 'κυρία Τσιτλίδου', '25210 23351-5', 38.000841, 23.714901, 'Ιπποκράτους Τέρμα, 66132, Δράμα'],\n  ['4η Υ.ΠΕ., Γενικό Νοσοκομείο Καβάλας', 'κυρία Παπάκη', '25135-01100', 40.940905, 24.376925, 'Άγιος Σίλας, 65500, Καβάλα'],\n  ['4η Υ.ΠΕ., Γενικό Νοσοκομείο Κιλκίς', 'κυρία Ιωαννίδου', '23413-51736', 40.990418, 22.867203, 'Νοσοκομείου 1, 61100, Κιλκίς'],\n  ['4η Υ.ΠΕ., Γενικό Νοσοκομείο Θεσσαλονίκης', 'κυρία Ξεπαπαδάκη', '2313-312000', 40.611484, 22.961733, 'Κωνσταντινοπούλεως 49, 54642, Θεσσαλονίκη'],\n  ['4η Υ.ΠΕ., Μονάδα Υγείας ΠΕΔΥ Δροσάτου', 'κυρία Αποστολάκη', '23410-97202', 41.167046, 22.801571, 'Δροσάτο, 61003'],\n  ['4η Υ.ΠΕ., Κέντρο Υγείας Ζαγκλιβερίου', 'κυρία Παυλίδου', '23933-30400', 40.574480, 23.284947, 'Επαρχιακή Οδός Ζαγκλιβερίου-Νέας Χαλκιδικής 45, 57012, Ζαγκλιβέρι'],\n  ['4η Υ.ΠΕ., Κέντρο Υγείας Θέρμης', 'κυρία Κατσιώμη', '23133 10824-6', 40.544823, 23.032766, 'Θέρμη, 57001'],\n  ['4η Υ.ΠΕ., Κέντρο Υγείας Παρανεστίου', 'κυρία Τσαλγαρίδου', '25240-22171, 25240-22222', 41.266145, 24.502995, 'Ε.Ο. Δράμας - Ξάνθης 57, 66035, Παρανέστι'],\n  ['4η Υ.ΠΕ., Κέντρο Υγείας Πολυκάστρου', 'κυρία Γάκη', '23430-22051', 40.995048, 22.577083, 'Βενιζέλου, 61200, Πολύκαστρο'],\n  ['4η Υ.ΠΕ., Κέντρο Υγείας Σοχού', 'κυρία Δημητρίου', '23950-22222', 40.818183, 23.356642, 'Σοχός, 57002, Θεσσαλονίκη'],\n  ['ΕΚΑΒ Θεσσαλονίκης', 'κυρία Τσορμπατζόγλου', '2310-397100', 40.990418, 22.867203, 'Μαβίλη 33, 55535, Θεσσαλονίκη'],\n  ['ΕΚΑΒ Ιωαννίνων', 'κύριος Παπαδιώτης', '26510-54334', 39.665029, 20.853747, 'Παπανδρέου Γεωργίου 1 (Εντός Παλαιού Κτιρίου Νοσοκομείου), 45444, Ιωάννινα'],\n  ['ΕΚΑΒ Αττικής', 'κύριος Μπόρας', '213-2143000', 37.998564, 23.783817, 'Τέρμα Υγείας & Λεωφόρος Μεσογείων (πλησίον νοσοκομείου Γ. Γεννηματάς), 11527, Αθήνα'],\n  ['ΕΚΑΒ Καβάλας - Δράμας', 'κυρία Τουρτούνη', '25210-26171', 41.159045, 24.148861, 'Τέρμα Ιπποκράτους, Εντός Γενικού Νοσοκομείου, 66100, Δράμα'],\n  ['ΕΚΑΒ Λάρισας', 'κυρία Δαλαμπίρα / κύριος Σχοινάς', '2410-685102', 39.610923, 22.385844, 'Λάρισα, Εντός Πανεπιστημιακού Νοσοκομείου, Λάρισα - Μεζούρλο, 41110, Λάρισα']\n];\n\n  var locationsYpe = [\n    ['1η ΥΠΕ ΑΤΤΙΚΗΣ', 'Ζαχάρωφ 3, 11521, Αμπελόκηποι, Αθήνα', '213-2010400', 'http://www.1dype.gov.gr/', 37.986184, 23.760324],\n    ['2η ΥΠΕ ΠΕΙΡΑΙΩΣ & ΑΙΓΑΙΟΥ', 'Θηβών 46, 18543, Πειραιάς', '213-2004200 , 213-2004205', 'http://www.2dype.gr/', 37.957189, 23.651598],\n   /* ['3η ΥΠΕ ΜΑΚΕΔΟΝΙΑΣ', 'Αριστοτέλους 16, 54623, Θεσσαλονίκη', '2313-320500', 'http://www.3ype.gr/', 40.634353, 22.942907],*/\n    ['3η ΥΠΕ ΜΑΚΕΔΟΝΙΑΣ και 4η ΥΠΕ ΜΑΚΕΔΟΝΙΑΣ & ΘΡΑΚΗΣ', 'Αριστοτέλους 16, 54623, Θεσσαλονίκη', '3η ΥΠΕ: 2313-320500 , 4η ΥΠΕ: 2313-327800', 'http://www.3ype.gr/ , https://www.4ype.gr/', 40.634353, 22.942907],\n    ['5η ΥΠΕ ΘΕΣΣΑΛΙΑΣ & ΣΤΕΡΕΑΣ ΕΛΛΑΔΑΣ', 'Νικηταρά 18, 41221, Λάρισα', '2413-500800', 'http://www.dypethessaly.gr', 39.639236, 22.421518],\n    ['6η ΥΠΕ ΠΕΛΟΠΟΝΝΗΣΟΥ, ΙΟΝΙΩΝ ΝΗΣΩΝ, ΗΠΕΙΡΟΥ & ΔΥΤΙΚΗΣ ΕΛΛΑΔΑΣ', 'Ν.Ε.Ο. Πατρών - Αθηνών & Υπάτης 1, 26441, Πάτρα', '2610-463500 , 2610-463503', 'http://www.dypede.gr', 38.260500, 21.749365],\n    ['7η ΥΠΕ ΚΡΗΤΗΣ', 'Σμύρνης 26, 71201, Ήράκλειο Κρήτης', '2813-404400', 'https://www.hc-crete.gr/', 35.336760, 25.134573]\n  ];\n\n  var locationsOfficial = [\n    ['ΚΕΕΛΠΝΟ', 'Αγράφων 3-5, 15123, Μαρούσι Αττικής', '210-5212000', 'http://www.keelpno.gr/', 38.033120, 23.788603],\n    ['ΕΚΕΠΥ', 'Λεωφόρος Κηφισίας 39, 15123, Μαρούσι Αττικής', '210-6822445', '', 38.034328, 23.795601],\n    ['Υπουργείο Υγείας', 'Αριστοτέλους 17, 10187, Αθήνα', '213-2161000-1', 'http://www.moh.gov.gr/', 37.988304, 23.727715],\n    ['Υπουργείο Μεταναστευτικής Πολιτικής', 'Ευαγγελιστρίας 2, 10563, Αθήνα', '210-4141641, 210-4141671', 'http://www.ypes.gr/el/Generalsecretariat_PopulationSC/general_directorate_ithageneias_migratation/', 37.975836, 23.729906],\n    ['Υπουργείο Μεταναστευτικής Πολιτικής (εξυπηρέτηση κοινού)', 'Αγίου Διονυσίου 5, 18545, Πειραιάς', '210-4141641, 210-4141671', 'http://www.ypes.gr/el/Generalsecretariat_PopulationSC/general_directorate_ithageneias_migratation/', 37.949444, 23.643635]\n  ];\n\n  var locationsCamps = [\n    ['1η Υ.ΠΕ (Αττικής), Δομή Φιλοξενίας προσφύγων / μεταναστών Ελαιώνα', 'Αγίου Πολυκάρπου 87, Αθήνα', 37.982904, 23.698797],\n    ['1η Υ.ΠΕ (Αττικής), Δομή Φιλοξενίας προσφύγων / μεταναστών Μαλακάσας', 'Παλιά Εθνική Οδός Αθηνών - Θεσσαλονίκης, Μαλακάσα΄, 19011', 38.2389, 23.7806],\n    ['1η Υ.ΠΕ (Αττικής), Δομή Φιλοξενίας προσφύγων / μεταναστών Λαυρίου', 'Λεωφόρος Σουνίου, Λαύριο 19500', 37.713579, 24.055054],\n    ['2η Υ.ΠΕ (Πειραιώς & Αιγαίου), Δομή Φιλοξενίας προσφύγων / μεταναστών Σκαραμαγκά', 'Μακαρίου, Σκαραμαγκάς, 12461', 38.013397, 23.599303],\n    ['2η Υ.ΠΕ (Πειραιώς & Αιγαίου), Δομή Φιλοξενίας προσφύγων / μεταναστών Σχιστού', 'Λεωφόρος Σχιστού - Σκαραμαγκά 102, Πέραμα, 18863', 37.980068, 23.593073],\n    // ['2η Υ.ΠΕ (Πειραιώς & Αιγαίου), Δομή Φιλοξενίας προσφύγων / μεταναστών Ελευσίνας', 'Παλαιά Εθνική Οδός Αθηνών - Κορίνθου, Μάνδρα - Ειδυλλία, 19200', 38.031305, 23.491218],\n    ['3η Υ.ΠΕ (Μακεδονίας), Δομή Φιλοξενίας προσφύγων / μεταναστών Διαβατών (Αναγνωστοπούλου)', 'Συμμαχική, Δέλτα Θεσσαλονίκης, 54500', 40.701370, 22.862521],\n    ['3η Υ.ΠΕ (Μακεδονίας), Δομή Φιλοξενίας προσφύγων / μεταναστών Αλεξάνδρειας Ημαθίας (Γ. Πελάγου)', 'Παλιά Εθνική Οδός Αθηνών - Θεσσαλονίκης 122, Αλεξάνδρεια, 59300', 40.635441, 22.454191],\n    // ['3η Υ.ΠΕ (Μακεδονίας), Δομή Φιλοξενίας προσφύγων / μεταναστών Κορδελιού Θεσσαλονίκης (Softex)', 'Μικράς Ασίας, Κορδελιό Εύοσμος 54628', 40.67067, 22.8749],\n    ['3η Υ.ΠΕ (Μακεδονίας), Δομή Φιλοξενίας προσφύγων / μεταναστών Βέροιας Ημαθίας (Αρματωλού Κόκκινου)', 'Βέροια, 59132', 40.487482, 22.247629],\n    // ['3η Υ.ΠΕ (Μακεδονίας), Δομή Φιλοξενίας προσφύγων / μεταναστών Βασιλικών (κτήμα Κορδογιάννη)', 'Βασιλικά Θεσσαλονίκης, 57006', 40.480024, 23.138470],\n    ['4η Υ.ΠΕ (Μακεδονίας & Θράκης), Δομή Φιλοξενίας προσφύγων / μεταναστών Σερρών', 'Σκουτάρι - Σέρρες, 62100', 41.018459, 23.520634],\n    ['4η Υ.ΠΕ (Μακεδονίας & Θράκης), Δομή Φιλοξενίας προσφύγων / μεταναστών Δράμας', 'Δράμα, 66100', 41.149001, 24.147080],\n    ['4η Υ.ΠΕ (Μακεδονίας & Θράκης), Δομή Φιλοξενίας προσφύγων / μεταναστών Καβάλας', 'Εθνική Οδός Καβάλας - Ξάνθης 68, Καβάλα 65201', 40.945127, 24.428048],\n    ['4η Υ.ΠΕ (Μακεδονίας & Θράκης), Δομή Φιλοξενίας προσφύγων / μεταναστών Λαγκαδικίων', 'Λαγκαδάς, 57020, Ελλάδα', 40.627089, 23.248159],\n    ['5η Υ.ΠΕ (Θεσσαλίας & Στερεάς Ελλάδας), Δομή Φιλοξενίας προσφύγων / μεταναστών Λάρισας - Κουτσόχερο (Ευθιοπούλου)', 'Εθνική Οδός Λάρισας - Τρικάλων, Λάρισα, 41500', 39.615367, 22.24603],\n    ['5η Υ.ΠΕ (Θεσσαλίας & Στερεάς Ελλάδας), Δομή Φιλοξενίας προσφύγων / μεταναστών Ριτσώνας', 'Εθνική Οδός Θήβας - Χαλκίδας, Χαλκίδα 34100', 38.388161, 23.50338],\n    // ['5η Υ.ΠΕ (Θεσσαλίας & Στερεάς Ελλάδας), Δομή Φιλοξενίας προσφύγων / μεταναστών Οινοφύτων', 'Παλιά Εθνική Οδός Αθηνών - Θεσσαλονίκης, Τανάγρα, 32009', 38.323616, 23.619438],\n    ['6η Υ.ΠΕ (Πελοποννήσου, Ιονίων Νήσων, Ηπείρου & Δυτικής Ελλάδας), Δομή Φιλοξενίας προσφύγων / μεταναστών Πρέβεζας - Φιλιππιάδας (Πετρουλάκη)', 'Ιονία Οδός, Ζήρος, 48200', 39.226875, 20.871201],\n    ['6η Υ.ΠΕ (Πελοποννήσου, Ιονίων Νήσων, Ηπείρου & Δυτικής Ελλάδας), Δομή Φιλοξενίας προσφύγων / μεταναστών Κόνιτσας', 'Επαρχιακή Οδός Κόνιτσας - Αετόπετρας 103, Κόνιτσα, 44100', 40.049564, 20.749676],\n    ['6η Υ.ΠΕ (Πελοποννήσου, Ιονίων Νήσων, Ηπείρου & Δυτικής Ελλάδας), Δομή Φιλοξενίας προσφύγων / μεταναστών Ανδραβίδας', 'Ανδραβίδα Ηλείας', 37.9383119, 21.2073535],\n    ['2η Υ.ΠΕ.(Πειραιώς & Αιγαίου), Κέντρο Ταυτοποίησης Υπηκοότητας', 'Μόρια Μυτιλήνης, Λέσβος, 81100', 39.134458, 26.503571],\n    ['2η Υ.ΠΕ.(Πειραιώς & Αιγαίου), Δομή Φιλοξενίας προσφύγων / μεταναστών', 'ΒΙΑΛ Χίου, 82100', 38.323267, 26.092217],\n    ['2η Υ.ΠΕ.(Πειραιώς & Αιγαίου), Κέντρο Υποδοχής και Ταυτοποίησης', 'Λέπιδα, Λέρος, 85400', 37.140914, 26.848843],\n    ['6η Υ.ΠΕ.(Πελοποννήσου, Ιονίων Νήσων, Ηπείρου & Δυτικής Ελλάδας), Κέντρο Προστασίας Παιδιού, μονάδα Ιωαννίνων, παράρτημα Κόνιτσας',  'Κόνιτσα, 44100, Ιωάννινα', 40.048072, 20.752838],\n    ['2η Υ.ΠΕ.(Πειραιώς & Αιγαίου), Κέντρο Υποδοχής και Ταυτοποίησης', 'Πυλί, Κως, 85300', 36.842778, 27.157803],\n    ['2η Υ.ΠΕ.(Πειραιώς & Αιγαίου), Κέντρο Υποδοχής και Ταυτοποίησης', 'Σάμος, 83100', 37.725748, 27.042202],\n    ['4η Υ.ΠΕ (Μακεδονίας & Θράκης), Δομή Φιλοξενίας προσφύγων / μεταναστών Νέας Καβάλας', 'Νέα Καβάλα, Κιλκίς, 61200', 40.990634, 22.624710]\n  ];\n\n  function initialize() {\n\n    //map object\n    var myOptions = {\n      center: new google.maps.LatLng(38.410962, 24.183826),//somewhere in Euvoia\n      zoom: 7,\n      mapTypeId: 'hybrid',\n      styles: [\n            {\n              \"featureType\": \"administrative.country\",\n              \"elementType\": \"labels.text\",\n              \"stylers\": [\n                  {\n                      \"visibility\": \"off\"\n                  }\n              ]\n            }\n        ]\n    };\n\n    var map = new google.maps.Map(document.getElementById(\"default\"),\n        myOptions);\n\n    setMarkers(map,locations)\n    setMarkersYpe(map,locationsYpe);\n    setMarkersOfficial(map,locationsOfficial);\n    setMarkersCamps(map, locationsCamps);\n\n    //acceptance for geolocation\n    var infoWindowGeoL = new google.maps.InfoWindow({map: map});\n\n    // Try HTML5 geolocation.\n    if (navigator.geolocation) {\n      navigator.geolocation.getCurrentPosition(function(position) {\n        var pos = {\n          lat: position.coords.latitude,\n          lng: position.coords.longitude\n        };\n\n        infoWindowGeoL.setPosition(pos);\n        infoWindowGeoL.setContent('<p>Η τοποθεσία σας βρέθηκε.<br/>Μπορείτε να μετατοπίσετε την κουκκίδα,<br/> κλείνοντας το παράθυρο.</p>');\n        //map.setCenter(pos); use the set position\n        var markerGeoL = new google.maps.Marker({  \n            map: map,\n            position: pos,\n            draggable: true\n        });\n      }, function() {\n        handleLocationError(true, infoWindowGeoL, map.getCenter());\n      });\n    } else {\n      // Browser doesn't support Geolocation\n       handleLocationError(false, infoWindowGeoL, map.getCenter());\n    }\n  //check if works\n   /* function returnMapUrl(GLatLngObj){\n      var point= GLatLngObj || map.getCenter();\n      return \"http://maps.google.com/?ll=\"+point.lat+','+point.lng;\n    } \n\n    GEvent.addListener(map,\"click\", function(overlay, latlng) {\n      window.location = returnMapUrl(latlng);\n    });*/\n    /*google.maps.event.addListener(markerHosp, 'click', function() {\n      var googleSite = \"https://www.google.com/maps/@\";\n      window.location.href = googleSite + this.lat + \",\" + this.long;\n    });*/\n\n    var legend = document.getElementById('legend');\n      \n    var div = document.createElement('div');\n    for (var key in icons) {\n      var type = icons[key];\n      var name = type.name;\n      var icon = type.icon;\n      var div = document.createElement('div');\n      div.innerHTML = '<img src=\"' + icon + '\"> ' + name;\n      legend.appendChild(div);\n    }\n    \n    map.controls[google.maps.ControlPosition.LEFT_BOTTOM].push(document.getElementById('legend'));\n  } //end of initialize()\n\n  function setMarkers(map,locations){\n    var markerHosp, i\n    for (i = 0; i < locations.length; i++) {  \n      var infos = locations[i][0]\n      var telNo = locations[i][2]\n      var lat = locations[i][3]\n      var long = locations[i][4]\n      var add =  locations[i][5]\n\n      latlngset = new google.maps.LatLng(lat, long);\n\n      var markerHosp = new google.maps.Marker({\n        position: latlngset,\n        map: map,\n        icon: pinImage,\n        title: infos,\n        shadow: pinShadow\n      });\n        \n\n      var content = \"<h4>Πληροφορίες: </h4>\" + infos  + \"<h4>Τηλέφωνο επικοινωνίας: </h4>\" + telNo + \"<h4>Διεύθυνση: </h4> \" + add;   \n\n      var infowindow = new google.maps.InfoWindow()\n\n      google.maps.event.addListener(markerHosp, 'click',(function(markerHosp, content, infowindow){\n        return function(){\n          infowindow.setContent(content);\n          infowindow.open(map,markerHosp);\n        };\n      })(markerHosp,content,infowindow));\n     /* google.maps.event.addListener(markerHosp, 'click', function() {\n        var googleSite = \"https://www.google.com/maps/@\";\n        window.location.href = googleSite + this.lat + \",\" + this.long;\n});*/\n   }//end of for()\n  } //end of setMarkers func\n\n  function setMarkersYpe(map,locationsYpe){\n\n    var markerYpe, i\n\n    for (i = 0; i < locationsYpe.length; i++) {  \n      var infos = locationsYpe[i][0]\n      var telNo = locationsYpe[i][2]\n      var onlineSite = locationsYpe[i][3]\n      var lat = locationsYpe[i][4]\n      var long = locationsYpe[i][5]\n      var add =  locationsYpe[i][1]\n\n      latlngset = new google.maps.LatLng(lat, long);\n\n      var markerYpe = new google.maps.Marker({\n        position: latlngset,\n        map: map,\n        icon: pinImage2,\n        title: infos,\n        shadow: pinShadow2\n      });\n        \n      var content =  \"<h4>\" + infos + \"</h4>\"  + \"<h4>Τηλέφωνο επικοινωνίας: </h4>\" + telNo + \"<h4>Διεύθυνση: </h4> \" + add + \"<h4>Ιστότοπος: </h4>\" + onlineSite;   \n\n      var infowindow = new google.maps.InfoWindow()\n\n      google.maps.event.addListener(markerYpe, 'click',(function(markerYpe, content, infowindow){\n        return function(){\n          infowindow.setContent(content);\n          infowindow.open(map,markerYpe);\n        };\n      })(markerYpe,content,infowindow));\n    }//end of for()\n  } //end of setMarkersYpe func\n\n  function setMarkersOfficial(map,locationsOfficial){\n    var markerOfficial, i\n\n    for (i = 0; i < locationsOfficial.length; i++) {  \n      var infos = locationsOfficial[i][0]\n      var telNo = locationsOfficial[i][2]\n      var onlineSite = locationsOfficial[i][3]\n      var lat = locationsOfficial[i][4]\n      var long = locationsOfficial[i][5]\n      var add =  locationsOfficial[i][1]\n\n      latlngset = new google.maps.LatLng(lat, long);\n\n      var markerOfficial = new google.maps.Marker({\n        position: latlngset,\n        map: map,\n        icon: pinImage3,\n        title: infos,\n        shadow: pinShadow3\n      });\n        \n      var content =  \"<h4>\" + infos + \"</h4>\"  + \"<h4>Τηλέφωνο επικοινωνίας: </h4>\" + telNo + \"<h4>Διεύθυνση: </h4> \" + add + \"<h4>Ιστότοπος: </h4>\" + onlineSite;   \n\n      var infowindow = new google.maps.InfoWindow()\n\n      google.maps.event.addListener(markerOfficial, 'click',(function(markerOfficial, content, infowindow){\n        return function(){\n          infowindow.setContent(content);\n          infowindow.open(map,markerOfficial);\n        };\n      })(markerOfficial,content,infowindow));\n    }//end of for()\n  } //end of setMarkersYpe func\n\n/* markers for the camps */\n/*['6η Υ.ΠΕ (Πελοποννήσου, Ιονίων Νήσων, Ηπείρου & Δυτικής Ελλάδας, Δομή Φιλοξενίας προσφύγων / μεταναστών Ανδραβίδας', 'Ανδραβίδα Ηλείας', 37.9383119, 21.2073535]*/\n  function setMarkersCamps(map,locationsCamps){\n    var markerCamp, i\n    for (i = 0; i < locationsCamps.length; i++) {  \n      var infos = locationsCamps[i][0]\n      var add =  locationsCamps[i][1]\n      var lat = locationsCamps[i][2]\n      var long = locationsCamps[i][3]\n\n      latlngset = new google.maps.LatLng(lat, long);\n\n      var markerCamp = new google.maps.Marker({\n        position: latlngset,\n        map: map,\n        icon: pinImage4,\n        title: infos,\n        shadow: pinShadow4\n      });\n        \n\n      var content = \"<h4>Πληροφορίες: </h4>\" + infos  + \"<h4>Διεύθυνση: </h4> \" + add;   \n\n      var infowindow = new google.maps.InfoWindow()\n\n      google.maps.event.addListener(markerCamp, 'click',(function(markerCamp, content, infowindow){\n        return function(){\n          infowindow.setContent(content);\n          infowindow.open(map,markerCamp);\n        };\n      })(markerCamp,content,infowindow));\n\n      /* click event send to google map */\n      /**\n      <a href=\"https://www.google.com/maps/place/Αγράφων+3,+Μαρούσι+151+23,+Ελλάδα/@38.0329318,23.7877495,17\" target=\"_blank\">Αγράφων 3-5, Μαρούσι Αττικής, 151 23</a>*/\n      google.maps.event.addListener(markerCamp, 'click', function() {\n        var googleSite = \"https://www.google.com/maps/place/\";\n        window.location.href = googleSite + this.lat + \",\" + this.long;\n      });\n   }//end of for()\n  } //end of setMarkers func\n</script>\n</head>\n<body onload=\"initialize()\">\n<div id=\"default\" style=\"width:75vw; height:100vh;\"></div>\n<div id=\"legend\"><h4>Υπόμνημα</h4></div>\n<noscript><strong>JavaScript is currently disabled.</strong>Please enable it for a better experience of <a href=\"http://2glux.com/projects/jumi\">Jumi</a>.</noscript></body>\n</html>",
+			"file": "/C/Users/philos17/Dropbox/sublime files/maps/2.html",
+			"file_size": 34070,
+			"file_write_time": 131610889198789666,
+			"settings":
+			{
+				"buffer_size": 26398,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Desktop/githubInstructions.txt",
+			"settings":
+			{
+				"buffer_size": 1336,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "*{\n\twidth: \n}",
+			"file": "/C/Users/philos17/Dropbox/sublime files/alma/main.css",
+			"file_size": 0,
+			"file_write_time": 131589429981731578,
+			"settings":
+			{
+				"buffer_size": 13,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Desktop/map.html",
+			"settings":
+			{
+				"buffer_size": 25544,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "/*\n.top-container {\n  background-color: #f1f1f1;\n  padding: 30px;\n  text-align: center;\n}\n\n.header {\n  padding: 10px 16px;\n  background: #555;\n  color: #f1f1f1;\n}\n\n.content {\n  padding: 16px;\n}*/\n\n.sticky {\n  position: fixed;\n  top: 0;\n  width: 100%;\n}\n\n.sticky {//+ .content {\n  padding-top: 102px;\n}\nwindow.onscroll = function() {myFunction()};\n\nvar header = document.querySelector(\".gantry-logo\");\nvar sticky = header.offsetTop;\n\nfunction myFunction() {\n  if (window.pageYOffset >= sticky) {\n    header.classList.add(\"sticky\");\n  } else {\n    header.classList.remove(\"sticky\");\n  }\n}",
+			"settings":
+			{
+				"buffer_size": 586,
+				"line_ending": "Windows",
+				"name": "/*"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/license/license.pdf",
+			"settings":
+			{
+				"buffer_size": 36473,
+				"encoding": "Western (Windows 1252)",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n <title>Ο PHILOS στο χάρτη</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=nο\">\n    <meta charset=\"utf-8\">\n    <meta name=\"description\" content=\"Ενεργά σημεία του PHILOS στο χάρτη\">\n    <meta name=\"keywords\" content=\"\">\n    <meta name=\"author\" content=\"Dimitra-Niki Mazaraki\">\n<style type=\"text/css\">\n  html { height: 100% }\n  body { height: 100%; margin: 0 auto; padding: 0 }\n  #default { height: 100% }\n\n  #legend {\n    font-family: Arial, sans-serif;\n    font-size: 0.7rem;\n    background: #fff;\n    padding: 10px;\n    margin: 10px;\n    border: 3px solid #000;\n   /* display: grid;\n    grid-template-columns: auto auto;\n    grid-column-gap: 1px;   */\n    width: 25rem;\n  }\n\n  #legend h3 {\n    margin-top: 0;\n  }\n  #legend img {\n    vertical-align: middle;\n    height: 22px;\n  }\n\n  @-moz-document url-prefix() {\n    html { height: 100% }\n  body { height: 100%; margin: 0 auto; padding: 0 }\n  #default { height: 100% }\n\n  #legend {\n    font-family: Arial, sans-serif;\n    font-size: 0.7rem;\n    background: #fff;\n    padding: 10px;\n    margin: 10px;\n    border: 3px solid #000;\n   /* display: grid;\n    grid-template-columns: auto auto;\n    grid-column-gap: 1px;*/   \n    width: 25rem;\n  }\n  #legend h3 {\n    margin-top: 0;\n  }\n  #legend img {\n    vertical-align: middle;\n    height: 22px;\n  }\n  \n  }\n\n</style>\n<script type=\"text/javascript\"\n  src=\n\"https://maps.googleapis.com/maps/api/js?key=AIzaSyDsrcwr-VLlZQSqgG45sTu5Z8-93cen9tw&sensor=false&language=gr&region=GR\">\n</script>\n<script type=\"text/javascript\">\n  /**\nCopyright 2018 Dimitra-Niki Mazaraki\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.*/\n//hospitals, pedy\n var pinColor = \"009933\";\n var pinImage = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|\" + pinColor,\n     new google.maps.Size(21, 34),\n     new google.maps.Point(0,0),\n     new google.maps.Point(10, 34));\n var pinShadow = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_shadow\",\n     new google.maps.Size(40, 37),\n     new google.maps.Point(0, 0),\n     new google.maps.Point(12, 35));\n \n\n//ype\n var pinColor2 = \"4d4dff\";\n var pinImage2 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|\" + pinColor2,\n     new google.maps.Size(21, 34),\n     new google.maps.Point(0,0),\n     new google.maps.Point(10, 34));\n var pinShadow2 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_shadow\",\n     new google.maps.Size(40, 37),\n     new google.maps.Point(0, 0),\n     new google.maps.Point(12, 35));\n\n //official\n var pinColor3 = \"e6e600\";\n var pinImage3 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|\" + pinColor3,\n     new google.maps.Size(21, 34),\n     new google.maps.Point(0,0),\n     new google.maps.Point(10, 34));\n var pinShadow3 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_shadow\",\n     new google.maps.Size(40, 37),\n     new google.maps.Point(0, 0),\n     new google.maps.Point(12, 35));\n\n //camps\n var pinColor4 = \"33cccc\";\n var pinImage4 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|\" + pinColor4,\n     new google.maps.Size(21, 34),\n     new google.maps.Point(0,0),\n     new google.maps.Point(10, 34));\n var pinShadow4 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_shadow\",\n     new google.maps.Size(40, 37),\n     new google.maps.Point(0, 0),\n     new google.maps.Point(12, 35));\n\n//supervisors\nvar pinColor5 = \"6A6A69\";\nvar pinImage5 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|\" + pinColor5,\n    new google.maps.Size(21, 34),\n    new google.maps.Point(0, 0),\n    new google.maps.Point(10, 34));\nvar pinShadow5 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_shadow\",\n     new google.maps.Size(40, 37),\n     new google.maps.Point(0, 0),\n     new google.maps.Point(12, 35));\n\n//EKAV\nvar pinColor6 = \"F07539\";\nvar pinImage6 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|\" + pinColor6,\n    new google.maps.Size(21, 34),\n    new google.maps.Point(0, 0),\n    new google.maps.Point(10, 34)\n);\nvar pinShadow6 = new google.maps.MarkerImage(\"https://chart.apis.google.com/chart?chst=d_map_pin_shadow\",\n    new google.maps.Size(40, 37),\n    new google.maps.Point(0, 0),\n    new google.maps.Point(12, 35)\n);\n\n//for the legends\nvar iconBase = 'https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|';\nvar iconsLeft = {\n  hospitals: {\n    name: 'Νοσοκομεία, Κέντρα Υγείας',\n    icon: iconBase + pinColor\n  },\n  ekav: {\n    name: 'EKAB',\n    icon: iconBase + pinColor6\n  },\n  ypes: {\n    name: 'Υγειονομικές Περιφέρειες (ΥΠΕ)',\n    icon: iconBase + pinColor2\n  }\n}\nvar iconsRight = {\n  offices: {\n    name: 'ΚΕΕΛΠΝΟ, ΕΚΕΠΥ, Υπουργείο Υγείας, <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Υπουργείο Μεταναστευτικής Πολιτικής',\n    icon: iconBase + pinColor3\n  },\n  camps: {\n    name: 'Χώροι Φιλοξενίας',\n    icon: iconBase + pinColor4\n  },\n  supervisorsPin: {\n    name: 'Επόπτες Υγείας',\n    icon: iconBase + pinColor5\n  }\n} //end of icons objects\n\nvar locations = [\n\n//nosokomeia, pedy...\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο Βέροιας', 'κυρία Μεταλίδου', '23313-51100, 23313-51400', 40.503268, 22.216287, 'Συνοικισμός Παπάγου, 59132, Βέροια'],\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο Γιαννιτσών', 'κυρία Κωστίδου', '23823-50200, 23823-50300', 40.794359, 22.414448, 'Γιαννιτσά, 58100, Γιαννιτσά'],\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο Κατερίνης', 'κυρία Χαβέλα', '23513-50200', 40.293706, 22.445165, '6ο χλμ Επαρχιακή οδός Αρωνάς - Μοσχοπόταμος, 60100, Νέο Κεραμίδι Πιερίας'],\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο Θεσσαλονίκης \"Άγιος Δημήτριος\"', 'κύριος Τσίκουρας', '23133-22100', 40.635040, 22.955976, 'Ελένης Ζωγράφου 2, 546 34, Θεσσαλονίκη'],\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο Θεσσαλονίκης \"Γεννηματάς\"', 'κύριος Σαμαράς', '23133-08100, 2310-963100', 40.633835, 22.955698, 'Εθνικής Αμύνης 41, 54635, Θεσσαλονίκη'],\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο \"Παπαγεωργίου\"', 'κυρία Ζαχαρούδη', '23133-323000', 40.676480, 22.962334, 'Αγίου Παύλου 76, Περιφερειακή οδός Δήμου Παύλος Μελάς, 564 29, Θεσσαλονίκη'],\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο \"Παπανικολάου\"', 'κύριος Κυριακίδης / κυρία Χωματά', '23133-07000', 40.676082, 22.962311, 'Χορτιάτης, 57010, Θεσσαλονίκη'],\n  ['3η Υ.ΠΕ., ΠΕΔΥ - Κέντρο Υγείας Διαβατών', 'κύριος Φοροτζίτης', '2310-781840, 2310-781881', 40.684809, 22.860129, 'Βενιζέλου Ελευθερίου 5, Διαβατά, 57008, Θεσσαλονίκη'],\n  ['3η Υ.ΠΕ., ΠΕΔΥ - Κέντρο Υγείας Λαγκαδά', 'κυρία Μοσχίδου', '23943-30701', 40.749702, 23.067668, 'Λουτρών 20, 57200, Λαγκαδάς'],\n  ['3η Υ.ΠΕ., ΠΕΔΥ Κατερίνης', 'κυρία Σταθακοπούλου', '23510-35913', 40.684809, 22.860129, 'Κανελλόπουλου Παναγιώτη 1, 601 32, Κατερίνη Πιερίας'],\n  ['3η Υ.ΠΕ., ΠΕΔΥ ΜΥ Πύλη Αξιού', 'κυρία Ιακωβίδου', '2310-597848', 40.637592, 22.934252, 'Πολυτεχνείου 1, 546 26, Θεσσαλονίκη'],\n  ['5η Υ.ΠΕ., Γενικό Νοσοκομείο Λαμίας', 'κυρία Κόντου', '22313-56000', 38.914249, 22.427544, ' Παπασιοπούλου, 351 00, Λαμία'],\n  ['5η Υ.ΠΕ., Γενικό Νοσοκομείο Βόλου &quot;Αχιλλοπούλειο&quot;', 'κυρία Σιτζάκη', '24213-51000, 24210-94200', 39.352631, 22.962701, 'Πολυμέρη 134, 38222, Βόλος'],\n  ['5η Υ.ΠΕ., Γενικό Νοσοκομείο Λάρισας &quot;Κουτλιμπάνειο&quot;', 'κυρία Λάμπρου', '2413-504100', 39.642292, 22.422548, 'Τσακάλωφ, 412 21, Λάρισα'],\n  ['5η Υ.ΠΕ., Γενικό Νοσοκομείο Χαλκίδας', 'κυρία Ρέππα', '2221-350100', 38.463395, 23.599557, 'Γαζέπη Ηρακλή 48, 341 00, Χαλκίδα'],\n  ['5η Υ.ΠΕ., Πανεπιστημιακό Γενικό Νοσοκομείο (ΠΑΓΝ) Λάρισας', 'κυρία Γουτοπούλου', '2413-504100', 39.617155, 22.3871949, 'Μεζούρλο, Λάρισα, 411 10, ΤΘ 1425'],\n  ['5η Υ.ΠΕ., Κέντρο Υγείας Αγιάς', 'κυρία Βαλιατζά', '24943-50000', 39.697826, 22.875364, 'Αγιόκαμπος, Αγιά, 400 03, Λάρισα'],\n  ['2η Υ.ΠΕ., Αντικαρκινικό Νοσοκομείο Πειραιά &quot;Μεταξά&quot;', 'κύριος Παπαδόπουλος', '213-2079100', 37.929755, 23.643430, 'Μπόταση 51, 185 37, Πειραιάς'],\n  // ['2η Υ.ΠΕ., Γενικό Νοσοκομείο Ασκληπείο Βούλας', 'κυρία Κριμπογιάννη', '213-2163000', 37.847845, 23.757393, 'Λεωφόρος Βασιλέως Παύλου 1,  16673, Βάρη Βούλα Βουλιαγμένη'],\n  // ['2η Υ.ΠΕ., Γενικό Νοσοκομείο Νίκαιας Άγιος Παντελεήμων', 'κυρία Κατουφά', '213-2077000', 37.966957, 23.644283, 'Μαντούβαλου 3, Οσία Ξένη, 18454, Νίκαια Αττικής'],\n  ['2η Υ.ΠΕ., Γενικό Νοσοκομείο Πειραιά &quot;Τζάνειο&quot;', 'κυρία Πετράτου', '213-2081000', 37.934468, 23.645242, ' Λεωφόρος Αφεντούλη και Ζαννή, 185 36, Πειραιάς'],\n  ['2η Υ.ΠΕ., Πανεπιστημιακό Γενικό Νοσοκομείο (ΠΑΓΝ) Αττικό', 'κυρία Σταυρινάβη', '210-5831000', 38.016581, 23.665685, 'Ρίμινι 1, 124 62, Χαϊδάρι'],\n  ['6η Υ.ΠΕ., Γενικό Νοσοκομείο Ηλείας (Πύργου)', 'κυρία Γρίβα', '26213-61300', 37.685178, 21.422292, ' Συντριάδα, 27100, Πύργος Ηλείας'],\n  ['6η Υ.ΠΕ., Γενικό Νοσοκομείο Ηλείας (Αμαλιάδας)', 'κυρία Γρίβα', '26220-25939, 26220-22222', 37.791495, 21.357442, ' Ευαγγελιστρίας 128, 272 00, Αμαλιάδα Ηλείας'],\n  ['6η Υ.ΠΕ., Γενικό Νοσοκομείο Ιωαννίνων &quot;Χατζηκώστα&quot;', 'κυρία Ηλιάδου / κυρία Βλάχου', '26513-66688', 39.677786, 20.834928, ' Λεωφόρος Στρατηγού Μακρυγιάννη 1, 454 45, Ιωάννινα'],\n  ['6η Υ.ΠΕ., Γενικό Νοσοκομείο Πρέβεζας', 'κυρία Μερισιώτη', '26823-61390', 38.965394, 20.753990, 'Σελευκείας 2, 481 00, Πρέβεζα'],\n  ['6η Υ.ΠΕ., Πανεπιστημιακό Γενικό Νοσοκομείο (ΠΑΓΝ) Ιωαννίνων', 'κυρία Μπλάτσιου', '26510-99111', 39.625572, 20.848436, 'Λεωφόρος Σταύρου Νιάρχου, 455 00, Ιωάννινα'],\n  ['6η Υ.ΠΕ., ΠΕΔΥ - Κέντρο Υγείας Δελβινακίου', 'κύριος Μάντζιος / κύριος Βίλης', '26570-22222, 26570-22540', 39.933965, 20.465450, 'Δελβινάκι, Δελβινάκι, 440 02, Ιωάννινα'],\n  ['6η Υ.ΠΕ., ΠΕΔΥ - Κέντρο Υγείας Ιωαννίνων', 'κύριος Φώτος / κυρία Φούκα', '26510-26519, 26510-59662', 39.672130, 20.847175, 'Μελά Παύλου 34, 454 44, Ιωάννινα'],\n  ['6η Υ.ΠΕ., ΠΕΔΥ - Κέντρο Υγείας Κόνιτσας', 'κύριος Φυσέκης', '26550-22022', 40.047506, 20.752335, 'Αγίου Νικολάου 1, 44100, Κόνιτσα, Ιωάννινα'],\n  // ['1η Υ.ΠΕ., Αλεξάνδρα', 'κυρία Παντικίδη', '213-216200, 210-3381100', 37.980401, 23.754944, 'Λεωφόρος Βασιλίσσης Σοφίας 80, 11528, Αθήνα'],\n  // ['1η Υ.ΠΕ., Ευαγγελισμός', 'κυρία Δανιηλίδου', '213-2041000', 37.977510, 23.748164, 'Υψηλάντου 45, 10676, Αθήνα'],\n  // ['1η Υ.ΠΕ., Κέντρο Υγείας Καπανδριτίου', 'κυρία Πριμυκίρη', '22950-52612', 38.215738, 23.882484, 'Γραμματικογιάννη, 19014, Καπανδρίτι'],\n  // ['1η Υ.ΠΕ., Κέντρο Υγείας Νέας Μάκρης', 'κύριος Στάμος', '22943-21000', 38.088382, 23.962598, 'Λεωφόρος Μαραθώνος και Αρτέμιδος, 19005, Νέα Μάκρη'],\n  // ['1η Υ.ΠΕ., Κέντρο Υγείας Λαυρίου', 'κύριος Βλαχογιάννης', '22923-20300', 37.716828, 24.053912, 'Διαμαντοπούλου Ιακώβου, 19500, Λαύριο'],\n  // ['1η Υ.ΠΕ., Έλενας Βενιζέλου', 'κυρία Καστραντά', '213-2051000', 37.985055, 23.755273, 'Πλατεία Έλενας Βενιζέλου 2, 11521, Αμπελόκηποι'],\n  // ['1η Υ.ΠΕ., Κέντρο Ψυχικής Υγείας Βύρωνα', 'κυρία Δούκα', '210-7640111, 210-7644705', 37.962405, 23.759756, 'Δήλου 14, 16121, Καισαριανή'],\n  // ['1η Υ.ΠΕ., Λαϊκό', 'κύριος Καραγκιοζόπουλος', '213-2060800', 37.984674, 23.764180, 'Αγίου Θωμά 17, 11527, Αθήνα'],\n  // ['1η Υ.ΠΕ., Παίδων Αγλαΐα Κυριακού', 'κυρία Καρατζαφέρη', '213-2009000', 37.985283, 23.766911, 'Λεβαδείας 3 & Θηβών, 11527, Αθήνα'],\n  // ['1η Υ.ΠΕ., Παίδων Αγία Σοφία', 'κυρία Μαρκογιαννάκη', '213-2013000', 37.983497, 23.768688, 'Θηβών και Παπαδιαμαντοπούλου, 11527, Αθήνα'],\n  ['4η Υ.ΠΕ., Γενικό Νοσοκομείο Δράμας', 'κυρία Τσιτλίδου', '25210 23351-5', 38.000841, 23.714901, 'Ιπποκράτους Τέρμα, 661 32, Δράμα'],\n  ['4η Υ.ΠΕ., Γενικό Νοσοκομείο Καβάλας', 'κυρία Παπάκη', '25135-01100', 40.940905, 24.376925, 'Άγιος Σίλας, 655 00, Καβάλα'],\n  ['4η Υ.ΠΕ., Γενικό Νοσοκομείο Κιλκίς', 'κυρία Ιωαννίδου', '23413-51736', 40.990418, 22.867203, 'Νοσοκομείου 1, 611 00, Κιλκίς'],\n  ['4η Υ.ΠΕ., Γενικό Νοσοκομείο Θεσσαλονίκης \"Ιπποκράτειο\"', 'κυρία Ξεπαπαδάκη', '2313-312000', 40.611484, 22.961733, 'Κωνσταντινοπούλεως 49, 546 42, Θεσσαλονίκη'],\n  ['4η Υ.ΠΕ., Μονάδα Υγείας ΠΕΔΥ Δροσάτου', 'κυρία Αποστολάκη', '23410-97202', 41.167046, 22.801571, 'Δροσάτο, 610 03'],\n  ['4η Υ.ΠΕ., Κέντρο Υγείας Ζαγκλιβερίου', 'κυρία Παυλίδου', '23933-30400', 40.574480, 23.284947, 'Επαρχιακή Οδός Ζαγκλιβερίου-Νέας Χαλκιδικής 45, 570 12, Ζαγκλιβέρι'],\n  ['4η Υ.ΠΕ., Κέντρο Υγείας Θέρμης', 'κυρία Κατσιώμη', '23133 10824-6', 40.544823, 23.032766, 'Θέρμη Θεσσαλονίκης, 570 01, Θεσσαλονίκη'],\n  ['4η Υ.ΠΕ., Κέντρο Υγείας Παρανεστίου', 'κυρία Τσαλγαρίδου', '25240-22171, 25240-22222', 41.266145, 24.502995, 'Ε.Ο. Δράμας - Ξάνθης 57, 660 35, Παρανέστι'],\n  ['4η Υ.ΠΕ., Κέντρο Υγείας Πολυκάστρου', 'κυρία Γάκη', '23430-22051', 40.995048, 22.577083, 'Βενιζέλου, 612 00, Πολύκαστρο'],\n  ['4η Υ.ΠΕ., Κέντρο Υγείας Σοχού', 'κυρία Δημητρίου', '23950-22222', 40.818183, 23.356642, 'Σοχός, 570 02, Θεσσαλονίκη'],\n  // /* change - adding new locations - 7/2/2018 - @author Dimitra M. */\n  ['2η Υ.ΠΕ., Γενικό Νοσοκομείο Ρόδου', '', '2241-360000', 36.418008, 28.192882, 'Άγιοι Απόστολοι, 851 33, Ρόδος'],\n  ['2η Υ.ΠΕ., Γενικό Νοσοκομείο Κω', '', '22423-60200', 36.892793, 27.291458, 'Ιπποκράτους 34, 853 00, Κως'],\n  ['2η Υ.ΠΕ., Γενικό Νοσοκομείο Λέρου', '', '22470-23300', 37.133164, 26.847947, 'Βασιλίσσης Όλγας, 853 01, Λακκί, Λέρος'],\n  ['2η Υ.ΠΕ., Νοσοκομείο Χίου', '', '22713-50108', 38.384162, 26.136965, 'Έλενας Βενιζέλου 2, 821 00, Χίος'],\n  ['2η Υ.ΠΕ., Νοσοκομείο Σάμου', '', '22713-50108', 37.761543, 26.969652, 'Λεωφ. Καλλίστρατου 17, 831 00, Σάμος'],\n  ['2η Υ.ΠΕ., Γενικό Νοσοκομείο Μυτιλήνης', '', '22510-57700', 39.090613, 26.549465, 'Ευστράτιου Βοστάνη 46, 811 32, Μυτιλήνη, Λέσβος'],\n  ['4η Υ.ΠΕ., ΠΕΔΥ Δράμας', '', '25210-20977', 39.0997404,26.5518111, 'Αγαμέμνονος 2 (Κτίριο ΙΚΑ), 661 33, Δράμα'],\n  ['4η Υ.ΠΕ., Κέντρο Υγείας Μηχανιώνας', '', '', 40.458777, 22.862209, 'Τέρμα Πολυτεχνείου, 570 04, Μηχανιώνα Θεσσαλονίκης'],\n  ['4η Υ.ΠΕ., Κέντρο Υγείας Αγίου Νικολάου Χαλκιδικής', '', '', 40.248743, 23.698947, 'Οδός Παυλούδη Παύλου, Άγιος Νικόλαος, 630 78, Χαλκιδική'],\n  ['5η Υ.ΠΕ., Γενικό Νοσοκομείο Λιβαδειάς', '', '22613-50500', 38.446733, 22.883218, 'Τέρμα Αγίου Βλάσιου, 321 00, Λιβαδειά, Βοιωτία'],\n  ['6η Υ.ΠΕ., ΠΕΔΥ Άρτας', '', '', 39.157624, 20.981725, 'Αλεξάνδρου Ζάρα 2, Παλαιό Νοσοκομείο (Απέναντι από το μαιευτήριο \"Μητέρα\"), 471 00, Άρτα']\n];\n\n  var locationsEKAV = [\n    ['ΕΚΑΒ Θεσσαλονίκης', 'κυρία Τσορμπατζόγλου', '2310-397100', 40.990418, 22.867203, 'Μαβίλη 33, 555 35, Θεσσαλονίκη'],\n    ['ΕΚΑΒ Ιωαννίνων', 'κύριος Παπαδιώτης', '26510-54334', 39.671129, 20.854862, 'Χατζηκώστα Γεώργιου και Γεωργίου Παπανδρέου 1, 454 44 Ιωάννινα'],\n    ['ΕΚΑΒ Αττικής', 'κύριος Μπόρας', '213-2143000', 37.998564, 23.783817, 'Τέρμα Υγείας & Λεωφόρος Μεσογείων (πλησίον νοσοκομείου Γ. Γεννηματάς), 115 27, Αθήνα'],\n    ['ΕΚΑΒ Καβάλας - Δράμας', 'κυρία Τουρτούνη', '', 41.159045, 24.148861, 'Παιδόπολη Καβάλας, 652 04, Καβάλα'],\n    ['ΕΚΑΒ Λάρισας', 'κυρία Δαλαμπίρα / κύριος Σχοινάς', '2410-685102', 39.610923, 22.385844, 'Λάρισα, Εντός Πανεπιστημιακού Νοσοκομείου, Λάρισα - Μεζούρλο, 411 10, Λάρισα'],\n    ['4η Υ.ΠΕ., ΕΚΑΒ (Ημαθίας) Θεσσαλονίκης', '', '', 40.503344, 22.216743, 'Βέροια, 591 00, Βέροια Ημαθίας'],\n    ['4η Υ.ΠΕ., ΕΚΑΒ (Πελλας) Θεσσαλονίκης', '', '', 40.797536, 22.048931, 'Φιλίππου 37, 582 00, Έδεσσα Πέλλας'],\n    ['ΕΚΑΒ Μυτιλήνης', '', '22713-50108', 39.090613, 26.549465, 'Ευστράτιου Βοστάνη 37, 811 32, Μυτιλήνη, Λέσβος'],\n    ['ΕΚΑΒ Ρόδου', '', '2241-360000', 36.418008, 28.192882, 'Άγιοι Απόστολοι, 851 33, Ρόδος'],\n    ['ΕΚΑΒ Λέρου', '', '22470-23300 ', 37.133164, 26.847947, 'Βασιλίσσης Όλγας, 853 01, Λακκί, Λέρος'],\n    ['ΕΚΑΒ Καλύμνου', '', '22430-23027', 36.957227, 26.972500, 'Νικολάου Ζερβού 22, 852 00, Κάλυμνος'],\n    ['ΕΚΑΒ Κω', '', '22423-60200', 36.892793, 27.291458, 'Ιπποκράτους 34, 853 00, Κως']\n  ];\n\n  var locationsYpe = [\n    ['1η ΥΠΕ ΑΤΤΙΚΗΣ', 'Ζαχάρωφ 3, 115 21, Αμπελόκηποι, Αθήνα', '213-2010400', 'http://www.1dype.gov.gr/', 37.986184, 23.760324],\n    ['2η ΥΠΕ ΠΕΙΡΑΙΩΣ & ΑΙΓΑΙΟΥ', 'Θηβών 46-48, 185 43, Πειραιάς', '213-2004200 , 213-2004205', 'http://www.2dype.gr/', 37.957189, 23.651598],\n   // /* ['3η ΥΠΕ ΜΑΚΕΔΟΝΙΑΣ', 'Αριστοτέλους 16, 54623, Θεσσαλονίκη', '2313-320500', 'http://www.3ype.gr/', 40.634353, 22.942907],*/\n    ['3η ΥΠΕ ΜΑΚΕΔΟΝΙΑΣ και 4η ΥΠΕ ΜΑΚΕΔΟΝΙΑΣ & ΘΡΑΚΗΣ', 'Αριστοτέλους 16, 546 23, Θεσσαλονίκη', '3η ΥΠΕ: 2313-320500 , 4η ΥΠΕ: 2313-327800', 'http://www.3ype.gr/ , https://www.4ype.gr/', 40.634353, 22.942907],\n    ['5η ΥΠΕ ΘΕΣΣΑΛΙΑΣ & ΣΤΕΡΕΑΣ ΕΛΛΑΔΑΣ', 'Νικηταρά 18, 412 21, Λάρισα', '2413-500800', 'http://www.dypethessaly.gr', 39.639236, 22.421518],\n    ['6η ΥΠΕ ΠΕΛΟΠΟΝΝΗΣΟΥ, ΙΟΝΙΩΝ ΝΗΣΩΝ, ΗΠΕΙΡΟΥ & ΔΥΤΙΚΗΣ ΕΛΛΑΔΑΣ', 'Ν.Ε.Ο. Πατρών - Αθηνών & Υπάτης 1, 264 41, Πάτρα', '2610-463500 , 2610-463503', 'http://www.dypede.gr', 38.260500, 21.749365],\n    ['7η ΥΠΕ ΚΡΗΤΗΣ', '3ο χλμ Ηρακλείου - Μοιρών, Εσταυρωμένος, 715 00, Ηράκλειο Κρήτης', '2813-404400', 'https://www.hc-crete.gr/', 35.3383895, 25.1423351]\n  ];\n\n  var locationsOfficial = [\n    ['ΚΕΕΛΠΝΟ', 'Αγράφων 3-5, 15123, Μαρούσι Αττικής', '210-5212000', 'http://www.keelpno.gr/', 38.033120, 23.788603],\n    ['ΕΚΕΠΥ', 'Λεωφόρος Κηφισίας 39, 15123, Μαρούσι Αττικής', '210-6822445', '', 38.034328, 23.795601],\n    ['Υπουργείο Υγείας', 'Αριστοτέλους 17, 10187, Αθήνα', '213-2161000-1', 'http://www.moh.gov.gr/', 37.988304, 23.727715],\n    ['Υπουργείο Μεταναστευτικής Πολιτικής', 'Ευαγγελιστρίας 2, 10563, Αθήνα', '210-4141641, 210-4141671', 'http://www.ypes.gr/el/Generalsecretariat_PopulationSC/general_directorate_ithageneias_migratation/', 37.975836, 23.729906],\n    ['Υπουργείο Μεταναστευτικής Πολιτικής (εξυπηρέτηση κοινού)', 'Αγίου Διονυσίου 5, 18545, Πειραιάς', '210-4141641, 210-4141671', 'http://www.ypes.gr/el/Generalsecretariat_PopulationSC/general_directorate_ithageneias_migratation/', 37.949444, 23.643635]\n  ];\n\n  var locationsSupervisors = [\n    ['Επόπτης Υγείας Περιφέρειας Αττικής', 'Λεωφόρος Μεσογείων 448, 153 42, Αγία Παρασκευή Αττικής', '213 2100566 / -535 / -511', 38.013804, 23.8292478],\n    ['Επόπτης Υγείας Περιφέρειας Πελοποννήσου', 'Γενική Διεύθυνση Δημόσιας Υγείας & Κοινωνικής Μέριμνας, Ελευθερίου Βενιζέλου 34, 221 32, Τρίπολη Αρκαδίας', '27136 10225 / -221 / -229', 37.509553, 22.3752807],\n    ['Επόπτες Υγείας Περιφέρειας Κεντρικής Μακεδονίας', '26ης Οκτωβρίου 64, 546 27, Θεσσαλονίκη', '2313-330889', 40.6412744, 22.9156096],\n    ['Επόπτες Υγείας Περιφέρειας Στερεάς Ελλάδας (Λαμία)', 'Γενική Διεύθυνση Δημόσιας Υγείας Στερεάς Ελλάδας (Λαμία), Υψηλάντου 1, 351 31, Λαμία, Φθιώτιδα', '22313 51275 / -278', 38.902213, 22.4305998],\n    ['Επόπτης Υγείας Περιφέρειας Δυτικής Ελλάδας (Πάτρα)', 'Παλαιών Πατρών Γερμανού 98, 262 25, Πάτρα, Αχαΐα', '2613-620716', 38.2416583, 21.7386787],\n    ['Επόπτης Υγείας Περιφέρειας Ανατολικής Μακεδονίας & Θράκης (Κομοτηνή)', 'Υψηλάντου και Συμεωνίδη 1, 691 32, Κομοτηνή, Ροδόπη', '25313-54137', 41.1173375, 25.3975913],\n    ['Επόπτης Υγείας Περιφέρειας Δυτικής Μακεδονίας (Κοζάνη)', 'Δημοκρατίας 27, 501 00, Κοζάνη', '24613 51106 / -119', 40.3050482,21.7816449],\n    ['Επόπτης Υγείας Ιονίων Νήσων', 'Σπύρου Σαμαρά 13, 491 00, Κέρκυρα', '26613 62134 / -130', 39.621458, 19.9177729]\n  ];\n\n  var locationsCamps = [\n    ['1η Υ.ΠΕ (Αττικής), Δομή Φιλοξενίας προσφύγων / μεταναστών Ελαιώνα', 'Αγίου Πολυκάρπου 87, Αθήνα', 37.982904, 23.698797, ''],\n    ['1η Υ.ΠΕ (Αττικής), Δομή Φιλοξενίας προσφύγων / μεταναστών Μαλακάσας', 'Παλιά Εθνική Οδός Αθηνών - Θεσσαλονίκης, Στρατόπεδο Γερακινής, Μαλακάσα, 190 11', 38.239828, 23.780181, ''],\n    ['1η Υ.ΠΕ (Αττικής), Δομή Φιλοξενίας προσφύγων / μεταναστών Λαυρίου', 'Πρώην Κατασκηνώσεις Υπουργείου Αγροτικής Ανάπτυξης, Λεωφόρος Σουνίου, Λαύριο Αττικής, 195 00', 37.6769403, 24.0426933, ''],\n    ['2η Υ.ΠΕ (Πειραιώς & Αιγαίου), Δομή Φιλοξενίας προσφύγων / μεταναστών Σκαραμαγκά', 'Μακαρίου, Σκαραμαγκάς, 124 61', 38.013397, 23.599303, ''],\n    ['2η Υ.ΠΕ (Πειραιώς & Αιγαίου), Δομή Φιλοξενίας προσφύγων / μεταναστών Σχιστού', 'Λεωφόρος Σχιστού - Σκαραμαγκά 102, Βιομηχανικό Πάρκο Σχιστού (πρώην Στρατόπεδο Στεφανάκη), 188 63', 37.9859999, 23.6071865, ''],\n    // // ['2η Υ.ΠΕ (Πειραιώς & Αιγαίου), Δομή Φιλοξενίας προσφύγων / μεταναστών Ελευσίνας', 'Παλαιά Εθνική Οδός Αθηνών - Κορίνθου, Μάνδρα - Ειδυλλία, 19200', 38.031305, 23.491218],\n    ['2η Υ.ΠΕ.(Πειραιώς & Αιγαίου), Κέντρο Υποδοχής και Ταυτοποίησης (ΚΥΤ) Λέσβου', 'ΚΥΤ Μόριας Μυτιλήνης, 811 00, Λέσβος', 39.134458, 26.503571, ''],\n    ['2η Υ.ΠΕ.(Πειραιώς & Αιγαίου), Κέντρο Υποδοχής και Ταυτοποίησης (ΚΥΤ) Χίου', 'ΒΙΑΛ Χίου, 821 00', 38.3232715, 26.0900285, ''],\n    // // ['2η Υ.ΠΕ.(Πειραιώς & Αιγαίου), Κέντρο Υποδοχής και Ταυτοποίησης (ΚΥΤ) Χίου', 'Καπασούλη 15, Καμμένος Πύργος, 821 00, Χίος', 37.140914, 26.848843],\n    ['2η Υ.ΠΕ.(Πειραιώς & Αιγαίου), Κέντρο Υποδοχής και Ταυτοποίησης (ΚΥΤ) Λέρου', 'Λέπιδα, 854 00, Λέρος', 37.140914, 26.848843, ''],\n    ['2η Υ.ΠΕ.(Πειραιώς & Αιγαίου), Κέντρο Υποδοχής και Ταυτοποίησης (ΚΥΤ) Κω', 'Πυλί, 853 01, Κως', 36.856669, 27.165734, ''],\n    ['2η Υ.ΠΕ.(Πειραιώς & Αιγαίου), Κέντρο Υποδοχής και Ταυτοποίησης (ΚΥΤ) Σάμου', 'Βαθύ Σάμου, 831 00, Σάμος', 37.725748, 27.042202, ''],\n    ['3η Υ.ΠΕ (Μακεδονίας), Δομή Φιλοξενίας προσφύγων / μεταναστών Αλεξάνδρειας Ημαθίας (Στρατόπεδο Ταγματάρχου Γεώργιου Πελάγου)', 'Παλιά Εθνική Οδός Θεσσαλονίκης - Βέροιας, Αλεξάνδρεια Ημαθίας, 593 00', 40.6211206, 22.4422578, ''],\n    // // ['3η Υ.ΠΕ (Μακεδονίας), Δομή Φιλοξενίας προσφύγων / μεταναστών Κορδελιού Θεσσαλονίκης (Softex)', 'Μικράς Ασίας, Κορδελιό Εύοσμος 54628', 40.67067, 22.8749],\n    ['3η Υ.ΠΕ (Μακεδονίας), Δομή Φιλοξενίας προσφύγων / μεταναστών Διαβατών (πρώην Στρατόπεδο Αναγνωστοπούλου)', 'Παλαιά Συμμαχική Οδός Ωραιοκάστρου, Διαβατά Θεσσαλονίκης, 545 00', 40.7015625, 22.8632428, ''],\n    ['3η Υ.ΠΕ (Μακεδονίας), Δομή Φιλοξενίας προσφύγων / μεταναστών Αγίας Βαρβάρας Ημαθίας (Στρατόπεδο Αρματωλού Κόκκινου)', 'Βέροια, 591 32', 40.487948, 22.2494297, ''],\n    ['3η Υ.ΠΕ (Μακεδονίας), Δομή Φιλοξενίας προσφύγων / μεταναστών Κάτω Μηλιά Πιερίας', '13ο χλμ Κατερίνης - Ελασσόνας, 601 00, Πιερία', 40.2551401, 22.3642383, ''],\n    // // ['3η Υ.ΠΕ (Μακεδονίας), Δομή Φιλοξενίας προσφύγων / μεταναστών Βασιλικών (κτήμα Κορδογιάννη)', 'Βασιλικά Θεσσαλονίκης, 57006', 40.480024, 23.138470],\n    ['4η Υ.ΠΕ (Μακεδονίας & Θράκης), Δομή Φιλοξενίας προσφύγων / μεταναστών Νέας Καβάλας', 'Νέα Καβάλα, δρόμος Κιλκίς - Αξιούπολης, Αερολέσχη Πολυκάστρου, 612 00', 40.990634, 22.624710, ''],\n    ['4η Υ.ΠΕ (Μακεδονίας & Θράκης), Δομή Φιλοξενίας προσφύγων / μεταναστών Σερρών', 'Περιφερειακή Οδός Σερρών, 621 24, Σέρρες', 41.0753468, 23.539967, ''],\n    // // ['4η Υ.ΠΕ (Μακεδονίας & Θράκης), Δομή Φιλοξενίας προσφύγων / μεταναστών Δράμας', 'Δράμα, 66100', 41.149001, 24.147080],\n    // // ['4η Υ.ΠΕ (Μακεδονίας & Θράκης), Δομή Φιλοξενίας προσφύγων / μεταναστών Καβάλας', 'Εθνική Οδός Καβάλας - Ξάνθης 68, Καβάλα 65201', 40.945127, 24.428048],\n    ['4η Υ.ΠΕ (Μακεδονίας & Θράκης), Δομή Φιλοξενίας προσφύγων / μεταναστών Λαγκαδικίων (πρώην Στρατόπεδο Βογιατζόγλου)', 'Λαγκαδάς, 570 20, Ελλάδα', 40.629885, 23.2325582, ''],\n    ['4η Υ.ΠΕ (Μακεδονίας & Θράκης), Δομή Φιλοξενίας προσφύγων / μεταναστών Λουτρών Νέας Απολλωνίας', 'Λουτρά Νέας Απολλωνίας, 570 15, Νέα Απολλωνία Θεσσαλονίκης', 40.659063, 23.403482, ''],\n    ['5η Υ.ΠΕ (Θεσσαλίας & Στερεάς Ελλάδας), Δομή Φιλοξενίας προσφύγων / μεταναστών Κουτσόχερου Λάρισας (Μάνδρα)', '18ο χλμ Εθνικής Οδού Λάρισας - Τρικάλων (πρώην Στρατόπεδο Ευθυμιόπουλου), Κουτσόχερο Λάρισας, 41500', 39.6103652, 22.243228, ''],\n    ['5η Υ.ΠΕ (Θεσσαλίας & Στερεάς Ελλάδας), Δομή Φιλοξενίας προσφύγων / μεταναστών Ριτσώνας', 'Εθνική Οδός Θήβας - Χαλκίδας (παλιό Στρατόπεδο Αεροπορίας, Ριτσώνα, 341 00', 38.3899401, 23.4412756, ''],\n    // // ['5η Υ.ΠΕ (Θεσσαλίας & Στερεάς Ελλάδας), Δομή Φιλοξενίας προσφύγων / μεταναστών Οινοφύτων', 'Παλιά Εθνική Οδός Αθηνών - Θεσσαλονίκης, Τανάγρα, 32009', 38.323616, 23.619438],\n    ['6η Υ.ΠΕ (Πελοποννήσου, Ιονίων Νήσων, Ηπείρου & Δυτικής Ελλάδας), Δομή Φιλοξενίας προσφύγων / μεταναστών Πρέβεζας - Φιλιππιάδας', 'Ιονία Οδός (πρώην Στρατόπεδο Πετρουλάκη), Ζήρος δήμου Ζηρού, 48200', 39.226875, 20.871201, ''],\n    // ['6η Υ.ΠΕ (Πελοποννήσου, Ιονίων Νήσων, Ηπείρου & Δυτικής Ελλάδας), Δομή Φιλοξενίας προσφύγων / μεταναστών Κόνιτσας', 'Επαρχιακή Οδός Κόνιτσας - Αετόπετρας 103, Κόνιτσα, 44100', 40.049564, 20.749676],\n    ['6η Υ.ΠΕ (Πελοποννήσου, Ιονίων Νήσων, Ηπείρου & Δυτικής Ελλάδας), Δομή Φιλοξενίας προσφύγων / μεταναστών Ανδραβίδας', 'Πρώην Κέντρο Αναψυχής Αεροπορίας (Θερινές Κατοικίες) - Μυρσίνη', 37.9383119, 21.2073535, ''],\n    ['6η Υ.ΠΕ.(Πελοποννήσου, Ιονίων Νήσων, Ηπείρου & Δυτικής Ελλάδας), Κέντρο Προστασίας Παιδιού, μονάδα Ιωαννίνων, παράρτημα Κόνιτσας', 'Αναγνωστοπούλου 4, Κόνιτσα, 441 00, Ιωάννινα', 40.048072, 20.752838, '']\n  ];\n\n  function initialize() {\n\n    //map object\n    var myOptions = {\n      center: new google.maps.LatLng(38.410962, 24.183826),//somewhere in Euvoia\n      zoom: 6,\n      mapTypeId: 'hybrid',\n      styles: [\n            {\n              \"featureType\": \"administrative.country\",\n              \"elementType\": \"labels.text\",\n              \"stylers\": [\n                  {\n                      \"visibility\": \"off\"\n                  }\n              ]\n            }\n        ]\n    };\n\n    var map = new google.maps.Map(document.getElementById(\"default\"),\n        myOptions);\n\n    setMarkers(map,locations)\n    setMarkersYpe(map,locationsYpe);\n    setMarkersOfficial(map,locationsOfficial);\n    setMarkersCamps(map, locationsCamps);\n    setMarkersSupers(map, locationsSupervisors);\n    setMarkersEKAV(map, locationsEKAV);\n\n    //acceptance for geolocation\n    var infoWindowGeoL = new google.maps.InfoWindow({map: map});\n\n    // Try HTML5 geolocation.\n    if (navigator.geolocation) {\n      navigator.geolocation.getCurrentPosition(function(position) {\n        var pos = {\n          lat: position.coords.latitude,\n          lng: position.coords.longitude\n        };\n\n        infoWindowGeoL.setPosition(pos);\n        infoWindowGeoL.setContent('<p>Η τοποθεσία σας βρέθηκε.<br/>Μπορείτε να μετατοπίσετε την κουκκίδα,<br/> κλείνοντας το παράθυρο.</p>');\n        var markerGeoL = new google.maps.Marker({  \n            map: map,\n            position: pos,\n            draggable: true\n        });\n      }, function() {\n        handleLocationError(true, infoWindowGeoL, map.getCenter());\n      });\n    } else {\n      // Browser doesn't support Geolocation\n       handleLocationError(false, infoWindowGeoL, map.getCenter());\n    }\n \n    var legend = document.getElementById('legend');\n      \n    var div = document.createElement('div');\n    for (var key in iconsLeft) {\n      var type = iconsLeft[key];\n      var name = type.name;\n      var icon = type.icon;\n      var div = document.createElement('div');\n      div.innerHTML = '<img src=\"' + icon + '\"> ' + name;\n      legend.appendChild(div);\n    }\n\n    for (var key in iconsRight) {\n      var type = iconsRight[key];\n      var name = type.name;\n      var icon = type.icon;\n      var div = document.createElement('div');\n      div.innerHTML = '<img src=\"' + icon + '\"> ' + name;\n      legend.appendChild(div);\n    }\n    \n    map.controls[google.maps.ControlPosition.LEFT_BOTTOM].push(document.getElementById('legend'));\n  } //end of initialize()\n\n  function setMarkers(map,locations){\n    var markerHosp, i\n    for (i = 0; i < locations.length; i++) {  \n      var infos = locations[i][0]\n      var telNo = locations[i][2]\n      var lat = locations[i][3]\n      var long = locations[i][4]\n      var add =  locations[i][5]\n\n      latlngset = new google.maps.LatLng(lat, long);\n\n      var markerHosp = new google.maps.Marker({\n        position: latlngset,\n        map: map,\n        icon: pinImage,\n        title: infos,\n        shadow: pinShadow\n      });\n        \n\n      var content = \"<h4>Πληροφορίες: </h4>\" + infos  + \"<h4>Τηλέφωνο επικοινωνίας: </h4>\" + telNo + \"<h4>Διεύθυνση: </h4> \" + add;   \n\n      var infowindow = new google.maps.InfoWindow()\n\n      google.maps.event.addListener(markerHosp, 'click',(function(markerHosp, content, infowindow){\n        return function(){\n          infowindow.setContent(content);\n          infowindow.open(map,markerHosp);\n        };\n      })(markerHosp,content,infowindow));\n   }//end of for()\n  } //end of setMarkers func\n\n  function setMarkersYpe(map,locationsYpe){\n\n    var markerYpe, i\n\n    for (i = 0; i < locationsYpe.length; i++) {  \n      var infos = locationsYpe[i][0]\n      var telNo = locationsYpe[i][2]\n      var onlineSite = locationsYpe[i][3]\n      var lat = locationsYpe[i][4]\n      var long = locationsYpe[i][5]\n      var add =  locationsYpe[i][1]\n\n      latlngset = new google.maps.LatLng(lat, long);\n\n      var markerYpe = new google.maps.Marker({\n        position: latlngset,\n        map: map,\n        icon: pinImage2,\n        title: infos,\n        shadow: pinShadow2\n      });\n        \n      var content =  \"<h4>\" + infos + \"</h4>\"  + \"<h4>Τηλέφωνο επικοινωνίας: </h4>\" + telNo + \"<h4>Διεύθυνση: </h4> \" + add + \"<h4>Ιστότοπος: </h4>\" + onlineSite;   \n\n      var infowindow = new google.maps.InfoWindow()\n\n      google.maps.event.addListener(markerYpe, 'click',(function(markerYpe, content, infowindow){\n        return function(){\n          infowindow.setContent(content);\n          infowindow.open(map,markerYpe);\n        };\n      })(markerYpe,content,infowindow));\n    }//end of for()\n  } //end of setMarkersYpe func\n\n  function setMarkersOfficial(map,locationsOfficial){\n    var markerOfficial, i\n\n    for (i = 0; i < locationsOfficial.length; i++) {  \n      var infos = locationsOfficial[i][0]\n      var telNo = locationsOfficial[i][2]\n      var onlineSite = locationsOfficial[i][3]\n      var lat = locationsOfficial[i][4]\n      var long = locationsOfficial[i][5]\n      var add =  locationsOfficial[i][1]\n\n      latlngset = new google.maps.LatLng(lat, long);\n\n      var markerOfficial = new google.maps.Marker({\n        position: latlngset,\n        map: map,\n        icon: pinImage3,\n        title: infos,\n        shadow: pinShadow3\n      });\n        \n      var content =  \"<h4>\" + infos + \"</h4>\"  + \"<h4>Τηλέφωνο επικοινωνίας: </h4>\" + telNo + \"<h4>Διεύθυνση: </h4> \" + add + \"<h4>Ιστότοπος: </h4>\" + onlineSite;   \n\n      var infowindow = new google.maps.InfoWindow()\n\n      google.maps.event.addListener(markerOfficial, 'click',(function(markerOfficial, content, infowindow){\n        return function(){\n          infowindow.setContent(content);\n          infowindow.open(map,markerOfficial);\n        };\n      })(markerOfficial,content,infowindow));\n    }//end of for()\n  } //end of setMarkersYpe func\n\n/* markers camps */\n  function setMarkersCamps(map,locationsCamps){\n    var markerCamp, i\n    for (i = 0; i < locationsCamps.length; i++) {  \n      var infos = locationsCamps[i][0]\n      var add =  locationsCamps[i][1]\n      var lat = locationsCamps[i][2]\n      var long = locationsCamps[i][3]\n      // var openGoogle = locationsCamps[i][4]\n\n      latlngset = new google.maps.LatLng(lat, long);\n\n      var markerCamp = new google.maps.Marker({\n        position: latlngset,\n        map: map,\n        icon: pinImage4,\n        title: infos,\n        shadow: pinShadow4\n\n      });\n     \n      var content = \"<h4>Πληροφορίες: </h4>\" + infos  + \"<h4>Διεύθυνση: </h4> \" + add + \"<p><a href=\"+\">open here</a></p>\";   \n\n      var infowindow = new google.maps.InfoWindow()\n\n      google.maps.event.addListener(markerCamp, 'click',(function(markerCamp, content, infowindow){\n        return function(){\n          infowindow.setContent(content);\n          infowindow.open(map,markerCamp);\n        };\n      })(markerCamp,content,infowindow));\n   }//end of for()\n  } //end of setMarkers func\n\n  function setMarkersOfficial(map,locationsOfficial){\n    var markerOfficial, i\n\n    for (i = 0; i < locationsOfficial.length; i++) {  \n      var infos = locationsOfficial[i][0]\n      var telNo = locationsOfficial[i][2]\n      var onlineSite = locationsOfficial[i][3]\n      var lat = locationsOfficial[i][4]\n      var long = locationsOfficial[i][5]\n      var add =  locationsOfficial[i][1]\n\n      latlngset = new google.maps.LatLng(lat, long);\n\n      var markerOfficial = new google.maps.Marker({\n        position: latlngset,\n        map: map,\n        icon: pinImage3,\n        title: infos,\n        shadow: pinShadow3\n      });\n        \n      var content =  \"<h4>\" + infos + \"</h4>\"  + \"<h4>Τηλέφωνο επικοινωνίας: </h4>\" + telNo + \"<h4>Διεύθυνση: </h4> \" + add + \"<h4>Ιστότοπος: </h4>\" + onlineSite;   \n\n      var infowindow = new google.maps.InfoWindow()\n\n      google.maps.event.addListener(markerOfficial, 'click',(function(markerOfficial, content, infowindow){\n        return function(){\n          infowindow.setContent(content);\n          infowindow.open(map,markerOfficial);\n        };\n      })(markerOfficial,content,infowindow));\n    }//end of for()\n  } //end of setMarkersYpe func\n\n/* markers supervisors */\n  function setMarkersSupers(map, locationsSupervisors){\n    var markerSuper, i\n    for (i = 0; i < locationsSupervisors.length; i++) {  \n      var infos = locationsSupervisors[i][0]\n      var add =  locationsSupervisors[i][1]\n      var telNo = locationsSupervisors[i][2]\n      var lat = locationsSupervisors[i][3]\n      var long = locationsSupervisors[i][4]\n\n      latlngset = new google.maps.LatLng(lat, long);\n\n      var markerSuper = new google.maps.Marker({\n        position: latlngset,\n        map: map,\n        icon: pinImage5,\n        title: infos,\n        shadow: pinShadow5\n      });\n        \n\n      var content = \"<h4>Πληροφορίες: </h4>\" + infos  + \"<h4>Διεύθυνση: </h4> \" + add + \"<h4>Τηλέφωνο: </h4>\" + telNo;   \n\n      var infowindow = new google.maps.InfoWindow()\n\n      google.maps.event.addListener(markerSuper, 'click',(function(markerSuper, content, infowindow){\n        return function(){\n          infowindow.setContent(content);\n          infowindow.open(map,markerSuper);\n        };\n      })(markerSuper,content,infowindow));\n   }//end of for()\n  } //end of setMarkers func\n\n  /* markers EKAV */\n  function setMarkersEKAV(map, locationsEKAV){\n    var markerEKAV, i\n    for (i = 0; i < locationsEKAV.length; i++) {  \n      var infos = locationsEKAV[i][0]\n      var add =  locationsEKAV[i][5]\n      var telNo = locationsEKAV[i][2]\n      var lat = locationsEKAV[i][3]\n      var long = locationsEKAV[i][4]\n\n      latlngset = new google.maps.LatLng(lat, long);\n\n      var markerEKAV = new google.maps.Marker({\n        position: latlngset,\n        map: map,\n        icon: pinImage6,\n        title: infos,\n        shadow: pinShadow6\n      });\n        \n      var content = \"<h4>Πληροφορίες: </h4>\" + infos  + \"<h4>Διεύθυνση: </h4> \" + add + \"<h4>Τηλέφωνο: </h4>\" + telNo;   \n\n      var infowindow = new google.maps.InfoWindow()\n\n      google.maps.event.addListener(markerEKAV, 'click',(function(markerEKAV, content, infowindow){\n        return function(){\n          infowindow.setContent(content);\n          infowindow.open(map,markerEKAV);\n        };\n      })(markerEKAV,content,infowindow));\n   }//end of for()\n  } //end of setMarkers func\n</script>\n</head>\n<body onload=\"initialize()\">\n<div id=\"default\" style=\"width:75vw; height:100vh;\"></div>\n<div id=\"legend\"><h4>Υπόμνημα</h4>\n  <div class=\"legend__item1\">\n    \n  </div>\n  <div class=\"legend__item2\">\n    \n  </div>\n</div>\n</body>\n</html>",
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/map.html",
+			"file_size": 45941,
+			"file_write_time": 131636858142779409,
+			"settings":
+			{
+				"buffer_size": 35717,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/css grid/index2.html",
+			"settings":
+			{
+				"buffer_size": 1742,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/css grid/grid.html",
+			"settings":
+			{
+				"buffer_size": 2503,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/css grid/index3.html",
+			"settings":
+			{
+				"buffer_size": 1306,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/css grid/index4.html",
+			"settings":
+			{
+				"buffer_size": 1318,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main.css",
+			"settings":
+			{
+				"buffer_size": 3257,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/asteras/main.css",
+			"settings":
+			{
+				"buffer_size": 479,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/asteras/myscript.js",
+			"settings":
+			{
+				"buffer_size": 1344,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/responsiveGalleryWithDirectionalAwareHover.html",
+			"settings":
+			{
+				"buffer_size": 446,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "// DOM Manipulation\n// function a(){\n// \tconsole.log(document.getElementById(\"title\"));\n// \tconsole.log(document instanceof HTMLDocument);\n// }\nfunction sayHello(){\n\tvar name =\n\t\tdocument.getElementById('name').value;\n\n\tvar msg = \"<h2>Hello \" + name + \"!</h2>\";\n\t// document.getElementById('content').textContent = msg;\n\tdocument.getElementById('content').innerHTML = msg;\n\n\tif (name === \"student\") {\n\t\tvar title = \n\t\t\t// document.getElementById('title');\n\t\t\tdocument.querySelector('#title').textContent;\n\t\ttitle += \" & Lovin' it\";\n\t\tdocument.querySelector('h1').textContent = title;\n\t}\n}\n",
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture52/mine/js/script.js",
+			"file_size": 610,
+			"file_write_time": 131632598455580276,
+			"settings":
+			{
+				"buffer_size": 589,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "// Event handling\ndocument.addEventListener(\"DOMContentLoaded\",\n  function (event) {\n    \n    function sayHello (event) {\n      this.textContent = \"Said it!\";\n      var name =\n       document.getElementById(\"name\").value;\n       var message = \"<h2>Hello \" + name + \"!</h2>\";\n\n      document\n        .getElementById(\"content\")\n        .innerHTML = message;\n\n      if (name === \"student\") {\n        var title = \n          document\n            .querySelector(\"#title\")\n            .textContent;\n        title += \" & Lovin' it!\";\n        document\n            .querySelector(\"h1\")\n            .textContent = title;\n      }\n    }\n\n    // Unobtrusive event binding\n    document.querySelector(\"button\")\n      .addEventListener(\"click\", sayHello);\n\n  }\n);\n\n\n\n// document.querySelector(\"button\")\n//   .onclick = sayHello;\n\n\n\n\n",
+			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture54/js/script.js",
+			"file_size": 816,
+			"file_write_time": 131635980084597604,
+			"settings":
+			{
+				"buffer_size": 816,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/webpush/push-notifications/app/scripts/main.js",
+			"settings":
+			{
+				"buffer_size": 3667,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/2.html",
+			"settings":
+			{
+				"buffer_size": 47501,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "<div id=\"photo-container-en\" style=\"display: inlin"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Desktop/philos_blog.xml",
+			"settings":
+			{
+				"buffer_size": 18654,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Desktop/philos-blog_item.php",
+			"settings":
+			{
+				"buffer_size": 3749,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Desktop/COM_CONTENT_BLOG/1.txt",
+			"settings":
+			{
+				"buffer_size": 70,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "/public_html/joomla4/templates/g5_hydrogen/html/co"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2773,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/philos17/Dropbox/sublime files/CFF/2nd#112/main.css",
+			"settings":
+			{
+				"buffer_size": 2218,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "script.js",
+			"settings":
+			{
+				"buffer_size": 206,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 221.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 101.0,
+		"history":
+		[
+			"npm install -g '@angular/core'",
+			"npm install -g @angular/core"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/philos17/Avocarrot",
+		"/C/Users/philos17/ACTest/avocarrotTest",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/project",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/project/img"
+	],
+	"file_history":
+	[
+		"/C/Users/philos17/Dropbox/sublime files/CFF/2nd#112/pull 10 04 18/index2.html",
+		"/C/Users/philos17/Dropbox/sublime files/1.html",
+		"/C/Users/philos17/Dropbox/sublime files/CFF/2nd#112/pull 10 04 18/cff-gh-pages/cff-gh-pages/index.html",
+		"/C/Users/philos17/Dropbox/sublime files/CFF/2nd#112/pull 10 04 18/favicon.ico",
+		"/C/Users/philos17/Dropbox/sublime files/CFF/2nd#112/index.html",
+		"/C/Users/philos17/Dropbox/sublime files/CFF/otontetab",
+		"/C/Users/philos17/Desktop/manifest.json",
+		"/C/Users/philos17/Dropbox/sublime files/CFF/2nd#112/script.js",
+		"/C/Users/philos17/Dropbox/sublime files/webpush/push-notifications/app/sw.js",
+		"/C/Users/philos17/Dropbox/sublime files/CFF/2nd#112/pull 10 04 18/parallax.png",
+		"/C/Users/philos17/Dropbox/sublime files/CFF/2nd#112/pull 10 04 18/README.md",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture59/after/css/bootstrap.css",
+		"/C/Users/philos17/Dropbox/sublime files/asteras/copy2.html",
+		"/C/Users/philos17/Dropbox/sublime files/asteras/cff",
+		"/C/Users/philos17/Dropbox/sublime files/main.css",
+		"/C/Users/philos17/Dropbox/sublime files/index.html",
+		"/C/Users/philos17/Desktop/COM_CONTENT_BLOG/blog_item.php",
+		"/C/Users/philos17/Desktop/COM_CONTENT_BLOG/blog.php",
+		"/C/Users/philos17/Desktop/COM_CONTENT_BLOG/blog_children.php",
+		"/C/Users/philos17/Desktop/COM_CONTENT_BLOG/blog.xml",
+		"/C/Users/philos17/Desktop/oledata.mso",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/AnimatedRedialMenu/css/fontawesome-all.css",
+		"/C/Users/philos17/my-reddit/my-reddit/node_modules/express/lib/router/route.js",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/AnimatedRedialMenu/animatedRedialMenu.html",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/animatedRedialMenu.html",
+		"/C/Users/philos17/Dropbox/sublime files/webpush/push-notifications/app/index.html",
+		"/C/Users/philos17/Dropbox/sublime files/webpush/push-notifications/app/styles/index.css",
+		"/C/Users/philos17/Desktop/sw.js",
+		"/C/Users/philos17/Dropbox/sublime files/license/Apache License 2.0.txt",
+		"/C/Users/philos17/Desktop/locationsCamps.json",
+		"/C/Users/philos17/Dropbox/sublime files/linksOneTab.txt",
+		"/C/Users/philos17/Dropbox/sublime files/douleia/lastCustom.css",
+		"/C/Users/philos17/Sync/επικαιροποίηση χάρτη/mapUpdateENMine.html",
+		"/C/Users/philos17/Desktop/nani.html",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture52/mine/index.html",
+		"/C/Users/philos17/Sync/επικαιροποίηση χάρτη/originalEN.html",
+		"/C/Users/philos17/Sync/επικαιροποίηση χάρτη/dummy.html",
+		"/C/Users/philos17/Sync/επικαιροποίηση χάρτη/CourseraExample/app.js",
+		"/C/Users/philos17/Sync/επικαιροποίηση χάρτη/CourseraExample/script2.js",
+		"/C/Users/philos17/Sync/επικαιροποίηση χάρτη/CourseraExample/script1.js",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/project/img/Iceland1.jpg",
+		"/C/Users/philos17/Downloads/1.html",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/HTML-CSS-JS--module2-solved/css/mystyles.css",
+		"/C/Users/philos17/Sync/images/enimerosi-purosvestiki-kato-milia/labelsEN.txt",
+		"/C/Users/philos17/Dropbox/sublime files/MyGit/Solved-module2-CourseraHTMLCSSJS/licence.txt",
+		"/C/Users/philos17/Dropbox/sublime files/maps/2.1.html",
+		"/C/Users/philos17/Dropbox/sublime files/maps/2-1.html",
+		"/C/Users/philos17/Desktop/1.html",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/project/img/desert-1.jpg",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/project/img/bicycle-1.jpg",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/project/js/scripts.js",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/directional-gallery/js/main.js",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/directional-gallery/css/normalize.css",
+		"/C/Users/philos17/Desktop/2.html",
+		"/C/Users/philos17/Sync/images/emvoliasmoi-Filippiada/2upload/labelsEN.txt",
+		"/C/Users/philos17/Desktop/4.html",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/SocialBtns/index.html",
+		"/C/Users/philos17/Desktop/3.html",
+		"/C/Users/philos17/my-reddit/my-reddit/node_modules/typescript/lib/lib.esnext.asynciterable.d.ts",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture46/js/script.js",
+		"/C/xampp/htdocs/phpSandbox/dbInstructions.txt",
+		"/C/xampp/htdocs/phpSandbox/OOP.php",
+		"/C/Users/philos17/Desktop/dummy.html",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/canvasExample.html",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/images.html",
+		"/C/Users/philos17/Desktop/dummyp.html",
+		"/C/xampp/htdocs/phpSandbox/website7-FileSystem/index.php",
+		"/C/xampp/htdocs/index.php",
+		"/C/xampp/htdocs/phpSandbox/website1/contact.php",
+		"/C/xampp/htdocs/phpSandbox/website1/about.php",
+		"/C/xampp/htdocs/phpSandbox/website1/inc/header.php",
+		"/C/xampp/htdocs/phpSandbox/website1/inc/footer.php",
+		"/C/xampp/htdocs/phpSandbox/website1/index.php",
+		"/C/xampp/htdocs/phpSandbox/string_functions.php",
+		"/C/xampp/htdocs/phpSandbox/website4-sessions/page1.php",
+		"/C/xampp/htdocs/phpSandbox/arrays.php",
+		"/C/xampp/htdocs/phpSandbox/website6-PHPAJAX/index.php",
+		"/C/xampp/htdocs/phpSandbox/website5-cookies/page2.php",
+		"/C/xampp/htdocs/phpSandbox/website7-FileSystem/file2.txt",
+		"/C/xampp/htdocs/phpSandbox/website7-FileSystem/file1.txt",
+		"/C/xampp/htdocs/phpSandbox/website6-PHPAJAX/suggest.php",
+		"/C/xampp/htdocs/phpSandbox/website4-sessions/page2.php",
+		"/C/xampp/htdocs/phpSandbox/get_post.php",
+		"/C/xampp/htdocs/phpSandbox/website5-cookies/page1.php",
+		"/C/xampp/htdocs/phpSandbox/website5-cookies/page3.php",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/YeomanAndMore/package.json",
+		"/C/xampp/htdocs/phpSandbox/filters.php",
+		"/C/xampp/htdocs/phpSandbox/websiteInfoServerClient/index.php",
+		"/C/xampp/phpMyAdmin/config.inc.php",
+		"/C/Users/philos17/Sync/images/episkepsi_klimakio_EE/pressRelease/labels.txt",
+		"/C/xampp/htdocs/phpSandbox/website4-sessions/page4.php",
+		"/C/xampp/htdocs/phpSandbox/website4-sessions/page3.php",
+		"/C/Users/philos17/Sync/images/enimerosi_Schisto/labels",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture45/js/script.js",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture45/index.html",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture44/js/script.js",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/MathRandom.html",
+		"/C/Users/philos17/Desktop/dummypGR.html",
+		"/C/Users/philos17/finalIonic/ExampleRSSReader/package.json",
+		"/C/Users/philos17/finalIonic/ExampleRSSReader/src/app/app.html",
+		"/C/Users/philos17/history.txt",
+		"/C/Users/philos17/finalIonic/ExampleRSSReader/node_modules/@ionic/app-scripts/bin/ionic-app-scripts.js",
+		"/C/Users/philos17/finalIonic/ExampleRSSReader/node_modules/.bin/ionic-app-scripts",
+		"/C/Users/philos17/finalIonic/ExampleRSSReader/node_modules/@ionic/app-scripts/package.json",
+		"/C/Users/philos17/finalIonic/ExampleRSSReader/node_modules/@ionic/app-scripts/bin/ion-dev.css",
+		"/C/Users/philos17/finalIonic/ExampleRSSReader/node_modules/@ionic/app-scripts/bin/ion-dev.js",
+		"/C/xampp/htdocs/phpSandbox/websiteInfoServerClient/server-info.php",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/VertHorCentered/index.html",
+		"/C/xampp/htdocs/phpSandbox/websiteInfoServerClient/1.html",
+		"/C/xampp/htdocs/phpSandbox/websiteInfoServerClient/logoPhilosLink.html",
+		"/C/Users/philos17/AppData/Roaming/Sublime Text 3/Packages/Phpcs/phpcs.sublime-settings",
+		"/C/xampp/htdocs/phpSandbox/conditionalsComparisons.php",
+		"/C/xampp/htdocs/phpSandbox/variables.php",
+		"/C/xampp/htdocs/phpSandbox/loops.php",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/SocialBtns/main.css",
+		"/C/Users/philos17/Sync/images/enimerosi_Schisto/labels.txt",
+		"/C/Users/philos17/Desktop/history.txt",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/animatedSocialBtns/animatedSocialBtns.html",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/animatedSocialBtns/main.css",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/Preloader/jquery-3.2.1.js",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/Preloader/preloader.html",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture46/dummy.html",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/css grid/index3.html",
+		"/C/Users/philos17/testAvocarrot/src/app/app.component.ts",
+		"/C/Users/philos17/testAvocarrot/src/app/app.module.ts",
+		"/C/Users/philos17/Downloads/Bug Off!_files/jquery.js",
+		"/C/Users/philos17/Downloads/Bug Off!_files/imagesloaded.min.js",
+		"/C/Users/philos17/Downloads/Bug Off!_files/cookies.js"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			";\n",
+			"display: table-row;",
+			"qlip-jumbotron",
+			"722872",
+			"relat",
+			"display: table-row;",
+			"<layout title=\"COM_CONTENT_CATEGORY_VIEW_BLOG_TITLE\" option=\"COM_CONTENT_CATEGORY_VIEW_BLOG_OPTION\">\n        <help key = \"JHELP_MENUS_MENU_ITEM_ARTICLE_CATEGORY_BLOG\" />",
+			"width",
+			"table-row",
+			"onSer",
+			"updatesu",
+			"subscribe(",
+			"'",
+			"]",
+			"[",
+			"locationsCamps",
+			"setMarkersSup",
+			"locationsSupervisors",
+			"lege",
+			"iconsL",
+			"hospitalsEKAV",
+			"iconsL",
+			"icons",
+			"legen",
+			"locationsEKAV",
+			"locationsSupervisors",
+			"YPE",
+			"Mit",
+			"mit",
+			"locationsEKAV",
+			"ekav",
+			"hospitalsEKA",
+			"hospitalsEKAV",
+			"ττικ",
+			"νιτ",
+			"όνιτσα",
+			"Νικολάου",
+			"Βέροιας",
+			"Δράμα",
+			"Χαλκίδα",
+			"Αγίας",
+			"Λάρι",
+			"Λαμία",
+			"Ρόδο",
+			"icons",
+			"legend",
+			"pinImage5",
+			"χί",
+			"Λάρισα",
+			"χί",
+			"υποδο",
+			"κυτ",
+			"Κόνιτ",
+			"νδρα",
+			"κουτσ",
+			"ρρε",
+			"Κέντρο",
+			"ΚΥΤ",
+			"υτιλ",
+			"άρτα",
+			"ρτα",
+			"ρτ",
+			"ρτα",
+			"Χατζηκ",
+			"ροια",
+			"Βέροια",
+			"Πέλλ",
+			"Βέροιας",
+			"570 ",
+			"630",
+			"λκιδ",
+			"αβάλα",
+			"ννηματ",
+			"γεννηματ",
+			"ατερίνη",
+			"Λαγκαδά",
+			"Διαβατών",
+			"διαβατ",
+			"ροιας",
+			"τιλήνη",
+			"ηχανι",
+			"μας",
+			"τιλήνη",
+			"ίου",
+			"μεταξ",
+			"βαδ",
+			"display: table-row",
+			"<div class=\"photo-container-row\" style=\"display: table-row;\">",
+			"display: table-row;",
+			"display: table-row",
+			"display: table-row;",
+			"/MyMedia/pdfs/apotelesmata-17-10-17/",
+			"display: table-row;",
+			"display: table-row",
+			"filippiada",
+			"display: table-row;",
+			"table-row",
+			"table-row;",
+			"isplay: table-row",
+			"email",
+			"display: table-row;",
+			"display: table-row",
+			"forea",
+			"mail(",
+			",",
+			"');",
+			"ionic/app-scripts\"",
+			"app-scr",
+			"lege",
+			"Root",
+			"lik",
+			"rde",
+			"ele",
+			"http",
+			"φυτ",
+			"σιλικ",
+			"βασιλ",
+			"δελ",
+			"κορδε",
+			"λευσ",
+			"ελευσ",
+			"χίο",
+			";\">\"",
+			"photo-container-row",
+			"<div class=\"photo-container-row\" style=\"display: table-row;\">",
+			"<div class=\"photo-container-row-en\" style=\"display: table-row;\">",
+			"\t\n",
+			"pass"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"4fd6dd",
+			"\"",
+			"}",
+			"{",
+			"/MyMedia/pdfs/prosorina-apotelesmata-4441-1-12-2017/",
+			"\", \"",
+			", \"",
+			"jpg",
+			"images/MyMedia/pdfs/apotelesmata-17-10-17/",
+			"",
+			"<!--div class=\"photo-container-row\" style=\"display: table-row;\"-->",
+			"animation-iteration-count: 1",
+			"animation-iteration-count: 4",
+			"rainKF",
+			"thumbs-gallery be-a-row-sm be-a-row-md be-a-row-lg",
+			"display: table-cell; margin: 2vw;",
+			"",
+			"display: table-cell",
+			"",
+			"margin: 2vw;",
+			"margin: 0.2vw",
+			"/2016",
+			"/2016 - ",
+			"/2017",
+			"/2017 - ",
+			"</a></td>\n<td style=\"width: 290px; padding: 5px; text-align: left;\">",
+			"<td style=\"padding: 5px; text-align: left;\">",
+			"\"http://dimitranikim2.sg-host.com/joomla3/index.php/images/MyMedia/pdfs/epidimi",
+			"/2016",
+			"/2016 - ",
+			"/2017",
+			"/2017 - ",
+			"/** - ",
+			"><",
+			"<td></td><td></td><td><a href=\"images",
+			"<td>",
+			")</a></td></tr>",
+			"<tr><td style=\"font-size: 16px; list-style-type: square; margin: 8px;\"><a href=\"images/MyMedia/pdfs/epidimiologyGR/",
+			"width: 120px; height: 120px;",
+			"style=\"width: 150px; height: 150px;",
+			"<figcaption><hr />",
+			"/><figcaption></figcaption>",
+			"0, 0, 0.1);\" /></figcaption>",
+			"y}</figure></p>",
+			"<figure><img ",
+			"to_sosto_plisimο",
+			"hover-sitemap",
+			"active-sitemap",
+			"lang=\"EN\"",
+			"images/MyMedia/pdfs/informative/trainingEN",
+			"Centre",
+			"urlBase",
+			"Δομή Φιλοξενίας προσφύγων / μεταναστών",
+			"Χώρος Φιλοξενίας",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "C:\\Users\\philos17\\Avocarrot"
+		},
+		{
+			"path": "C:\\Users\\philos17\\testAvocarrot"
+		},
+		{
+			"path": "C:\\Users\\philos17\\ACTest\\avocarrotTest"
+		},
+		{
+			"path": "C:\\Users\\philos17\\Dropbox\\sublime files\\tuts\\Coursera-HTML-CSS-JS"
+		},
+		{
+			"path": "C:\\xampp\\htdocs\\phpSandbox"
+		},
+		{
+			"path": "C:\\Users\\philos17\\my-reddit"
+		},
+		{
+			"path": "C:\\Users\\philos17\\Dropbox\\sublime files\\tuts\\responsiveGalleryWithDirectionalAwareHover"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/bird-flying.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 500,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								460,
+								460
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 54,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/philos17/Downloads/mapFixed.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25544,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13194,
+								13194
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 96.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 36,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/philos17/Dropbox/sublime files/maps/mapLinks.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								574,
+								574
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 56.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/css grid/css-grid-house.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 602,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								602,
+								602
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 257.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/philos17/Dropbox/sublime files/2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 47501,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								641,
+								641
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/philos17/Dropbox/sublime files/2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 47501,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 38,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/philos17/Dropbox/sublime files/3.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 44616,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								44616
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<div id=\"photo-container\" style=\"display: inline-t",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 37,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/philos17/Dropbox/sublime files/courseraTest.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								151,
+								151
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 42.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 35,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/philos17/Sync/επικαιροποίηση χάρτη/mapUpdateMine.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 35545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64,
+								64
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 33,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Users/philos17/Sync/επικαιροποίηση χάρτη/original.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25988,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25988,
+								25988
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8427.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 34,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/KN_OS/translation.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2673,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2141,
+								2141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1260.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 55,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/MathRandom.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5280,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								5280
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 51,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/MathRandomTest.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								708,
+								708
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 107.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 63,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture44/bugs.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 81,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								73,
+								73
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 52,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/C/Users/philos17/Desktop/mapWithChoice.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19031,
+								19034
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 454.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 62,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/C/Users/philos17/Desktop/MathRandom.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5389,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								221,
+								221
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 58,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/C/Users/philos17/Desktop/history.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								134
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 44,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/C/xampp/htdocs/phpSandbox/website8-mysql/dbInstructions.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 603,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								603,
+								603
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 56,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "/C/xampp/htdocs/phpSandbox/website8-mysql/posts.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 796,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 57,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "/C/Users/philos17/Desktop/2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 40349,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 566.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 50,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "/C/xampp/htdocs/phpSandbox/websiteInfoServerClient/logoPhilosLink.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 641,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								213,
+								213
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 60,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/history.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 148,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								148,
+								148
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 61,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "/C/xampp/htdocs/phpSandbox/website8-mysql/config/db.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 415,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								317,
+								317
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 59,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/bugs/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 539,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								316,
+								316
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 53,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "/C/Users/philos17/Desktop/dummyIrini2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3908,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 49,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/bugs/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3349,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1453,
+								1751
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/project/responsiveGalleryWithDirectionalAwareHover.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2711,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								609,
+								609
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 76.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 46,
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "/C/Users/philos17/Dropbox/sublime files/asteras/menu.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4651,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								479,
+								479
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/project/css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1728,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1369,
+								1369
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1159.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 45,
+					"type": "text"
+				},
+				{
+					"buffer": 29,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/project/js/scripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2085,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2076,
+								2076
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 476.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 40,
+					"type": "text"
+				},
+				{
+					"buffer": 30,
+					"file": "/C/Users/philos17/Dropbox/sublime files/MyGit/githubInstructions.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								684,
+								624
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 39,
+					"type": "text"
+				},
+				{
+					"buffer": 31,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/YeomanAndMore/instructions.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								170,
+								170
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 47,
+					"type": "text"
+				},
+				{
+					"buffer": 32,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/YeomanAndMore/gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4737,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								55,
+								55
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 48,
+					"type": "text"
+				},
+				{
+					"buffer": 33,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-AngularJS/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 28,
+					"type": "text"
+				},
+				{
+					"buffer": 34,
+					"file": "/C/Users/philos17/Downloads/Bug Off!_files/ScrollMagic.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 104189,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6305,
+								6305
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2058.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 41,
+					"type": "text"
+				},
+				{
+					"buffer": 35,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture46/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 165,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								165,
+								165
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 32,
+					"type": "text"
+				},
+				{
+					"buffer": 36,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture52/js/script1.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 254,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								254,
+								254
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 31,
+					"type": "text"
+				},
+				{
+					"buffer": 37,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture46/js/script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 822,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								565,
+								565
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 42,
+					"type": "text"
+				},
+				{
+					"buffer": 38,
+					"file": "/C/Users/philos17/Dropbox/sublime files/maps/2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26398,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3183,
+								3183
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 43,
+					"type": "text"
+				},
+				{
+					"buffer": 39,
+					"file": "/C/Users/philos17/Desktop/githubInstructions.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1336,
+								1336
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 210.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 29,
+					"type": "text"
+				},
+				{
+					"buffer": 40,
+					"file": "/C/Users/philos17/Dropbox/sublime files/alma/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11,
+								11
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 30,
+					"type": "text"
+				},
+				{
+					"buffer": 41,
+					"file": "/C/Users/philos17/Desktop/map.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25544,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								535,
+								535
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 27.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 42,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 43,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 586,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								586,
+								586
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/*",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 28.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 44,
+					"file": "/C/Users/philos17/Dropbox/sublime files/license/license.pdf",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 36473,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 26,
+					"type": "text"
+				},
+				{
+					"buffer": 45,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/map.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 35717,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1306,
+								1306
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 202.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 46,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/css grid/index2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1742,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 168.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 47,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/css grid/grid.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2503,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 48,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/css grid/index3.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1306,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 49,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/css grid/index4.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1318,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 50,
+					"file": "main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1101,
+								1101
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 873.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 51,
+					"file": "/C/Users/philos17/Dropbox/sublime files/asteras/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 479,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								336,
+								336
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 52,
+					"file": "/C/Users/philos17/Dropbox/sublime files/asteras/myscript.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1344,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1269,
+								1282
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 544.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 53,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/responsiveGalleryWithDirectionalAwareHover.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 446,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								446,
+								446
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 54,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture52/mine/js/script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 589,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								383,
+								383
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 126.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 27,
+					"type": "text"
+				},
+				{
+					"buffer": 55,
+					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture54/js/script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 816,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								166,
+								166
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 56,
+					"file": "/C/Users/philos17/Dropbox/sublime files/webpush/push-notifications/app/scripts/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3667,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3658,
+								3658
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 48.0,
+						"translation.y": 1291.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 57,
+					"file": "/C/Users/philos17/Dropbox/sublime files/2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 47501,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<div id=\"photo-container-en\" style=\"display: inlin",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 58,
+					"file": "/C/Users/philos17/Desktop/philos_blog.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18654,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								274,
+								274
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 59,
+					"file": "/C/Users/philos17/Desktop/philos-blog_item.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3749,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2370,
+								2370
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 120.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 60,
+					"file": "/C/Users/philos17/Desktop/COM_CONTENT_BLOG/1.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 70,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/public_html/joomla4/templates/g5_hydrogen/html/co",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 61,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2773,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1519,
+								1519
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 686.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 62,
+					"file": "/C/Users/philos17/Dropbox/sublime files/CFF/2nd#112/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2218,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								590,
+								590
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 330.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 63,
+					"file": "script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.50878477306,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.489441930618,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 240.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

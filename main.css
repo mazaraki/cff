@@ -15,6 +15,15 @@ nav {
 	height: 20.4vh;
 }
 
+li > a.nav-link {
+	border: #4fd6dd 1px solid;
+	background-color: white;
+}
+
+li > a.nav-link:hover {
+	font-size: 3vh;
+}
+
 a > img[title~="qlip"] {
 	position: fixed;
 	/*left: 13vw; /*177px*/
@@ -29,6 +38,89 @@ a > img[title~="qlip"] {
 	-ms-webkit-transition: width 2s;
 	-o-webkit-transition: width 2s;
 	webkit-transition: width 2s;
+}
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1010;
+	top: 0;
+	left: 0;
+	background-color: #4fd6dd;
+	overflow-x: hidden;
+	padding-top: 3vh;
+	transition: .5s;
+}
+
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 10rem;
+	color: white;
+	display: block;
+	transition: .3s;
+}
+
+.sidenav a::hover {
+	color: #f1f1f1;
+}
+
+a.links {
+	font-size: 200%;
+	/*cursor: url('infinity.png'), auto;*/
+}
+
+span i {
+	position: absolute;
+	left: 30%;
+}
+
+.sidenav .closeBtn {
+	position: absolute;
+	top: -1rem;
+	right: 2vw;
+	font-size: 3rem;
+	margin-left: 50px;
+	-webkit-transform: scale(1.0) rotate(180deg);	
+	-moz-transform: scale(1.0) rotate(180deg);	
+	-o-transform: scale(1.0) rotate(180deg);	
+	-ms-transform: scale(1.0) rotate(180deg);	
+	transform: scale(1.0) rotate(180deg);	
+}
+
+#mainContainer {
+	-webkit-transition: margin-left .5s ;
+	-moz-webkit-transition: margin-left .5s ;
+	-ms-webkit-transition: margin-left .5s ;
+	-o-webkit-transition: margin-left .5s ;
+	transition: margin-left .5s ;
+	padding: 20px;
+}
+
+header {
+	position: fixed;
+	background-color: #4fd6dd;
+}
+
+#logo {
+	height: 7%;
+	width: 7%;
+
+
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+
+	.sidenav a {
+		font-size: 10px;
+	}
+}
+
+span[onclick~="open"] {
+	/*border: */
 }
 
 #nebulla-jumbotron {
@@ -75,23 +167,20 @@ div.container {
 	top: 2vh;*/
 }
 
-#btn-1, #btn-2, #btn-3 {
+/*#btn-1, #btn-2, #btn-3 {
 	border-radius: 0;
 }
 
 .active {
-	/*background-color: #EFEFEF;*/
+	background-color: #EFEFEF;
 	background-color: white !important;
 	color: white;
-}
+}*/
 
 /*#btn-1:hover, #btn-2:hover, #btn-3:hover {
 	box-shadow: 0.15rem 0.15rem 0.15rem #4fd6dd;
 }*/
 
-#glip-jumbotron {
-	
-}
 
 iframe {
 	position: absolute;
