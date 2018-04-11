@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Nebulla - A web (and more) developer's portfolio</title>
+    <title>Moebius - A web (and more) developer's portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="DM">
+    <meta name="author" content="Dimitra Mazaraki">
     <!-- favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	  <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -28,7 +28,7 @@
     <header>
       <span></span>
       <span onclick="openNav();"><!-- Menu --><i class="fas fa-bars"></i></span>
-      <span><a href="#"><img id="logo" src="infinity.png" alt=""></a></span>
+      <span id="top"><a href="#"><img id="logo" src="infinity.png" alt=""></a></span>
     </header>
   </div> <!-- end .container -->
     <!-- <div id="mainContainer"></div> --><!-- end of #mainContainer -->
@@ -57,10 +57,31 @@
 	</div> <!-- end #nebulla-jumbotron -->
 
 	<footer class="footer">
-		<div id="to-top">
-      <i class="fas fa-chevron-up">
-        <a href="#top" clickable></a>
-      </i>
+    <div>
+      <div class=""></div>
+      <div id="contact" class="">
+        <form action="/contact_form_php" method="POST">
+          <h4>Contact me</h4>
+          <div class="form-group">
+            <label for="fname">Your name</label>
+            <input id="fname" name="full-name" type="text" placeholder="My name is..." required>
+          </div>
+          <div class="form-group">
+            <label for="email">Your name</label>
+            <input id="email" name="email" type="email" placeholder="My e-mail is..." required>
+          </div>
+          <div class="form-group">
+            <label for="msg">Your message</label>
+            <textarea id="msg" name="messageArea" required></textarea>
+          </div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, cum.</form>
+      </div>
+      <div class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, perferendis.</div>
+  		<div id="to-top" class="">
+        <i class="fas fa-chevron-up">
+          <a href="#top" clickable></a>
+        </i>
+      </div>
     </div>
 	</footer>	
 	</body>
