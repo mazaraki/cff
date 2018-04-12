@@ -64,17 +64,21 @@ a > img#logo.tinyLogo {
 	height: 5.6vh;
 }
 
+
+
+
 .sidenav {
 	height: 100%;
-	width: 0;
+	width: 15vw;
 	position: fixed;
 	z-index: 1010;
 	top: 0;
-	left: 0;
+	left: -1vw;
 	background-color: #4fd6dd;
 	overflow-x: hidden;
 	padding-top: 3vh;
 	transition: .5s;
+	border-right: 10px solid black;
 }
 
 .sidenav a {
@@ -86,8 +90,9 @@ a > img#logo.tinyLogo {
 	transition: .3s;
 }
 
-.sidenav a::hover {
-	color: #f1f1f1;
+.sidenav a:hover {
+	/*color: #f1f1f1;*/
+	color: black;
 }
 
 a.links {
@@ -158,6 +163,13 @@ header.tiny {
 	.sidenav a {
 		font-size: 10px;
 	}
+
+	.fa-bars {
+		font-size: 1rem;
+		left: 1.5rem;
+		top: .6rem;
+
+	}
 }
 
 span[onclick~="open"] {
@@ -199,13 +211,13 @@ div.container {
 	width: 2rem;
     left: 13vw;
 }
-
+/*
 #navbarSupportedContent {
 	position: fixed;
-	left: 39vw; /*534px;*/
+	left: 39vw; 534px;
 	top: 12vh;
 	/*left: 66.2vw; 177px
-	top: 2vh;*/
+	top: 2vh;*
 }
 
 /*#btn-1, #btn-2, #btn-3 {
@@ -240,9 +252,9 @@ footer {
 	z-index: 1002;
 }
 
-footer.tinyFooter {
+footer.bigFooter {
 	top: 10vh;
-	border-top: solid 2px black;
+	border-top: solid 10px black;
 	-webkit-transition: top 5s ;
 	-moz-webkit-transition: top 1s ;
 	-ms-webkit-transition: top 1s ;
@@ -251,11 +263,12 @@ footer.tinyFooter {
 }
 
 footer > div {
-	display: table;
+	display: grid;
+	grid-template-columns: 1fr 2fr 2fr 1fr;
 }
 
 footer > div > div {
-	display: table-cell;
+	/*display: table-cell;*/
 	padding: 1rem;
 }
 
@@ -277,6 +290,55 @@ footer > div > div {
 	/*display: none;*/
 	top: 2%;
 }
+
+form > .grid-container {
+	display: grid;
+	position: absolute;
+	left: 28vw;
+	grid-template-rows: auto;
+	grid-row-gap: 2vw;
+}
+
+.form-group {
+	display: inline-grid;
+	grid-template-columns: 2fr 3fr;
+}
+
+.form-group input, .form-group textarea {
+	width: 12vw;
+	background-color: #4fd6dd;
+	border: 1px solid #4fd6dd;
+	border-bottom: 2px solid black;
+	border-bottom-left-radius: 6px;
+}
+
+.form-group button {
+	width: 12vw;
+	background: #4fd6dd;
+	border: 2px solid black;
+	border-radius: 8px;
+	color: black;
+}
+
+.form-group button:hover {
+	background: black;
+	border: black;
+}
+
+.msg {
+	/*grid-column-start: 1;*/
+	/*grid-column-end: 3;*/
+}
+
+/*.form-group {
+	display: table-row;
+	margin: 10px;
+}*/
+/*
+.form-group > label, .form-group > input {
+	display: table-cell;
+}*/
+
 /*i {
 	position: absolute;
 	font-size: 10rem;

@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"inlin",
+				"inline-grid"
+			],
+			[
+				"grid-row",
+				"grid-row-gap"
+			],
+			[
+				"grid-c",
+				"grid-column-end"
+			],
+			[
+				"grid-co",
+				"grid-column-start"
+			],
+			[
+				"scrol",
+				"scrolledFa"
+			],
+			[
+				"fa",
+				"fa-chevron-up"
+			],
+			[
+				"scro",
+				"scrollBottom"
+			],
+			[
 				"form",
 				"form-group"
 			],
@@ -66,10 +98,6 @@
 			[
 				"trans",
 				"transition"
-			],
-			[
-				"fa",
-				"fa-2x"
 			],
 			[
 				"is",
@@ -428,10 +456,6 @@
 				"text-align"
 			],
 			[
-				"inlin",
-				"inline-block"
-			],
-			[
 				"inl",
 				"inline-block"
 			],
@@ -490,30 +514,6 @@
 			[
 				"over",
 				"overflow-x"
-			],
-			[
-				"javascr",
-				"javascript"
-			],
-			[
-				"cont",
-				"container"
-			],
-			[
-				"pos",
-				"position"
-			],
-			[
-				"align",
-				"align-items"
-			],
-			[
-				"col",
-				"col-lg-3"
-			],
-			[
-				"location",
-				"location"
 			]
 		]
 	},
@@ -760,7 +760,6 @@
 			"settings":
 			{
 				"buffer_size": 2711,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -783,12 +782,14 @@
 			"settings":
 			{
 				"buffer_size": 1728,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
+			"contents": "// $('#gallery').imagesLoaded(function(){\n// \t$('#spinner').fadeOut(500, function(){\n// \t\t$('#gallery').animate({'opacity' : '1'}, 500);\n// \t});\n// });\n\n// Calculate the direction of the mouse and return it as a string\n//in order to add the appropriate class\nvar getDir = function(elem, e) {\n\t/* the width and height of the current div */\n\tvar w = elem.width();\n\tvar h = elem.height();\n\tvar offset = elem.offset();\n\n\t/*Calculate the x and y to get an angle to the center\n\t  of the div from that x and gets the x value relative\n\t  to the center of the DIV and \"normalize\" it*/\n\t  var x = (e.pageX - offset.left - (w/2)) * (w > h ? (h/w) : 1);\n\t  var y = (e.pageY - offset.top - (h/2)) * (h > w ? (w/h) : 1);\n \n\t  /* first calculate the angle of the point, add 180 degrees \n\t     to get rid of the negative values, divide by 90 to get \n\t     the quadrant, add 3 and do a modulo by 4 to shift the \n\t     quadrants to a propere clockwise TRBL (top, right, bottom, left) */\n\t  var direction = Math.round((((Math.atan (y, x) * (180 / Math.PI)) + 180) / 90) + 3) % 4;\n\n\t  /** return the direction */\n\t  switch(direction){\n\t  \tcase 0:\n\t  \t\treturn 'top';\n\t  \t\tbreak;\n\t  \tcase 1:\n\t  \t\treturn 'right';\n\t  \t\tbreak;\n\t  \tcase 2:\n\t  \t\treturn 'bottom';\n\t  \t\tbreak;\n\t  \tcase 3:\n\t  \t\treturn 'left';\n\t  \t\tbreak;\n\n\t  }\n}\n\n/** add and remove classes from images */\n/* In order to do it properly for the transition to work, add \nanimated class after the directional class. set Time out for this*/\n// setTimeout(function(){\n// \t$(img).addClass(\"animated\");\n// }, 1);\n\n\n/**Put it all together */\nvar lastDirection;\n\n$(function(){\n\t$('#gallery').imagesLoaded(function(){\n\t\t$('#spinner').fadeOut(500, function(){\n\t\t\t$('#gallery').animate({'opacity' : '1'}, 500);\n\t\t});\n\t});\n\n\t$('.gallery-img').bind('mouseenter', function(e){\n\t\tvar img = this;\n\n\t\tlastDirection = getDir($(this), e);\n\t\t$(img).addClass(lastDirection);\n\n\t\tsetTimeout(function(){\n\t\t\t$(img).addClass(\"animated\");\n\t\t}, 1);\n\t});\n\n\t$('.gallery-img').bind('mouseleave', function(e){\n\t\t$(this).removeClass(lastDirection).removeClass('animated');\n\t});\n});",
 			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/project/js/scripts.js",
+			"file_size": 2161,
+			"file_write_time": 131600681103873712,
 			"settings":
 			{
 				"buffer_size": 2085,
@@ -985,7 +986,7 @@
 			"file": "main.css",
 			"settings":
 			{
-				"buffer_size": 4398,
+				"buffer_size": 5324,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -1092,7 +1093,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3761,
+				"buffer_size": 4339,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -1110,7 +1111,7 @@
 			"file": "script.js",
 			"settings":
 			{
-				"buffer_size": 1261,
+				"buffer_size": 1928,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -1178,7 +1179,6 @@
 		"/C/Users/philos17/ACTest/avocarrotTest",
 		"/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS",
 		"/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4",
-		"/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master",
 		"/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover",
 		"/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/project",
 		"/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/project/img"
@@ -1330,6 +1330,15 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"butto",
+			"moeb",
+			"neb",
+			"tinyFo",
+			"oter",
+			"fa",
+			"tiny",
+			"fa",
+			"tin",
 			"foote",
 			"tiny",
 			"header",
@@ -1448,16 +1457,7 @@
 			"ele",
 			"http",
 			"φυτ",
-			"σιλικ",
-			"βασιλ",
-			"δελ",
-			"κορδε",
-			"λευσ",
-			"ελευσ",
-			"χίο",
-			";\">\"",
-			"photo-container-row",
-			"<div class=\"photo-container-row\" style=\"display: table-row;\">"
+			"σιλικ"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1658,8 +1658,8 @@
 						"selection":
 						[
 							[
-								602,
-								602
+								579,
+								579
 							]
 						],
 						"settings":
@@ -1668,7 +1668,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 309.0,
+						"translation.y": 364.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
@@ -3007,15 +3007,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4398,
+						"buffer_size": 5324,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2481,
-								2481
+								4908,
+								4913
 							]
 						],
 						"settings":
@@ -3024,7 +3024,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2075.0,
+						"translation.y": 4374.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -3333,15 +3333,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3761,
+						"buffer_size": 4339,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3126,
-								3126
+								3828,
+								3828
 							]
 						],
 						"settings":
@@ -3351,7 +3351,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1610.0,
+						"translation.y": 1670.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -3398,15 +3398,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1261,
+						"buffer_size": 1928,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1258,
-								1261
+								1752,
+								1752
 							]
 						],
 						"settings":
@@ -3416,7 +3416,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 533.0,
+						"translation.y": 495.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -3493,13 +3493,13 @@
 		"cols":
 		[
 			0.0,
-			0.50878477306,
+			0.252443968915,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.489441930618,
+			0.520545651936,
 			1.0
 		]
 	},
@@ -3546,7 +3546,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 2,
+	"selected_group": 0,
 	"settings":
 	{
 	},

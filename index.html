@@ -33,24 +33,24 @@
   </div> <!-- end .container -->
     <!-- <div id="mainContainer"></div> --><!-- end of #mainContainer -->
 
-  	<div id="nebulla-jumbotron" class="jumbotron">
-      <div class="parallax-start"></div>
-      <div class="container">
-  			<h1 class="display-3">Hello, world!</h1>
-  			<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  			<hr class="my-4">
-  			<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  			<p class="lead">
-  				<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-  			</p>
-  			<div>
-  				<p id="about"></p>
-  				<br><br><br>
-  				<p id="portfolio"></p>
-  				<br><br><br><br>
-  				<p id="contact"></p>
-  			</div>
-  		</div> <!-- end of .container -->
+  <div id="nebulla-jumbotron" class="jumbotron">
+    <div class="parallax-start"></div>
+    <div class="container">
+  		<h1 class="display-3">Hello, world!</h1>
+  		<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  		<hr class="my-4">
+  		<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  		<p class="lead">
+  			<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  		</p>
+  		<div>
+  			<p id="about"></p>
+  			<br><br><br>
+  			<p id="portfolio"></p>
+  			<br><br><br><br>
+  			<p id="contact"></p>
+  		</div>
+  	</div> <!-- end of .container -->
       <!-- <iframe src="https://www.linkedin.com/">
       </iframe> -->
       <div class="parallax"></div>
@@ -58,23 +58,31 @@
 
 	<footer class="footer">
     <div>
-      <div class=""></div>
-      <div id="contact" class="">
-        <form action="/contact_form_php" method="POST">
+      <div class=""><br></div>
+      <div id=" " class="">
+        <form id="moebius-form" action="/contact_form_php" method="POST">
+          <!-- @TODO: make visible when footer tiny the contact line and make it a href -->
           <h4>Contact me</h4>
-          <div class="form-group">
-            <label for="fname">Your name</label>
-            <input id="fname" name="full-name" type="text" placeholder="My name is..." required>
+          <div class="grid-container">
+            <div class="form-group">
+              <!-- <label for="fname">Your name</label> -->
+              <input id="fname" name="full-name" type="text" placeholder="My name is..." required>
+            </div>
+            <div class="form-group">
+              <!-- <label for="email">Your email</label> -->
+              <input id="email" name="email" type="email" placeholder="My e-mail is..." required>
+            </div>
+            <div class="form-group msg">
+              <!-- <label for="msg">Your message</label> -->
+              <textarea id="msg" name="messageArea" placeholder="My message is..." required></textarea>
+            </div>
+            <div class="form-group">
+              <!-- @TODO: add active class for on click with bootstrap and then change it with pure CSS -->
+              <!-- @TODO: check onetab : https://www.one-tab.com/page/wOrwS4-tRtCSWChZTCKUEA -->
+              <button id="submitBtn" class="btn btn-success" type="button" form="moebius-form" formmethod="post" role="button" name="Submit">Submit</button>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="email">Your name</label>
-            <input id="email" name="email" type="email" placeholder="My e-mail is..." required>
-          </div>
-          <div class="form-group">
-            <label for="msg">Your message</label>
-            <textarea id="msg" name="messageArea" required></textarea>
-          </div>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, cum.</form>
+        </form>
       </div>
       <div class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, perferendis.</div>
   		<div id="to-top" class="">
