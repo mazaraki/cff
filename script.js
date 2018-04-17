@@ -7,6 +7,12 @@ function closeNav(){
   document.getElementById("nebulla-sideNav").style.width = "0";
 }
 
+function makeVisibleFooter() {
+  document.querySelector('footer').classList.add('bigFooter');
+  // document.querySelector('footer').classList.remove('bigFooter');
+
+}
+
 /* TODO: navbar logo resize and left on scroll*/
 // not working with parallax
 // window.onscroll = function() {

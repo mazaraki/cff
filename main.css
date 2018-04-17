@@ -244,7 +244,7 @@ iframe {
 
 footer {
 	position: fixed;
-	top: 95vh;
+	top: 93vh;
 	bottom: 0;
 	background-color: #4fd6dd;
 	width: 100%;
@@ -277,6 +277,7 @@ footer > div > div {
 	width: 5rem;
 	position: absolute;
 	font-size: 2rem;
+	color: black;
 	/*border: white solid 4px;*/
 	/*background-color: white;*/
 	/*border-radius: 50%;*/
@@ -284,6 +285,37 @@ footer > div > div {
 	/*right: 45px;*/
 	/*top: 10%;*/
 	/*margin-left: 4vw;*/
+}
+
+.fa-chevron-up:hover {
+	/*color: white;*/
+	font-size: 	2.2rem;
+	-webkit-transform: scale(0.9);
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform: scale(0.9);
+	-moz-transform-origin: 50% 50%;
+	-o-transform: scale(0.9);
+	-o-transform-origin: 50% 50%;
+	-ms-transform: scale(0.9);
+	-ms-transform-origin: 50% 50%;
+	transform: scale(0.9);
+	transform-origin: 50% 50%;
+}
+
+
+.hoverContact:hover {
+	cursor: url('infinitycur.cur', pointer);
+	font-size: 	110%;
+	-webkit-transform: scale(0.9);
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform: scale(0.9);
+	-moz-transform-origin: 50% 50%;
+	-o-transform: scale(0.9);
+	-o-transform-origin: 50% 50%;
+	-ms-transform: scale(0.9);
+	-ms-transform-origin: 50% 50%;
+	transform: scale(0.9);
+	transform-origin: 50% 50%;
 }
 
 .scrolledFa {

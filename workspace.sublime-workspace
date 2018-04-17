@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"clo",
+				"closeNav"
+			],
+			[
+				"Traing",
+				"Training"
+			],
+			[
 				"pad",
 				"padding-left"
 			],
@@ -506,14 +514,6 @@
 			[
 				"lar",
 				"larger"
-			],
-			[
-				"padd",
-				"padding"
-			],
-			[
-				"over",
-				"overflow-x"
 			]
 		]
 	},
@@ -556,29 +556,44 @@
 			}
 		},
 		{
-			"file": "/C/Users/philos17/Dropbox/sublime files/2.html",
+			"file": "/C/Users/philos17/Sync/images/iom-keelpno-training/2upload/labels.txt",
 			"settings":
 			{
-				"buffer_size": 47501,
+				"buffer_size": 266,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
+			"contents": "<div id=\"photo-container\" style=\"display: inline-table;\">\n<div class=\"photo-container-row\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--  iom - keelpno ekpaideftikes imerides -->\n<p>{gallery id=iom-keelpno-gallery labels=labels layout=hidden width=200 height=300}MyMedia/announcements/IOM-KEELPNO{/gallery}{gallery link=iom-keelpno-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/IOM-KEELPNO-thumb.jpg\" alt=\"Εκπαιδευτική ημερίδα για το προσωπικό της ΥΠΥΤ Προστατεύοντας τα παιδιά στο πλαίσιο της προσφυγικής και μεταναστευτικής κρίσης στην Ευρώπη\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"https://philosgreece.eu/el/news/announcements/prostateuontas-ta-paidia-sto-plaisio-tis-prosfugikis-kai-metanasteutikis-krisis-stin-europi\" target=\"_self\">Εκπαιδευτική ημερίδα για το προσωπικό της ΥΠΥΤ «Προστατεύοντας τα παιδιά στο πλαίσιο της προσφυγικής και μεταναστευτικής κρίσης στην Ευρώπη»</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--  study tour in turkey  -->\n<p>{gallery id=periodeia-meletis-turkey-gallery layout=hidden width=200 height=300}MyMedia/announcements/periodia-meletis-stin-tourkia{/gallery}{gallery link=periodeia-meletis-turkey-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/periodia-meletis-stin-tourkia-thumb.jpg\" alt=\"Περιοδεία μελέτης για μετανάστευση και υγεία\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/announcements/periodia-meletis-gia-metanasteusi-kai-ugeia\" target=\"_self\">Περιοδεία μελέτης για μετανάστευση και υγεία</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--  draseis Skaramagkas  -->\n<p>{gallery id=skaramagkas-draseis layout=hidden width=200 height=300}MyMedia/snapshots/skaramagkas-draseis{/gallery}{gallery link=skaramagkas-draseis}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/skaramagkas-actions-thumb.jpg\" alt=\"Δράσεις του PHILOS στον Σκαραμαγκά\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/draseis-philos-skaramangas\" target=\"_self\">Δράσεις του PHILOS στον Σκαραμαγκά</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- emvoliasmos Koutsohero 2  -->\n<p>{gallery id=emvoliasmos-Koutsohero-2-gallery layout=hidden width=200 height=300}MyMedia/snapshots/Koutsohero-vaccinations{/gallery}{gallery link=emvoliasmos-Koutsohero-2-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Koutsohero-vaccination-thumb.jpg\" alt=\"Εμβολιασμός στο Κουτσόχερο\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/vaccination-at-koutsohero\" target=\"_self\">Εμβολιασμοί στο Κουτσόχερο</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- kopi pita Filippiada  -->\n<p>{gallery id=kopi-pita-filippiada-gallery layout=hidden width=200 height=300}MyMedia/snapshots/kopi-pitas-filippiada{/gallery}{gallery link=kopi-pita-filippiada-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/filippiada-kopi-pitas-thumb.jpg\" alt=\"Κοπή πίτας στη δομή φιλοξενίας Φιλιππιάδας\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/kopi-pitas-filippiada\" target=\"_self\">Κοπή πίτας στη δομή φιλοξενίας Φιλιππιάδας</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- 5i YPE vasilopita  -->\n<p>{gallery id=5i-YPE-vasilopita-gallery layout=hidden width=200 height=300}MyMedia/snapshots/kopi-pitas-YPE-5{/gallery}{gallery link=5i-YPE-vasilopita-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/kopi-pitas-5-YPE-thumb.jpg\" alt=\"Κοπή πίτας στην 5η ΥΠΕ\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/kopi-pitas-5-ype\" target=\"_self\">Κοπή πίτας στην 5η ΥΠΕ</a></figcaption></figure>\n</div>\n</div>\n<div class=\"photo-container-row\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- Schisto vasilopita  -->\n<p>{gallery id=schisto-vasilopita-gallery layout=hidden width=200 height=300}MyMedia/snapshots/kopi-vasilopitas-schisto{/gallery}{gallery link=schisto-vasilopita-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/PHILOS-vasilopita-Schisto-thumb.jpg\" alt=\"Κοπή βασιλόπιτας στο Σχιστό\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/kopi-vasilopitas-schisto\" target=\"_self\">Κοπή βασιλόπιτας στο Σχιστό</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- Kato Milia askisi purosvestikis -->\n<p>{gallery id=kato-milia-drasi-purosvestikis-gallery labels=labels layout=hidden width=200 height=300}MyMedia/snapshots/enimerosi-purosvestiki-kato-milia{/gallery}{gallery link=kato-milia-drasi-purosvestikis-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/enimerosi-purosvestiki-kato-milia-thumb.jpg\" alt=\"Δράση της πυροσβεστικής στην Κάτω Μηλιά\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/drasi-tis-purosvestikis-kato-milia\" target=\"_self\">Δράση της πυροσβεστικής στην Κάτω Μηλιά</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- Schisto sterees trofes -->\n<p>{gallery id=Schisto-sterees-trofes-gallery layout=hidden width=200 height=300}MyMedia/snapshots/Schisto-sterees-trofes{/gallery}{gallery link=Schisto-sterees-trofes-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Schisto-sterees-trofes-thumb.jpg\" alt=\"Εισαγωγή στερεών τροφών στη βρεφική ηλικία\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/eisagogi-stereon-trofon-sti-vrefiki-ilikia\" target=\"_self\">Εισαγωγή στερεών τροφών στη βρεφική ηλικία</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- emvoliasmoi Koutsohero -->\n<p>{gallery id=emvoliasmoi-koutsohero-gallery layout=hidden width=200 height=300}MyMedia/snapshots/emvoliasmoi-Koutsohero{/gallery}{gallery link=emvoliasmoi-koutsohero-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvoliasmoi-Koutsohero-thumb.jpeg\" alt=\"Εμβολιαστική δράση στο Κουτσόχερο\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/emvoliastiki-drasi-sto-koutsohero\" target=\"_self\">Εμβολιαστική δράση στο Κουτσόχερο</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- emvoliasmoi Filippiada -->\n<p>{gallery id=filippiada-emvoliasmoi-gallery labels=labels layout=hidden width=200 height=300}MyMedia/snapshots/emvoliasmos-Filippiada{/gallery}{gallery link=filippiada-emvoliasmoi-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvoliasmos-Filippiada-thumb.jpg\" alt=\"Εμβολιασμοί στη δομή φιλοξενίας Φιλιππιάδας\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr />Εμβολιασμοί στη δομή φιλοξενίας Φιλιππιάδας</figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- lagkadikia dikaiomata ton paidion -->\n<p>{gallery id=lagkadikia-dikaiomata-paidion-gallery layout=hidden width=200 height=300}MyMedia/snapshots/lagkadikia-enimerosi-dikaiomata-paidiou{/gallery}{gallery link=lagkadikia-dikaiomata-paidion-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/lagkadikia-dikaiomata-paidiou-thumb.jpg\" alt=\"Δικαιώματα των παιδιών και οικογένεια\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/dikaiomata-ton-paidion-kai-oikogeneia\" target=\"_self\">Δικαιώματα των παιδιών και οικογένεια</a></figcaption></figure>\n</div>\n</div>\n<div class=\"photo-container-row\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--seminario msf -->\n<p>{gallery id=seminar-msf-gallery layout=hidden width=200 height=300}MyMedia/announcements/seminar-MsF{/gallery}{gallery link=seminar-msf-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/seminar-MsF-thumb.jpg\" alt=\"Σεμινάριο για την ψυχική υγεία των προσφύγων\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/announcements/seminario-gia-tin-psuxiki-ugeia-ton-prosfugon\" target=\"_self\">Σεμινάριο για την ψυχική υγεία των προσφύγων</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--emvoliasmoi diavata -->\n<p>{gallery id=diavata-emvoliasmoi-gallery layout=hidden width=200 height=300}MyMedia/snapshots/emvoliasmoi-diavata{/gallery}{gallery link=diavata-emvoliasmoi-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvoliasmos-diavata-thumb.jpg\" alt=\"Εμβολιασμοί στα Διαβατά\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/emvoliasmoi-sta-diavata\" target=\"_self\">Εμβολιασμοί στα Διαβατά</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--kiniti monada serres emvoliasmos -->\n<p>{gallery id=serres-kiniti-monada-gallery layout=hidden width=200 height=300}MyMedia/snapshots/Serres-emvoliasmos-kiniti-monada{/gallery}{gallery link=kiniti-monada-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/kiniti-monada-serres-PHILOS-thumb.jpg\" alt=\"Εμβολιασμοί στο κέντρο φιλοξενίας Σερρών\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/emvoliasmoi-sto-kentro-filoxenias-serron\" target=\"_self\">Εμβολιασμοί στο κέντρο φιλοξενίας Σερρών</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--episkepsi klimakio evropaikis epitropis -->\n<p>{gallery id=episkepsi-klimakio-gallery labels=labels layout=hidden width=200 height=300}MyMedia/snapshots/episkepsi-klimakiou-europaiki-epitropi{/gallery}{gallery link=episkepsi-klimakio-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/episkepsi-klimakiou-thumb.jpg\" alt=\"Eπίσκεψη κλιμακίου ευρωπαϊκή επιτροπή\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/press-releases/episkepsi-klimakiou-evropaikis-epitropis-philos\" target=\"_self\">Επίσκεψη κλιμακίου της Ευρωπαϊκής Επιτροπής (ΕΕ) στο πλαίσιο του προγράμματος PHILOS</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--diatrofi vrefi Schisto -->\n<p>{gallery id=Schisto-diatrofi-vrefi-gallery layout=hidden width=200 height=300}MyMedia/snapshots/Schisto-vrefiki-diatrofi{/gallery}{gallery link=Schisto-diatrofi-vrefi-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/schisto-vrefiki-diatrofi-thumb.jpg\" alt=\"Στερεά τροφή και βρεφική ηλικία στο Σχιστό\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/sterea-trofi-kai-vrefiki-ilikia\" target=\"_self\">Στερεά τροφή και βρεφική ηλικία</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--mitrikos thilasmos Schisto -->\n<p>{gallery id=mitrikos-thilasmos-Schisto-gallery layout=hidden width=200 height=300}MyMedia/snapshots/mitrikos-thilasmos-Schisto{/gallery}{gallery link=mitrikos-thilasmos-Schisto-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/mitrikos-thilasmos-schisto-thumb.jpg\" alt=\"Παρουσίαση για τον μητρικό θηλασμό\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/parousiasi-mitrikos-thilasmos\" target=\"_self\">Παρουσίαση για τον μητρικό θηλασμό</a></figcaption></figure>\n</div>\n</div>\n<div class=\"photo-container-row\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--emvoliasmoi Thermopulae-Volos-Trikala -->\n<p>{gallery id=vacc-Thermo-Volos-Trikala-gallery layout=hidden width=200 height=300}MyMedia/snapshots/emvoliasmoi-kentra-filoxenias/photos{/gallery}{gallery link=vacc-Thermo-Volos-Trikala-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvol-Therm-Trik-Volos.jpg\" alt=\"PHILOS εμβολιασμοί σε κέντρα φιλοξενίας σε Θερμοπύλες Τρίκαλα και Βόλο\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/announcements/emvoliasmoi-philos-kentra-filoxenias\" target=\"_self\">Εμβολιασμοί του PHILOS σε κέντρα φιλοξενίας</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--Mitilini PHILOS seminaria -->\n<p>{gallery id=Mitilini-seminar-gallery layout=hidden width=200 height=300}MyMedia/seminaria/seminario-mitilini-eualototita{/gallery}{gallery link=Mitilini-seminar-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Mitilini-seminaria-thumb.jpg\" alt=\"PHILOS Σεμινάριο στη Μυτιλήνη\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr /><a href=\"el/news/announcements/seminaria-protokollo-eualototita-sexoualiki-anaparagogiki-ugeia\" target=\"_self\">Σεμινάρια στο Πρωτόκολλο της Ευαλωτότητας και της Σεξουαλικής και Αναπαραγωγικής Υγείας</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--lagadikia prolipsi karkinou mastou -->\n<p>{gallery id=Lagkadikia-prolipsi-karkinou-gallery layout=hidden width=200 height=300}MyMedia/snapshots/lagkadikia-prolipsi-karkinos-mastou{/gallery}{gallery link=Lagkadikia-prolipsi-karkinou-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Lagkadikia-prolipsi-mastou.JPG\" alt=\"PHILOS και πρόληψη καρκίνου μαστού\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr /><a href=\"el/news/snapshots/philos-prolipsi-karkinou-mastou\" target=\"_self\">PHILOS και πρόληψη του καρκίνου του μαστού</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--episkepsi medipiet sxisto -->\n<p>{gallery id=Schisto-medipiet-gallery layout=hidden width=200 height=300}MyMedia/snapshots/Schisto-Medipiet{/gallery}{gallery link=Schisto-medipiet-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/medipiet_Schisto_thumbs.jpg\" alt=\"PHILOS Σχιστό επίσκεψη επαγγελματιών υγείας\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr /><a href=\"el/news/snapshots/episkepsi-epaggelmation-ugeias-sto-plaisio-tou-medipiet\" target=\"_self\">Επίσκεψη επαγγελματιών υγείας στο πλαίσιο του MediPIET</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--anatoliko aigaio -->\n<p>{gallery id=Anat_Aigaio_gallery labels=labelsF layout=hidden width=200 height=300}MyMedia/snapshots/AnatolikoAigaio{/gallery}{gallery link=Anat_Aigaio_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Moria_thumb.jpg\" alt=\"PHILOS Ανατολικό Αιγαίο\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr />Το PHILOS στο Ανατολικό Αιγαίο</figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--epanemvoliasmos schisto -->\n<p>{gallery id=emvoliasmos_Schisto_gallery labels=labels layout=hidden width=200 height=300}MyMedia/snapshots/emvoliasmos_Schisto{/gallery}{gallery link=emvoliasmos_Schisto_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvoliasmos_Schisto_thumb.jpg\" alt=\"Επαναληπτικός εμβολιασμός Σχιστό\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/epanaliptikos-emvoliasmos-sto-schisto\" target=\"_self\">Επαναληπτικός εμβολιασμός στο Σχιστό</a></figcaption>{/gallery}</figure>\n</div>\n</div>\n<div class=\"photo-container-row\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--anakoinosi suskepsis prosfugiko -->\n<p>{gallery id=suskepsi_gallery layout=hidden width=200 height=300}MyMedia/announcements/suskepsi-PHILOS.JPG{/gallery}{gallery link=suskepsi_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/suskepsi-PHILOS_thumbs.JPG\" alt=\"Σύσκεψη για το προσφυγικό και το πρόγραμμα PHILOS\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/announcements/siskepsi-gia-to-prosfugiko-kai-to-programma-philos\" target=\"_self\">Σύσκεψη για το προσφυγικό και το πρόγραμμα PHILOS</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--derveni emvoliasmoi-->\n<p>{gallery id=derveni_emvoliasmoi_gallery layout=hidden width=200 height=300}MyMedia/snapshots/emvoliasmos_Derveni{/gallery}{gallery link=derveni_emvoliasmoi_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/vaccination_derveni_thumb.jpg\" alt=\"Εμβολιασμοί του PHILOS στο Δερβένι\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/emvoliasmos-sto-kentro-filoxenias-derveniou\" target=\"_self\">Εμβολιασμός στο κέντρο φιλοξενίας Δερβενίου</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--skaramagkas + elefsina emvoliasmoi-->\n<p>{gallery id=skaramagkas_elefsina_emvoliasmoi_gallery layout=hidden width=200 height=300}MyMedia/snapshots/Elefsina_Skaramagkas_vaccination{/gallery}{gallery link=skaramagkas_elefsina_emvoliasmoi_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvoliasmos_Elefsina_Skaramagkas.jpg\" alt=\"Εμβολιασμοί του PHILOS σε Ελευσίνα και Σκαραμαγκά\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/emvoliasmoi-tou-philos-se-elefsina-kai-skaramagka\" target=\"_self\">Εμβολιασμοί του PHILOS σε Ελευσίνα και Σκαραμαγκά</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--skaramagkas + elefsina-->\n<p>{gallery id=skaramagkas_elefsina_gallery layout=hidden width=200 height=300}MyMedia/snapshots/Thiva_Skaramagkas_Elefsina{/gallery}{gallery link=skaramagkas_elefsina_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvoliastiki_katagrafi_thumb.jpg\" alt=\"Η κινητή μονάδα του PHILOS εν δράσει\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/i-kiniti-monada-tou-philos-en-drasei\" target=\"_self\">Η κινητή μονάδα του PHILOS εν δράσει</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--enimerosi gia kausona se sxisto + elefsina -->\n<p>{gallery id=schisto-elefsina-kausonas-gallery labels=labels layout=hidden width=200 height=300}MyMedia/snapshots/Schisto-Elefsina-kausonas{/gallery}{gallery link=schisto-elefsina-kausonas-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Schisto-Elefsina-kausonas.jpg\" alt=\"Ενημέρωση για τον καύσωνα σε Σχιστό και Ελευσίνα\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/to-philos-enimeronei-gia-ton-kausona\" target=\"_self\">Το PHILOS ενημερώνει για τον καύσωνα</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--diavata snapshots-->\n<p>{gallery id=diavata_snapshots_myGallery layout=hidden width=200 height=300}MyMedia/snapshots/stigmiotupa-Diavata-8-8-2017{/gallery}{gallery link=diavata_snapshots_myGallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Diavata_enimerosi_kounoupia_thumb.jpg\" alt=\"Στιγμιότυπα από τα Διαβατά\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/stigmiotupa-apo-diavata\" target=\"_self\">Στιγμιότυπα από τα Διαβατά</a></figcaption>{/gallery}</figure>\n</div>\n</div>\n<div class=\"photo-container-row\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--diavata oik programmatismos-->\n<p>{gallery id=diavata_oik_programmatismos_gallery layout=hidden width=200 height=300}MyMedia/snapshots/11-7-2017_Diavata_oik_programmatismos{/gallery}{gallery link=diavata_oik_programmatismos_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Diavata_safe_space3_thumb.jpg\" alt=\"Οικογενειακός προγραμματισμός και cash card στα Διαβατά\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/oikogeneiakos-programmatismos-kai-cash-card\" target=\"_self\">Οικογενειακός προγραμματισμός και cash card</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--alexandria protes voithies -->\n<p>{gallery id=alexandria_protes_voithies_gallery layout=hidden width=200 height=300}MyMedia/snapshots/alexandria_imathias_protes_voithies{/gallery}{gallery link=alexandria_protes_voithies_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/alexandria_protes_voithies3_thumb.jpg\" alt=\"Ενημέρωση για την παροχή πρώτων βοηθειών\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/enimerosi-gia-tin-paroxi-proton-voithion\" target=\"_self\">Ενημέρωση για την παροχή πρώτων βοηθειών</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--Kordelio + Diavata seminario-->\n<p>{gallery id=kordelio_diavata_mmpi_gallery labels=labels layout=hidden width=200 height=300}MyMedia/snapshots/31-7-2017_Kordelio-Diavata_mmpi2{/gallery}{gallery link=kordelio_diavata_mmpi_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/psychologists_mmpi2_thumb.jpeg\" alt=\"Σεμινάριο ψυχολόγων Κορδελιού και Διαβατών\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/seminario-sto-mmpi-2\" target=\"_self\">Σεμινάριο στο MMPI-2</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--Kordelio puroprostasia-->\n<p>{gallery id=kordelio_purosvesi_gallery layout=hidden width=200 height=300}MyMedia/snapshots/31-7-2017_Kordelio-purosvestes{/gallery}{gallery link=kordelio_purosvesi_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/seminario_puroprostasias_thumb.jpeg\" alt=\"Σεμινάριο πυροπροστασίας στο Κορδελιό\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/seminario-puroprostasias-sto-kordelio\" target=\"_self\">Σεμινάριο πυροπροστασίας στο Κορδελιό</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--agogi ugeias Lagkadikia-->\n<p>{gallery id=lagkadikia_agogi_ugeias_gallery layout=hidden width=200 height=300}MyMedia/snapshots/31-7-2017_Lagkadikia-agogi-ugeias{/gallery}{gallery link=lagkadikia_agogi_ugeias_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/agogi_ugeias_sunergates_thumb.jpeg\" alt=\"Αγωγή υγείας στα Λαγκαδίκια\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/agogi-ugeias-sta-lagkadikia\" target=\"_self\">Αγωγή υγείας στα Λαγκαδίκια</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--veroia-draseis-->\n<p>{gallery id=veria_draseis_gallery layout=hidden width=200 height=300}MyMedia/snapshots/19-7-2017_Veria-vivliothiki-pana-afixeis-Vergina{/gallery}{gallery link=veria_draseis_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Veria_prosfora_vivlion_vivliothiki_thumb.jpg\" alt=\"Προσφορά βιβλίων από τη Δημόσια Κεντρική Βιβλιοθήκη Βέροιας\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/187-draseis-philos-sti-veria\" target=\"_self\">Δράσεις PHILOS στη Βέροια</a></figcaption>{/gallery}</figure>\n</div>\n</div>\n<div class=\"photo-container-row\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--derveni proagogi ugeias-->\n<p>{gallery id=derveni_proagogi_ugeias_gallery layout=hidden width=200 height=300}MyMedia/snapshots/19-7-2017_Derveni-kanones-ugieinis{/gallery}{gallery link=derveni_proagogi_ugeias_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Derveni_vasikoi_kanones_ugieinis1_thumb.jpg\" alt=\"Προαγωγή υγείας από το PHILOS στο Δερβένι\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/186-sunergasia-stin-proagogi-ugeias\" target=\"_self\">Συνεργασία στην προαγωγή υγείας</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--diavata nosileftes-->\n<p>{gallery id=diavata_nosileftes_gallery layout=hidden width=200 height=300}MyMedia/snapshots/5-6-2017_Diavata_nosileftiki{/gallery}{gallery link=diavata_nosileftes_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Diavata_nosileftiki_Galani_1_thumb.jpg\" alt=\"H Φρόσω Γαλάνη από το PHILOS\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/171-sunadelfoi-kata-ti-diarkeia-nosileftikis-praksis\" target=\"_self\">Συνάδελφοι κατά τη διάρκεια νοσηλευτικής πράξης</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- alexandria proetoimasia mamas-->\n<p>{gallery id=alexandria_proetoimasia_mamas_gallery layout=hidden width=200 height=300}MyMedia/snapshots/17-7-2017_Alexandria_proetoimasia_miteras_neognou{/gallery}{gallery link=alexandria_proetoimasia_mamas_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/alexandria_proetoimasia_neognou_thumb.jpg\" alt=\"Συνεργάτιδες του PHILOS προετοιμάζουν θήκες για τις μητέρες και τα νεογνά\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/185-praktika-kit-se-egkuous\" target=\"_self\">Πρακτικά κιτ σε εγκύους</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- diavata raptiki-->\n<p>{gallery id=diavata_raptiki_gallery layout=hidden width=200 height=300}MyMedia/snapshots/5-6-2017_Diavata_raptiki{/gallery}{gallery link=diavata_raptiki_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/5-6-2017_Diavata_raptiki/Diavata_raptiki3.jpg\" alt=\"Ελένη Σάββα από το PHILOS σε δραστηριότητα ραπτικής\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/167-summetoxi-se-drastiriotites-raptikis-diavata\" target=\"_self\">Συμμετοχή σε δραστηριότητες ραπτικής στα Διαβατά</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- diavata exetasi egguou + maies-->\n<p>{gallery id=diavata_exetasi_maia_gallery layout=hidden width=200 height=300}MyMedia/snapshots/4-7-2017_Diavata_maia_exetasi{/gallery}{gallery link=diavata_exetasi_maia_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/4-7-2017_Diavata_maia_exetasi/Diavata_exetasi_egguou1.jpg\" alt=\"Η συνεργάτιδα PHILOS Τίνα Ιωαννίδου σε μαιευτική εξέταση\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/172-oi-maies-tou-philos\" target=\"_self\">Οι μαίες του PHILOS</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- filippiada sunergates -->\n<p>{gallery id=filippiadaSunergatesgallery labels=labels layout=hidden width=200 height=300}MyMedia/snapshots/26-6-2017_Filippiada_sunergates{/gallery}{gallery link=filippiadaSunergatesgallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/26-6-2017_Filippiada_sunergates/Filippiada_Georgopoulou_Tziva.jpg\" alt=\"Κυρία Γεωργοπούλου και κυρία Τζίβα στη Φιλιππιάδα\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/166-stigmes-sunergaton-filippiada\" target=\"_self\">Στιγμές συνεργατών από τη Φιλιππιάδα</a></figcaption>{/gallery}</figure>\n</div>\n</div>\n<div class=\"photo-container-row\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- alexandria diatrofi-->\n<p>{gallery id=alexandriaDiatrofigallery layout=hidden width=200 height=300}MyMedia/snapshots/3-7-2017_Alexandria_enimerosi_diatrofis{/gallery}{gallery link=alexandriaDiatrofigallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/alexandria_enimerosi_paidia_diatrofi4_thumb.jpg\" alt=\"Ενημέρωση για τη διατροφή στην Αλεξάνδρεια Ημαθίας\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/165-enimerotiki-sunantisi-gia-ti-diatrofi-alexandria-imathias\" target=\"_self\">Ενημερωτική συνάντηση για τη διατροφή στην Αλεξάνδρεια Ημαθίας</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- Diavata epimorfosi-->\n<p>{gallery id=diavataEpimorfosigallery layout=hidden width=200 height=300}MyMedia/snapshots/5-6-2017_Diavata_epimorfosi{/gallery}{gallery link=diavataEpimorfosigallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Diavata_epimorfosi_Moisidou1_thumb.jpg\" alt=\"Η Στεφανία Μωυσίδου συμμετέχει σε επιμορφωτική ημερίδα\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/164-ekpaideutiki-imerida-ekpaideytikoi-dyep\" target=\"_self\">Επιμορφωτική ημερίδα για εκπαιδευτικούς των ΔΥΕΠ</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- Diavata odeio -->\n<p>{gallery id=diavataOdeiogallery layout=hidden width=200 height=300}MyMedia/snapshots/5-6-2017_Diavata_odeio{/gallery}{gallery link=diavataOdeiogallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Diavata_sunodia_odio4_thumb.jpg\" alt=\"Συνοδεία ανηλίκων στο ωδείο από συνεργάτες του PHILOS στα Διαβατά\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/163-diavata-sunodia-anilikon\" target=\"_self\">Διαβατά: Συνοδεία ανηλίκων στο ωδείο</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=kordelioEmvoliasmosgallery layout=hidden width=200 height=300}MyMedia/snapshots/3-7-2017_Kordelio_emvoliasmos{/gallery}{gallery link=kordelioEmvoliasmosgallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvoliasmoi_prosopikou_thumb.jpg\" alt=\"Εμβολιασμός του προσωπικού του PHILOS\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/161-emvoliasmos-prosopikou-philos\" target=\"_self\">Εμβολιασμός του προσωπικού του PHILOS</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=kordelioSxolikiGiortigallery layout=hidden width=200 height=300}MyMedia/snapshots/3-7-2017_Kordelio_sxoliki_giorti{/gallery}{gallery link=kordelioSxolikiGiortigallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/3-7-2017_Kordelio_sxoliki_giorti/sxoliki_giorti2.jpg\" alt=\"Λήξη της σχολικής χρονιάς στο κέντρο φιλοξενίας του Κορδελιού\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/159-liksi-sxolikis-xronias-kordelio\" target=\"_self\">Λήξη της σχολικής χρονιάς στο κέντρο φιλοξενίας του Κορδελιού</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=alexandriaMaiftesgallery labels=labels layout=hidden width=200 height=300}MyMedia/snapshots/alexandria_imathias_29-6-2017_maieftes{/gallery}{gallery link=alexandriaMaiftesgallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/eggumonousa_stin_alexandria_thumb.jpg\" alt=\"Δράση μαιευτών στην Αλεξάνδρεια Ημαθίας\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/155-drasi-ton-maifton-tou-philos-stin-alexandria\" target=\"_self\">Δράση των μαιευτών του PHILOS στην Αλεξάνδρεια</a></figcaption>{/gallery}</figure>\n</div>\n</div>\n<div class=\"photo-container-row\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=alexandriaEnimerosiSistimaYgeiasgallery labels=labels layout=hidden width=200 height=300}MyMedia/snapshots/alexandria_imathias_29-6-2017_enimerosi_sustima_ugeias{/gallery}{gallery link=alexandriaEnimerosiSistimaYgeiasgallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/enimerosi_sustima_ugeias_thumb.jpg\" alt=\"Ενημέρωση για το Εθνικό Σύστημα Υγείας από το PHILOS\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/153-enimerosi-gia-to-ethniko-sistima-ugeias\" target=\"_self\">Ενημέρωση για το Εθνικό Σύστημα Υγείας</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=Filippiada_sunergatides_gallery labels=labels layout=hidden width=200 height=300}MyMedia/snapshots/Filippiada_19-6-2017{/gallery}{gallery link=Filippiada_sunergatides_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/georgiamoulia_final_thumb.JPG\" alt=\"Η κυρία Μούλια με τις μικρές της φίλες\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/138-xairetismata-apo-to-kentro-filippiadas\" target=\"_self\">Χαιρετίσματα από το κέντρο της Φιλιππιάδας…</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=enimerosiPRAXISPHILOS_gallery layout=hidden width=200 height=300}MyMedia/snapshots/enimerosi_PHILOS_PRAXIS_19-6-2017{/gallery}{gallery link=enimerosiPRAXISPHILOS_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/enimerosi_PHILOS_praxis_1_thumb.jpg\" alt=\"Ενημέρωση από PHILOS και PRAKSIS\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/137-enimerosi-goneon-apo-philos-kai-praksis\" target=\"_self\">Ενημέρωση γονέων από PHILOS και PRAKSIS.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=alexandria_en_drasei_gallery layout=hidden labels=labels width=200 height=300}MyMedia/snapshots/alexandria_imathias_kliniki_7-6-2017{/gallery}{gallery link=alexandria_en_drasei_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/alexandria_imathias_kliniki_7-6-2017/alexandria-omada-sunergaton.jpg\" alt=\"Η ομάδα των συνεργατών στην Αλεξάνδρεια Ημαθίας\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/113-to-philos-en-drasei-stin-alexandria-imathias\" target=\"_self\">To PHILOS εν δράσει στην Αλεξάνδρεια Ημαθίας.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=veroia_kathimerinotita_gallery layout=hidden labels=labels width=200 height=300}MyMedia/snapshots/Veria_camp_kathimerinotita{/gallery}{gallery link=veroia_kathimerinotita_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/puzzle_thumb.jpg\" alt=\"Δραστηριότητα στο χώρο φιλοξενίας της Βέροιας\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/112-skines-apo-tin-kathimerinotita-sto-kentro-filoxenias-veroia\" target=\"_self\">Σκηνές από την καθημερινότητα στο κέντρο φιλοξενίας στη Βέροια.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=eleonas_emvoliasmos_gallery layout=hidden labels=labels-eleonas-emvoliasmos rows=1 width=200 height=300}MyMedia/snapshots/Eleonas_emvoliasmos{/gallery}{gallery link=eleonas_emvoliasmos_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvoliasmos_paidiou_Eleonas3_thumb.jpg\" alt=\"Εμβολιασμός παιδιών στο χώρο φιλοξενίας Ελαιώνα από το PHILOS\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr />\n<p>Ευχαριστούμε θερμά τη συνάδελφο Κατερίνα Τσέκου για το φωτογραφικό υλικό από τον Ελαιώνα.</p>\n</figcaption></figure>\n</div>\n</div>\n<div class=\"photo-container-row\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=ekpaideftiki_diimierida_thess_25_26_Maiou_gallery layout=hidden labels=labels width=200 height=300 rows=1}MyMedia/snapshots/Thess_ekpaidefsi_12_6_2017{/gallery}{gallery link=ekpaideftiki_diimierida_thess_25_26_Maiou_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/sunantisi-suntonistes-pediou_thumb.JPG\" alt=\"Συνάντηση με τους συντονιστές πεδίου στην εκπαιδευτική διημερίδα της Θεσσαλονίκης\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr />\n<p>Από την κα Μαρία Φωτεινέα, Υπεύθυνη Επικοινωνίας του προγράμματος PHILOS.</p>\n</figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=philos_helmsic_gallery layout=hidden labels=labels width=200 height=300 rows=1 cols=2}MyMedia/announcement-24-5-2017{/gallery}{gallery link=philos_helmsic_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/PHILOS_HelMSIC_1_thumb.JPG\" alt=\"Η Χρύσα Μπότση παρουσίασε τις δράσεις και την οργάνωση του προγράμματος PHILOS στη HelMSIC\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/announcements/103-to-philos-sunanta-tin-helmsic\" target=\"_self\">Το PHILOS συναντά την HelMSIC.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=yliko_tsekou_gallery layout=hidden labels=labels-tsekou rows=1 width=200 height=300}MyMedia/snapshots/tsekou-23-5-2017{/gallery}{gallery link=yliko_tsekou_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Koutsohero_sxoleio_1_thumb.jpg\" alt=\"Εικόνα από το σχολείο στο χώρο φιλοξενίας στο Κουτσόχερο\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr />\n<p>Ευχαριστούμε θερμά τη συνάδελφο Κατερίνα Τσέκου για το φωτογραφικό υλικό.</p>\n</figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=prosfygopoula_anazitontas_ti_xameni_anemelia_gallery layout=hidden labels=labels width=200 height=300}MyMedia/snapshots/Veria_camp_paixnidi{/gallery}{gallery link=prosfygopoula_anazitontas_ti_xameni_anemelia_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/Veria_camp_paixnidi/veroia_paidia_vivliothiki.PNG\" alt=\"Τα παιδιά παίζουν στο χώρο φιλοξενίας της Βέροιας\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/101-prosfugopoula-anazitontas-ti-xameni-anemelia\" target=\"_self\">Προσφυγόπουλα: Αναζητώντας τη χαμένη ανεμελιά.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=lagkadikia_dimosio_nipiagogio_gallery layout=hidden labels=labels rows=1 cols=4 width=200 height=300}MyMedia/snapshots/lagkadikiaNipiagogio{/gallery}{gallery link=lagkadikia_dimosio_nipiagogio_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/lagkadikiaNipiagogio/PHILOS_lagkadikia_puzzle.jpg\" alt=\"Εικόνα από το δημόσιο νηπιαγωγείο στο χώρο φιλοξενίας Λαγκαδικίων\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/96-lagkadikia-stirixi-tou-dimosiou-nipiagogiou\" target=\"_self\">Στήριξη του δημόσιου νηπιαγωγείου στα Λαγκαδίκια.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=lagkadikia_dianomi_rouxon_gallery layout=hidden labels=labels width=200 height=300 rows=1}MyMedia/snapshots/lagkadikia_dianomi_rouxon{/gallery}{gallery link=lagkadikia_dianomi_rouxon_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/lagkadikia_dianomi_rouxon/rouxa.jpg\" alt=\"Διανομή ρούχων στα Λαγκαδίκια\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/95-lagkadikia-dianomi-rouxon\" target=\"_self\">Διανομή ρούχων στα Λαγκαδίκια.</a></figcaption>{/gallery}</figure>\n</div>\n</div>\n<div class=\"photo-container-row\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=sostratos_gallery layout=hidden labels=labels rows=1 cols=4 width=200 height=300}MyMedia/snapshots/Sostratos{/gallery}{gallery link=sostratos_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/1015743_thumb.jpg\" alt=\"Συμμετοχή της ομάδας του PHILOS στην άσκηση Σώστρατος\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/announcements/81-summetoxi-omadas-tou-philos-stin-askisi-sostratos\" target=\"_self\">Συμμετοχή ομάδας του PHILOS στην άσκηση «Σώστρατος».</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=veroia_mathisi_psixagogia_gallery layout=hidden labels=labels width=200 height=300}MyMedia/snapshots/Veria_camp_Spyropoulou{/gallery}{gallery link=veroia_mathisi_psixagogia_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/Veria_camp_Spyropoulou/ven_res.jpg\" alt=\"Παιδικές δραστηριότητες στη Βέροια\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/75-mathisi-kai-psyxagogia-sto-kentro-filoksenias-prosfygon-tis-veroias\" target=\"_self\">Μάθηση και ψυχαγωγία στο κέντρο φιλοξενίας προσφύγων της Βέροιας.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=stomatiki_ugieini_gallery layout=hidden labels=labels width=200 height=300}MyMedia/snapshots/lagkadikiaPlisimoDontion{/gallery}{gallery link=stomatiki_ugieini_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/lagkadikiaPlisimoDontion/articlePics/stygeia2.PNG\" alt=\"Στοματική υγιεινή σε παιδιά στα Λαγκαδίκια\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/74-to-philos-didaskei-stomatiki-ygieini-se-paidia-sta-lagkadikia\" target=\"_self\">Το PHILOS διδάσκει στοματική υγιεινή σε παιδιά στα Λαγκαδίκια.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=kliniki_diaxeirisi_gallery layout=hidden labels=labels rows=1 cols=4 width=200 height=300}MyMedia/4-4-2017-ekp-ekpaidefton{/gallery}{gallery link=kliniki_diaxeirisi_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/UNFPA_GBV_TRAINING_2_thumb.JPG\" alt=\"Εργαζόμενες του PHILOS συμμετείχαν στην εκπαίδευση εκπαιδευτών για τη Κλινική διαχείριση της σεξουαλικής κακοποίησης\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/announcements/61-kliniki-diaxeirisi-ekpaidefsi\" target=\"_self\">\"Kλινική διαχείριση της σεξουαλικής κακοποίησης\" - εκπαίδευση εκπαιδευτών.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=to_sosto_plisimo_gallery layout=hidden rows=1 cols=1 width=200 height=300}MyMedia/snapshots/lagkadikiaPlisimoXerion{/gallery}{gallery link=to_sosto_plisimo_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/PHILOS-PHOTO_thumb.jpg\" alt=\"Λαγκαδίκια - Το σωστό πλύσιμο των χεριών\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/59-to-sosto-plysimo-xerion-sta-lagkadikia\" target=\"_self\">Το \"Σωστό πλύσιμο των χεριών\" στα Λαγκαδίκια.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=ekpaideftikes_imerides_gallery layout=hidden labels=labels rows=2 cols=3 width=200 height=300}MyMedia/imerides{/gallery}{gallery link=ekpaideftikes_imerides_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Salonica3_Hmerida_thumb.JPG\" alt=\"Από την εκπαίδευση του PHILOS στη Θεσσαλονίκη\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr />Εκπαιδευτικές ημερίδες.</figcaption></figure>\n</div>\n</div>\n<div class=\"photo-container-row\" style=\"display: table-row;\"><div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- logotupa -->\n<p>{gallery id=logotupa-gallery download=true lightbox=boxplus alignment=center orientation=horizontal margin=30px layout=hidden labels=labels rows=2 cols=3 width=200 height=300}MyMedia/logos{/gallery}{gallery link=logotupa-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/logo_signature_thumb.jpg\" alt=\"PHILOS λογότυπο\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr />Τα λογότυπα του PHILOS</figcaption></figure>\n</div>\n</div>\n</div>",
 			"file": "/C/Users/philos17/Dropbox/sublime files/2.html",
+			"file_size": 46492,
+			"file_write_time": 131683524203687992,
 			"settings":
 			{
-				"buffer_size": 47501,
-				"encoding": "UTF-8",
+				"buffer_size": 48466,
 				"line_ending": "Windows"
 			}
 		},
 		{
+			"contents": "<div id=\"photo-container-en\" style=\"display: inline-table;\">\n<div class=\"photo-container-row-en\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--  iom - keelpno training days -->\n<p>{gallery id=iom-keelpno-en-gallery layout=hidden width=200 height=300}MyMedia/announcements/IOM-KEELPNO{/gallery}{gallery link=iom-keelpno-en-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/IOM-KEELPNO-thumb.jpg\" alt=\"Training days - Protecting children in the context of the refugee and immigration crisis in Europe\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr />Training days - Protecting children in the context of the refugee and immigration crisis in Europe</figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--  study tour in turkey  -->\n<p>{gallery id=study-tour-turkey-gallery layout=hidden width=200 height=300}MyMedia/announcements/periodia-meletis-stin-tourkia{/gallery}{gallery link=study-tour-turkey-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/periodia-meletis-stin-tourkia-thumb.jpg\" alt=\"Study tour on migration and health\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"en/news/announcements/study-tour-on-migration-and-health\" target=\"_self\">Study tour on migration and health</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--  actions Skaramagkas  -->\n<p>{gallery id=skaramagkas-actions layout=hidden width=200 height=300}MyMedia/snapshots/skaramagkas-draseis{/gallery}{gallery link=skaramagkas-actions}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/skaramagkas-actions-thumb.jpg\" alt=\"PHILOS actions at Skaramangas\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"en/news/snapshots/philos-actions-at-skaramangas\" target=\"_self\">PHILOS actions at Skaramangas</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--  vaccinations Koutsohero 2  -->\n<p>{gallery id=vaccinations-Koutsohero-2-gallery layout=hidden width=200 height=300}MyMedia/snapshots/Koutsohero-vaccinations{/gallery}{gallery link=vaccinations-Koutsohero-2-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Koutsohero-vaccination-thumb.jpg\" alt=\"Vaccinations at Koutsohero\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"en/news/snapshots/vaccination-at-koutsochero\" target=\"_self\">Vaccination at Koutsochero</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- kopi pita Filippiada EN  -->\n<p>{gallery id=kopi-pita-filippiada-en-gallery layout=hidden width=200 height=300}MyMedia/snapshots/kopi-pitas-filippiada{/gallery}{gallery link=kopi-pita-filippiada-en-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/filippiada-kopi-pitas-thumb.jpg\" alt=\"Filippiada vasilopita\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr />\"Vasilopita\" at Filippiada</figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- 5th YPE vasilopita EN  -->\n<p>{gallery id=vasilopita-5th-YPE-en-gallery layout=hidden width=200 height=300}MyMedia/snapshots/kopi-pitas-YPE-5{/gallery}{gallery link=vasilopita-5th-YPE-en-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/kopi-pitas-5-YPE-thumb.jpg\" alt=\"PHILOS members welcome 2018\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"en/news/snapshots/philos-members-welcome-2018\" target=\"_self\">PHILOS members welcome 2018</a></figcaption></figure>\n</div>\n</div>\n<div class=\"photo-container-row-en\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- Schisto vasilopita EN  -->\n<p>{gallery id=schisto-vasilopita-en-gallery layout=hidden width=200 height=300}MyMedia/snapshots/kopi-vasilopitas-schisto{/gallery}{gallery link=schisto-vasilopita-en-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/PHILOS-vasilopita-Schisto-thumb.jpg\" alt=\"PHILOS welcomes 2018 at Schisto\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"en/news/snapshots/philos-welcomes-2018-at-schisto\" target=\"_self\">PHILOS welcomes 2018 at Schisto</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- Kato Milia fire extinguishing exercise -->\n<p>{gallery id=kato-milia-fire-exercise-gallery labels=labelsEN layout=hidden width=200 height=300}MyMedia/snapshots/enimerosi-purosvestiki-kato-milia{/gallery}{gallery link=kato-milia-fire-exercise-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/enimerosi-purosvestiki-kato-milia-thumb.jpg\" alt=\"Fire extinguishing exercise at Kato Milia\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"en/news/snapshots/fire-extinguishing-exercise-at-kato-milia\" target=\"_self\">Fire extinguishing exercise at Kato Milia</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- Schisto solid foods infants -->\n<p>{gallery id=Schisto-solid-foods-infancy-gallery layout=hidden width=200 height=300}MyMedia/snapshots/Schisto-sterees-trofes{/gallery}{gallery link=Schisto-solid-foods-infancy-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Schisto-sterees-trofes-thumb.jpg\" alt=\"Introduction of solid food in infancy\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"en/news/snapshots/introduction-of-solid-food-in-infancy\" target=\"_self\">Introduction of solid food in infancy</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- vaccinations Koutsohero -->\n<p>{gallery id=vaccinations-koutsohero-gallery layout=hidden width=200 height=300}MyMedia/snapshots/emvoliasmoi-Koutsohero{/gallery}{gallery link=vaccinations-koutsohero-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvoliasmoi-Koutsohero-thumb.jpeg\" alt=\"MMR vaccinations at Koutsochero\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"en/news/snapshots/mmr-vaccinations-koutsochero\" target=\"_self\">MMR vaccinations at Koutsochero</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- vaccinations Filippiada -->\n<p>{gallery id=filippiada-vaccinations-gallery labels=labelsEN layout=hidden width=200 height=300}MyMedia/snapshots/emvoliasmos-Filippiada{/gallery}{gallery link=filippiada-emvoliasmoi-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvoliasmos-Filippiada-thumb.jpg\" alt=\"Vaccinations at Filippiada open camp\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr />Vaccinations at Filippiada's open camp</figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- lagkadikia children right -->\n<p>{gallery id=lagkadikia-children-right-gallery layout=hidden width=200 height=300}MyMedia/snapshots/lagkadikia-enimerosi-dikaiomata-paidiou{/gallery}{gallery link=lagkadikia-children-right-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/lagkadikia-dikaiomata-paidiou-thumb.jpg\" alt=\"Children rights within family\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"en/news/snapshots/children-s-rights-within-family\" target=\"_self\">Children’s rights within family</a></figcaption></figure>\n</div>\n</div>\n<div class=\"photo-container-row-en\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--seminar msf -->\n<p>{gallery id=seminar-msf-gallery-en layout=hidden width=200 height=300}MyMedia/announcements/seminar-MsF{/gallery}{gallery link=seminar-msf-gallery-en}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/seminar-MsF-thumb.jpg\" alt=\"Seminar on refugees mental health\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"en/news/announcements/seminar-on-refugees-mental-health\" target=\"_self\">Seminar on refugees’ mental health</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--vaccinations diavata -->\n<p>{gallery id=diavata-vaccinations-gallery layout=hidden width=200 height=300}MyMedia/snapshots/emvoliasmoi-diavata{/gallery}{gallery link=diavata-vaccinations-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvoliasmos-diavata-thumb.jpg\" alt=\"Vaccinations at Diavata\n\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"en/news/snapshots/vaccinations-at-diavata\" target=\"_self\">Vaccinations at Diavata</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--mobile unit serres vaccinations -->\n<p>{gallery id=serres-mobile-unit-gallery layout=hidden width=200 height=300}MyMedia/snapshots/Serres-emvoliasmos-kiniti-monada{/gallery}{gallery link=serres-mobile-unit-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/kiniti-monada-serres-PHILOS-thumb.jpg\" alt=\"Vaccinations at Serres open camp\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"en/news/snapshots/vaccinations-at-serres-open-camp\" target=\"_self\">Vaccinations at Serres open camp</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--episkepsi klimakio evropaikis epitropis en-->\n<p>{gallery id=episkepsi-klimakio-en-gallery labels=labels layout=hidden width=200 height=300}MyMedia/snapshots/episkepsi-klimakiou-europaiki-epitropi{/gallery}{gallery link=episkepsi-klimakio-en-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/episkepsi-klimakiou-thumb.jpg\" alt=\"European commission team visiting PHILOS programme\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr />European commission team visiting PHILOS programme</figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--Schisto solid food -->\n<p>{gallery id=Schisto-solid-food-gallery layout=hidden width=200 height=300}MyMedia/snapshots/Schisto-vrefiki-diatrofi{/gallery}{gallery link=Schisto-solid-food-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/schisto-vrefiki-diatrofi-thumb.jpg\" alt=\"Solid food in infancy\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"en/news/snapshots/solid-food-in-infancy\" target=\"_self\">Solid food in infancy</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--breastfeeding Schisto -->\n<p>{gallery id=breastfeeding-Schisto-gallery layout=hidden width=200 height=300}MyMedia/snapshots/mitrikos-thilasmos-Schisto{/gallery}{gallery link=breastfeeding-Schisto-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/mitrikos-thilasmos-schisto-thumb.jpg\" alt=\"Presentation on breast feeding\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"en/news/snapshots/presentation-on-breast-feeding\" target=\"_self\">Presentation on breast feeding</a></figcaption></figure>\n</div>\n</div>\n<div class=\"photo-container-row-en\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--vaccinations Thermopulae-Volos-Trikala -->\n<p>{gallery id=vacc-Thermo-Volos-Trikala-en-gallery layout=hidden width=200 height=300}MyMedia/snapshots/emvoliasmoi-kentra-filoxenias/photos{/gallery}{gallery link=vacc-Thermo-Volos-Trikala-en-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvol-Therm-Trik-Volos.jpg\" alt=\"PHILOS vaccinations at refugee camps\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"en/news/announcements/philos-vaccinations-at-refugee-camps\" target=\"_self\">PHILOS vaccinations at refugee camps</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--Mitilini PHILOS seminars -->\n<p>{gallery id=Mitilini-seminar-en-gallery layout=hidden width=200 height=300}MyMedia/seminaria/seminario-mitilini-eualototita{/gallery}{gallery link=Mitilini-seminar-en-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Mitilini-seminaria-thumb.jpg\" alt=\"PHILOS training seminars at Mitilini\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"en/news/announcements/seminars-protocol-vulnerability-sexual-reproductive-health\" target=\"_self\">Training&nbsp;seminars on the protocol of vulnerability&nbsp;and&nbsp;of sexual&nbsp;and&nbsp;reproductive health</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--lagadikia breast cancer prevention -->\n<p>{gallery id=Lagkadikia-breast-cancer-en-gallery layout=hidden width=200 height=300}MyMedia/snapshots/lagkadikia-prolipsi-karkinos-mastou{/gallery}{gallery link=Lagkadikia-breast-cancer-en-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Lagkadikia-prolipsi-mastou.JPG\" alt=\"PHILOS and breast cancer prevention at Lagkadikia\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr /><a href=\"en/news/snapshots/philos-breast-cancer-prevention\" target=\"_self\">PHILOS and breast cancer prevention</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--medipiet at Schisto -->\n<p>{gallery id=Schisto-medipiet-en-gallery layout=hidden width=200 height=300}MyMedia/snapshots/Schisto-Medipiet{/gallery}{gallery link=Schisto-medipiet-en-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/medipiet_Schisto_thumbs.jpg\" alt=\"PHILOS Health professionals group visits Schisto\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr /><a href=\"en/news/snapshots/health-professionals-group-visits-schisto\" target=\"_self\">Health professionals group visits Schisto</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--Eastern Aegean -->\n<p>{gallery id=East_Aegean_gallery labels=labelsENF layout=hidden width=200 height=300}MyMedia/snapshots/AnatolikoAigaio{/gallery}{gallery link=East_Aegean_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Moria_thumb.jpg\" alt=\"PHILOS Eastern Aegean\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr />PHILOS, Eastern Aegean</figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--revaccination schisto -->\n<p>{gallery id=revaccination_Schisto_gallery labels=labelsEnglish layout=hidden width=200 height=300}MyMedia/snapshots/emvoliasmos_Schisto{/gallery}{gallery link=revaccination_Schisto_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvoliasmos_Schisto_thumb.jpg\" alt=\"Revaccination Schisto\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/revaccination-in-schisto\" target=\"_self\">Revaccination in Schisto</a></figcaption>{/gallery}</figure>\n</div>\n</div>\n<div class=\"photo-container-row-en\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--announcement refugees  meeting -->\n<p>{gallery id=meeting_refugees_gallery layout=hidden width=200 height=300}MyMedia/announcements/suskepsi-PHILOS.JPG{/gallery}{gallery link=meeting_refugees_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/suskepsi-PHILOS_thumbs.JPG\" alt=\"PHILOS and refugee crisis\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/announcements/philos-and-refugee-crisis\" target=\"_self\">PHILOS and refugee crisis</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--derveni vaccinations-->\n<p>{gallery id=derveni_vaccinations_gallery layout=hidden width=200 height=300}MyMedia/snapshots/emvoliasmos_Derveni{/gallery}{gallery link=derveni_vaccinations_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/vaccination_derveni_thumb.jpg\" alt=\"Vaccination in Derveni open camp\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/vaccination-in-derveni-open-camp\" target=\"_self\">Vaccination in Derveni’s open camp</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--skaramagkas + elefsina emvoliasmoi-->\n<p>{gallery id=skaramagkas_elefsina_vaccination_gallery layout=hidden width=200 height=300}MyMedia/snapshots/Elefsina_Skaramagkas_vaccination{/gallery}{gallery link=skaramagkas_elefsina_vaccination_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvoliasmos_Elefsina_Skaramagkas.jpg\" alt=\"PHILOS vaccinations at Elefsina and Skaramagkas\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/philos-vaccinations-in-elefsina-and-skaramangas\" target=\"_self\">PHILOS' vaccinations at Elefsina and Skaramagkas.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--skaramagka + elefsina-->\n<p>{gallery id=skaramagkas_elefsina_en_gallery layout=hidden width=200 height=300}MyMedia/snapshots/Thiva_Skaramagkas_Elefsina{/gallery}{gallery link=skaramagkas_elefsina_en_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvoliastiki_katagrafi_thumb.jpg\" alt=\"The mobile unit of PHILOS in action\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/the-mobile-unit-of-philos-in-action\" target=\"_self\">The mobile unit of PHILOS in action</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--heatwave schisto + elefsina-->\n<p>{gallery id=schisto-elefsina-heatwave-gallery labels=labelsEN layout=hidden width=200 height=300}MyMedia/snapshots/Schisto-Elefsina-kausonas{/gallery}{gallery link=schisto-elefsina-heatwave-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Schisto-Elefsina-kausonas.jpg\" alt=\"Briefing on heatwave at Schisto and Elefsina\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/philos-briefs-on-heat-wave-and-food-preservation\" target=\"_self\">PHILOS briefs on heat wave and food preservation</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--diavata snapshots-->\n<p>{gallery id=diavata_snapshots_gal_gallery layout=hidden width=200 height=300}MyMedia/snapshots/stigmiotupa-Diavata-8-8-2017{/gallery}{gallery link=diavata_snapshots_gal_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Diavata_enimerosi_kounoupia_thumb.jpg\" alt=\"Snapshots from Diavata\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/snapshots-from-diavata\" target=\"_self\">Snapshots from Diavata</a></figcaption>{/gallery}</figure>\n</div>\n</div>\n<div class=\"photo-container-row-en\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--diavata oik programmatismos-->\n<p>{gallery id=diavata_family_cashCard_gallery layout=hidden width=200 height=300}MyMedia/snapshots/11-7-2017_Diavata_oik_programmatismos{/gallery}{gallery link=diavata_family_cashCard_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Diavata_safe_space3_thumb.jpg\" alt=\"Family planning and cash card at Diavata\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/family-planning-and-cash-card\" target=\"_self\">Family planning and cash card</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--alexandria protes voithies -->\n<p>{gallery id=alexandria_first_aids_gallery layout=hidden width=200 height=300}MyMedia/snapshots/alexandria_imathias_protes_voithies{/gallery}{gallery link=alexandria_first_aids_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/alexandria_protes_voithies3_thumb.jpg\" alt=\"Briefing on first aids\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr />Briefing on first aids</figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--Kordelio + Diavata seminar-->\n<p>{gallery id=kordelio_diavata_mmpi_seminar_gallery layout=hidden width=200 height=300}MyMedia/snapshots/31-7-2017_Kordelio-Diavata_mmpi2{/gallery}{gallery link=kordelio_diavata_mmpi_seminar_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/psychologists_mmpi2_thumb.jpeg\" alt=\"Kordelio and Diavata 's psychologists seminar on MMPI 2\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/seminar-on-mmpi-2\" target=\"_self\">Seminar on MMPI-2</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--Kordelio puroprostasia-->\n<p>{gallery id=kordelio_firefighting_gallery layout=hidden width=200 height=300}MyMedia/snapshots/31-7-2017_Kordelio-purosvestes{/gallery}{gallery link=kordelio_firefighting_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/seminario_puroprostasias_thumb.jpeg\" alt=\"Fire protection seminar in Kordelio\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/fire-protection-seminar-in-kordelio\" target=\"_self\">Fire protection seminar in Kordelio</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--agogi ugeias Lagkadikia-->\n<p>{gallery id=lagkadikia_health_education_gallery layout=hidden width=200 height=300}MyMedia/snapshots/31-7-2017_Lagkadikia-agogi-ugeias{/gallery}{gallery link=lagkadikia_health_education_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/agogi_ugeias_sunergates_thumb.jpeg\" alt=\"Health education in Lagadikia\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/health-education-in-lagadikia\" target=\"_self\">Health education in Lagadikia</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--veroia-actions-->\n<p>{gallery id=veria_actions_gallery layout=hidden width=200 height=300}MyMedia/snapshots/19-7-2017_Veria-vivliothiki-pana-afixeis-Vergina{/gallery}{gallery link=veria_actions_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Veria_prosfora_vivlion_vivliothiki_thumb.jpg\" alt=\"Children's books offer by the Public Library of Veria\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/189-philos-actions-in-veria\" target=\"_self\">PHILOS' actions in Veria</a></figcaption>{/gallery}</figure>\n</div>\n</div>\n<div class=\"photo-container-row-en\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--derveni health promotion-->\n<p>{gallery id=derveni_health_promotion_gallery layout=hidden width=200 height=300}MyMedia/snapshots/19-7-2017_Derveni-kanones-ugieinis{/gallery}{gallery link=derveni_health_promotion_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Derveni_vasikoi_kanones_ugieinis1_thumb.jpg\" alt=\"PHILOS health promotion at Derveni\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/188-collaboration-in-health-promotion\" target=\"_self\">Collaboration in health promotion</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--diavata nurses-->\n<p>{gallery id=diavata_nosileftes_gallery_en layout=hidden width=200 height=300}MyMedia/snapshots/5-6-2017_Diavata_nosileftiki{/gallery}{gallery link=diavata_nosileftes_gallery_en}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Diavata_nosileftiki_Galani_1_thumb.jpg\" alt=\"Froso Galani from PHILOS\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr />PHILOS colleagues during nursing acts</figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- alexandria mother preparation-->\n<p>{gallery id=alexandria_mother_preparation_gallery layout=hidden width=200 height=300}MyMedia/snapshots/17-7-2017_Alexandria_proetoimasia_miteras_neognou{/gallery}{gallery link=alexandria_mother_preparation_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/alexandria_proetoimasia_neognou_thumb.jpg\" alt=\"PHILOS colleagues preparing kits for mothers and newborns\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr />Practical kits for pregnant women</figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- diavata sewing-->\n<p>{gallery id=diavata_sewing_gallery layout=hidden width=200 height=300}MyMedia/snapshots/5-6-2017_Diavata_raptiki{/gallery}{gallery link=diavata_sewing_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/5-6-2017_Diavata_raptiki/Diavata_raptiki3.jpg\" alt=\"PHILOS Eleni Savva at sewing workshop\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/participation-in-sewing-activities-diavata\" target=\"_self\">Sewing activities at Diavata</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- diavata pregant and nurses-->\n<p>{gallery id=diavata_midwives_gallery layout=hidden width=200 height=300}MyMedia/snapshots/4-7-2017_Diavata_maia_exetasi{/gallery}{gallery link=diavata_midwives_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/4-7-2017_Diavata_maia_exetasi/Diavata_exetasi_egguou1.jpg\" alt=\"PHILOS colleague midwife Tina Ioannidou\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/179-the-midwives-of-philos-in-action\" target=\"_self\">The midwives of PHILOS in action</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- filippiada colleagues -->\n<p>{gallery id=filippiadaColleaguesgallery labels=labels layout=hidden width=200 height=300}MyMedia/snapshots/26-6-2017_Filippiada_sunergates{/gallery}{gallery link=filippiadaColleaguesgallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/26-6-2017_Filippiada_sunergates/Filippiada_Georgopoulou_Tziva.jpg\" alt=\"PHILOS colleagues Georgopoulou and Tziva at Filippiada\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/snapshots-from-filippiada\" target=\"_self\">Snapshots from colleagues at Filippiada.</a></figcaption>{/gallery}</figure>\n</div>\n</div>\n<div class=\"photo-container-row-en\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- alexandria eating-->\n<p>{gallery id=alexandriaEatingTraininggallery layout=hidden width=200 height=300}MyMedia/snapshots/3-7-2017_Alexandria_enimerosi_diatrofis{/gallery}{gallery link=alexandriaEatingTraininggallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/alexandria_enimerosi_paidia_diatrofi4_thumb.jpg\" alt=\"Childen nutrition training at Alexandria Imathias\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr />Meeting about nutrition at Alexandria Imathias</figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- Diavata epimorfosi-->\n<p>{gallery id=diavataTraininggallery layout=hidden width=200 height=300}MyMedia/snapshots/5-6-2017_Diavata_epimorfosi{/gallery}{gallery link=diavataTraininggallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Diavata_epimorfosi_Moisidou1_thumb.jpg\" alt=\"Stefania Moisidou participated in the training\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr />Trainers' training day</figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- Diavata conservatoire-->\n<p>{gallery id=diavataConservatoiregallery layout=hidden width=200 height=300}MyMedia/snapshots/5-6-2017_Diavata_odeio{/gallery}{gallery link=diavataConservatoiregallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Diavata_sunodia_odio4_thumb.jpg\" alt=\"Escorting children to the conservatoire by PHILOS colleagues\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr />Diavata: Escorting childern to the conservatoire</figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--kordelio vaccination-->\n<p>{gallery id=kordelioVaccinationgallery layout=hidden width=200 height=300}MyMedia/snapshots/3-7-2017_Kordelio_emvoliasmos{/gallery}{gallery link=kordelioVaccinationgallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvoliasmoi_prosopikou_thumb.jpg\" alt=\"PHILOS staff vaccination\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/162-philos-staff-vaccination\" target=\"_self\">PHILOS΄ staff vaccination</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--kordelio school year end-->\n<p>{gallery id=kordelioSchoolCelebrationgallery layout=hidden width=200 height=300}MyMedia/snapshots/3-7-2017_Kordelio_sxoliki_giorti{/gallery}{gallery link=kordelioSchoolCelebrationgallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/3-7-2017_Kordelio_sxoliki_giorti/sxoliki_giorti2.jpg\" alt=\"End of the school year in the open camp of Kordelio\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/160-end-of-the-school-year-in-kordelio\" target=\"_self\">End of the school year in the open camp of Kordelio</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--alexandria pregnants-->\n<p>{gallery id=alexandria_midwives_gallery labels=labelsEN layout=hidden width=200 height=300}MyMedia/snapshots/alexandria_imathias_29-6-2017_maieftes{/gallery}{gallery link=alexandria_midwives_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/eggumonousa_stin_alexandria_thumb.jpg\" alt=\"PHILOS midwifes action in Alexandria\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/156-philos-midwifes-action-in-alexandria\" target=\"_self\">PHILOS’ midwifes action in Alexandria</a></figcaption>{/gallery}</figure>\n</div>\n</div>\n<div class=\"photo-container-row-en\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--national health system-->\n<p>{gallery id=alexandria_national_health_system_gallery labels=labelsEN layout=hidden width=200 height=300}MyMedia/snapshots/alexandria_imathias_29-6-2017_enimerosi_sustima_ugeias{/gallery}{gallery link=alexandria_national_health_system_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/enimerosi_sustima_ugeias_thumb.jpg\" alt=\"Briefing for the national health system\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/154-briefing-for-the-national-health-system\" target=\"_self\">Briefing for the national health system</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- filippiada colleagues -->\n<p>{gallery id=Filippiada_colleagues_gallery labels=labelsEN layout=hidden width=200 height=300}MyMedia/snapshots/Filippiada_19-6-2017{/gallery}{gallery link=Filippiada_colleagues_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/georgiamoulia_final_thumb.JPG\" alt=\"Mrs. Moulia along with her little friends\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/greetings-from-filippiada\" target=\"_self\">Greetings from Filippiada.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- PHILOS PRAKSIS -->\n<p>{gallery id=PRAXISPHILOS_gallery layout=hidden width=200 height=300}MyMedia/snapshots/enimerosi_PHILOS_PRAXIS_19-6-2017{/gallery}{gallery link=PRAXISPHILOS_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/enimerosi_PHILOS_praxis_1_thumb.jpg\" alt=\"Briefing by PHILOS and PRAKSIS\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/parents-briefing-by-philos-and-praksis\" target=\"_self\">Briefing by PHILOS and PRAKSIS.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--PHILOS in action in Alexandria, Imathia-->\n<p>{gallery id=alexandria_activities_gallery layout=hidden rows=1 width=200 height=300}MyMedia/snapshots/alexandria_imathias_kliniki_7-6-2017{/gallery}{gallery link=alexandria_activities_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/alexandria_imathias_kliniki_7-6-2017/alexandria-omada-sunergaton.jpg\" alt=\"Colleagues at Alexandria Imathias\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/127-philos-in-action-in-alexandria-imathia\" target=\"_self\">PHILOS in action in Alexandria, Imathia.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--Scenes from everyday life in the open camp of Veria-->\n<p>{gallery id=Veria_camp_kathimerinotita_gallery layout=hidden rows=1 width=200 height=300}MyMedia/snapshots/Veria_camp_kathimerinotita{/gallery}{gallery link=Veria_camp_kathimerinotita_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/puzzle_thumb.jpg\" alt=\"Scenes from everyday life in the open camp of Veria\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/126-scenes-from-everyday-life-in-the-open-camp-of-veria\" target=\"_self\">Scenes from everyday life in the open camp of Veria.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--Eleonas emvoliasmos-->\n<p>{gallery id=eleonas_vaccination_gallery layout=hidden rows=1 width=200 height=300}MyMedia/snapshots/Eleonas_emvoliasmos{/gallery}{gallery link=eleonas_vaccination_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvoliasmos_paidiou_Eleonas3_thumb.jpg\" alt=\"Children's vaccination by PHILOS at Eleonas\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr />Special thanks to our colleague Katerina Tsekou for the photos taken at Eleonas.</figcaption></figure>\n</div>\n</div>\n<div class=\"photo-container-row-en\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- Training at Thess, May 2017-->\n<p>{gallery id=training_days_thess_25_26_May_gallery layout=hidden labels=labelsEN rows=1 width=200 height=300}MyMedia/snapshots/Thess_ekpaidefsi_12_6_2017{/gallery}{gallery link=training_days_thess_25_26_May_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/sunantisi-suntonistes-pediou_thumb.JPG\" alt=\"Meeting with PHILOS' field coordinators at Thessaloniki's training days\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr />Photos taken at training days, Thessaloniki, 25th &amp; 26th of May 2017. Photos by Maria Foteinea.</figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--Helmsic-->\n<p>{gallery id=philos_meets_helmsic_gallery layout=hidden rows=1 cols=2 width=200 height=300}MyMedia/announcement-24-5-2017{/gallery}{gallery link=philos_meets_helmsic_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/PHILOS_HelMSIC_1_thumb.JPG\" alt=\"Chrysa Botsi presented PHILOS programme and its actions at HeMSIC\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption>{/gallery}<hr />PHILOS meets HelMSIC.</figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--tsekou various-->\n<p>{gallery id=photos_tsekou_gallery layout=hidden rows=1 width=200 height=300}MyMedia/snapshots/tsekou-23-5-2017{/gallery}{gallery link=photos_tsekou_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Koutsohero_sxoleio_1_thumb.jpg\" alt=\"School at Koutsohero\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr />Special thanks to our colleague Katerina Tsekou.</figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--veria seeking lost carelessness-->\n<p>{gallery id=veria_playing_gallery layout=hidden rows=1 width=200 height=300}MyMedia/snapshots/Veria_camp_paixnidi{/gallery}{gallery link=veria_playing_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/Veria_camp_paixnidi/veroia_paidia_vivliothiki.PNG\" alt=\"Playing at Veria refugee camp\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/124-refugees-children-seeking-the-lost-carelessness\" target=\"_self\">Refugees' children: seeking the lost carelessness.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--Lagadikia kindergarten-->\n<p>{gallery id=lagkadikia_kindergarten_gallery layout=hidden labels=labelsEN rows=1 cols=4 width=200 height=300}MyMedia/snapshots/lagkadikiaNipiagogio{/gallery}{gallery link=lagkadikia_kindergarten_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/lagkadikiaNipiagogio/PHILOS_lagkadikia_puzzle.jpg\" alt=\"Solving puzzle at the public kindergarten at Lagkadikia\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/123-support-of-the-public-nursery-school-at-lagadikia\" target=\"_self\">Support of the public nursery school at Lagadikia.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--clothes' distribution-->\n<p>{gallery id=lagkadikia_clothes_gallery layout=hidden labels=labelsEN rows=1 width=200 height=300}MyMedia/snapshots/lagkadikia_dianomi_rouxon{/gallery}{gallery link=lagkadikia_clothes_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/lagkadikia_dianomi_rouxon/rouxa.jpg\" alt=\"Distributing clothes at Lagkadikia\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/122-clothes-distribution-at-lagadikia\" target=\"_self\">Clothes distribution at Lagadikia.</a></figcaption>{/gallery}</figure>\n</div>\n</div>\n<div class=\"photo-container-row-en\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- Sostratos-->\n<p>{gallery id=sostratosEN_gallery layout=hidden rows=1 cols=4 width=200 height=300}MyMedia/snapshots/Sostratos{/gallery}{gallery link=sostratosEN_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/1015743_thumb.jpg\" alt=\"PHILOS participated at Sostratos\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/announcements/philos-participation-in-sostratos\" target=\"_self\">Participation of PHILOS' team at \"Sostratos\".</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--learning and entertainment at Veria-->\n<p>{gallery id=veria_learning_entertainment_gallery layout=hidden rows=1 width=200 height=300}MyMedia/snapshots/Veria_camp_Spyropoulou{/gallery}{gallery link=veria_learning_entertainment_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/Veria_camp_Spyropoulou/ven_res.jpg\" alt=\"Children activities at Veria\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/120-learning-and-entertainment-in-the-refugee-camp-of-veria\" target=\"_self\">Learning and entertainment in the refugee camp of Veria.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--philos dental health-->\n<p>{gallery id=dental_health_gallery layout=hidden width=200 height=300}MyMedia/snapshots/lagkadikiaPlisimoDontion{/gallery}{gallery link=dental_health_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/lagkadikiaPlisimoDontion/articlePics/stygeia2.PNG\" alt=\"PHILOS - dental health at Lagkadikia\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/119-philos-teaches-oral-hygiene-to-children-at-lagadikia\" target=\"_self\">PHILOS teaches oral hygiene to children at Lagadikia.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--ToT-->\n<p>{gallery id=clinical_management_gallery layout=hidden labels=labels rows=1 cols=4 width=200 height=300}MyMedia/4-4-2017-ekp-ekpaidefton{/gallery}{gallery link=clinical_management_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/UNFPA_GBV_TRAINING_2_thumb.JPG\" alt=\"PHILOS colleagues participating at training of trainers for the clinical management of sexual abuse\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/announcements/training-of-trainers-in-clinical-management-of-rape\" target=\"_self\">\"Clinical Management of Sexual Abuse\" - Training of Trainers.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--Hand washing-->\n<p>{gallery id=washing_of_hands_gallery layout=hidden rows=1 cols=4 width=200 height=300}MyMedia/snapshots/lagkadikiaPlisimoXerion{/gallery}{gallery link=washing_of_hands_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/PHILOS-PHOTO_thumb.jpg\" alt=\"Washing of hands at Lagkadikia\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"en/news/snapshots/118-how-to-wash-your-hands-properly-at-lagadikia\" target=\"_self\">\"How to wash your hands properly\" at Lagadikia.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--ToT-->\n<p>{gallery id=training_days_gallery layout=hidden labels=labels2 rows=2 cols=3 width=200 height=300}MyMedia/imerides{/gallery}{gallery link=training_days_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Salonica3_Hmerida_thumb.JPG\" alt=\"PHILOS training at Thessaloniki\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr />Training days.</figcaption></figure>\n</div>\n</div>\n<div class=\"photo-container-row-en\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- logos-->\n<p>{gallery id=logotupa-en-gallery download=true lightbox=boxplus alignment=center orientation=horizontal margin=30px layout=hidden labels=labels rows=2 cols=3 width=200 height=300}MyMedia/logos{/gallery}{gallery link=logotupa-en-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/logo_signature_thumb.jpg\" alt=\"PHILOS logos\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr />PHILOS' logos</figcaption></figure>\n</div>\n</div>\n</div>",
+			"file": "/C/Users/philos17/Dropbox/sublime files/2.html",
+			"file_size": 46492,
+			"file_write_time": 131683524203687992,
+			"settings":
+			{
+				"buffer_size": 46918,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<div id=\"photo-container\" style=\"display: inline-table;\">\n<div class=\"photo-container-row\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--  study tour in turkey  -->\n<p>{gallery id=periodeia-meletis-turkey-gallery layout=hidden width=200 height=300}MyMedia/announcements/periodia-meletis-stin-tourkia{/gallery}{gallery link=periodeia-meletis-turkey-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/periodia-meletis-stin-tourkia-thumb.jpg\" alt=\"Περιοδεία μελέτης για μετανάστευση και υγεία\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/announcements/periodia-meletis-gia-metanasteusi-kai-ugeia\" target=\"_self\">Περιοδεία μελέτης για μετανάστευση και υγεία</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--  draseis Skaramagkas  -->\n<p>{gallery id=skaramagkas-draseis layout=hidden width=200 height=300}MyMedia/snapshots/skaramagkas-draseis{/gallery}{gallery link=skaramagkas-draseis}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/skaramagkas-actions-thumb.jpg\" alt=\"Δράσεις του PHILOS στον Σκαραμαγκά\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/draseis-philos-skaramangas\" target=\"_self\">Δράσεις του PHILOS στον Σκαραμαγκά</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- emvoliasmos Koutsohero 2  -->\n<p>{gallery id=emvoliasmos-Koutsohero-2-gallery layout=hidden width=200 height=300}MyMedia/snapshots/Koutsohero-vaccinations{/gallery}{gallery link=emvoliasmos-Koutsohero-2-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Koutsohero-vaccination-thumb.jpg\" alt=\"Εμβολιασμός στο Κουτσόχερο\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/vaccination-at-koutsohero\" target=\"_self\">Εμβολιασμοί στο Κουτσόχερο</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- kopi pita Filippiada  -->\n<p>{gallery id=kopi-pita-filippiada-gallery layout=hidden width=200 height=300}MyMedia/snapshots/kopi-pitas-filippiada{/gallery}{gallery link=kopi-pita-filippiada-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/filippiada-kopi-pitas-thumb.jpg\" alt=\"Κοπή πίτας στη δομή φιλοξενίας Φιλιππιάδας\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/kopi-pitas-filippiada\" target=\"_self\">Κοπή πίτας στη δομή φιλοξενίας Φιλιππιάδας</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- 5i YPE vasilopita  -->\n<p>{gallery id=5i-YPE-vasilopita-gallery layout=hidden width=200 height=300}MyMedia/snapshots/kopi-pitas-YPE-5{/gallery}{gallery link=5i-YPE-vasilopita-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/kopi-pitas-5-YPE-thumb.jpg\" alt=\"Κοπή πίτας στην 5η ΥΠΕ\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/kopi-pitas-5-ype\" target=\"_self\">Κοπή πίτας στην 5η ΥΠΕ</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- Schisto vasilopita  -->\n<p>{gallery id=schisto-vasilopita-gallery layout=hidden width=200 height=300}MyMedia/snapshots/kopi-vasilopitas-schisto{/gallery}{gallery link=schisto-vasilopita-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/PHILOS-vasilopita-Schisto-thumb.jpg\" alt=\"Κοπή βασιλόπιτας στο Σχιστό\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/kopi-vasilopitas-schisto\" target=\"_self\">Κοπή βασιλόπιτας στο Σχιστό</a></figcaption></figure>\n</div>\n</div>\n<div class=\"photo-container-row\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- Kato Milia askisi purosvestikis -->\n<p>{gallery id=kato-milia-drasi-purosvestikis-gallery labels=labels layout=hidden width=200 height=300}MyMedia/snapshots/enimerosi-purosvestiki-kato-milia{/gallery}{gallery link=kato-milia-drasi-purosvestikis-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/enimerosi-purosvestiki-kato-milia-thumb.jpg\" alt=\"Δράση της πυροσβεστικής στην Κάτω Μηλιά\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/drasi-tis-purosvestikis-kato-milia\" target=\"_self\">Δράση της πυροσβεστικής στην Κάτω Μηλιά</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- Schisto sterees trofes -->\n<p>{gallery id=Schisto-sterees-trofes-gallery layout=hidden width=200 height=300}MyMedia/snapshots/Schisto-sterees-trofes{/gallery}{gallery link=Schisto-sterees-trofes-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Schisto-sterees-trofes-thumb.jpg\" alt=\"Εισαγωγή στερεών τροφών στη βρεφική ηλικία\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/eisagogi-stereon-trofon-sti-vrefiki-ilikia\" target=\"_self\">Εισαγωγή στερεών τροφών στη βρεφική ηλικία</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- emvoliasmoi Koutsohero -->\n<p>{gallery id=emvoliasmoi-koutsohero-gallery layout=hidden width=200 height=300}MyMedia/snapshots/emvoliasmoi-Koutsohero{/gallery}{gallery link=emvoliasmoi-koutsohero-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvoliasmoi-Koutsohero-thumb.jpeg\" alt=\"Εμβολιαστική δράση στο Κουτσόχερο\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/emvoliastiki-drasi-sto-koutsohero\" target=\"_self\">Εμβολιαστική δράση στο Κουτσόχερο</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- emvoliasmoi Filippiada -->\n<p>{gallery id=filippiada-emvoliasmoi-gallery labels=labels layout=hidden width=200 height=300}MyMedia/snapshots/emvoliasmos-Filippiada{/gallery}{gallery link=filippiada-emvoliasmoi-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvoliasmos-Filippiada-thumb.jpg\" alt=\"Εμβολιασμοί στη δομή φιλοξενίας Φιλιππιάδας\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr />Εμβολιασμοί στη δομή φιλοξενίας Φιλιππιάδας</figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- lagkadikia dikaiomata ton paidion -->\n<p>{gallery id=lagkadikia-dikaiomata-paidion-gallery layout=hidden width=200 height=300}MyMedia/snapshots/lagkadikia-enimerosi-dikaiomata-paidiou{/gallery}{gallery link=lagkadikia-dikaiomata-paidion-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/lagkadikia-dikaiomata-paidiou-thumb.jpg\" alt=\"Δικαιώματα των παιδιών και οικογένεια\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/dikaiomata-ton-paidion-kai-oikogeneia\" target=\"_self\">Δικαιώματα των παιδιών και οικογένεια</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--seminario msf -->\n<p>{gallery id=seminar-msf-gallery layout=hidden width=200 height=300}MyMedia/announcements/seminar-MsF{/gallery}{gallery link=seminar-msf-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/seminar-MsF-thumb.jpg\" alt=\"Σεμινάριο για την ψυχική υγεία των προσφύγων\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/announcements/seminario-gia-tin-psuxiki-ugeia-ton-prosfugon\" target=\"_self\">Σεμινάριο για την ψυχική υγεία των προσφύγων</a></figcaption></figure>\n</div>\n</div>\n<div class=\"photo-container-row\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--emvoliasmoi diavata -->\n<p>{gallery id=diavata-emvoliasmoi-gallery layout=hidden width=200 height=300}MyMedia/snapshots/emvoliasmoi-diavata{/gallery}{gallery link=diavata-emvoliasmoi-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvoliasmos-diavata-thumb.jpg\" alt=\"Εμβολιασμοί στα Διαβατά\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/emvoliasmoi-sta-diavata\" target=\"_self\">Εμβολιασμοί στα Διαβατά</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--kiniti monada serres emvoliasmos -->\n<p>{gallery id=serres-kiniti-monada-gallery layout=hidden width=200 height=300}MyMedia/snapshots/Serres-emvoliasmos-kiniti-monada{/gallery}{gallery link=kiniti-monada-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/kiniti-monada-serres-PHILOS-thumb.jpg\" alt=\"Εμβολιασμοί στο κέντρο φιλοξενίας Σερρών\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/emvoliasmoi-sto-kentro-filoxenias-serron\" target=\"_self\">Εμβολιασμοί στο κέντρο φιλοξενίας Σερρών</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--episkepsi klimakio evropaikis epitropis -->\n<p>{gallery id=episkepsi-klimakio-gallery labels=labels layout=hidden width=200 height=300}MyMedia/snapshots/episkepsi-klimakiou-europaiki-epitropi{/gallery}{gallery link=episkepsi-klimakio-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/episkepsi-klimakiou-thumb.jpg\" alt=\"Eπίσκεψη κλιμακίου ευρωπαϊκή επιτροπή\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/press-releases/episkepsi-klimakiou-evropaikis-epitropis-philos\" target=\"_self\">Επίσκεψη κλιμακίου της Ευρωπαϊκής Επιτροπής (ΕΕ) στο πλαίσιο του προγράμματος PHILOS</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--diatrofi vrefi Schisto -->\n<p>{gallery id=Schisto-diatrofi-vrefi-gallery layout=hidden width=200 height=300}MyMedia/snapshots/Schisto-vrefiki-diatrofi{/gallery}{gallery link=Schisto-diatrofi-vrefi-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/schisto-vrefiki-diatrofi-thumb.jpg\" alt=\"Στερεά τροφή και βρεφική ηλικία στο Σχιστό\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/sterea-trofi-kai-vrefiki-ilikia\" target=\"_self\">Στερεά τροφή και βρεφική ηλικία</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--mitrikos thilasmos Schisto -->\n<p>{gallery id=mitrikos-thilasmos-Schisto-gallery layout=hidden width=200 height=300}MyMedia/snapshots/mitrikos-thilasmos-Schisto{/gallery}{gallery link=mitrikos-thilasmos-Schisto-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/mitrikos-thilasmos-schisto-thumb.jpg\" alt=\"Παρουσίαση για τον μητρικό θηλασμό\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/snapshots/parousiasi-mitrikos-thilasmos\" target=\"_self\">Παρουσίαση για τον μητρικό θηλασμό</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--emvoliasmoi Thermopulae-Volos-Trikala -->\n<p>{gallery id=vacc-Thermo-Volos-Trikala-gallery layout=hidden width=200 height=300}MyMedia/snapshots/emvoliasmoi-kentra-filoxenias/photos{/gallery}{gallery link=vacc-Thermo-Volos-Trikala-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvol-Therm-Trik-Volos.jpg\" alt=\"PHILOS εμβολιασμοί σε κέντρα φιλοξενίας σε Θερμοπύλες Τρίκαλα και Βόλο\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption class=\"gallery-caption\"><hr /><a href=\"el/news/announcements/emvoliasmoi-philos-kentra-filoxenias\" target=\"_self\">Εμβολιασμοί του PHILOS σε κέντρα φιλοξενίας</a></figcaption></figure>\n</div>\n</div>\n<div class=\"photo-container-row\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--Mitilini PHILOS seminaria -->\n<p>{gallery id=Mitilini-seminar-gallery layout=hidden width=200 height=300}MyMedia/seminaria/seminario-mitilini-eualototita{/gallery}{gallery link=Mitilini-seminar-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Mitilini-seminaria-thumb.jpg\" alt=\"PHILOS Σεμινάριο στη Μυτιλήνη\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr /><a href=\"el/news/announcements/seminaria-protokollo-eualototita-sexoualiki-anaparagogiki-ugeia\" target=\"_self\">Σεμινάρια στο Πρωτόκολλο της Ευαλωτότητας και της Σεξουαλικής και Αναπαραγωγικής Υγείας</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--lagadikia prolipsi karkinou mastou -->\n<p>{gallery id=Lagkadikia-prolipsi-karkinou-gallery layout=hidden width=200 height=300}MyMedia/snapshots/lagkadikia-prolipsi-karkinos-mastou{/gallery}{gallery link=Lagkadikia-prolipsi-karkinou-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Lagkadikia-prolipsi-mastou.JPG\" alt=\"PHILOS και πρόληψη καρκίνου μαστού\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr /><a href=\"el/news/snapshots/philos-prolipsi-karkinou-mastou\" target=\"_self\">PHILOS και πρόληψη του καρκίνου του μαστού</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--episkepsi medipiet sxisto -->\n<p>{gallery id=Schisto-medipiet-gallery layout=hidden width=200 height=300}MyMedia/snapshots/Schisto-Medipiet{/gallery}{gallery link=Schisto-medipiet-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/medipiet_Schisto_thumbs.jpg\" alt=\"PHILOS Σχιστό επίσκεψη επαγγελματιών υγείας\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr /><a href=\"el/news/snapshots/episkepsi-epaggelmation-ugeias-sto-plaisio-tou-medipiet\" target=\"_self\">Επίσκεψη επαγγελματιών υγείας στο πλαίσιο του MediPIET</a></figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--anatoliko aigaio -->\n<p>{gallery id=Anat_Aigaio_gallery labels=labelsF layout=hidden width=200 height=300}MyMedia/snapshots/AnatolikoAigaio{/gallery}{gallery link=Anat_Aigaio_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Moria_thumb.jpg\" alt=\"PHILOS Ανατολικό Αιγαίο\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr />Το PHILOS στο Ανατολικό Αιγαίο</figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--epanemvoliasmos schisto -->\n<p>{gallery id=emvoliasmos_Schisto_gallery labels=labels layout=hidden width=200 height=300}MyMedia/snapshots/emvoliasmos_Schisto{/gallery}{gallery link=emvoliasmos_Schisto_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvoliasmos_Schisto_thumb.jpg\" alt=\"Επαναληπτικός εμβολιασμός Σχιστό\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/epanaliptikos-emvoliasmos-sto-schisto\" target=\"_self\">Επαναληπτικός εμβολιασμός στο Σχιστό</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--anakoinosi suskepsis prosfugiko -->\n<p>{gallery id=suskepsi_gallery layout=hidden width=200 height=300}MyMedia/announcements/suskepsi-PHILOS.JPG{/gallery}{gallery link=suskepsi_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/suskepsi-PHILOS_thumbs.JPG\" alt=\"Σύσκεψη για το προσφυγικό και το πρόγραμμα PHILOS\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/announcements/siskepsi-gia-to-prosfugiko-kai-to-programma-philos\" target=\"_self\">Σύσκεψη για το προσφυγικό και το πρόγραμμα PHILOS</a></figcaption>{/gallery}</figure>\n</div>\n</div>\n<div class=\"photo-container-row\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--derveni emvoliasmoi-->\n<p>{gallery id=derveni_emvoliasmoi_gallery layout=hidden width=200 height=300}MyMedia/snapshots/emvoliasmos_Derveni{/gallery}{gallery link=derveni_emvoliasmoi_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/vaccination_derveni_thumb.jpg\" alt=\"Εμβολιασμοί του PHILOS στο Δερβένι\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/emvoliasmos-sto-kentro-filoxenias-derveniou\" target=\"_self\">Εμβολιασμός στο κέντρο φιλοξενίας Δερβενίου</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--skaramagkas + elefsina emvoliasmoi-->\n<p>{gallery id=skaramagkas_elefsina_emvoliasmoi_gallery layout=hidden width=200 height=300}MyMedia/snapshots/Elefsina_Skaramagkas_vaccination{/gallery}{gallery link=skaramagkas_elefsina_emvoliasmoi_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvoliasmos_Elefsina_Skaramagkas.jpg\" alt=\"Εμβολιασμοί του PHILOS σε Ελευσίνα και Σκαραμαγκά\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/emvoliasmoi-tou-philos-se-elefsina-kai-skaramagka\" target=\"_self\">Εμβολιασμοί του PHILOS σε Ελευσίνα και Σκαραμαγκά</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--skaramagkas + elefsina-->\n<p>{gallery id=skaramagkas_elefsina_gallery layout=hidden width=200 height=300}MyMedia/snapshots/Thiva_Skaramagkas_Elefsina{/gallery}{gallery link=skaramagkas_elefsina_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvoliastiki_katagrafi_thumb.jpg\" alt=\"Η κινητή μονάδα του PHILOS εν δράσει\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/i-kiniti-monada-tou-philos-en-drasei\" target=\"_self\">Η κινητή μονάδα του PHILOS εν δράσει</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--enimerosi gia kausona se sxisto + elefsina -->\n<p>{gallery id=schisto-elefsina-kausonas-gallery labels=labels layout=hidden width=200 height=300}MyMedia/snapshots/Schisto-Elefsina-kausonas{/gallery}{gallery link=schisto-elefsina-kausonas-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Schisto-Elefsina-kausonas.jpg\" alt=\"Ενημέρωση για τον καύσωνα σε Σχιστό και Ελευσίνα\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/to-philos-enimeronei-gia-ton-kausona\" target=\"_self\">Το PHILOS ενημερώνει για τον καύσωνα</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--diavata snapshots-->\n<p>{gallery id=diavata_snapshots_myGallery layout=hidden width=200 height=300}MyMedia/snapshots/stigmiotupa-Diavata-8-8-2017{/gallery}{gallery link=diavata_snapshots_myGallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Diavata_enimerosi_kounoupia_thumb.jpg\" alt=\"Στιγμιότυπα από τα Διαβατά\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/stigmiotupa-apo-diavata\" target=\"_self\">Στιγμιότυπα από τα Διαβατά</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--diavata oik programmatismos-->\n<p>{gallery id=diavata_oik_programmatismos_gallery layout=hidden width=200 height=300}MyMedia/snapshots/11-7-2017_Diavata_oik_programmatismos{/gallery}{gallery link=diavata_oik_programmatismos_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Diavata_safe_space3_thumb.jpg\" alt=\"Οικογενειακός προγραμματισμός και cash card στα Διαβατά\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/oikogeneiakos-programmatismos-kai-cash-card\" target=\"_self\">Οικογενειακός προγραμματισμός και cash card</a></figcaption>{/gallery}</figure>\n</div>\n</div>\n<div class=\"photo-container-row\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--alexandria protes voithies -->\n<p>{gallery id=alexandria_protes_voithies_gallery layout=hidden width=200 height=300}MyMedia/snapshots/alexandria_imathias_protes_voithies{/gallery}{gallery link=alexandria_protes_voithies_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/alexandria_protes_voithies3_thumb.jpg\" alt=\"Ενημέρωση για την παροχή πρώτων βοηθειών\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/enimerosi-gia-tin-paroxi-proton-voithion\" target=\"_self\">Ενημέρωση για την παροχή πρώτων βοηθειών</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--Kordelio + Diavata seminario-->\n<p>{gallery id=kordelio_diavata_mmpi_gallery labels=labels layout=hidden width=200 height=300}MyMedia/snapshots/31-7-2017_Kordelio-Diavata_mmpi2{/gallery}{gallery link=kordelio_diavata_mmpi_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/psychologists_mmpi2_thumb.jpeg\" alt=\"Σεμινάριο ψυχολόγων Κορδελιού και Διαβατών\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/seminario-sto-mmpi-2\" target=\"_self\">Σεμινάριο στο MMPI-2</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--Kordelio puroprostasia-->\n<p>{gallery id=kordelio_purosvesi_gallery layout=hidden width=200 height=300}MyMedia/snapshots/31-7-2017_Kordelio-purosvestes{/gallery}{gallery link=kordelio_purosvesi_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/seminario_puroprostasias_thumb.jpeg\" alt=\"Σεμινάριο πυροπροστασίας στο Κορδελιό\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/seminario-puroprostasias-sto-kordelio\" target=\"_self\">Σεμινάριο πυροπροστασίας στο Κορδελιό</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--agogi ugeias Lagkadikia-->\n<p>{gallery id=lagkadikia_agogi_ugeias_gallery layout=hidden width=200 height=300}MyMedia/snapshots/31-7-2017_Lagkadikia-agogi-ugeias{/gallery}{gallery link=lagkadikia_agogi_ugeias_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/agogi_ugeias_sunergates_thumb.jpeg\" alt=\"Αγωγή υγείας στα Λαγκαδίκια\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/agogi-ugeias-sta-lagkadikia\" target=\"_self\">Αγωγή υγείας στα Λαγκαδίκια</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--veroia-draseis-->\n<p>{gallery id=veria_draseis_gallery layout=hidden width=200 height=300}MyMedia/snapshots/19-7-2017_Veria-vivliothiki-pana-afixeis-Vergina{/gallery}{gallery link=veria_draseis_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Veria_prosfora_vivlion_vivliothiki_thumb.jpg\" alt=\"Προσφορά βιβλίων από τη Δημόσια Κεντρική Βιβλιοθήκη Βέροιας\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/187-draseis-philos-sti-veria\" target=\"_self\">Δράσεις PHILOS στη Βέροια</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--derveni proagogi ugeias-->\n<p>{gallery id=derveni_proagogi_ugeias_gallery layout=hidden width=200 height=300}MyMedia/snapshots/19-7-2017_Derveni-kanones-ugieinis{/gallery}{gallery link=derveni_proagogi_ugeias_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Derveni_vasikoi_kanones_ugieinis1_thumb.jpg\" alt=\"Προαγωγή υγείας από το PHILOS στο Δερβένι\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/186-sunergasia-stin-proagogi-ugeias\" target=\"_self\">Συνεργασία στην προαγωγή υγείας</a></figcaption>{/gallery}</figure>\n</div>\n</div>\n<div class=\"photo-container-row\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!--diavata nosileftes-->\n<p>{gallery id=diavata_nosileftes_gallery layout=hidden width=200 height=300}MyMedia/snapshots/5-6-2017_Diavata_nosileftiki{/gallery}{gallery link=diavata_nosileftes_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Diavata_nosileftiki_Galani_1_thumb.jpg\" alt=\"H Φρόσω Γαλάνη από το PHILOS\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/171-sunadelfoi-kata-ti-diarkeia-nosileftikis-praksis\" target=\"_self\">Συνάδελφοι κατά τη διάρκεια νοσηλευτικής πράξης</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- alexandria proetoimasia mamas-->\n<p>{gallery id=alexandria_proetoimasia_mamas_gallery layout=hidden width=200 height=300}MyMedia/snapshots/17-7-2017_Alexandria_proetoimasia_miteras_neognou{/gallery}{gallery link=alexandria_proetoimasia_mamas_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/alexandria_proetoimasia_neognou_thumb.jpg\" alt=\"Συνεργάτιδες του PHILOS προετοιμάζουν θήκες για τις μητέρες και τα νεογνά\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/185-praktika-kit-se-egkuous\" target=\"_self\">Πρακτικά κιτ σε εγκύους</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- diavata raptiki-->\n<p>{gallery id=diavata_raptiki_gallery layout=hidden width=200 height=300}MyMedia/snapshots/5-6-2017_Diavata_raptiki{/gallery}{gallery link=diavata_raptiki_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/5-6-2017_Diavata_raptiki/Diavata_raptiki3.jpg\" alt=\"Ελένη Σάββα από το PHILOS σε δραστηριότητα ραπτικής\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/167-summetoxi-se-drastiriotites-raptikis-diavata\" target=\"_self\">Συμμετοχή σε δραστηριότητες ραπτικής στα Διαβατά</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- diavata exetasi egguou + maies-->\n<p>{gallery id=diavata_exetasi_maia_gallery layout=hidden width=200 height=300}MyMedia/snapshots/4-7-2017_Diavata_maia_exetasi{/gallery}{gallery link=diavata_exetasi_maia_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/4-7-2017_Diavata_maia_exetasi/Diavata_exetasi_egguou1.jpg\" alt=\"Η συνεργάτιδα PHILOS Τίνα Ιωαννίδου σε μαιευτική εξέταση\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/172-oi-maies-tou-philos\" target=\"_self\">Οι μαίες του PHILOS</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- filippiada sunergates -->\n<p>{gallery id=filippiadaSunergatesgallery labels=labels layout=hidden width=200 height=300}MyMedia/snapshots/26-6-2017_Filippiada_sunergates{/gallery}{gallery link=filippiadaSunergatesgallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/26-6-2017_Filippiada_sunergates/Filippiada_Georgopoulou_Tziva.jpg\" alt=\"Κυρία Γεωργοπούλου και κυρία Τζίβα στη Φιλιππιάδα\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/166-stigmes-sunergaton-filippiada\" target=\"_self\">Στιγμές συνεργατών από τη Φιλιππιάδα</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- alexandria diatrofi-->\n<p>{gallery id=alexandriaDiatrofigallery layout=hidden width=200 height=300}MyMedia/snapshots/3-7-2017_Alexandria_enimerosi_diatrofis{/gallery}{gallery link=alexandriaDiatrofigallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/alexandria_enimerosi_paidia_diatrofi4_thumb.jpg\" alt=\"Ενημέρωση για τη διατροφή στην Αλεξάνδρεια Ημαθίας\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/165-enimerotiki-sunantisi-gia-ti-diatrofi-alexandria-imathias\" target=\"_self\">Ενημερωτική συνάντηση για τη διατροφή στην Αλεξάνδρεια Ημαθίας</a></figcaption>{/gallery}</figure>\n</div>\n</div>\n<div class=\"photo-container-row\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- Diavata epimorfosi-->\n<p>{gallery id=diavataEpimorfosigallery layout=hidden width=200 height=300}MyMedia/snapshots/5-6-2017_Diavata_epimorfosi{/gallery}{gallery link=diavataEpimorfosigallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Diavata_epimorfosi_Moisidou1_thumb.jpg\" alt=\"Η Στεφανία Μωυσίδου συμμετέχει σε επιμορφωτική ημερίδα\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/164-ekpaideutiki-imerida-ekpaideytikoi-dyep\" target=\"_self\">Επιμορφωτική ημερίδα για εκπαιδευτικούς των ΔΥΕΠ</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- Diavata odeio -->\n<p>{gallery id=diavataOdeiogallery layout=hidden width=200 height=300}MyMedia/snapshots/5-6-2017_Diavata_odeio{/gallery}{gallery link=diavataOdeiogallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Diavata_sunodia_odio4_thumb.jpg\" alt=\"Συνοδεία ανηλίκων στο ωδείο από συνεργάτες του PHILOS στα Διαβατά\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/163-diavata-sunodia-anilikon\" target=\"_self\">Διαβατά: Συνοδεία ανηλίκων στο ωδείο</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=kordelioEmvoliasmosgallery layout=hidden width=200 height=300}MyMedia/snapshots/3-7-2017_Kordelio_emvoliasmos{/gallery}{gallery link=kordelioEmvoliasmosgallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvoliasmoi_prosopikou_thumb.jpg\" alt=\"Εμβολιασμός του προσωπικού του PHILOS\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/161-emvoliasmos-prosopikou-philos\" target=\"_self\">Εμβολιασμός του προσωπικού του PHILOS</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=kordelioSxolikiGiortigallery layout=hidden width=200 height=300}MyMedia/snapshots/3-7-2017_Kordelio_sxoliki_giorti{/gallery}{gallery link=kordelioSxolikiGiortigallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/3-7-2017_Kordelio_sxoliki_giorti/sxoliki_giorti2.jpg\" alt=\"Λήξη της σχολικής χρονιάς στο κέντρο φιλοξενίας του Κορδελιού\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/159-liksi-sxolikis-xronias-kordelio\" target=\"_self\">Λήξη της σχολικής χρονιάς στο κέντρο φιλοξενίας του Κορδελιού</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=alexandriaMaiftesgallery labels=labels layout=hidden width=200 height=300}MyMedia/snapshots/alexandria_imathias_29-6-2017_maieftes{/gallery}{gallery link=alexandriaMaiftesgallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/eggumonousa_stin_alexandria_thumb.jpg\" alt=\"Δράση μαιευτών στην Αλεξάνδρεια Ημαθίας\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/155-drasi-ton-maifton-tou-philos-stin-alexandria\" target=\"_self\">Δράση των μαιευτών του PHILOS στην Αλεξάνδρεια</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=alexandriaEnimerosiSistimaYgeiasgallery labels=labels layout=hidden width=200 height=300}MyMedia/snapshots/alexandria_imathias_29-6-2017_enimerosi_sustima_ugeias{/gallery}{gallery link=alexandriaEnimerosiSistimaYgeiasgallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/enimerosi_sustima_ugeias_thumb.jpg\" alt=\"Ενημέρωση για το Εθνικό Σύστημα Υγείας από το PHILOS\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/153-enimerosi-gia-to-ethniko-sistima-ugeias\" target=\"_self\">Ενημέρωση για το Εθνικό Σύστημα Υγείας</a></figcaption>{/gallery}</figure>\n</div>\n</div>\n<div class=\"photo-container-row\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=Filippiada_sunergatides_gallery labels=labels layout=hidden width=200 height=300}MyMedia/snapshots/Filippiada_19-6-2017{/gallery}{gallery link=Filippiada_sunergatides_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/georgiamoulia_final_thumb.JPG\" alt=\"Η κυρία Μούλια με τις μικρές της φίλες\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/138-xairetismata-apo-to-kentro-filippiadas\" target=\"_self\">Χαιρετίσματα από το κέντρο της Φιλιππιάδας…</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=enimerosiPRAXISPHILOS_gallery layout=hidden width=200 height=300}MyMedia/snapshots/enimerosi_PHILOS_PRAXIS_19-6-2017{/gallery}{gallery link=enimerosiPRAXISPHILOS_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/enimerosi_PHILOS_praxis_1_thumb.jpg\" alt=\"Ενημέρωση από PHILOS και PRAKSIS\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/137-enimerosi-goneon-apo-philos-kai-praksis\" target=\"_self\">Ενημέρωση γονέων από PHILOS και PRAKSIS.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=alexandria_en_drasei_gallery layout=hidden labels=labels width=200 height=300}MyMedia/snapshots/alexandria_imathias_kliniki_7-6-2017{/gallery}{gallery link=alexandria_en_drasei_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/alexandria_imathias_kliniki_7-6-2017/alexandria-omada-sunergaton.jpg\" alt=\"Η ομάδα των συνεργατών στην Αλεξάνδρεια Ημαθίας\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/113-to-philos-en-drasei-stin-alexandria-imathias\" target=\"_self\">To PHILOS εν δράσει στην Αλεξάνδρεια Ημαθίας.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=veroia_kathimerinotita_gallery layout=hidden labels=labels width=200 height=300}MyMedia/snapshots/Veria_camp_kathimerinotita{/gallery}{gallery link=veroia_kathimerinotita_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/puzzle_thumb.jpg\" alt=\"Δραστηριότητα στο χώρο φιλοξενίας της Βέροιας\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/112-skines-apo-tin-kathimerinotita-sto-kentro-filoxenias-veroia\" target=\"_self\">Σκηνές από την καθημερινότητα στο κέντρο φιλοξενίας στη Βέροια.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=eleonas_emvoliasmos_gallery layout=hidden labels=labels-eleonas-emvoliasmos rows=1 width=200 height=300}MyMedia/snapshots/Eleonas_emvoliasmos{/gallery}{gallery link=eleonas_emvoliasmos_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/emvoliasmos_paidiou_Eleonas3_thumb.jpg\" alt=\"Εμβολιασμός παιδιών στο χώρο φιλοξενίας Ελαιώνα από το PHILOS\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr />\n<p>Ευχαριστούμε θερμά τη συνάδελφο Κατερίνα Τσέκου για το φωτογραφικό υλικό από τον Ελαιώνα.</p>\n</figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=ekpaideftiki_diimierida_thess_25_26_Maiou_gallery layout=hidden labels=labels width=200 height=300 rows=1}MyMedia/snapshots/Thess_ekpaidefsi_12_6_2017{/gallery}{gallery link=ekpaideftiki_diimierida_thess_25_26_Maiou_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/sunantisi-suntonistes-pediou_thumb.JPG\" alt=\"Συνάντηση με τους συντονιστές πεδίου στην εκπαιδευτική διημερίδα της Θεσσαλονίκης\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr />\n<p>Από την κα Μαρία Φωτεινέα, Υπεύθυνη Επικοινωνίας του προγράμματος PHILOS.</p>\n</figcaption></figure>\n</div>\n</div>\n<div class=\"photo-container-row\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=philos_helmsic_gallery layout=hidden labels=labels width=200 height=300 rows=1 cols=2}MyMedia/announcement-24-5-2017{/gallery}{gallery link=philos_helmsic_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/PHILOS_HelMSIC_1_thumb.JPG\" alt=\"Η Χρύσα Μπότση παρουσίασε τις δράσεις και την οργάνωση του προγράμματος PHILOS στη HelMSIC\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/announcements/103-to-philos-sunanta-tin-helmsic\" target=\"_self\">Το PHILOS συναντά την HelMSIC.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=yliko_tsekou_gallery layout=hidden labels=labels-tsekou rows=1 width=200 height=300}MyMedia/snapshots/tsekou-23-5-2017{/gallery}{gallery link=yliko_tsekou_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Koutsohero_sxoleio_1_thumb.jpg\" alt=\"Εικόνα από το σχολείο στο χώρο φιλοξενίας στο Κουτσόχερο\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr />\n<p>Ευχαριστούμε θερμά τη συνάδελφο Κατερίνα Τσέκου για το φωτογραφικό υλικό.</p>\n</figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=prosfygopoula_anazitontas_ti_xameni_anemelia_gallery layout=hidden labels=labels width=200 height=300}MyMedia/snapshots/Veria_camp_paixnidi{/gallery}{gallery link=prosfygopoula_anazitontas_ti_xameni_anemelia_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/Veria_camp_paixnidi/veroia_paidia_vivliothiki.PNG\" alt=\"Τα παιδιά παίζουν στο χώρο φιλοξενίας της Βέροιας\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/101-prosfugopoula-anazitontas-ti-xameni-anemelia\" target=\"_self\">Προσφυγόπουλα: Αναζητώντας τη χαμένη ανεμελιά.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=lagkadikia_dimosio_nipiagogio_gallery layout=hidden labels=labels rows=1 cols=4 width=200 height=300}MyMedia/snapshots/lagkadikiaNipiagogio{/gallery}{gallery link=lagkadikia_dimosio_nipiagogio_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/lagkadikiaNipiagogio/PHILOS_lagkadikia_puzzle.jpg\" alt=\"Εικόνα από το δημόσιο νηπιαγωγείο στο χώρο φιλοξενίας Λαγκαδικίων\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/96-lagkadikia-stirixi-tou-dimosiou-nipiagogiou\" target=\"_self\">Στήριξη του δημόσιου νηπιαγωγείου στα Λαγκαδίκια.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=lagkadikia_dianomi_rouxon_gallery layout=hidden labels=labels width=200 height=300 rows=1}MyMedia/snapshots/lagkadikia_dianomi_rouxon{/gallery}{gallery link=lagkadikia_dianomi_rouxon_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/lagkadikia_dianomi_rouxon/rouxa.jpg\" alt=\"Διανομή ρούχων στα Λαγκαδίκια\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/95-lagkadikia-dianomi-rouxon\" target=\"_self\">Διανομή ρούχων στα Λαγκαδίκια.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=sostratos_gallery layout=hidden labels=labels rows=1 cols=4 width=200 height=300}MyMedia/snapshots/Sostratos{/gallery}{gallery link=sostratos_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/1015743_thumb.jpg\" alt=\"Συμμετοχή της ομάδας του PHILOS στην άσκηση Σώστρατος\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/announcements/81-summetoxi-omadas-tou-philos-stin-askisi-sostratos\" target=\"_self\">Συμμετοχή ομάδας του PHILOS στην άσκηση «Σώστρατος».</a></figcaption>{/gallery}</figure>\n</div>\n</div>\n<div class=\"photo-container-row\" style=\"display: table-row;\">\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=veroia_mathisi_psixagogia_gallery layout=hidden labels=labels width=200 height=300}MyMedia/snapshots/Veria_camp_Spyropoulou{/gallery}{gallery link=veroia_mathisi_psixagogia_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/Veria_camp_Spyropoulou/ven_res.jpg\" alt=\"Παιδικές δραστηριότητες στη Βέροια\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/75-mathisi-kai-psyxagogia-sto-kentro-filoksenias-prosfygon-tis-veroias\" target=\"_self\">Μάθηση και ψυχαγωγία στο κέντρο φιλοξενίας προσφύγων της Βέροιας.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=stomatiki_ugieini_gallery layout=hidden labels=labels width=200 height=300}MyMedia/snapshots/lagkadikiaPlisimoDontion{/gallery}{gallery link=stomatiki_ugieini_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/lagkadikiaPlisimoDontion/articlePics/stygeia2.PNG\" alt=\"Στοματική υγιεινή σε παιδιά στα Λαγκαδίκια\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/74-to-philos-didaskei-stomatiki-ygieini-se-paidia-sta-lagkadikia\" target=\"_self\">Το PHILOS διδάσκει στοματική υγιεινή σε παιδιά στα Λαγκαδίκια.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=kliniki_diaxeirisi_gallery layout=hidden labels=labels rows=1 cols=4 width=200 height=300}MyMedia/4-4-2017-ekp-ekpaidefton{/gallery}{gallery link=kliniki_diaxeirisi_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/UNFPA_GBV_TRAINING_2_thumb.JPG\" alt=\"Εργαζόμενες του PHILOS συμμετείχαν στην εκπαίδευση εκπαιδευτών για τη Κλινική διαχείριση της σεξουαλικής κακοποίησης\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/announcements/61-kliniki-diaxeirisi-ekpaidefsi\" target=\"_self\">\"Kλινική διαχείριση της σεξουαλικής κακοποίησης\" - εκπαίδευση εκπαιδευτών.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=to_sosto_plisimo_gallery layout=hidden rows=1 cols=1 width=200 height=300}MyMedia/snapshots/lagkadikiaPlisimoXerion{/gallery}{gallery link=to_sosto_plisimo_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/PHILOS-PHOTO_thumb.jpg\" alt=\"Λαγκαδίκια - Το σωστό πλύσιμο των χεριών\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" /><figcaption><hr /><a href=\"el/news/snapshots/59-to-sosto-plysimo-xerion-sta-lagkadikia\" target=\"_self\">Το \"Σωστό πλύσιμο των χεριών\" στα Λαγκαδίκια.</a></figcaption>{/gallery}</figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\">\n<p>{gallery id=ekpaideftikes_imerides_gallery layout=hidden labels=labels rows=2 cols=3 width=200 height=300}MyMedia/imerides{/gallery}{gallery link=ekpaideftikes_imerides_gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/Salonica3_Hmerida_thumb.JPG\" alt=\"Από την εκπαίδευση του PHILOS στη Θεσσαλονίκη\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr />Εκπαιδευτικές ημερίδες.</figcaption></figure>\n</div>\n<div class=\"thumbs-gallery\" style=\"display: table-cell; margin: 2vw;\"><!-- logotupa -->\n<p>{gallery id=logotupa-gallery download=true lightbox=boxplus alignment=center orientation=horizontal margin=30px layout=hidden labels=labels rows=2 cols=3 width=200 height=300}MyMedia/logos{/gallery}{gallery link=logotupa-gallery}</p>\n<figure><img src=\"images/MyMedia/snapshots/thumbs/logo_signature_thumb.jpg\" alt=\"PHILOS λογότυπο\" style=\"width: 120px; height: 120px; border-radius: 20%; box-shadow: 5px 5px rgba(0, 0, 0, 0.1);\" />{/gallery}<figcaption><hr />Τα λογότυπα του PHILOS</figcaption></figure>\n</div>\n<div class=\"photo-container-row\" style=\"display: table-row;\"></div>\n</div>\n</div>",
 			"file": "/C/Users/philos17/Dropbox/sublime files/3.html",
+			"file_size": 49355,
+			"file_write_time": 131624728123971747,
 			"settings":
 			{
-				"buffer_size": 44616,
-				"encoding": "UTF-8",
+				"buffer_size": 47477,
 				"line_ending": "Windows",
 				"name": "<div id=\"photo-container\" style=\"display: inline-t"
 			}
@@ -651,32 +666,6 @@
 			}
 		},
 		{
-			"file": "/C/Users/philos17/Desktop/mapWithChoice.html",
-			"settings":
-			{
-				"buffer_size": 26170,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/philos17/Desktop/MathRandom.html",
-			"settings":
-			{
-				"buffer_size": 5389,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/philos17/Desktop/history.txt",
-			"settings":
-			{
-				"buffer_size": 190,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "/C/xampp/htdocs/phpSandbox/website8-mysql/dbInstructions.txt",
 			"settings":
 			{
@@ -689,15 +678,6 @@
 			"settings":
 			{
 				"buffer_size": 796,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/philos17/Desktop/2.html",
-			"settings":
-			{
-				"buffer_size": 40349,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -732,14 +712,6 @@
 			{
 				"buffer_size": 539,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/philos17/Desktop/dummyIrini2.html",
-			"settings":
-			{
-				"buffer_size": 3908,
 				"line_ending": "Windows"
 			}
 		},
@@ -793,7 +765,6 @@
 			"settings":
 			{
 				"buffer_size": 2085,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -886,15 +857,6 @@
 			}
 		},
 		{
-			"file": "/C/Users/philos17/Desktop/githubInstructions.txt",
-			"settings":
-			{
-				"buffer_size": 1336,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"contents": "*{\n\twidth: \n}",
 			"file": "/C/Users/philos17/Dropbox/sublime files/alma/main.css",
 			"file_size": 0,
@@ -902,15 +864,6 @@
 			"settings":
 			{
 				"buffer_size": 13,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/philos17/Desktop/map.html",
-			"settings":
-			{
-				"buffer_size": 25544,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -986,7 +939,7 @@
 			"file": "main.css",
 			"settings":
 			{
-				"buffer_size": 5324,
+				"buffer_size": 6092,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -1055,45 +1008,17 @@
 			"file": "/C/Users/philos17/Dropbox/sublime files/2.html",
 			"settings":
 			{
-				"buffer_size": 47501,
+				"buffer_size": 46194,
 				"encoding": "UTF-8",
 				"line_ending": "Windows",
 				"name": "<div id=\"photo-container-en\" style=\"display: inlin"
 			}
 		},
 		{
-			"file": "/C/Users/philos17/Desktop/philos_blog.xml",
-			"settings":
-			{
-				"buffer_size": 18654,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/philos17/Desktop/philos-blog_item.php",
-			"settings":
-			{
-				"buffer_size": 3749,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/philos17/Desktop/COM_CONTENT_BLOG/1.txt",
-			"settings":
-			{
-				"buffer_size": 70,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "/public_html/joomla4/templates/g5_hydrogen/html/co"
-			}
-		},
-		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4339,
+				"buffer_size": 4710,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -1111,7 +1036,7 @@
 			"file": "script.js",
 			"settings":
 			{
-				"buffer_size": 1928,
+				"buffer_size": 2095,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -1179,12 +1104,20 @@
 		"/C/Users/philos17/ACTest/avocarrotTest",
 		"/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS",
 		"/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4",
-		"/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover",
-		"/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/project",
-		"/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/project/img"
+		"/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover"
 	],
 	"file_history":
 	[
+		"/C/Users/philos17/Desktop/COM_CONTENT_BLOG/1.txt",
+		"/C/Users/philos17/Desktop/philos-blog_item.php",
+		"/C/Users/philos17/Desktop/philos_blog.xml",
+		"/C/Users/philos17/Desktop/map.html",
+		"/C/Users/philos17/Desktop/githubInstructions.txt",
+		"/C/Users/philos17/Desktop/dummyIrini2.html",
+		"/C/Users/philos17/Desktop/2.html",
+		"/C/Users/philos17/Desktop/history.txt",
+		"/C/Users/philos17/Desktop/MathRandom.html",
+		"/C/Users/philos17/Desktop/mapWithChoice.html",
 		"/C/Users/philos17/Dropbox/sublime files/CFF/2nd#112/pull 10 04 18/index2.html",
 		"/C/Users/philos17/Dropbox/sublime files/1.html",
 		"/C/Users/philos17/Dropbox/sublime files/CFF/2nd#112/pull 10 04 18/cff-gh-pages/cff-gh-pages/index.html",
@@ -1238,7 +1171,6 @@
 		"/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/project/js/scripts.js",
 		"/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/directional-gallery/js/main.js",
 		"/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/directional-gallery/css/normalize.css",
-		"/C/Users/philos17/Desktop/2.html",
 		"/C/Users/philos17/Sync/images/emvoliasmoi-Filippiada/2upload/labelsEN.txt",
 		"/C/Users/philos17/Desktop/4.html",
 		"/C/Users/philos17/Dropbox/sublime files/tuts/SocialBtns/index.html",
@@ -1301,18 +1233,9 @@
 		"/C/xampp/htdocs/phpSandbox/loops.php",
 		"/C/Users/philos17/Dropbox/sublime files/tuts/SocialBtns/main.css",
 		"/C/Users/philos17/Sync/images/enimerosi_Schisto/labels.txt",
-		"/C/Users/philos17/Desktop/history.txt",
 		"/C/Users/philos17/Dropbox/sublime files/tuts/animatedSocialBtns/animatedSocialBtns.html",
 		"/C/Users/philos17/Dropbox/sublime files/tuts/animatedSocialBtns/main.css",
-		"/C/Users/philos17/Dropbox/sublime files/tuts/Preloader/jquery-3.2.1.js",
-		"/C/Users/philos17/Dropbox/sublime files/tuts/Preloader/preloader.html",
-		"/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture46/dummy.html",
-		"/C/Users/philos17/Dropbox/sublime files/tuts/css grid/index3.html",
-		"/C/Users/philos17/testAvocarrot/src/app/app.component.ts",
-		"/C/Users/philos17/testAvocarrot/src/app/app.module.ts",
-		"/C/Users/philos17/Downloads/Bug Off!_files/jquery.js",
-		"/C/Users/philos17/Downloads/Bug Off!_files/imagesloaded.min.js",
-		"/C/Users/philos17/Downloads/Bug Off!_files/cookies.js"
+		"/C/Users/philos17/Dropbox/sublime files/tuts/Preloader/jquery-3.2.1.js"
 	],
 	"find":
 	{
@@ -1330,6 +1253,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"TODO",
+			"todo",
+			"top",
+			"display: table-row;",
 			"butto",
 			"moeb",
 			"neb",
@@ -1453,11 +1380,7 @@
 			"lege",
 			"Root",
 			"lik",
-			"rde",
-			"ele",
-			"http",
-			"φυτ",
-			"σιλικ"
+			"rde"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1554,7 +1477,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -1582,7 +1505,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 55,
+					"stack_index": 48,
 					"type": "text"
 				},
 				{
@@ -1612,7 +1535,7 @@
 						"translation.y": 96.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 37,
+					"stack_index": 35,
 					"type": "text"
 				},
 				{
@@ -1642,7 +1565,7 @@
 						"translation.y": 56.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
@@ -1671,35 +1594,35 @@
 						"translation.y": 364.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "/C/Users/philos17/Dropbox/sublime files/2.html",
+					"file": "/C/Users/philos17/Sync/images/iom-keelpno-training/2upload/labels.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 47501,
+						"buffer_size": 266,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								641,
-								641
+								266,
+								266
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -1708,7 +1631,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 47501,
+						"buffer_size": 48466,
 						"regions":
 						{
 						},
@@ -1716,7 +1639,35 @@
 						[
 							[
 								0,
-								0
+								48466
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 42.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/philos17/Dropbox/sublime files/2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 46918,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								848,
+								126
 							]
 						],
 						"settings":
@@ -1727,24 +1678,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 39,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "/C/Users/philos17/Dropbox/sublime files/3.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 44616,
+						"buffer_size": 47477,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								44616
+								47477,
+								47477
 							]
 						],
 						"settings":
@@ -1753,14 +1704,14 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 10622.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 38,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "/C/Users/philos17/Dropbox/sublime files/courseraTest.html",
 					"semi_transient": false,
 					"settings":
@@ -1784,11 +1735,11 @@
 						"translation.y": 42.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 36,
+					"stack_index": 34,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "/C/Users/philos17/Sync/επικαιροποίηση χάρτη/mapUpdateMine.html",
 					"semi_transient": false,
 					"settings":
@@ -1814,11 +1765,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 34,
+					"stack_index": 32,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "/C/Users/philos17/Sync/επικαιροποίηση χάρτη/original.html",
 					"semi_transient": false,
 					"settings":
@@ -1844,11 +1795,11 @@
 						"translation.y": 8427.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 35,
+					"stack_index": 33,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/KN_OS/translation.txt",
 					"semi_transient": false,
 					"settings":
@@ -1872,11 +1823,11 @@
 						"translation.y": 1260.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 56,
+					"stack_index": 49,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 12,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/MathRandom.html",
 					"semi_transient": false,
 					"settings":
@@ -1901,11 +1852,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 52,
+					"stack_index": 45,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 13,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/MathRandomTest.html",
 					"semi_transient": false,
 					"settings":
@@ -1930,11 +1881,11 @@
 						"translation.y": 107.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 64,
+					"stack_index": 55,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 14,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture44/bugs.html",
 					"semi_transient": false,
 					"settings":
@@ -1958,98 +1909,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 53,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "/C/Users/philos17/Desktop/mapWithChoice.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 26170,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								19031,
-								19034
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 454.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 63,
+					"stack_index": 46,
 					"type": "text"
 				},
 				{
 					"buffer": 15,
-					"file": "/C/Users/philos17/Desktop/MathRandom.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5389,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								221,
-								221
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 59,
-					"type": "text"
-				},
-				{
-					"buffer": 16,
-					"file": "/C/Users/philos17/Desktop/history.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 190,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								79,
-								134
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 45,
-					"type": "text"
-				},
-				{
-					"buffer": 17,
 					"file": "/C/xampp/htdocs/phpSandbox/website8-mysql/dbInstructions.txt",
 					"semi_transient": false,
 					"settings":
@@ -2073,11 +1937,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 57,
+					"stack_index": 50,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 16,
 					"file": "/C/xampp/htdocs/phpSandbox/website8-mysql/posts.php",
 					"semi_transient": false,
 					"settings":
@@ -2102,39 +1966,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 58,
-					"type": "text"
-				},
-				{
-					"buffer": 19,
-					"file": "/C/Users/philos17/Desktop/2.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 40349,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 566.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 51,
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 17,
 					"file": "/C/xampp/htdocs/phpSandbox/websiteInfoServerClient/logoPhilosLink.html",
 					"semi_transient": false,
 					"settings":
@@ -2158,11 +1994,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 61,
+					"stack_index": 53,
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 18,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/history.txt",
 					"semi_transient": false,
 					"settings":
@@ -2186,11 +2022,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 62,
+					"stack_index": 54,
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 19,
 					"file": "/C/xampp/htdocs/phpSandbox/website8-mysql/config/db.php",
 					"semi_transient": false,
 					"settings":
@@ -2215,11 +2051,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 60,
+					"stack_index": 52,
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 20,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/bugs/main.css",
 					"semi_transient": false,
 					"settings":
@@ -2244,41 +2080,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 54,
+					"stack_index": 47,
 					"type": "text"
 				},
 				{
-					"buffer": 24,
-					"file": "/C/Users/philos17/Desktop/dummyIrini2.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3908,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 50,
-					"type": "text"
-				},
-				{
-					"buffer": 25,
+					"buffer": 21,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/bugs/index.html",
 					"semi_transient": false,
 					"settings":
@@ -2307,7 +2113,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 22,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/project/responsiveGalleryWithDirectionalAwareHover.html",
 					"semi_transient": false,
 					"settings":
@@ -2332,11 +2138,11 @@
 						"translation.y": 76.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 47,
+					"stack_index": 42,
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 23,
 					"file": "/C/Users/philos17/Dropbox/sublime files/asteras/menu.html",
 					"semi_transient": false,
 					"settings":
@@ -2364,7 +2170,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 24,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/project/css/styles.css",
 					"semi_transient": false,
 					"settings":
@@ -2389,11 +2195,11 @@
 						"translation.y": 1159.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 46,
+					"stack_index": 41,
 					"type": "text"
 				},
 				{
-					"buffer": 29,
+					"buffer": 25,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/project/js/scripts.js",
 					"semi_transient": false,
 					"settings":
@@ -2418,11 +2224,11 @@
 						"translation.y": 476.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 41,
+					"stack_index": 37,
 					"type": "text"
 				},
 				{
-					"buffer": 30,
+					"buffer": 26,
 					"file": "/C/Users/philos17/Dropbox/sublime files/MyGit/githubInstructions.txt",
 					"semi_transient": false,
 					"settings":
@@ -2446,11 +2252,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 40,
+					"stack_index": 36,
 					"type": "text"
 				},
 				{
-					"buffer": 31,
+					"buffer": 27,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/YeomanAndMore/instructions.txt",
 					"semi_transient": false,
 					"settings":
@@ -2474,11 +2280,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 48,
+					"stack_index": 43,
 					"type": "text"
 				},
 				{
-					"buffer": 32,
+					"buffer": 28,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/YeomanAndMore/gulpfile.js",
 					"semi_transient": false,
 					"settings":
@@ -2504,11 +2310,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 49,
+					"stack_index": 44,
 					"type": "text"
 				},
 				{
-					"buffer": 33,
+					"buffer": 29,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-AngularJS/index.html",
 					"semi_transient": false,
 					"settings":
@@ -2532,11 +2338,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 29,
+					"stack_index": 28,
 					"type": "text"
 				},
 				{
-					"buffer": 34,
+					"buffer": 30,
 					"file": "/C/Users/philos17/Downloads/Bug Off!_files/ScrollMagic.js",
 					"semi_transient": false,
 					"settings":
@@ -2561,11 +2367,11 @@
 						"translation.y": 2058.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 42,
+					"stack_index": 38,
 					"type": "text"
 				},
 				{
-					"buffer": 35,
+					"buffer": 31,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture46/index.html",
 					"semi_transient": false,
 					"settings":
@@ -2589,11 +2395,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 33,
+					"stack_index": 31,
 					"type": "text"
 				},
 				{
-					"buffer": 36,
+					"buffer": 32,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture52/js/script1.js",
 					"semi_transient": false,
 					"settings":
@@ -2617,11 +2423,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 32,
+					"stack_index": 30,
 					"type": "text"
 				},
 				{
-					"buffer": 37,
+					"buffer": 33,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture46/js/script.js",
 					"semi_transient": false,
 					"settings":
@@ -2645,11 +2451,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 43,
+					"stack_index": 39,
 					"type": "text"
 				},
 				{
-					"buffer": 38,
+					"buffer": 34,
 					"file": "/C/Users/philos17/Dropbox/sublime files/maps/2.html",
 					"semi_transient": false,
 					"settings":
@@ -2675,39 +2481,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 44,
+					"stack_index": 40,
 					"type": "text"
 				},
 				{
-					"buffer": 39,
-					"file": "/C/Users/philos17/Desktop/githubInstructions.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1336,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1336,
-								1336
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 210.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 30,
-					"type": "text"
-				},
-				{
-					"buffer": 40,
+					"buffer": 35,
 					"file": "/C/Users/philos17/Dropbox/sublime files/alma/main.css",
 					"semi_transient": false,
 					"settings":
@@ -2731,41 +2509,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 31,
+					"stack_index": 29,
 					"type": "text"
 				},
 				{
-					"buffer": 41,
-					"file": "/C/Users/philos17/Desktop/map.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 25544,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								535,
-								535
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 27.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 24,
-					"type": "text"
-				},
-				{
-					"buffer": 42,
+					"buffer": 36,
 					"semi_transient": false,
 					"settings":
 					{
@@ -2788,11 +2536,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 26,
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
-					"buffer": 43,
+					"buffer": 37,
 					"semi_transient": false,
 					"settings":
 					{
@@ -2818,11 +2566,11 @@
 						"translation.y": 28.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 25,
+					"stack_index": 24,
 					"type": "text"
 				},
 				{
-					"buffer": 44,
+					"buffer": 38,
 					"file": "/C/Users/philos17/Dropbox/sublime files/license/license.pdf",
 					"semi_transient": false,
 					"settings":
@@ -2846,11 +2594,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 27,
+					"stack_index": 26,
 					"type": "text"
 				},
 				{
-					"buffer": 45,
+					"buffer": 39,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/map.html",
 					"semi_transient": false,
 					"settings":
@@ -2880,7 +2628,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 46,
+					"buffer": 40,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/css grid/index2.html",
 					"semi_transient": false,
 					"settings":
@@ -2909,7 +2657,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 47,
+					"buffer": 41,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/css grid/grid.html",
 					"semi_transient": false,
 					"settings":
@@ -2938,7 +2686,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 48,
+					"buffer": 42,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/css grid/index3.html",
 					"semi_transient": false,
 					"settings":
@@ -2967,7 +2715,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 49,
+					"buffer": 43,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/css grid/index4.html",
 					"semi_transient": false,
 					"settings":
@@ -3002,20 +2750,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 50,
+					"buffer": 44,
 					"file": "main.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5324,
+						"buffer_size": 6092,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4908,
-								4913
+								4914,
+								4914
 							]
 						],
 						"settings":
@@ -3024,14 +2772,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4374.0,
+						"translation.y": 4184.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 51,
+					"buffer": 45,
 					"file": "/C/Users/philos17/Dropbox/sublime files/asteras/main.css",
 					"semi_transient": false,
 					"settings":
@@ -3056,11 +2804,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 52,
+					"buffer": 46,
 					"file": "/C/Users/philos17/Dropbox/sublime files/asteras/myscript.js",
 					"semi_transient": false,
 					"settings":
@@ -3084,11 +2832,11 @@
 						"translation.y": 544.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 53,
+					"buffer": 47,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/responsiveGalleryWithDirectionalAwareHover.html",
 					"semi_transient": false,
 					"settings":
@@ -3113,11 +2861,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 54,
+					"buffer": 48,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture52/mine/js/script.js",
 					"semi_transient": false,
 					"settings":
@@ -3142,11 +2890,11 @@
 						"translation.y": 126.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 28,
+					"stack_index": 27,
 					"type": "text"
 				},
 				{
-					"buffer": 55,
+					"buffer": 49,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture54/js/script.js",
 					"semi_transient": false,
 					"settings":
@@ -3178,11 +2926,11 @@
 			]
 		},
 		{
-			"selected": 5,
+			"selected": 2,
 			"sheets":
 			[
 				{
-					"buffer": 56,
+					"buffer": 50,
 					"file": "/C/Users/philos17/Dropbox/sublime files/webpush/push-notifications/app/scripts/main.js",
 					"semi_transient": false,
 					"settings":
@@ -3208,16 +2956,16 @@
 						"translation.y": 1291.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 57,
+					"buffer": 51,
 					"file": "/C/Users/philos17/Dropbox/sublime files/2.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 47501,
+						"buffer_size": 46194,
 						"regions":
 						{
 						},
@@ -3241,107 +2989,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 58,
-					"file": "/C/Users/philos17/Desktop/philos_blog.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 18654,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								274,
-								274
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 59,
-					"file": "/C/Users/philos17/Desktop/philos-blog_item.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3749,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2370,
-								2370
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 120.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 60,
-					"file": "/C/Users/philos17/Desktop/COM_CONTENT_BLOG/1.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 70,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								70,
-								70
-							]
-						],
-						"settings":
-						{
-							"auto_name": "/public_html/joomla4/templates/g5_hydrogen/html/co",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 61,
+					"buffer": 52,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4339,
+						"buffer_size": 4710,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3828,
-								3828
+								4158,
+								4158
 							]
 						],
 						"settings":
@@ -3351,10 +3012,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1670.0,
+						"translation.y": 1053.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -3364,7 +3025,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 62,
+					"buffer": 53,
 					"file": "/C/Users/philos17/Dropbox/sublime files/CFF/2nd#112/main.css",
 					"semi_transient": false,
 					"settings":
@@ -3389,24 +3050,24 @@
 						"translation.y": 330.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 63,
+					"buffer": 54,
 					"file": "script.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1928,
+						"buffer_size": 2095,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1752,
-								1752
+								363,
+								363
 							]
 						],
 						"settings":
@@ -3416,14 +3077,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 495.0,
+						"translation.y": 546.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 64,
+					"buffer": 55,
 					"file": "script2.js",
 					"semi_transient": false,
 					"settings":
@@ -3447,7 +3108,7 @@
 						"translation.y": 756.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
@@ -3493,13 +3154,13 @@
 		"cols":
 		[
 			0.0,
-			0.252443968915,
+			0.546001802004,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.520545651936,
+			0.509505799521,
 			1.0
 		]
 	},
@@ -3546,7 +3207,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

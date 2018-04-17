@@ -16,7 +16,7 @@
     <link rel="stylesheet" type="text/css" href="main.css">
     
   </head>
-  <body>
+  <body onload="closeNav();">
   <div id="container">
     <!-- Side navigation -->
     <div id="nebulla-sideNav" class="sidenav">
@@ -28,14 +28,14 @@
     <header>
       <span></span>
       <span onclick="openNav();"><!-- Menu --><i class="fas fa-bars"></i></span>
-      <span id="top"><a href="#"><img id="logo" src="infinity.png" alt=""></a></span>
+      <span><a href="#"><img id="logo" src="infinity.png" alt=""></a></span>
     </header>
   </div> <!-- end .container -->
     <!-- <div id="mainContainer"></div> --><!-- end of #mainContainer -->
 
   <div id="nebulla-jumbotron" class="jumbotron">
     <div class="parallax-start"></div>
-    <div class="container">
+    <div class="container" id="top">
   		<h1 class="display-3">Hello, world!</h1>
   		<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
   		<hr class="my-4">
@@ -60,9 +60,8 @@
     <div>
       <div class=""><br></div>
       <div id=" " class="">
-        <form id="moebius-form" action="/contact_form_php" method="POST">
-          <!-- @TODO: make visible when footer tiny the contact line and make it a href -->
-          <h4>Contact me</h4>
+        <form id="moebius-form" action="https://formspree.io/dimitramaz@yahoo.gr" method="POST">
+          <h4><a class="hoverContact" onclick="makeVisibleFooter();">Contact me</a></h4>
           <div class="grid-container">
             <div class="form-group">
               <!-- <label for="fname">Your name</label> -->
@@ -70,7 +69,7 @@
             </div>
             <div class="form-group">
               <!-- <label for="email">Your email</label> -->
-              <input id="email" name="email" type="email" placeholder="My e-mail is..." required>
+              <input id="email" name="_replyto" type="email" placeholder="My e-mail is..." required>
             </div>
             <div class="form-group msg">
               <!-- <label for="msg">Your message</label> -->
@@ -79,6 +78,9 @@
             <div class="form-group">
               <!-- @TODO: add active class for on click with bootstrap and then change it with pure CSS -->
               <!-- @TODO: check onetab : https://www.one-tab.com/page/wOrwS4-tRtCSWChZTCKUEA -->
+              <!-- @TODO: https://formspree.io/ . OR https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form . OR http://www.chami.com/tips/internet/010597I.html .  make a functional form . -->
+              <!-- @TODO: test it -->
+              <!-- @TODO: make a received and a there was a problem <p> . check on codepen and my host -->
               <button id="submitBtn" class="btn btn-success" type="button" form="moebius-form" formmethod="post" role="button" name="Submit">Submit</button>
             </div>
           </div>
@@ -86,9 +88,9 @@
       </div>
       <div class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, perferendis.</div>
   		<div id="to-top" class="">
-        <i class="fas fa-chevron-up">
-          <a href="#top" clickable></a>
-        </i>
+         <a href="#top" clickable><i class="fas fa-chevron-up">
+         
+        </i></a>
       </div>
     </div>
 	</footer>	
