@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"grid-template",
+				"grid-template-areas"
+			],
+			[
+				"about",
+				"about"
+			],
+			[
 				"clo",
 				"closeNav"
 			],
@@ -506,28 +514,11 @@
 			[
 				"word",
 				"word-wrap"
-			],
-			[
-				"conta",
-				"contact"
-			],
-			[
-				"lar",
-				"larger"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/bird-flying.html",
-			"settings":
-			{
-				"buffer_size": 500,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
 		{
 			"file": "/C/Users/philos17/Downloads/mapFixed.html",
 			"settings":
@@ -538,7 +529,10 @@
 			}
 		},
 		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n <title>Ο PHILOS στο χάρτη</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=nο\">\n    <meta charset=\"utf-8\">\n<style type=\"text/css\">\n  html { height: 100% }\n  body { height: 100%; margin: 0; padding: 0 }\n  #map_canvas { height: 100% }\n\n  #legend {\n    font-family: Arial, sans-serif;\n    font-size: 0.7rem;\n    background: #fff;\n    padding: 10px;\n    margin: 10px;\n    border: 3px solid #000;\n\n  }\n  #legend h3 {\n    margin-top: 0;\n  }\n  #legend img {\n    vertical-align: middle;\n    height: 22px;\n  }\n\n  @-moz-document url-prefix() {\n    html { height: 100% }\n  body { height: 100%; margin: 0; padding: 0 }\n  #map_canvas { height: 100% }\n\n  #legend {\n    font-family: Arial, sans-serif;\n    font-size: 0.7rem;\n    background: #fff;\n    padding: 10px;\n    margin: 10px;\n    border: 3px solid #000;\n  }\n  #legend h3 {\n    margin-top: 0;\n  }\n  #legend img {\n    vertical-align: middle;\n    height: 22px;\n  }\n  \n  }\n\n</style>\n<script type=\"text/javascript\"\n  src=\n\"http://maps.googleapis.com/maps/api/js?key=AIzaSyDsrcwr-VLlZQSqgG45sTu5Z8-93cen9tw&sensor=false&language=gr&region=GR\">\n</script>\n<script type=\"text/javascript\">\n/**\n@author Dimitra Mazaraki\nphilosgreece.eu\n\nLicenced under \"Apache License 2.0\". The license is included in the root file of the project.\n\nAny change should mention the original author.\n\n*/\n\n//hospitals, pedy, ekav\n var pinColor = \"009933\";\n var pinImage = new google.maps.MarkerImage(\"http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|\" + pinColor,\n     new google.maps.Size(21, 34),\n     new google.maps.Point(0,0),\n     new google.maps.Point(10, 34));\n var pinShadow = new google.maps.MarkerImage(\"http://chart.apis.google.com/chart?chst=d_map_pin_shadow\",\n     new google.maps.Size(40, 37),\n     new google.maps.Point(0, 0),\n     new google.maps.Point(12, 35));\n \n\n//ype\n var pinColor2 = \"4d4dff\";\n var pinImage2 = new google.maps.MarkerImage(\"http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|\" + pinColor2,\n     new google.maps.Size(21, 34),\n     new google.maps.Point(0,0),\n     new google.maps.Point(10, 34));\n var pinShadow2 = new google.maps.MarkerImage(\"http://chart.apis.google.com/chart?chst=d_map_pin_shadow\",\n     new google.maps.Size(40, 37),\n     new google.maps.Point(0, 0),\n     new google.maps.Point(12, 35));\n\n //official\n var pinColor3 = \"e6e600\";\n var pinImage3 = new google.maps.MarkerImage(\"http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|\" + pinColor3,\n     new google.maps.Size(21, 34),\n     new google.maps.Point(0,0),\n     new google.maps.Point(10, 34));\n var pinShadow3 = new google.maps.MarkerImage(\"http://chart.apis.google.com/chart?chst=d_map_pin_shadow\",\n     new google.maps.Size(40, 37),\n     new google.maps.Point(0, 0),\n     new google.maps.Point(12, 35));\n\n //camps\n var pinColor4 = \"33cccc\";\n var pinImage4 = new google.maps.MarkerImage(\"http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|\" + pinColor4,\n     new google.maps.Size(21, 34),\n     new google.maps.Point(0,0),\n     new google.maps.Point(10, 34));\n var pinShadow4 = new google.maps.MarkerImage(\"http://chart.apis.google.com/chart?chst=d_map_pin_shadow\",\n     new google.maps.Size(40, 37),\n     new google.maps.Point(0, 0),\n     new google.maps.Point(12, 35));\n\n\n//for the legend\nvar iconBase = 'http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|';\nvar icons = {\n  hospitalsEKAV: {\n    name: 'Νοσοκομεία, ΕΚΑΒ, Κέντρα Υγείας',\n    icon: iconBase + pinColor\n  },\n  ypes: {\n    name: 'Υγειονομικές Περιφέρειες (ΥΠΕ)',\n    icon: iconBase + pinColor2\n  },\n  offices: {\n    name: 'ΚΕΕΛΠΝΟ, ΕΚΕΠΥ, Υπουργείο Υγείας, Υπουργείο Μεταναστευτικής Πολιτικής',\n    icon: iconBase + pinColor3\n  },\n  camps: {\n    name: 'Χώροι Φιλοξενίας',\n    icon: iconBase + pinColor4\n  }\n} //end of icons objects\n\nvar locations = [\n\n//nosokomeia, ekav, pedy...\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο Βέροιας', 'κυρία Μεταλίδου', '23313-51100, 23313-51400', 40.503268, 22.216287, 'Συνοικισμός Παπάγου, 59132'],\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο Γιαννιτσών', 'κυρία Κωστίδου', '23823-50200, 23823-50300', 40.794359, 22.414448, 'Γιαννιτσά, 58100'],\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο Κατερίνης', 'κυρία Χαβέλα', '23513-50200', 40.293706, 22.445165, '6ο χλμ Επαρχιακή οδός Αρωνάς - Μοσχοπόταμος, 60100, Νέο Κεραμίδι Πιερίας'],\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο Θεσσαλονίκης Άγιος Δημήτριος', 'κύριος Τσίκουρας', '23133-22100', 40.635040, 22.955976, 'Ελένης Ζωγράφου 2, 54634, Θεσσαλονίκη'],\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο Θεσσαλονίκης Γεννηματάς', 'κύριος Σαμαράς', '23133-08100, 2310-963100', 40.633835, 22.955698, 'Εθνικής Αμύνης 41, 54635, Θεσσαλονίκη'],\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο Παπαγεωργίου', 'κυρία Ζαχαρούδη', '23133-323000', 40.676480, 22.962334, 'Περιφερειακή οδός Δήμου Παύλος Μελάς, 56429, Θεσσαλονίκη'],\n  ['3η Υ.ΠΕ., Γενικό Νοσοκομείο Παπανικολάου', 'κύριος Κυριακίδης / κυρία Χωματά', '23133-07000', 40.609572, 23.101459, 'Χορτιάτης, 57010, Θεσσαλονίκη'],\n  ['3η Υ.ΠΕ., ΠΕΔΥ - Κέντρο Υγείας Διαβατών', 'κύριος Φοροτζίτης', '2310-781840, 2310-781881', 40.684809, 22.860129, 'Βενιζέλου Ελευθερίου 5, Διαβατά, 57008, Θεσσαλονίκη'],\n  ['3η Υ.ΠΕ., ΠΕΔΥ - Κέντρο Υγείας Λαγκαδά', 'κυρία Μοσχίδου', '23943-30701', 40.749702, 23.067668, 'Λουτρών 20, 57200, Λαγκαδάς'],\n  ['3η Υ.ΠΕ., ΠΕΔΥ Κατερίνης', 'κυρία Σταθακοπούλου', '23510-35913', 40.684809, 22.860129, 'Κανελλόπουλου Παναγιώτη 1, 60132, Κατερίνη Πιερίας'],\n  ['3η Υ.ΠΕ., ΠΕΔΥ ΜΥ Πύλη Αξιού', 'κυρία Ιακωβίδου', '2310-597848', 40.637592, 22.934252, 'Πολυτεχνείου 1, 54626, Θεσσαλονίκη'],\n  ['5η Υ.ΠΕ., Γενικό Νοσοκομείο Λαμίας', 'κυρία Κόντου', '22313-56000', 38.914249, 22.427544, ' Παπασιοπούλου, 35100, Λαμία'],\n  ['5η Υ.ΠΕ., Γενικό Νοσοκομείο Βόλου Αχιλλοπούλειο', 'κυρία Σιτζάκη', '24213-51000, 24210-94200', 39.352631, 22.962701, 'Πολυμέρη 134, 38222, Βόλος'],\n  ['5η Υ.ΠΕ., Γενικό Νοσοκομείο Λάρισας Κουτλιμπάνειο', 'κυρία Λάμπρου', '2413-504100', 39.642292, 22.422548, 'Τσακάλωφ, 41221, Λάρισα'],\n  ['5η Υ.ΠΕ., Γενικό Νοσοκομείο Χαλκίδας', 'κυρία Ρέππα', '2221-350100', 38.463395, 23.599557, 'Γαζέπη Ηρακλή 48, 34100, Χαλκίδα'],\n  ['5η Υ.ΠΕ., ΠΑΓΝ Λάρισας', 'κυρία Γουτοπούλου', '2413-504100', 39.610923, 22.385844, 'Τσακάλωφ 1, Λάρισα, 41334'],\n  ['5η Υ.ΠΕ., Κέντρο Υγείας Αγιάς', 'κυρία Βαλιατζά', '24943-50000', 39.697826, 22.875364, 'Αγιόκαμπος, Αγιά, 40003, Λάρισα'],\n  ['2η Υ.ΠΕ., Αντικαρκινικό Νοσοκομείο Πειραιά Μεταξά', 'κύριος Παπαδόπουλος', '213-2079100', 37.929755, 23.643430, 'Μπόταση 51, 18537, Πειραιάς'],\n  ['2η Υ.ΠΕ., Γενικό Νοσοκομείο Ασκληπείο Βούλας', 'κυρία Κριμπογιάννη', '213-2163000', 37.847845, 23.757393, 'Λεωφόρος Βασιλέως Παύλου 1,  16673, Βάρη Βούλα Βουλιαγμένη'],\n  ['2η Υ.ΠΕ., Γενικό Νοσοκομείο Νίκαιας Άγιος Παντελεήμων', 'κυρία Κατουφά', '213-2077000', 37.966957, 23.644283, 'Μαντούβαλου 3, Οσία Ξένη, 18454, Νίκαια Αττικής'],\n  ['2η Υ.ΠΕ., Γενικό Νοσοκομείο Πειραιά Τζάνειο', 'κυρία Πετράτου', '213-2081000', 37.934468, 23.645242, ' Λεωφόρος Αφεντούλη και Ζαννή, 18536, Πειραιάς'],\n  ['2η Υ.ΠΕ., ΠΑΓΝ Αττικό', 'κυρία Σταυρινάβη', '210-5831000', 38.016581, 23.665685, 'Ρίμινι 1, 12462, Χαϊδάρι'],\n  ['6η Υ.ΠΕ., Γενικό Νοσοκομείο Ηλείας (Πύργου)', 'κυρία Γρίβα', '26213-61300', 37.685178, 21.422292, ' Συντριάδα, 27100, Πύργος Ηλείας'],\n  ['6η Υ.ΠΕ., Γενικό Νοσοκομείο Ηλείας (Αμαλιάδας)', 'κυρία Γρίβα', '26220-25939, 26220-22222', 37.791495, 21.357442, ' Ευαγγελιστρίας 128, 27200, Αμαλιάδα Ηλείας'],\n  ['6η Υ.ΠΕ., Γενικό Νοσοκομείο Ιωαννίνων Χατζηκώστα', 'κυρία Ηλιάδου / κυρία Βλάχου', '26513-66688', 39.677786, 20.834928, ' Λεωφόρος Στρατηγού Μακρυγιάννη 1, 45445, Ιωάννινα'],\n  ['6η Υ.ΠΕ., Γενικό Νοσοκομείο Πρέβεζας', 'κυρία Μερισιώτη', '26823-61390', 38.965394, 20.753990, 'Σελευκείας 2, 48100, Πρέβεζα'],\n  ['6η Υ.ΠΕ., ΠΑΓΝ Ιωαννίνων', 'κυρία Μπλάτσιου', '26510-99111', 39.625572, 20.848436, 'Λεωφόρος Σταύρου Νιάρχου, 45500, Ιωάννινα'],\n  ['6η Υ.ΠΕ., ΠΕΔΥ - Κέντρο Υγείας Δελβινακίου', 'κύριος Μάντζιος / κύριος Βίλης', '26570-22222, 26570-22540', 39.933965, 20.465450, 'Δελβινάκι, Δελβινάκι, 44002, Ιωάννινα'],\n  ['6η Υ.ΠΕ., ΠΕΔΥ - Κέντρο Υγείας Ιωαννίνων', 'κύριος Φώτος / κυρία Φούκα', '26510-26519, 26510-59662', 39.672130, 20.847175, 'Μελά Παύλου 34, 45444, Ιωάννινα'],\n  ['6η Υ.ΠΕ., ΠΕΔΥ - Κέντρο Υγείας Κόνιτσας', 'κύριος Φυσέκης', '26550-22022', 40.048072, 20.752838, 'Κόνιτσα, Κόνιτσα, 44100, Ιωάννινα'],\n  ['1η Υ.ΠΕ., Αλεξάνδρα', 'κυρία Παντικίδη', '213-216200, 210-3381100', 37.980401, 23.754944, 'Λεωφόρος Βασιλίσσης Σοφίας 80, 11528, Αθήνα'],\n  ['1η Υ.ΠΕ., Ευαγγελισμός', 'κυρία Δανιηλίδου', '213-2041000', 37.977510, 23.748164, 'Υψηλάντου 45, 10676, Αθήνα'],\n  ['1η Υ.ΠΕ., Κέντρο Υγείας Καπανδριτίου', 'κυρία Πριμυκίρη', '22950-52612', 38.215738, 23.882484, 'Γραμματικογιάννη, 19014, Καπανδρίτι'],\n  ['1η Υ.ΠΕ., Κέντρο Υγείας Νέας Μάκρης', 'κύριος Στάμος', '22943-21000', 38.088382, 23.962598, 'Λεωφόρος Μαραθώνος και Αρτέμιδος, 19005, Νέα Μάκρη'],\n  ['1η Υ.ΠΕ., Κέντρο Υγείας Λαυρίου', 'κύριος Βλαχογιάννης', '22923-20300', 37.716828, 24.053912, 'Διαμαντοπούλου Ιακώβου, 19500, Λαύριο'],\n  ['1η Υ.ΠΕ., Έλενας Βενιζέλου', 'κυρία Καστραντά', '213-2051000', 37.985055, 23.755273, 'Πλατεία Έλενας Βενιζέλου 2, 11521, Αμπελόκηποι'],\n  ['1η Υ.ΠΕ., Κέντρο Ψυχικής Υγείας Βύρωνα', 'κυρία Δούκα', '210-7640111, 210-7644705', 37.962405, 23.759756, 'Δήλου 14, 16121, Καισαριανή'],\n  ['1η Υ.ΠΕ., Λαϊκό', 'κύριος Καραγκιοζόπουλος', '213-2060800', 37.984674, 23.764180, 'Αγίου Θωμά 17, 11527, Αθήνα'],\n  ['1η Υ.ΠΕ., Παίδων Αγλαΐα Κυριακού', 'κυρία Καρατζαφέρη', '213-2009000', 37.985283, 23.766911, 'Λεβαδείας 3 & Θηβών, 11527, Αθήνα'],\n  ['1η Υ.ΠΕ., Παίδων Αγία Σοφία', 'κυρία Μαρκογιαννάκη', '213-2013000', 37.983497, 23.768688, 'Θηβών και Παπαδιαμαντοπούλου, 11527, Αθήνα'],\n  ['4η Υ.ΠΕ., Γενικό Νοσοκομείο Δράμας', 'κυρία Τσιτλίδου', '25210 23351-5', 38.000841, 23.714901, 'Ιπποκράτους Τέρμα, 66132, Δράμα'],\n  ['4η Υ.ΠΕ., Γενικό Νοσοκομείο Καβάλας', 'κυρία Παπάκη', '25135-01100', 40.940905, 24.376925, 'Άγιος Σίλας, 65500, Καβάλα'],\n  ['4η Υ.ΠΕ., Γενικό Νοσοκομείο Κιλκίς', 'κυρία Ιωαννίδου', '23413-51736', 40.990418, 22.867203, 'Νοσοκομείου 1, 61100, Κιλκίς'],\n  ['4η Υ.ΠΕ., Γενικό Νοσοκομείο Θεσσαλονίκης', 'κυρία Ξεπαπαδάκη', '2313-312000', 40.611484, 22.961733, 'Κωνσταντινοπούλεως 49, 54642, Θεσσαλονίκη'],\n  ['4η Υ.ΠΕ., Μονάδα Υγείας ΠΕΔΥ Δροσάτου', 'κυρία Αποστολάκη', '23410-97202', 41.167046, 22.801571, 'Δροσάτο, 61003'],\n  ['4η Υ.ΠΕ., Κέντρο Υγείας Ζαγκλιβερίου', 'κυρία Παυλίδου', '23933-30400', 40.574480, 23.284947, 'Επαρχιακή Οδός Ζαγκλιβερίου-Νέας Χαλκιδικής 45, 57012, Ζαγκλιβέρι'],\n  ['4η Υ.ΠΕ., Κέντρο Υγείας Θέρμης', 'κυρία Κατσιώμη', '23133 10824-6', 40.544823, 23.032766, 'Θέρμη, 57001'],\n  ['4η Υ.ΠΕ., Κέντρο Υγείας Παρανεστίου', 'κυρία Τσαλγαρίδου', '25240-22171, 25240-22222', 41.266145, 24.502995, 'Ε.Ο. Δράμας - Ξάνθης 57, 66035, Παρανέστι'],\n  ['4η Υ.ΠΕ., Κέντρο Υγείας Πολυκάστρου', 'κυρία Γάκη', '23430-22051', 40.995048, 22.577083, 'Βενιζέλου, 61200, Πολύκαστρο'],\n  ['4η Υ.ΠΕ., Κέντρο Υγείας Σοχού', 'κυρία Δημητρίου', '23950-22222', 40.818183, 23.356642, 'Σοχός, 57002, Θεσσαλονίκη'],\n  ['ΕΚΑΒ Θεσσαλονίκης', 'κυρία Τσορμπατζόγλου', '2310-397100', 40.990418, 22.867203, 'Μαβίλη 33, 55535, Θεσσαλονίκη'],\n  ['ΕΚΑΒ Ιωαννίνων', 'κύριος Παπαδιώτης', '26510-54334', 39.665029, 20.853747, 'Παπανδρέου Γεωργίου 1 (Εντός Παλαιού Κτιρίου Νοσοκομείου), 45444, Ιωάννινα'],\n  ['ΕΚΑΒ Αττικής', 'κύριος Μπόρας', '213-2143000', 37.998564, 23.783817, 'Τέρμα Υγείας & Λεωφόρος Μεσογείων (πλησίον νοσοκομείου Γ. Γεννηματάς), 11527, Αθήνα'],\n  ['ΕΚΑΒ Καβάλας - Δράμας', 'κυρία Τουρτούνη', '25210-26171', 41.159045, 24.148861, 'Τέρμα Ιπποκράτους, Εντός Γενικού Νοσοκομείου, 66100, Δράμα'],\n  ['ΕΚΑΒ Λάρισας', 'κυρία Δαλαμπίρα / κύριος Σχοινάς', '2410-685102', 39.610923, 22.385844, 'Λάρισα, Εντός Πανεπιστημιακού Νοσοκομείου, Λάρισα - Μεζούρλο, 41110, Λάρισα']\n];\n\n  var locationsYpe = [\n    ['1η ΥΠΕ ΑΤΤΙΚΗΣ', 'Ζαχάρωφ 3, 11521, Αμπελόκηποι, Αθήνα', '213-2010400', 'http://www.1dype.gov.gr/', 37.986184, 23.760324],\n    ['2η ΥΠΕ ΠΕΙΡΑΙΩΣ & ΑΙΓΑΙΟΥ', 'Θηβών 46, 18543, Πειραιάς', '213-2004200 , 213-2004205', 'http://www.2dype.gr/', 37.957189, 23.651598],\n    ['3η ΥΠΕ ΜΑΚΕΔΟΝΙΑΣ', 'Αριστοτέλους 16, 54623, Θεσσαλονίκη', '2313-320500', 'http://www.3ype.gr/', 40.634353, 22.942907],\n    ['4η ΥΠΕ ΜΑΚΕΔΟΝΙΑΣ & ΘΡΑΚΗΣ', 'Αριστοτέλους 16, 54623, Θεσσαλονίκη', '2313-327800', 'https://www.4ype.gr/', 40.634353, 22.942907],\n    ['5η ΥΠΕ ΘΕΣΣΑΛΙΑΣ & ΣΤΕΡΕΑΣ ΕΛΛΑΔΑΣ', 'Νικηταρά 18, 41221, Λάρισα', '2413-500800', 'http://www.dypethessaly.gr', 39.639236, 22.421518],\n    ['6η ΥΠΕ ΠΕΛΟΠΟΝΝΗΣΟΥ, ΙΟΝΙΩΝ ΝΗΣΩΝ, ΗΠΕΙΡΟΥ & ΔΥΤΙΚΗΣ ΕΛΛΑΔΑΣ', 'Ν.Ε.Ο. Πατρών - Αθηνών & Υπάτης 1, 26441, Πάτρα', '2610-463500 , 2610-463503', 'http://www.dypede.gr', 38.260500, 21.749365],\n    ['7η ΥΠΕ ΚΡΗΤΗΣ', 'Σμύρνης 26, 71201, Ήράκλειο Κρήτης', '2813-404400', 'https://www.hc-crete.gr/', 35.336760, 25.134573]\n  ];\n\n  var locationsOfficial = [\n    ['ΚΕΕΛΠΝΟ', 'Αγράφων 3-5, 15123, Μαρούσι Αττικής', '210-5212000', 'http://www.keelpno.gr/', 38.033120, 23.788603],\n    ['ΕΚΕΠΥ', 'Λεωφόρος Κηφισίας 39, 15123, Μαρούσι Αττικής', '210-6822445', '', 38.034328, 23.795601],\n    ['Υπουργείο Υγείας', 'Αριστοτέλους 17, 10187, Αθήνα', '213-2161000-1', 'http://www.moh.gov.gr/', 37.988304, 23.727715],\n    ['Υπουργείο Μεταναστευτικής Πολιτικής', 'Ευαγγελιστρίας 2, 10563, Αθήνα', '210-4141641, 210-4141671', 'http://www.ypes.gr/el/Generalsecretariat_PopulationSC/general_directorate_ithageneias_migratation/', 37.975836, 23.729906],\n    ['Υπουργείο Μεταναστευτικής Πολιτικής (εξυπηρέτηση κοινού)', 'Αγίου Διονυσίου 5, 18545, Πειραιάς', '210-4141641, 210-4141671', 'http://www.ypes.gr/el/Generalsecretariat_PopulationSC/general_directorate_ithageneias_migratation/', 37.949444, 23.643635]\n  ];\n\n  var locationsCamps = [\n    ['1η Υ.ΠΕ (Αττικής), Δομή Φιλοξενίας προσφύγων / μεταναστών Ελαιώνα', 'Αγίου Πολυκάρπου 87, Αθήνα', 37.982904, 23.698797],\n    ['1η Υ.ΠΕ (Αττικής), Δομή Φιλοξενίας προσφύγων / μεταναστών Μαλακάσας', 'Παλιά Εθνική Οδός Αθηνών - Θεσσαλονίκης, Μαλακάσα΄, 19011', 38.2389, 23.7806],\n    ['1η Υ.ΠΕ (Αττικής), Δομή Φιλοξενίας προσφύγων / μεταναστών Λαυρίου', 'Λεωφόρος Σουνίου, Λαύριο 19500', 37.713579, 24.055054],\n    ['2η Υ.ΠΕ (Πειραιώς & Αιγαίου), Δομή Φιλοξενίας προσφύγων / μεταναστών Σκαραμαγκά', 'Μακαρίου, Σκαραμαγκάς, 12461', 38.013397, 23.599303],\n    ['2η Υ.ΠΕ (Πειραιώς & Αιγαίου), Δομή Φιλοξενίας προσφύγων / μεταναστών Σχιστού', 'Λεωφόρος Σχιστού - Σκαραμαγκά 102, Πέραμα, 18863', 37.980068, 23.593073],\n    ['2η Υ.ΠΕ (Πειραιώς & Αιγαίου), Δομή Φιλοξενίας προσφύγων / μεταναστών Ελευσίνας', 'Παλαιά Εθνική Οδός Αθηνών - Κορίνθου, Μάνδρα - Ειδυλλία, 19200', 38.031305, 23.491218],\n    ['3η Υ.ΠΕ (Μακεδονίας), Δομή Φιλοξενίας προσφύγων / μεταναστών Διαβατών (Αναγνωστοπούλου)', 'Συμμαχική, Δέλτα Θεσσαλονίκης, 54500', 40.701370, 22.862521],\n    ['3η Υ.ΠΕ (Μακεδονίας), Δομή Φιλοξενίας προσφύγων / μεταναστών Αλεξάνδρειας Ημαθίας (Γ. Πελάγου)', 'Παλιά Εθνική Οδός Αθηνών - Θεσσαλονίκης 122, Αλεξάνδρεια, 59300', 40.635441, 22.454191],\n    ['3η Υ.ΠΕ (Μακεδονίας), Δομή Φιλοξενίας προσφύγων / μεταναστών Κορδελιού Θεσσαλονίκης (Softex)', 'Μικράς Ασίας, Κορδελιό Εύοσμος 54628', 40.67067, 22.8749],\n    ['3η Υ.ΠΕ (Μακεδονίας), Δομή Φιλοξενίας προσφύγων / μεταναστών Βέροιας Ημαθίας (Αρματωλού Κόκκινου)', 'Βέροια, 59132', 40.487482, 22.247629],\n    ['3η Υ.ΠΕ (Μακεδονίας), Δομή Φιλοξενίας προσφύγων / μεταναστών Βασιλικών (κτήμα Κορδογιάννη)', 'Βασιλικά Θεσσαλονίκης, 57006', 40.480024, 23.138470],\n    ['4η Υ.ΠΕ (Μακεδονίας & Θράκης), Δομή Φιλοξενίας προσφύγων / μεταναστών Σερρών', 'Σκουτάρι - Σέρρες, 62100', 41.018459, 23.520634],\n    ['4η Υ.ΠΕ (Μακεδονίας & Θράκης), Δομή Φιλοξενίας προσφύγων / μεταναστών Δράμας', 'Δράμα, 66100', 41.149001, 24.147080],\n    ['4η Υ.ΠΕ (Μακεδονίας & Θράκης), Δομή Φιλοξενίας προσφύγων / μεταναστών Καβάλας', 'Εθνική Οδός Καβάλας - Ξάνθης 68, Καβάλα 65201', 40.945127, 24.428048],\n    ['4η Υ.ΠΕ (Μακεδονίας & Θράκης), Δομή Φιλοξενίας προσφύγων / μεταναστών Λαγκαδικίων', 'Λαγκαδάς, 57020, Ελλάδα', 40.627089, 23.248159],\n    ['5η Υ.ΠΕ (Θεσσαλίας & Στερεάς Ελλάδας), Δομή Φιλοξενίας προσφύγων / μεταναστών Λάρισας - Κουτσόχερο (Ευθιοπούλου)', 'Εθνική Οδός Λάρισας - Τρικάλων, Λάρισα, 41500', 39.615367, 22.24603],\n    ['5η Υ.ΠΕ (Θεσσαλίας & Στερεάς Ελλάδας), Δομή Φιλοξενίας προσφύγων / μεταναστών Ριτσώνας', 'Εθνική Οδός Θήβας - Χαλκίδας, Χαλκίδα 34100', 38.388161, 23.50338],\n    ['5η Υ.ΠΕ (Θεσσαλίας & Στερεάς Ελλάδας), Δομή Φιλοξενίας προσφύγων / μεταναστών Οινοφύτων', 'Παλιά Εθνική Οδός Αθηνών - Θεσσαλονίκης, Τανάγρα, 32009', 38.323616, 23.619438],\n    ['6η Υ.ΠΕ (Πελοποννήσου, Ιονίων Νήσων, Ηπείρου & Δυτικής Ελλάδας, Δομή Φιλοξενίας προσφύγων / μεταναστών Πρέβεζας - Φιλιππιάδας (Πετρουλάκη)', 'Ιονία Οδός, Ζήρος, 48200', 39.226875, 20.871201],\n    ['6η Υ.ΠΕ (Πελοποννήσου, Ιονίων Νήσων, Ηπείρου & Δυτικής Ελλάδας, Δομή Φιλοξενίας προσφύγων / μεταναστών Κόνιτσας', 'Επαρχιακή Οδός Κόνιτσας - Αετόπετρας 103, Κόνιτσα, 44100', 40.049564, 20.749676],\n    ['6η Υ.ΠΕ (Πελοποννήσου, Ιονίων Νήσων, Ηπείρου & Δυτικής Ελλάδας, Δομή Φιλοξενίας προσφύγων / μεταναστών Ανδραβίδας', 'Ανδραβίδα Ηλείας', 37.9383119, 21.2073535]\n  ];\n\n  function initialize() {\n\n    //map object\n    var myOptions = {\n      center: new google.maps.LatLng(38.410962, 24.183826),//somewhere in Euvoia\n      zoom: 7,\n      mapTypeId: 'hybrid',\n      styles: [\n            {\n              \"featureType\": \"administrative.country\",\n              \"elementType\": \"labels.text\",\n              \"stylers\": [\n                  {\n                      \"visibility\": \"off\"\n                  }\n              ]\n            }\n        ]\n    };\n\n    var map = new google.maps.Map(document.getElementById(\"default\"),\n        myOptions);\n\n    setMarkers(map,locations)\n    setMarkersYpe(map,locationsYpe);\n    setMarkersOfficial(map,locationsOfficial);\n    setMarkersCamps(map, locationsCamps);\n\n    //acceptance for geolocation\n    var infoWindowGeoL = new google.maps.InfoWindow({map: map});\n\n    // Try HTML5 geolocation.\n    if (navigator.geolocation) {\n      navigator.geolocation.getCurrentPosition(function(position) {\n        var pos = {\n          lat: position.coords.latitude,\n          lng: position.coords.longitude\n        };\n\n        infoWindowGeoL.setPosition(pos);\n        infoWindowGeoL.setContent('<p>Η τοποθεσία σας βρέθηκε.<br/>Μπορείτε να μετατοπίσετε την κουκκίδα,<br/> κλείνοντας το παράθυρο.</p>');\n        //map.setCenter(pos); use the set position\n        var markerGeoL = new google.maps.Marker({  \n            map: map,\n            position: pos,\n            draggable: true\n        });\n      }, function() {\n        handleLocationError(true, infoWindowGeoL, map.getCenter());\n      });\n    } else {\n      // Browser doesn't support Geolocation\n       handleLocationError(false, infoWindowGeoL, map.getCenter());\n    }\n  //check if works\n   /* function returnMapUrl(GLatLngObj){\n      var point= GLatLngObj || map.getCenter();\n      return \"http://maps.google.com/?ll=\"+point.lat+','+point.lng;\n    } \n\n    GEvent.addListener(map,\"click\", function(overlay, latlng) {\n      window.location = returnMapUrl(latlng);\n    });*/\n    /*google.maps.event.addListener(markerHosp, 'click', function() {\n      var googleSite = \"https://www.google.com/maps/@\";\n      window.location.href = googleSite + this.lat + \",\" + this.long;\n    });*/\n\n    var legend = document.getElementById('legend');\n      \n    var div = document.createElement('div');\n    for (var key in icons) {\n      var type = icons[key];\n      var name = type.name;\n      var icon = type.icon;\n      var div = document.createElement('div');\n      div.innerHTML = '<img src=\"' + icon + '\"> ' + name;\n      legend.appendChild(div);\n    }\n    \n    map.controls[google.maps.ControlPosition.LEFT_BOTTOM].push(document.getElementById('legend'));\n  } //end of initialize()\n\n  function setMarkers(map,locations){\n    var markerHosp, i\n    for (i = 0; i < locations.length; i++) {  \n      var infos = locations[i][0]\n      var telNo = locations[i][2]\n      var lat = locations[i][3]\n      var long = locations[i][4]\n      var add =  locations[i][5]\n\n      latlngset = new google.maps.LatLng(lat, long);\n\n      var markerHosp = new google.maps.Marker({\n        position: latlngset,\n        map: map,\n        icon: pinImage,\n        title: infos,\n        shadow: pinShadow\n      });\n        \n\n      var content = \"<h4>Πληροφορίες: </h4>\" + infos  + \"<h4>Τηλέφωνο επικοινωνίας: </h4>\" + telNo + \"<h4>Διεύθυνση: </h4> \" + add;   \n\n      var infowindow = new google.maps.InfoWindow()\n\n      google.maps.event.addListener(markerHosp, 'click',(function(markerHosp, content, infowindow){\n        return function(){\n          infowindow.setContent(content);\n          infowindow.open(map,markerHosp);\n        };\n      })(markerHosp,content,infowindow));\n\n     /* ['1η Υ.ΠΕ., Έλενας Βενιζέλου', 'κυρία Καστραντά', '213-2051000', 37.985055, 23.755273, 'Πλατεία Έλενας Βενιζέλου 2, 11521, Αμπελόκηποι'],*/\n     /* TODO: onClick open google maps for directions */\n     /* google.maps.event.addListener(markerHosp, 'click', function() {\n        var googleSite = \"https://www.google.com/maps/@\";\n        window.location.href = googleSite + this.lat + \",\" + this.long;\n});*/\n   }//end of for()\n  } //end of setMarkers func\n\n  function setMarkersYpe(map,locationsYpe){\n\n    var markerYpe, i\n\n    for (i = 0; i < locationsYpe.length; i++) {  \n      var infos = locationsYpe[i][0]\n      var telNo = locationsYpe[i][2]\n      var onlineSite = locationsYpe[i][3]\n      var lat = locationsYpe[i][4]\n      var long = locationsYpe[i][5]\n      var add =  locationsYpe[i][1]\n\n      latlngset = new google.maps.LatLng(lat, long);\n\n      var markerYpe = new google.maps.Marker({\n        position: latlngset,\n        map: map,\n        icon: pinImage2,\n        title: infos,\n        shadow: pinShadow2\n      });\n        \n      var content =  \"<h4>\" + infos + \"</h4>\"  + \"<h4>Τηλέφωνο επικοινωνίας: </h4>\" + telNo + \"<h4>Διεύθυνση: </h4> \" + add + \"<h4>Ιστότοπος: </h4>\" + onlineSite;   \n\n      var infowindow = new google.maps.InfoWindow()\n\n      google.maps.event.addListener(markerYpe, 'click',(function(markerYpe, content, infowindow){\n        return function(){\n          infowindow.setContent(content);\n          infowindow.open(map,markerYpe);\n        };\n      })(markerYpe,content,infowindow));\n    }//end of for()\n  } //end of setMarkersYpe func\n\n  function setMarkersOfficial(map,locationsOfficial){\n    var markerOfficial, i\n\n    for (i = 0; i < locationsOfficial.length; i++) {  \n      var infos = locationsOfficial[i][0]\n      var telNo = locationsOfficial[i][2]\n      var onlineSite = locationsOfficial[i][3]\n      var lat = locationsOfficial[i][4]\n      var long = locationsOfficial[i][5]\n      var add =  locationsOfficial[i][1]\n\n      latlngset = new google.maps.LatLng(lat, long);\n\n      var markerOfficial = new google.maps.Marker({\n        position: latlngset,\n        map: map,\n        icon: pinImage3,\n        title: infos,\n        shadow: pinShadow3\n      });\n        \n      var content =  \"<h4>\" + infos + \"</h4>\"  + \"<h4>Τηλέφωνο επικοινωνίας: </h4>\" + telNo + \"<h4>Διεύθυνση: </h4> \" + add + \"<h4>Ιστότοπος: </h4>\" + onlineSite;   \n\n      var infowindow = new google.maps.InfoWindow()\n\n      google.maps.event.addListener(markerOfficial, 'click',(function(markerOfficial, content, infowindow){\n        return function(){\n          infowindow.setContent(content);\n          infowindow.open(map,markerOfficial);\n        };\n      })(markerOfficial,content,infowindow));\n    }//end of for()\n  } //end of setMarkersYpe func\n\n/* markers for the camps */\n/*['6η Υ.ΠΕ (Πελοποννήσου, Ιονίων Νήσων, Ηπείρου & Δυτικής Ελλάδας, Δομή Φιλοξενίας προσφύγων / μεταναστών Ανδραβίδας', 'Ανδραβίδα Ηλείας', 37.9383119, 21.2073535]*/\n  function setMarkersCamps(map,locationsCamps){\n    var markerCamp, i\n    for (i = 0; i < locationsCamps.length; i++) {  \n      var infos = locationsCamps[i][0]\n      var add =  locationsCamps[i][1]\n      var lat = locationsCamps[i][2]\n      var long = locationsCamps[i][3]\n\n      latlngset = new google.maps.LatLng(lat, long);\n\n      var markerCamp = new google.maps.Marker({\n        position: latlngset,\n        map: map,\n        icon: pinImage4,\n        title: infos,\n        shadow: pinShadow4\n      });\n        \n\n      var content = \"<h4>Πληροφορίες: </h4>\" + infos  + \"<h4>Διεύθυνση: </h4> \" + add;   \n\n      var infowindow = new google.maps.InfoWindow()\n\n      google.maps.event.addListener(markerCamp, 'click',(function(markerCamp, content, infowindow){\n        return function(){\n          infowindow.setContent(content);\n          infowindow.open(map,markerCamp);\n        };\n      })(markerCamp,content,infowindow));\n     /* google.maps.event.addListener(markerHosp, 'click', function() {\n        var googleSite = \"https://www.google.com/maps/@\";\n        window.location.href = googleSite + this.lat + \",\" + this.long;\n});*/\n   }//end of for()\n  } //end of setMarkers func\n</script>\n</head>\n<body onload=\"initialize()\">\n<div id=\"default\" style=\"width:1040px; height:1000px\"></div>\n<div id=\"legend\"><h4>Υπόμνημα</h4></div>\n</body>\n</html>",
 			"file": "/C/Users/philos17/Dropbox/sublime files/maps/mapLinks.html",
+			"file_size": 32299,
+			"file_write_time": 131620481003758579,
 			"settings":
 			{
 				"buffer_size": 25115,
@@ -599,7 +593,10 @@
 			}
 		},
 		{
+			"contents": "<!DOCTYPE html>\n<html>\n\t<head>\n\t\t<title></title>\n\t</head>\n\t<body>\n\t\t<script>\n\t\t\tfunction makeMultiplier (multiplier) {\n\t\t\t\treturn (\n\t\t\t\t\tfunction (x) {\n\t\t\t\t\t\tconsole.log(\"x \" + x);\n\t\t\t\t\t\tconsole.log('multiplier ' + multiplier);\n\t\t\t\t\t\treturn multiplier * x;\n\t\t\t\t\t\tconsole.log(\"this is:\" + this);\n\t\t\t\t\t}\n\t\t\t\t);\n\t\t\t}\n\t\t\tvar doubleAll = makeMultiplier(2);\n\t\t\tconsole.log(doubleAll);\n\t\t\tconsole.log(doubleAll(10));\n\t\t</script>\n\t</body>\n</html>",
 			"file": "/C/Users/philos17/Dropbox/sublime files/courseraTest.html",
+			"file_size": 460,
+			"file_write_time": 131623988956062054,
 			"settings":
 			{
 				"buffer_size": 438,
@@ -628,7 +625,10 @@
 			}
 		},
 		{
+			"contents": "1.    Separate texts in connected bubbles are with double slash //\n2.    “” Speech\n3.     [] Thoughts\n4.    St – Small Texts\n5.    <> Narrations\n6.    (Labels / Any misc messages)\n7.    Sfx – SFX\n8.    T/n – translator’s note.\n\nIMG_0001\nBecause everyday there is nothing, I have a hunch that something will happen.\nSajima Megumiko\nKIRAKIRA Newspaper\n\nIMG_0002\n[When it blows, the flying sakura petals' whereabouts, nobody seems to mind.]//\n“Arashiro Yuni?”\n“Arashiro!”\n“Arashiro is not here?”//\n“Huh?”\n<My existence is thin>\n“Arashiro, were you here?”\n“Yes... I was here.”\n\nIMG_0003\n<But I am used to it now>//\nSFX: gasha - *paper rustling*//\n(Hanadaka News - Campus's sakura blooming)//\n[Alright]//\n<Once a month this newspaper that is put up at the corridor's wall is published by my newspaper club's only member>\n[Oh someone]\nSFX - su- *pass by*\n\nIMG_0004\n<Someone like me>//\n<is not read by anyone>\n<My presence is thin but it is okay.>//\n<If this newspaper is reflected on someone's life, it would be nice>\n\nIMG_0005\n[Next is the audiovisual room]\n[!!?]\n\nIMG_0006\n[He]//\n[He 's reading!?]\n[He 's reading my newspaper!?]//\n(Hides reflexively)\nSFX - doki doki doki T/n : heartbeat\nSFX - a T/n: oh\n[He 's gone]\n\nIMG_0007\n[I wanna know]//\n[The person who first read my newspaper]//\n[What kind of person is he?]\n[Outside...?]//\nSFX - koso T/n *sneaks away*\nSFX - e T/n eh\nSFX - e T/n eeh\nSFX - e T/n eeeh//\n[He slept... He cut class and he is up on a tree]\n\nIMG_0008\nSFX - chon chon T/n *knock on shoulder*\n“Eh, excuse me”//\n“Eh!? There was someone”\n“The person over there is someone you know?”\n“Nanase Chiaki”//\n“He 's famous”\n“Although why he is carefree and he cuts classes, since he is smart.”//\n“And he is handsome.”//\n“And he often sleeps up on a tree”\n“But he is quick to brawl with people he doesn't like......”//\n[It seems like he had knocked down about 20 people all of his own!]//\n[So... it 's like that]//\n<But>\n\nIMG_0009\n<To notice my newspaper and having it read>//\n<He is not a bad person>//\n<Today too, I will search for material>\nSFX - Nyaa T/n Miaou?\n\"!\"//\n<A cat!!>\nSFX - pasha T/N\n\nIMG_0010\n[Hey]\n[He is not a bad person]\n\"Why are you doing miaw miaw alone?\"//\n<Disgusting>\n[He... is not a bad person...]\nSFX - su T/n click\n\nIMG_0011\n\"You! What are you doing?\"//\nSFX - Hiiiiii T/n ???\n\"I really liked it and I write in a newspaper\"//\n\"And for that since I think it was good, I took a photo...\"\n\"Ooooh\"\n\"You write in that newspaper\"\n\nIMG_0012\n\"Arashino Yuni\"\n\nIMG_0013\nSFX - ???\n\"Isn't your name written on the newspaper bottom?\"\n[This world was supposed to not be reflected to anyone's eyes.]\n\nIMG_0014\n[It seems that my existence is going to fall ???]\n",
 			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/KN_OS/translation.txt",
+			"file_size": 2858,
+			"file_write_time": 131583384441914237,
 			"settings":
 			{
 				"buffer_size": 2673,
@@ -637,7 +637,10 @@
 			}
 		},
 		{
+			"contents": "<!DOCTYPE html>\n<html>\n\t<head>\n\t\t<title>Kanji Random</title>\n\t\t<meta charset=\"utf-8\">\n\t\t\n\t</head>\n\t<body>\n\t\t<h4>Kanji Random</h4>\n\t\t<button onclick=\"randomKanji()\">Press for Random Kanji</button>\n\t\t<p id=\"kanji\"></p>\n\n\t\t<script>\n\t\tvar myArray = [\"駐車\", \"駐車場\", \"無休\", \"無理な\", \"無料\", \"無い\", \"満車\", \"不満な\", \"満員\", \"方向\", \"向かう\", \"禁止\", \"関心\", \"関する\", \"関係\", \"係り\", \"無断\", \"断る\", \"断水\", \"横断\", \"横\", \"横断歩道\", \"押す\", \"押し入れ\", \"押しボタン式\", \"数式\", \"入学式\", \"送信\", \"自信\", \"信じる\", \"信用\", \"信号\", \"～号車\", \"正確な\", \"確かめる\", \"確かな\", \"確認\", \"認める\", \"飛行場\", \"飛ぶ\", \"非常\", \"非常口\", \"日常\", \"正常な\", \"～階\", \"階段\", \"箱\", \"ごみ箱\", \"危険な\", \"危ない\", \"捨てる\", \"線\", \"～番線\", \"全面\", \"画面\", \"方面\", \"普通\", \"各駅\", \"各自\", \"各国\", \"目次\", \"次\", \"次回\", \"快速\", \"高速道路\", \"速い\", \"速度\", \"通過\", \"過ぎる\", \"過去\", \"地下鉄\", \"鉄\", \"鉄道\", \"指定\", \"指\", \"指定席\", \"指輪\", \"定休日\", \"安定\", \"席\", \"出席\", \"欠席\", \"自由な\", \"理由\", \"自由席\", \"番号\", \"～番線\", \"窓\", \"窓口\", \"両側\", \"右側\", \"通路\", \"線路\", \"道路\", \"停車\", \"整理\", \"整理券\", \"駐車券\", \"回数券\", \"乗車券\", \"現金\", \"現れる\", \"表現\", \"両親\", \"取り替える\", \"着替える\", \"両替\", \"優先席\", \"優しい\", \"女優\", \"座席\", \"座る\", \"正座\", \"後者口\", \"降りる\", \"以降\", \"降る\", \"未定\", \"～未満\", \"未来\", \"年末\", \"若い\", \"晩ご飯\", \"島\", \"～～島\", \"皿\", \"灰皿\", \"出血\", \"助ける\", \"救助\", \"準備\", \"備える\", \"営業\", \"開閉\", \"閉まる\", \"案内\", \"案\", \"家内\", \"内側\", \"以内\", \"国内\", \"予定\", \"予習\", \"予約\", \"約～\", \"禁煙\", \"煙\", \"当たる\", \"全部\", \"全席\", \"安全な\", \"客\", \"お客様\", \"様子\", \"理解\", \"解説\", \"解答\", \"分解\", \"協力\", \"お願う\", \"観光\", \"観客\", \"動物園\", \"空港\", \"港\", \"遊園地\", \"遊ぶ\", \"美術館\", \"美しい\", \"美人\", \"美術\", \"手術\", \"技術\", \"神社\", \"神様\", \"神\", \"神経質な\", \"お寺\", \"市役所\", \"役員\", \"郵便局\", \"薬局\", \"交番\", \"交換\", \"交通\", \"差し出す\", \"差出人\", \"交差点\", \"点数\", \"歩道橋\", \"橋\", \"公園\", \"受信\", \"受ける\", \"受験\", \"付ける\", \"片付ける\", \"科学\", \"内科\", \"外科\", \"教科書\", \"鼻\", \"耳鼻科\", \"婦人\", \"主婦\", \"産婦人科\", \"骨折\", \"骨\", \"右折\", \"折る\", \"左折\", \"折り紙\", \"困る\", \"消防\", \"消す\", \"消える\", \"予防\", \"防ぐ\", \"救急車\", \"救う\", \"警官\", \"警察署\", \"事故\", \"故障\", \"伝言\", \"伝える\", \"手伝う\", \"黄色\", \"絵画\", \"絵\", \"絵本\", \"組む\", \"番組\", \"組み立てる\", \"約束\", \"～束\", \"花束\", \"授業\", \"教授\", \"渡る\", \"渡す\", \"昔\", \"砂糖\", \"砂\", \"食塩\", \"塩\", \"灯油\", \"石油\", \"油\", \"緑茶\", \"緑\", \"紅茶\", \"口紅\", \"～冊\", \"冊数\", \"～個\", \"個人\", \"個数\", \"団体\", \"～枚\", \"枚数\", \"広告\", \"便利な\", \"利用\", \"割る\", \"割合\", \"割引\", \"～倍\", \"値段\", \"値上げ\", \"値下げ\", \"商品\", \"商店\", \"支店\", \"支社\", \"本店\", \"本社\", \"払う\", \"支払い\", \"米国\", \"米\", \"高級\", \"上級\", \"中級\", \"残業\", \"残る\", \"大型\", \"新型\", \"小型\", \"消費税\", \"税金\", \"込む\", \"振り込む\", \"税込\", \"価格\", \"定価\", \"合格\", \"格安\", \"申し込む\", \"申告\", \"申す\", \"申込書\", \"申請\", \"申し上げる\", \"記入\", \"記号\", \"日記\", \"記事\", \"例\", \"例えば\", \"年齢\", \"高齢\", \"～際\", \"性別\", \"女性\", \"性格\", \"男性\", \"連休\", \"連れて行く\", \"連絡\", \"届ける\", \"自宅\", \"宅配\", \"お宅\", \"配達\", \"心配\", \"配送料\", \"配る\", \"希望\", \"失棒\", \"望む\", \"入荷\", \"荷物\", \"集荷\", \"手荷物\", \"交換\", \"乗り換え\", \"代金引換\", \"金額\", \"半額\", \"不在\", \"現在\", \"取る\", \"受け取る\", \"受取人\", \"預金\", \"預ける\", \"衣類\", \"衣服\", \"参加\", \"参る\", \"参考書\", \"上達\", \"友達\", \"速達\", \"通勤\", \"勤める\", \"携帯電話\", \"帯\", \"時間帯\", \"細い\", \"細かい\", \"戸だな\", \"雨戸\", \"びわ湖\", \"湖\", \"風船\", \"船\", \"船長\", \"船便\", \"角度\", \"四角い\", \"三角形\", \"角\", \"夫妻\", \"夫婦\", \"夫\", \"苦労\", \"苦い\", \"苦しい\", \"苦手な\", \"必要な\", \"要る\", \"重要な\", \"冷房\", \"冷やす\", \"冷める\", \"冷たい\", \"冷蔵庫\", \"冷凍庫\", \"凍る\", \"金庫\", \"車庫\", \"召し上がる\", \"保存する\", \"ご存じです\", \"必ず\", \"必死に\", \"費用\", \"旅費\", \"消費者\", \"会費\", \"期間\", \"長期\", \"定期券\", \"短期\", \"製品\", \"製造\", \"造る\", \"賞金\", \"賞金期限\", \"賞品\", \"方法\", \"文法\", \"温度\", \"温かい\", \"気温\", \"常温\", \"販売\", \"自動販売機\", \"飛行機\", \"機会\", \"機械\", \"増加\", \"増える\", \"減少\", \"減る\", \"増量\", \"数量\", \"減量\", \"氷\", \"返事\", \"返す\", \"返却\", \"お湯\", \"材料\", \"教材\", \"卵\", \"卵焼き\", \"牛乳\", \"粉\", \"小麦粉\", \"袋\", \"ごみ袋\", \"足袋\", \"紙袋\", \"手袋\", \"混雑\", \"混ぜる\", \"焼く\", \"溌表\", \"表\", \"表面\", \"代表\", \"表す\", \"裏\", \"裏返す\", \"留学\", \"保留\", \"留守番\", \"書留\", \"守備\", \"守る\", \"留守\", \"濃い\", \"薄い\", \"部分\", \"学部\", \"部屋\", \"数字\", \"数\", \"数学\", \"数える\", \"件名\", \"用件\", \"事件\", \"再入国\", \"再生\", \"再来週\", \"接続\", \"面接\", \"続く\", \"表示\", \"示す\", \"指示\", \"戻る\", \"完了\", \"完全な\", \"了解\", \"終了\", \"登録\", \"登る\", \"登山\", \"記録\", \"録音\", \"録画\", \"教育\", \"育てる\", \"種類\", \"種\", \"書類\", \"分類\", \"人類\", \"教師\", \"看護師\", \"医師\", \"夫妻\", \"妻\", \"馬\", \"乗馬\", \"石けん\", \"石\", \"石油\", \"お礼\", \"伺う\", \"遅刻\", \"遅い\", \"遅れる\", \"失礼な\", \"失倍\", \"失礼する\", \"汗\", \"汗をかく\", \"残念な\", \"記念\", \"涙\", \"涙を流す\", \"笑う\", \"笑顔\", \"笑い\", \"調子\", \"調べる\", \"強調\", \"調査\", \"移動\", \"移る\", \"移す\", \"困難な\", \"難しい\", \"難問\", \"簡単な\", \"単語\", \"単位\", \"感じる\", \"感動\", \"感想\", \"予想\", \"練習\", \"最近\", \"最後\", \"最初\", \"最も\", \"適当な\", \"快適な\", \"選挙\", \"選ぶ\", \"選手\", \"違う\", \"間違う\", \"直線\", \"直る\", \"直接\", \"直す\", \"復習\", \"回復\", \"往復\", \"辞書\", \"辞める\", \"宿題\", \"宿\", \"下宿\", \"昨日\", \"昨夜\", \"昨年\", \"君\", \"OOO君\", \"結構な\", \"結局\", \"結ぶ\", \"結婚\", \"婚約\", \"新婚旅行\", \"祝日\", \"祝う\", \"お祝い\", \"曲\", \"曲がる\", \"曲線\", \"曲げる\", \"奥さん\", \"奥\", \"寝る\", \"昼寝\", \"寝坊\", \"頭痛\", \"痛い\", \"腹痛\", \"熱\", \"熱い\", \"熱心な\", \"虫\", \"歯科\", \"歯医者\", \"歯\", \"虫歯\", \"政治\", \"治る\", \"治療\", \"汚い\", \"汚れる\", \"並ぶ\", \"歯並び\", \"他の\", \"その他\", \"身長\", \"身分\", \"独身\", \"刺身\", \"日本酒\", \"お酒\", \"料理酒\", \"酒屋\", \"呼吸\", \"吸う\", \"食欲\", \"欲しい\", \"睡眠\", \"眠い\", \"眠る\", \"疲れる\", \"息\", \"息子\", \"息切れ\", \"呼ぶ\", \"厚い\", \"泣く\", \"鳴く\", \"最初\", \"初め\", \"初級\", \"宿泊\", \"泊まる\", \"紅葉\", \"葉\", \"言葉\", \"予報\", \"報告\", \"晴れる\", \"雲\", \"吹く\", \"暖房\", \"暖かい\", \"雪\", \"地震\", \"震度\", \"電波\", \"波\", \"津波\", \"要求\", \"請求書\", \"求人\", \"求める\", \"募集\", \"職場\", \"転職\", \"職業\", \"職員\", \"美容院\", \"内容\", \"技術\", \"技術者\", \"一般\", \"事務\", \"事務所\", \"公務員\", \"税務署\", \"第１課\", \"課長\", \"地球\", \"電球\", \"野球\", \"決して\", \"決める\", \"決定\", \"優勝\", \"勝つ\", \"決勝\", \"１対２\", \"反対\", \"流れる\", \"勝負\", \"負ける\", \"投手\", \"投げる\", \"結果\", \"果物\", \"戦後\", \"戦う\", \"戦争\", \"経験\", \"経営\", \"経済\", \"済む\", \"成長\", \"完成\", \"貿易\", \"易しい\", \"輸出\", \"輸送\", \"輸入\", \"相談\", \"相手\", \"首相\", \"文化\", \"化学\", \"化粧\", \"比べる\", \"原料\", \"原因\", \"国際\", \"交際\", \"会議\", \"議員\", \"生活\", \"活動\", \"大変な\", \"変化\", \"変わる\", \"政治\", \"政治家\", \"政府\", \"都道府県\", \"改正\", \"改める\", \"改札口\", \"否定\", \"否定的な\", \"国際的な\", \"目的\", \"個人的な\", \"実際に\", \"実験\", \"実は\", \"欠点\", \"欠ける\", \"欠席\", \"専門\", \"専門家\", \"死亡\", \"亡くなる\", \"多忙な\", \"忙しい\", \"忘年会\", \"忘れる\", \"文化祭\", \"お祭り\", \"苦労\", \"労働者\", \"参加\", \"加える\", \"増加\", \"情報\", \"事情\", \"表情\", \"感情\", \"反対\"];\n\t\t// document.getElementById('kanji').innerHTML = myArray;\n\n\t\tfunction randomKanji() {\n\t\t\tvar rand = myArray[Math.floor(Math.random() * myArray.length)];\n\t\t\tdocument.getElementById('kanji').innerHTML = rand;\n\t\t}\n\t\t</script>\n\t</body>\n</html>",
 			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/MathRandom.html",
+			"file_size": 8754,
+			"file_write_time": 131552985437522503,
 			"settings":
 			{
 				"buffer_size": 5280,
@@ -646,7 +649,10 @@
 			}
 		},
 		{
+			"contents": "<!DOCTYPE html>\n<html>\n\t<head>\n\t\t<title>Kanji Random</title>\n\t\t<meta charset=\"utf-8\">\n\t\t\n\t</head>\n\t<body>\n\t\t<h4>Kanji Random</h4>\n\t\t<button onclick=\"randomKanji()\">Press for Random Kanji</button>\n\t\t<p id=\"kanji\"></p>\n\t\t<p id=\"corrector\"></p>\n\n\t\t<script>\n\t\tvar myObj = {\"駐車\": \"chuusha\", \"駐車場\": \"chuushajo\", \"無料\": \"muri\", \"結果\": 'kekka', \"忙しい\": 'isogashii', \"忘れる\": 'wasureru', \"お祭り\": 'omatsuri', \"参加\": 'sanka'};\n\t\tObject.size = function(myObj) {\n\t\t\tvar size = 0, key;\n\t\t\tfor(key in myObj){\n\t\t\t\tif(myObj.hasOwnProperty(key))\n\t\t\t\t\tsize++;\n\t\t\t}\n\t\t\treturn size;\n\t\t};\n\n\t\tvar size = Object.size(myObj);\n\n\n\t\t// document.getElementById('kanji').innerHTML = myArray;\n\t\t\n\t\t/*var ranCorrect;\n\t\tfor (var i = 0; i < corrector.length(); i++){\n\t\t\tranCorrect = rand[i];\n\t\t}\n*/\n\t\tfunction randomKanji(myObj) {\n\t\t\tvar rand = myObj[Math.floor(Math.random() * (size -1))];\n\t\t\t// var result;\n\t\t\t// var i = 0;\n\t\t\t// for (var key in myObj){\n\t\t\t// \tif (Math.random() < 1/++i) {\n\t\t\t// \t\tresult = key;\n\t\t\t// \t}\n\t\t\t// \treturn result;\n\t\t\t// }\n\t\t\t// var rand = myArray[Math.floor(Math.random() * myArray.length)];\n\t\t\tdocument.getElementById('kanji').innerHTML = rand;\n\t\t}\n\t\t</script>\n\t</body>\n</html>",
 			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/MathRandomTest.html",
+			"file_size": 1257,
+			"file_write_time": 131553159065930126,
 			"settings":
 			{
 				"buffer_size": 1168,
@@ -690,14 +696,6 @@
 			}
 		},
 		{
-			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/history.txt",
-			"settings":
-			{
-				"buffer_size": 148,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "/C/xampp/htdocs/phpSandbox/website8-mysql/config/db.php",
 			"settings":
 			{
@@ -707,7 +705,10 @@
 			}
 		},
 		{
+			"contents": "* {\n\tmargin: 0 auto;\n}\n\n#container {\n\tdisplay: grid;\n\tgrid-template-columns: repeat(4, 1fr);\n\tgrid-auto-rows: minmax(100px, 100px);\n\tgrid-gap: 1em;\n\tjustify-items: stretch;\n\talign-items: stretch;\n}\n\n/*div#container > div {\n\tborder: 1px solid red;\n}*/\n\n#box1 {\n\ttransform: rotate(17deg) translate(100px, 100px);\n\t/*transit*/\n}\n#box2 {\n\ttransform: rotate(45deg) translate(120px, 300px);\n}\n#box3 {\n\ttransform: rotate(7deg) translate(20px, 300px);\n}\n#box4 {\n\ttransform: rotate(27deg) translate(120px, 300px);\n}\n\nimg:hover {\n\tcursor: pointer;\n}",
 			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/bugs/main.css",
+			"file_size": 572,
+			"file_write_time": 131550390123598337,
 			"settings":
 			{
 				"buffer_size": 539,
@@ -716,7 +717,10 @@
 			}
 		},
 		{
+			"contents": "<!DOCTYPE html>\n<html>\n\t<head>\n\t\t<title>Bugs Dummy</title>\n\t\t<meta charset=\"utf-8\">\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t\t<link rel=\"apple-touch-icon\" sizes=\"57x57\" href=\"apple-icon-57x57.png\">\n\t\t<link rel=\"apple-touch-icon\" sizes=\"60x60\" href=\"apple-icon-60x60.png\">\n\t\t<link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"apple-icon-72x72.png\">\n\t\t<link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"apple-icon-76x76.png\">\n\t\t<link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"apple-icon-114x114.png\">\n\t\t<link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"apple-icon-120x120.png\">\n\t\t<link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"apple-icon-144x144.png\">\n\t\t<link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"apple-icon-152x152.png\">\n\t\t<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"apple-icon-180x180.png\">\n\t\t<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\"  href=\"android-icon-192x192.png\">\n\t\t<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"favicon-32x32.png\">\n\t\t<link rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"favicon-96x96.png\">\n\t\t<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"favicon-16x16.png\">\n\t\t<link rel=\"manifest\" href=\"manifest.json\">\n\t\t<meta name=\"msapplication-TileColor\" content=\"#ffffff\">\n\t\t<meta name=\"msapplication-TileImage\" content=\"ms-icon-144x144.png\">\n\t\t<meta name=\"theme-color\" content=\"#ffffff\">\n\n\t\t<!-- CSS -->\n\t\t<link rel=\"stylesheet\" href=\"main.css\">\n\t</head>\n\t<body>\n\t\t<div id=\"container\">\n\t\t\t<div id=\"box1\" class=\"playing\">\n\t\t\t\t<img id=\"img1\" src=\"bug-left.png\" alt=\"\" onclick=\"playing1()\" onload=\"removePlaying1()\"><!--  onload=\"buzz1()\"> -->\n\t\t\t</div>\n\t\t\t<div id=\"box2\" class=\"playing\" onclick=\"playing2()\">\n\t\t\t\t<img id=\"img2\" src=\"bug-right.png\" alt=\"\">\n\t\t\t</div>\n\t\t\t<div id=\"box3\" class=\"playing\" onclick=\"playing3()\">\n\t\t\t\t<img id=\"img3\" src=\"bug-left.png\" alt=\"\">\n\t\t\t</div>\n\t\t\t<div id=\"box4\" class=\"playing\" onclick=\"playing4()\">\n\t\t\t\t<img id=\"img4\" src=\"bug-right.png\" alt=\"\">\n\t\t\t</div>\n\t\t</div>\n\t\t<script>\n\t\t\tvar image1 = document.getElementById('img1');\n\t\t\tfunction playing1(){\n\t\t\t\tif (image1.getAttribute(\"src\") == \"bug-left.png\") {\n\t\t\t\t\timage1.src = \"splash.png\";\n\t\t\t\t} else {\n\t\t\t\t\timage1.src = \"bug-left.png\"\n\t\t\t\t}\n\n\t\t\t\t\n\t\t\t}\n\t\t\t// function removePlaying1(){\n\t\t\t// \tif (image1.getAttibute(\"src\") == \"splash.png\") {\n\t\t\t// \t\tsetTimeout(function(){\n\t\t\t// \t\t\timage1.src = \"bug-left.png\"}, 1000\n\t\t\t// \t\t);\n\t\t\t// \t}\n\t\t\t// }\n\t\t\t\n\n\t\t\t// function buzz1(){\n\t\t\t// \tsetTimeout(function(){\n\t\t\t// \t\tif (image1.getAttribute(\"src\") == \"bug-left.png\") {\n\t\t\t// \t\t\timage1.src = \"splash.png\";\n\t\t\t// \t\t} else {\n\t\t\t// \t\t\timage1.src = \"bug-left.png\"\n\t\t\t// \t\t}, 1000\n\t\t\t// \t});\n\t\t\t// }\n\n\t\t\tvar image2 = document.getElementById('img2');\n\t\t\tfunction playing2(){\n\t\t\t\tif (image2.getAttribute(\"src\") == \"bug-right.png\") {\n\t\t\t\t\timage2.src = \"splash.png\";\n\t\t\t\t} else {\n\t\t\t\t\timage2.src = \"bug-right.png\"\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tvar image3 = document.getElementById('img3');\n\t\t\tfunction playing3(){\n\t\t\t\tif (image3.getAttribute(\"src\") == \"bug-left.png\") {\n\t\t\t\t\timage3.src = \"splash.png\";\n\t\t\t\t} else {\n\t\t\t\t\timage3.src = \"bug-left.png\"\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tvar image4 = document.getElementById('img4');\n\t\t\tfunction playing4(){\n\t\t\t\tif (image4.getAttribute(\"src\") == \"bug-right.png\") {\n\t\t\t\t\timage4.src = \"splash.png\";\n\t\t\t\t} else {\n\t\t\t\t\timage4.src = \"bug-right.png\"\n\t\t\t\t}\n\t\t\t}\n\n\n\n\t\t</script>\n\t</body>\n</html>",
 			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/bugs/index.html",
+			"file_size": 3452,
+			"file_write_time": 131533052115772005,
 			"settings":
 			{
 				"buffer_size": 3349,
@@ -769,7 +773,10 @@
 			}
 		},
 		{
+			"contents": "FROM GIT BOOK & COURSERA Yaakov\n\n1. log in to your github account\n2. Create a new github repository. \n\tI can interact with it throught the UI or via CLI\n3. In order to host a real site, do: \n\ta. Set a new branch (~ a new parallel stream of the same repo), if you do not want to use master.\n\tb. Go to settings.\n\tc. In git hub pages, select branch and theme.\n4. In the repository there are now 2 branches (if a 2nd one is \t\tcreated).\n5. Dl to local machine. Click \"clone or download\" btn, clone \t\twith HTTPS, open terminal, cd to root folder, do \n\t$git clone <url>, cd to folder of url. \n6. do a $git status , inside your folder (not root) . It shows \t\tthe branch (the master ) , nothing to commit and working \t\ttree clean.\n7. to see the branch, do $git branch. to change the branch , do \t$git checkout <branch name> . here branch name will be \t\t\tgh-pages.\n8. $git status\n9. If you change or add any files in directory, do $git status . \tnew files uncommited are in red.\n10. To commit firstly locally, first it will need to be marked \t\tfor commit. be in the root folder of project, do $git add \n\t<what needs to be commited> . do $git add . to commit all.\n11. when $git status , the marked for commit are green. To commit\n\t$git commit -m \"message\"\n12. to put these in remote repository, $git push . if asked for \tcredentials, add them.\n13.",
 			"file": "/C/Users/philos17/Dropbox/sublime files/MyGit/githubInstructions.txt",
+			"file_size": 1357,
+			"file_write_time": 131617739817682660,
 			"settings":
 			{
 				"buffer_size": 1336,
@@ -778,29 +785,25 @@
 			}
 		},
 		{
+			"contents": "TO install yeoman bower and grunt\nin root file of project \n1. $npm install -g yo\n2. $npm install -g generator-webapp\n3. create new project\n   $yo webapp\n4. bower install\n",
 			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/YeomanAndMore/instructions.txt",
+			"file_size": 177,
+			"file_write_time": 131528864342443412,
 			"settings":
 			{
 				"buffer_size": 170,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
+			"contents": "// generated on 2017-10-19 using generator-webapp 3.0.1\nconst gulp = require('gulp');\nconst gulpLoadPlugins = require('gulp-load-plugins');\nconst browserSync = require('browser-sync').create();\nconst del = require('del');\nconst wiredep = require('wiredep').stream;\nconst runSequence = require('run-sequence');\n\nconst $ = gulpLoadPlugins();\nconst reload = browserSync.reload;\n\nlet dev = true;\n\ngulp.task('styles', () => {\n  return gulp.src('app/styles/*.scss')\n    .pipe($.plumber())\n    .pipe($.if(dev, $.sourcemaps.init()))\n    .pipe($.sass.sync({\n      outputStyle: 'expanded',\n      precision: 10,\n      includePaths: ['.']\n    }).on('error', $.sass.logError))\n    .pipe($.autoprefixer({browsers: ['> 1%', 'last 2 versions', 'Firefox ESR']}))\n    .pipe($.if(dev, $.sourcemaps.write()))\n    .pipe(gulp.dest('.tmp/styles'))\n    .pipe(reload({stream: true}));\n});\n\ngulp.task('scripts', () => {\n  return gulp.src('app/scripts/**/*.js')\n    .pipe($.plumber())\n    .pipe($.if(dev, $.sourcemaps.init()))\n    .pipe($.babel())\n    .pipe($.if(dev, $.sourcemaps.write('.')))\n    .pipe(gulp.dest('.tmp/scripts'))\n    .pipe(reload({stream: true}));\n});\n\nfunction lint(files) {\n  return gulp.src(files)\n    .pipe($.eslint({ fix: true }))\n    .pipe(reload({stream: true, once: true}))\n    .pipe($.eslint.format())\n    .pipe($.if(!browserSync.active, $.eslint.failAfterError()));\n}\n\ngulp.task('lint', () => {\n  return lint('app/scripts/**/*.js')\n    .pipe(gulp.dest('app/scripts'));\n});\ngulp.task('lint:test', () => {\n  return lint('test/spec/**/*.js')\n    .pipe(gulp.dest('test/spec'));\n});\n\ngulp.task('html', ['styles', 'scripts'], () => {\n  return gulp.src('app/*.html')\n    .pipe($.useref({searchPath: ['.tmp', 'app', '.']}))\n    .pipe($.if(/\\.js$/, $.uglify({compress: {drop_console: true}})))\n    .pipe($.if(/\\.css$/, $.cssnano({safe: true, autoprefixer: false})))\n    .pipe($.if(/\\.html$/, $.htmlmin({\n      collapseWhitespace: true,\n      minifyCSS: true,\n      minifyJS: {compress: {drop_console: true}},\n      processConditionalComments: true,\n      removeComments: true,\n      removeEmptyAttributes: true,\n      removeScriptTypeAttributes: true,\n      removeStyleLinkTypeAttributes: true\n    })))\n    .pipe(gulp.dest('dist'));\n});\n\ngulp.task('images', () => {\n  return gulp.src('app/images/**/*')\n    .pipe($.cache($.imagemin()))\n    .pipe(gulp.dest('dist/images'));\n});\n\ngulp.task('fonts', () => {\n  return gulp.src(require('main-bower-files')('**/*.{eot,svg,ttf,woff,woff2}', function (err) {})\n    .concat('app/fonts/**/*'))\n    .pipe($.if(dev, gulp.dest('.tmp/fonts'), gulp.dest('dist/fonts')));\n});\n\ngulp.task('extras', () => {\n  return gulp.src([\n    'app/*',\n    '!app/*.html'\n  ], {\n    dot: true\n  }).pipe(gulp.dest('dist'));\n});\n\ngulp.task('clean', del.bind(null, ['.tmp', 'dist']));\n\ngulp.task('serve', () => {\n  runSequence(['clean', 'wiredep'], ['styles', 'scripts', 'fonts'], () => {\n    browserSync.init({\n      notify: false,\n      port: 9000,\n      server: {\n        baseDir: ['.tmp', 'app'],\n        routes: {\n          '/bower_components': 'bower_components'\n        }\n      }\n    });\n\n    gulp.watch([\n      'app/*.html',\n      'app/images/**/*',\n      '.tmp/fonts/**/*'\n    ]).on('change', reload);\n\n    gulp.watch('app/styles/**/*.scss', ['styles']);\n    gulp.watch('app/scripts/**/*.js', ['scripts']);\n    gulp.watch('app/fonts/**/*', ['fonts']);\n    gulp.watch('bower.json', ['wiredep', 'fonts']);\n  });\n});\n\ngulp.task('serve:dist', ['default'], () => {\n  browserSync.init({\n    notify: false,\n    port: 9000,\n    server: {\n      baseDir: ['dist']\n    }\n  });\n});\n\ngulp.task('serve:test', ['scripts'], () => {\n  browserSync.init({\n    notify: false,\n    port: 9000,\n    ui: false,\n    server: {\n      baseDir: 'test',\n      routes: {\n        '/scripts': '.tmp/scripts',\n        '/bower_components': 'bower_components'\n      }\n    }\n  });\n\n  gulp.watch('app/scripts/**/*.js', ['scripts']);\n  gulp.watch(['test/spec/**/*.js', 'test/index.html']).on('change', reload);\n  gulp.watch('test/spec/**/*.js', ['lint:test']);\n});\n\n// inject bower components\ngulp.task('wiredep', () => {\n  gulp.src('app/styles/*.scss')\n    .pipe($.filter(file => file.stat && file.stat.size))\n    .pipe(wiredep({\n      ignorePath: /^(\\.\\.\\/)+/\n    }))\n    .pipe(gulp.dest('app/styles'));\n\n  gulp.src('app/*.html')\n    .pipe(wiredep({\n      exclude: ['bootstrap'],\n      ignorePath: /^(\\.\\.\\/)*\\.\\./\n    }))\n    .pipe(gulp.dest('app'));\n});\n\ngulp.task('build', ['lint', 'html', 'images', 'fonts', 'extras'], () => {\n  return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));\n});\n\ngulp.task('default', () => {\n  return new Promise(resolve => {\n    dev = false;\n    runSequence(['clean', 'wiredep'], 'build', resolve);\n  });\n});\n",
 			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/YeomanAndMore/gulpfile.js",
+			"file_size": 4737,
+			"file_write_time": 131528838276092846,
 			"settings":
 			{
 				"buffer_size": 4737,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-AngularJS/index.html",
-			"settings":
-			{
-				"buffer_size": 119,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
 			}
 		},
 		{
@@ -884,7 +887,10 @@
 			}
 		},
 		{
+			"contents": "%PDF-1.3\n%Äåòåë§ó ÐÄÆ\n5 0 obj\n<< /Length 6 0 R /Filter /FlateDecode >>\nstream\nx\u0001µ}K$×uô~~E­\n¨•÷•Y\u0005\b^H6\u0004;A\u0003xý™6m\u0018¢\nZÿ\u001fð“Íqknœ\u0002«#\u0012\\\f›ä\u0004Ïœ<ï×ýùö§ÛÏ·ívïõöÓm<ú[íñÃ_~ùa{ëG­Ûýö—ùŸýÍ\u000fø=¹ýÇíŸÿîö_øwów\füÞ/ÿóo·žÿè·ük¹ýû_o¿ýÃüõ‡¿Îß|lå±O(öwýñå\u001b\u0019åíqlr\u0004\u0019\u001f~øÛó÷•ýÞÞF½ÿßŸáÛ?ù\u0005áË¤ìíè\u001e\b\u001f~8\u0011@?%aþçïl9Æým;æŸùËvûö÷óÏÿã­Ä_ñÛù\u0017ß˜ùË?ø\u0006s\u001fo÷Çýþ\u0000\u001d_>ü\u0010tü\n\u0016ýòÛ¿ý\u001f~ÁøuÌúùö8ÞzÙûü\u0003OÆ\u001do{\u001fÇ­Ç[\u001bã~;&Üñ¸×/?ütûí?ýTnÿðßSF¾ý\t§°€‹mì\u0000øÍÇ\u001f¿1}þÞß½Uü\u001f¶Ûoæ¯cþ¯Ê£ù:Aÿ\b°¯?Þ~·m[ùûÛ×ÿ¼ýã×S\f?ƒ¼WŽ\\uä;Gn2ò=¡¹ËÈS\u0003)Ÿ‡Œ\\¶\u0007‡Þuèz\u0019?JK\u0018rèT÷)ÇL¦ï:ôh\u001cZ\u0017²ï\u001cú¡S}O”üÿëÐƒS­\u000b_-\tÕº„Ô’ðú_d†Ô–P­+zíóú\u0007êé_¨Ê\u0018x=\u001d\u001a…Ö­u=\u0012ªÿUgÈ\fG(Õúgl3Î¢Ðúgl™½Ö}n›1\u001c¥Z7ª­'*c º'Š®KHËâ\u001bƒ„\u001c\tÕ\u001fŒê\u0019ÁÍÈöWÅ}ˆ\u0019×¸¯mãö]ÜW_ud+2øB·WýØŠ\f¶0dæ\u0019ô_„\\¶„\u001d¯ZÖ•\u001d\u0005†„ñãÕØ@ÏÌ€B¿ª’\f:ùŠ¯ú\u0003\u0002\nCÂ\u0018¢\u000bHAàÇ _ÕvBõ>C(\u0006ýAÛ?©ä\u0005\u001fƒ60ä‘0Ä ×\u000f®UçuÝ¸ðU×µÎ„†ñZW™ÚfBÃ _õ½«ðÕÎ?cÕ?cÅ\u000bJµ\u0001zçTo¯Æï„!GBµ×™—Ñ¡Û–Hˆît[¹L®[åTW\u0003CP^ *S\n\féÜ<m\u0006ªwÎM·!-ó2¯FÂ«Ê´{¢º½n(/°Ïøjåâê)ËQøœ¿¢ðÙF=\u0003à\u0019£}¶ðI!\u001f\u0004ù“\u001fñ\u0003Íñ\n\tò'C§\u000fÈGÂO\u0006\n\u001f‘\u0011¤\u0012š?)\u001c\u001fQ¬%Èe{1û_¿à\u001dÆƒÐ¬óùžpã“¶ã\u00037\u001eˆl\bÍŸt‰\u001fË6k!\fúÕ‚ÅÊèRø7Üt¹+‘Â\\Ã\u0010ÔB\u0018Ct™.3¤|2húø\u0019#;Z\u0019bÐ—\u0012QäEÐ‰\\\u001b\u00182¸\\—O&\u0003\u001fy½'\u0016Ä ×\u0007¼íÊëÍ |\u0011û®Ðåßd‹Z2“jøŒ‘‰®T¶àôá3Ö\b«\t´Îë:koô3~2\u001eû\u001bª“\u0000Dçu}~Jµ!‘\f\u0010^2bÿÈš0D×ÆÚ\u0012†èn·öDB\f¼Ž\u0014†ðúGYÑk\u0014Ê\b´Aø\";\"Ðºyªh¾^cTk\u0016Z\u001bx}p\u0007¶\u0019\u0018r$*cëûu*ƒ)‹‹>c\u0014%Wá3\u0004fmK\u0018¢Ç×gñ†P­KH«—Å!­&\fÑmH‹ºÐÊM×ÆÖ\u0012•ÑíuKâëª§ºÐ\u0016¦2†¬`N­qhÃgŒ\u00020ùŒzôt\u0016Ê\b´žü·Ì\u0015èÙÃ(\u0004³|\u0006^ß\u0013ßh0O˜²`T\u001bTæ‘0Dçu&\u0012‘\u0010×½$\fÑyÝ1\u001bÂx­«L¯‰„èÁBo×1dNI_Å\u0010Œ0^ë\tGOŠ\u0016†ô¿c\bŒQ­ûÆ\u001eC!×¨LfTõ\u0010§\u001fÜ9xÄ×†RKÏâkƒyÊâk=G\u001f[\u0012NêŸqÄœ\f\u0011>ÝËŒ¤~]t•\u0019YýÚÀ\u0018U \fÑ%d4þ\u0019›î\nFKŒª\u0001\u001a“µÌòéÁÂ˜l¦ÐºÛ\u001d#aˆîe\u0006†v\u0019C\f*³s/cH¤G\f\b\u0012¹60ä~\u001dC’ž !\u0003\u001b\u000fÌ\u0013\u0010†\u0018\u0014=©‡lz¤º'õ¢+ú>«Â”!º\\ï…§ÿ\u0006¹Þ³zˆ.×{V\u000f10$«‡è–oOê!Ÿ“ùÐ+ØG¢2\u0006á\u001b‰„è\u001e}Ï&C\fŸñà\fqÈu\u0012\u0004\u001bê×{f¯õÏ\u0018ƒCsÛ4&ç§s\u001f\u001c2ð#ò¯\u0015y3(\f‚k\u0011ƒ\u0010d]¦Cî\b²^‡‹¶ÉŠ\\tä\u0018IZ‘\n­è\u0007\u0006´\b².\u001bQƒ#Èº¦œ»\u000f\u0004Ú0`å@Æ\u000fÝà•¨Á\u0011ªuV—‚Ø—@ëñX‰\u001a\u001c60\u0004+Œj\u0003C¢¼G¨Ög%K”÷\b´A®\u0013\u0017°é\u0006äÜ3!Tëö´dîÅ !QÞ[©6øÄ\u0012å½\u0015Ú`RKôL\b´A®3G`ëÌ\u0013\u0018lHôL\bCtá«QÞ#ÐºðÕH\u0017\t´®±‚Î,ŸžäÖÌ\u0015\u0018\u0018\u0012\u001eÂ\u0010]®kæet¹®™+ÐíuÍ\\×Ñé!¼ÖCœ\u001a\u001e\u0002m`Hb¯\nS\u0010ç$\u0015¡Ú ó²\nC\fÚ\u0018“¯×P\u001d;˜\u0004Ú ‘ä\u0012h\u0003¯£‰´BW\u0003ÕÑDZ¡?»¼÷¡xÓ®ó2çÖJµ¡Ós\u000ei­Ð†2H‹&\u0012Öƒ…8\bA|£¡ÓÓbß•P­[¾sH‹@ëžÖ1µF u•iQ”\\¡›nùæ½0JuõlØõ9\u001fýý‰\t]ö0\bL‹þ\u0011‘m0dÝ¢\"# È›Î\nÌg\u0011dCò…ö\u0011CÖù\\6Îh\u0003;b]P]õ\u00185ÖÕ\b´Õ\u0005›\u0015\u0017A#\u001f Ð†h¯`\u0013Ž@\u0017\u0003¯±\tG «î\u0004\n\u000eÄ\u0011hCƒ± 4Ä u5/\u0018§eÐú\u0010pÁ8-vh#:S\u0004ºè¹WÁx\u0016ƒ6˜'DÖ\fZ\u001ft*XWcÐ\u0006\tAý†Aë\u0012\u0012‡S\u0018´ÎŠž<ƒÖ\u00192Ïãrh½q^\u0013ËWõ,L\b\töô’Â\u000ev¬È†5\u0002¤æ\u0004Ù`@™3d½&\u0019\u0011ÙÊ\nÃtgDd+²a±\u0018÷0\u00187\fN\u0011\u000b©\u0004ÚÐ\u0015-\u0005&oå‡ÓgØD u»T0%É¨ÖGÁ”$vÄ‘\u0011Û¬\fqÄ6Ø\u001a%T\u001b\n7\u0005·¢\btùpÊ®Þþ\u001f.—×o—Ëÿðçy§\u001bç\\þü‡_w\u0005ñ6¯ ž&pÞ$Ÿ\u0017ÉKä‘\u0007~øËíÏ_âàú¯¾tý¡ìôŽó#!_Þh¿\u001aã€Ày¦ño O!<ïsÏˆø}Úäå[h\u0004:Â§£~\u000fýò\b:ÆE ù9¿‡~Yá\u0019ô))ßC¿\\‡#Ð(L\u0012ª_\u001eÄdÐˆÌV†¼¬ð+ô\u0019™­Ð/Ÿ£\"Ð˜„ T¿ÜçfÐü3¾<>J ßíö\"!¯úH\u0002ýn·¿‡6Èu\u001c\u0012 ¼vH\b\u000e\t\u0010h\u0007Õï.á{†\u0018T¦bpžQýj)Ž|ÆÈ¤‰Ê¼\u001a»\u0013èÈ¤WèòjÐ@ 1\u0010Ç\u0018¢{™š¹‚WS\u000eBõ{,ü½„8l\bî)2†¼Zp'TG’¾~Æ—\u0007ŒWè8ÕÈ¨Ö?#\u000eå]Ä†G&\u0018Õ¯\u0016ú\bC¢òIx­Ûë–¸\u0002ƒåk¸)Ã\u0018¢\u000b_Ë¼Œ!ïÙÁ÷ÚØ^M—ÈgL\\ÁËÓË\u0004\u001a7e\u0018¯\n*óžx,\fÑ]A\u001cˆgTëF5\u000e\t0hƒ„`(ŽAë\u000e¬]ç\nZâ\n^Îz‰ð½—\\¾—\u0010C¤Ú3{­Æþ^rY¨Ö…¯ãP\u0017“\u0010]\u001b{b¯_®A­Ÿ±'FÕíöÄ¨\u001a¼LOB÷¦{™þ^fþ^BÊ«Âë÷:ó÷Ð/Ïì2èÄ<\u0019\u00182‹fT®õ\u0010§c\u0006Œ©Ì«-\u000eÂ\u0010l2èWëã\u0004:\t‚›\u0003\u001a3\u000b$æÓ½ÌÀµZ\u0006­›§8$@ _¾W¾òz`{”@\u001bÒÿíQ\u0002½éŠ>pR–Aë\u000elt.×íÕË\n„××…“#\t'_\u001eµ TŸÅêµ¦ªkãÀõCö\u0019uó4°kÇ \nÂ‡\u0011U\u0006mPô\u0018|ZÍÓËÒõ3î1ø´B\u001b*f;¦_\tC\f6d/IÌ§»ÝXÉ'T\u001b\nD;v,\u0018ô«\u0003\"ä3b\u0011‚Aë*³c\u0011‚Aë)éŽE\b\u0002ýò\u001c)a\b¦_\t´!\bŽ•|\u0006­W‚wìX0h\u0003¯±cÁ uó´'öÚ¡è™½6PT\u0016^^) Âw]eaO*\u000b/¿P@¨Î*\u000bº\\\u001f™—q@s£jp`Gæe\fá$\u0002ÕÇ\u001a<\u0019ò\n°cE6ô£CËWä—gªVÉ\u000b%'Èº7\u000f\u001d_‘›žCÇ´ÖŠlð/a<\b².\u001b8­@dÃð\u0005ã´\u0002ƒÖítÁyS\u0006­KGÁÕ\u0006\u0006­‹GœV`ÐºíˆÓ\n\fÚÀkœV Ð\u0006O^\u001a7L†\"\\ÁÒ+¡ÚÐê9çç‰2\u001a$\u0004÷\u000f\u0018ÕzÈ\u001eo·3h=7/Ñõ_\u0019b(Â•Ì\nè†¯\\g­Kb®\u001d*“Ùk½;Zñ\f0“\u0010Ý¨ž\u0003`«„\u0018f\u0015j\f€\u0011h]ej,%\u0011h]ej\u0014<\t´.×\u0015çòØgÔÍS¼ÄÊ õ½&öÚ\u0010£Æ‘\u0002Fµî\u001bkf¯\n\f‰Zê5\u0012\u0012›\u0010\u0004ÚÀ\u0010¼üÅx­\u0017+ê\u001dõ=BµAÑ#&Ð\u0006Ë\u0017\n*\u0002m\u0010<§È\u0018¢—\u000e[4¨\bÕz¤ÚpŽšPmðqI€Aë¼ŽK\u0002\fúÕµµ5ÑK\u0002\u0004úå•\u0005\u0006ŽÝú\u0019_^œ_¡Ñ™Ÿ—Å¿oŸ7}v\u0003y‚üòóç+Í\bS\t²¡L†#¡\fYW\u00174\u0018²\u001e'`“€!ëN\u0000g—\u0019².\u001b\u0005w´\u0018´®á‘÷3h½™\u001b×\u001a¯‚ž\t#ƒÖ%/J\n\fZ~\u000bŽ§0h\u0003Õ¸èÌ õ\u0000dvJ8´\u001e%LŠ9´®Œ±’Ï\u0018â :áµ\u001e‘\u0015¬ä3ª\n\fIÜÀË›¯«ƒ‰’\u0002£Ú ×8©H \nc‡\u0005+ù\fúÃbãÏ·í×m\u001džÞ{®+~ùé\u0016\u0005…QÞw\u0017oŸÞ]|ÇY‚\nC]=\n\u0013äÏþò!–U\u0018â0#6ÌÙDÍƒAëÚ\u00117\u001f\t´#\u000fÇ<\u00026´\u001aâ0#ƒÖÃ¤8Ìx\u0011t\u0012D\u001bÆJâ‰[BµÁ\\T\u0014&\u0018´ž\nU<éB \n©PÅä,6tý*žt!Ð\u000eó„¡\\\u0006­;ïŠó1\fÚP&|p^\u001b>cÃÐ\u0000£Z·|Qó`Ð:¯\u001b^÷bÐz\\Ð\n\u0017>Ç¶TM$ÄÀ\u0010\\¦a\f1|FÜä\"Ð†ù±†‡Ô\tô¦'¶\nK\u0014\fÚ !\u0018%fÐºol‰+08°–¸\u0002Ç¶Tâ\n\fÛR-³×†Ïˆ%\nö\u0019\nÂ‡B2ƒÖµ±'öÚ\u0010‡ôÄ¨:¶¥\u0012£jðè\u001dç¾\b¯\u001dÛRØL#ÐŽm)ô\u0014\t´aP£ã,\u0006­{™ž\u0015lô\u0010§ã<\u0003£Z/}tœg`ÐzÝ­ã]C\u0002m\u0018ÔèIUÅP\\ïYuÝ`žp\u0004ˆ0Ä°-Õ1¨A \n}®A\n\u0002íØ–Â¡C\u0006­;°Q9¯\u001dÛR×…“#\t'\nUœx,–ñZWôu_\u0006­›§\u001b\n\fÚ°-…u\u0004\u0006­+z¬\u0011hÃ¶ÔÀa\u001a\u0002m\u00186\u001f\u0018UfÐ†Ïˆ\u00115\u0002m˜\u001cI©Ú\u0015\fLS0ªõ‘‡}»Lev\u001c¦aTë=©\u001d‡i\b´!ÛÝ1ýF \nAðžU‚u\u001b²gý?}>rÏÂI=‘Þ³pR\u000f‚w¼èzÑgL\"UCr·gá¤\u001e‡ì×…“{\u0012N\u001aZ‹{\u0012N¾ü\u0000ËÚ¨Ú³y\n}¨âÈ\"U]®\u000f¬€0¹6@c\u0005„AëÂw`Ý—Aë® šImm’\u001aA3AÖÙõ1‚l(^co€ \u001bÂ›ˆÉ\b7ô \u0015\u000b\t×Ð\u001cÁ\u001e¡Y#Ã,\u0011d\u001b1•°\"\u001b\"ösŠl…6Dìç\u0014\u0019Ö9\u001dÛc×ˆG‰Po¥Ú\u0010±Ç…rFµ\u001e±Ç…r\u0006màuäÏ„!º1ó¸\\Ëu™ÆƒBWÃ\bc´c\bC\f¼Žv\f6ð:Ú1\u0004Z\u0011J´Ï\t´î\u0014K´Ï\t´Î\u001aí\u0018\u0002­3¤be€i£ž\u001dU¬\f\u0010hÇìFtz\bCtmŒ‡]\bÕ\u0006£Z£”J¨Ö\u0015=\u0016Ó\u0018Õ\u0006†ÄÔ/¡ZÏ3Îù/\u0002mkì(\u0013†\u0018z&5ó2\u0006•¹ÎËœ£e„×\u0006ó\u0014ó\u0004\u0004Z÷2\u0015;oä3\u001a\u0012‚Š7\u0006mP\u0019¼,D \u001dÓ˜w”­¯áuTi\t´.×q™œQí€N$D7O±óF¨6\u0014ÊbçAëÓ˜-ó2zˆ\u0013;o„jƒGo1ª@„O×Æx˜—Pm°!-¦ \bÕú¨B<ÌË¨6|Æ¨-\u0013ª\n¼ŽÚò\nmhŸ·¨-¯ÐŽÏ\u0018½À‹ \u0013ó¤w‹[–Ë\u0018,_ì/®\fqX¾X`\\¡\u001d3I¸RÉTF\u000f'{l0\u0012ªu^÷([\u0013h=zêQ¶&ÐzÌ×£\u0017H u\u001bÒq¹ˆ}F½ÍxN­\u0011ªõ6c]@\u0002­‡8=³×\u0006¹Nìµ¡[Üc\u0017peˆÁ†ôÌ^ë¾±G/p¥ÚÁÌ¨êéOŒª¡4Þ“‚¾Á£è\u0005\u0012^ëEæóBÌ†è\u00122²ª»>Ñ=2Ë§\u001bÕÓ¿Œ!º\u0003\u001b±_A>£îeFìW\u0010h\u0003C²R‹nTGRÐ7œÍ\u001aY©Å ×Y©ÅÀë¬ÔbPtœ\u0017br­Ç×#k¿\u001axõ_u\u001b²Çì\u0006Q\u0019]Ñw<*Äx­«Ì9kG¨Ö£§sÖŽ@ër½ã½\"Æ\u0010=tßñ\b\u001cƒ6È5Âë±Lœ8\u001c:jî+²á½Ø˜8Y‘\no_ÆÄÉŠlØ*‹¹\u0010‚¬\u000bGLê®È†yµ\u0012ã´\u0004Z¯K–è4®Ð†õâ\u0012F\u0002­›Ó\u0012‹_+´a¡±ÄúÃ\ní`HÃ„\u0016ÖSès\u0010‚@ë^1žjgTëdÙáº\bÕºë*\u00117\u0011hÝu•è#\u0011hÝu•ˆ›\b´jœed¼6H\bÞ5`Ðz Y#¸!\fÑ%¤Æ\"\u0001ÖC²sÆ‚@ëNæ\u001c„ Ðº6ÖÄò™\u000e\u001cÎˆï<p8£³Û×\u001fo¿Û6Ã\u0019BŒR\u0011ä¢³\u0003Ù\u0011CÖ}.”œ \u001b¶àPË\"È†‚\u0013JY\u0004Ùpn\b\u0003ó\u0004ÙðJLŒ¦\u0012è¢Û¥‚Q'\u0006m°¦Ø<'Ð\u0006V\u0017¤/\u0004º\u0018<\u0017ÊM\u0004Úpû« ÜD ‹Þ\u001e(x\u000eŠ@;xkÖ\u0004Ú\u0011¢¢†Ï \nQ\u0002jø\fZ·z\u00055|\u0002íàub÷ª!8çA¨6LÎÇü(ƒÖÇ\u0014*Îy\u0010hC5¡â¡i\u0006m \u001aû—\fZ7O51ª\u0006W\u0010ã’ŒjÝ<Å\u0013\u0001\u0004Ú 2\u0015û—\u0004Úà\n*ö/\u0019´îvã¦\u001dƒ6ð:‹÷\f1;¶œ\u0018ÕºQ­¨†3h\u0003C’Ï`Câð\u001c£Z·×q\u001dŽAë\t#v\u0002÷5ó2]i'Èõ37cÿuæâ·mþõ›ù+ê¨\u0004ÙPÌB\u001d• \u001bæ\bPG%È†ã7hš3d=ã\n-ƒÖÅ® \u0004Â \n©FøòU¤]\u0019ÿúê±KYVäjÈø!x+²ÁÛ†\u0003 ÈúŒI¨!AÖå.<ËŠlhg \\Hølp,§®¬D\u001b\u0016ûc\u0019•Pm0¥±ŒJ \n\u0003Ü±ŒJ \nƒSñ¤\u0001v|FŒÅ0h]_\n^Ä¾\b:\u0002„Uø\fÕ·Ùs¦T\u001bÖßÊ@\u0004¹Rmh\u000f—(Î®Ð\u000e\tÁž+£Z·{\u0005\u0017¨\u0019´!JÀµ\u0014\u0006­ç\u0018%J +¯\n\u001dó\u0012‰\u0000Ö£õŠÙpÂ\u0010ƒå«˜\n'Ð\u0006ËWñl5ƒÖû¸\u0015g¢\u0019´.!\u0015Ç÷\b´!b¯=‰œt•9K «ð\u0019Œj¼’H\u0018bðèñJ\"vÈuÔ•W†8ä\u001a'\u0003\u0019Õ†:EÔ•\tÕ†:EÔ•Wh‡„$1°a¹©F–»Rmðè\u0015\u001b£ä3\u001a.š6Ì†3h=\u0017m˜\ngÐú´PÃl8ƒÖÍS‹ºòú\u0019\n!ND“ësƒ®\fzEîºš\u001fð\u0003+²!ý\nûAõO\u0018¹9AÖë\ta=\b²\u001e£†ñ Èº\u001aF‰Œ ëZXÂv\u0010h½»sææ+´A\u000bÏÜ|…vÄÕXÖcÚbàu$Ð„j\u0003¯qÂã\"ªñl5ƒÖ•<æ#\t´£\u001b?h\u0010^\u001b¨Æ\u0003p\fZ· gn¾RíP™ÈÍ\t´î_Jæ\u0006\fr\u001d¹ùJµ!jŠ\u001bTì3êæúœ! Të6äœ! Ðº\\Ÿ\tô\nm\u0010¾ZPbY¡\u001dé\u0011Nx\u0010è®·ébô’@\u001b„/î\"\u0011h\u0007¯±¬Ç \nr\u0018U\u0007Õ\u0018:'TwÃ\u0000KÌ\u0010\u0010á3¨LT%\t´\u001e¦Æãu„!Ž:\b®ï1h½txÎ\u0010¬\f1”Xâñ:FµîeÎñ„•jC8\u0019×1ªumlQ•\\©6ô\u0002ãÂ\u0010£Ú !8\u0003D \n÷¾â\f\u0010ƒÖË´\ng%\u0018´Þûj17º~Fƒ¢·,0Ó\u0017#ã\u00198Â\u0010Ã<HÃ3p\u0004ÚaC2Ëg°!1’º~FC!¿c\u001b0Ä0\u0002Ñ±\nx\u00114¶\u0001\t´a\u000fµc'†@\u001b„¯c\u001b@\u001b„¯G?f•\u0010C\u0010Ü{\"!úpg\u001f\\B\f1_Ï\u0012iÝ<õ$œ4¼cÚ³pR÷=vV\tq\b\u001fna\u0012¹v\b\u001fv\u0018\t´¡ÕÓ\u0013{m\u0010¾;ÑŒj=+\u00181ç¿~FƒG\u001f±á´B\u001bx=²\u001c]—ëQy1Î ×\u0003\u0017—Ég4ÈõÀ™M\u0002m¸5?’šªaÎ$9ºƒ×8¨C\u0018âàuf¯õšêÀÎ9£ZÏÀ\u0006vÎ\t´C\u001bq×Ÿ@;lH\u0012_\u001bv;G\u0012\u0004\u001búç#6RWËgˆùö\u0018J\"Ðº+Øq°’}F=%Ýq°’Aëµ§x¼Ž@\u001blÈŽ³m\u0004Ú`Cö¤½fë=æS¯‘Ø£%Ðz¯`ùT\u0002­[¾=s\u0005\u0006¹NìµCø²Ð]Oÿ÷Ä\u0015\u0018ìõž„îŽ™“ldAŸ™<bˆt\u0015>Cè~Ä¤ç\nmð2GÌ;­Ð\u0006~Ä\u001eí\nÝu/sÄ(Õ\nmÚ\u0018:Êr\u0000Í!{Ó\u0011\u0010äâ\u0010=ŠlÈý1•Dh6x\u0018L%\u0011dƒùÀùD†¬\u0017Y\u0010‘1d=f/0\u001e\fZ×•\u0018xbÐzš[`<\u0018´îoccˆAëÚRæ2h\u0003Õèõ0h=D/ŒrhƒðaSžQ­G\t\u0005m$\u0002mpŠs”–B\u001bz˜1ßC¨6\u0018Ô8?Â \n¼Æî\n64\u001ac÷†@\u001b&jctˆAëuŒ\u000e1hÝ†T\u001cweÐ\u0006ªq\u001d‰AëŠ^[bžt/SÑFbT\u001b\u0018‚^\u000fƒÖjE¯‡@\u001bÌSE¯‡Aëã‡\u0015ï2\u0010hCI¡fFÕ !˜ÊgT\u001bä\u001a÷%\u0018´îÑ+6Û\u0019´Á†`¡‘AëYKÂIW~´\u001eÌvåG+²i\u001fäX‘\nÞ\u000bó&\fY\u0017<¬“1d]8\u001ep]„\u001b:Í‘\u001f\u0011dÝPÇ\nEF´n<\nŠ+\u0004Úà\u0003\n:Œ\u0004Ú°¸W0\u0005Ì uC\u001d\u0017\u0015\u0018´îÊ\u000b*Ö\fÚ !¨X3hC`æ%ƒ60\u0004—\u001f\u0019´>fW°¡Ë \n\fÁ†.vd\u001a\u0011%\u0010\u001b¢WoÎ¬Ž@\u001b>cf­õžFÉÌµ¾²\\2{­\u000fQÅÙ\u0003\"!\u0006Ë\u0017[\u001b\fZ÷Œ±µÁ u•‰ç½\t´ÁËTL„\u0010hC!¤¶Äér\u001d—\u001f\u0019Õ\u0006^G©lUtƒyªQÏZ¡\n\u000fTž©×\nm˜§­I˜jhòÔè\u0010¬T\u001bZS\u0015ÃLB\fæ\t\u0013|\fÚ |8{À õð:\u001eÊ&Ð†nLÃ+\u0004\u0004ÚÐŽih\u00032h=æ‹³\u0007\fZÏ\nZTáˆ\\ë^¦áF9¡Ú•œ?®zààX‘M\u000f\u001c\u0010dÃÅö°\u001f„f=Þ‹æåŠlØOÀ|\u0002ã†.Ñ8©@\n§§Ïä|e‡c«\u001dã¿„j\u0003§ãñ&\u0006mÈ #\"[\u0019b°¦q8Q­{®¸îÇ u}‰Ç›\u0018´î\u0003ÊÎåÚi\u0014Œ¤\u0012ª‹®Œ¸ªs_½‹©ŠJ»î·™\u0013dƒ*\"†dÈzŠ\u000bCÍum¡fÈúú6\f5A6dŠ1\nB \n\u0001dŒ‚\u0010h‡ÉÃ°\u0017ƒÖ?b”:\u0019´®á\u0005s¿\fZ\u0017‚Û7\fZO1\nJ\fÚÀëÄæ\u0019Ê\u0014QêdT\u001b<\u0017\u001e\u0017eÐ\u0006Ï…®%68éµ(´C\u001b1eÂ¨ÖuL™\u0010hÃ\nà¸ðJ \u001d\u0015\u0010\u001c\u0014#ÐŽ’\u0010æë\u0018´îÌkfTõè7\u001e¹!T\u001b¼L\f°\u0010hƒ\\Ç\u001a\u0002m˜Â¯Øx ÐŽy\nÜ¾aÐºyªØ«cÐºQ­X~cÐ\u0006ª±ñ@ \nF5J\u0004ÚiÄ”\tƒÖ»^5±×†p²b€…Q­Æ\u0018`aÐºåkè÷3h½åÚæS7\u0014Z\u000fÌ\u001aúýŒj]B\u001aŽK\u0010hƒ„4L\u00052hÝË4L\u00052h}¾®áQ2\u0002mð2\n£Ö\u0004Úàeâb\u000f6x™†C\u0006mPô#ÑFÝË´,\b6P\u0018Uƒ—i¸\u0000Áx­[¾Ž\u000b\u0010\fZ\u000fÝ;.@\u0010hCó²£\u0004Ì uEï˜Ï\"Ð†æeÏâk½yÙ³Ê‚îezVYÐU¦g•\u0005ƒ\\cˆŠ|Fƒ\u0003ë˜tbÐº\u0003ëI=Õ’ÆÅ\u001eBµÁÅÅ\u001e\u0006­\u0017ˆ:Ö~\u0019´\u001eâô¬ZkøŒè÷\u0013ª\nÍ¯±%¾Q/!\u000eôû\tÕ†\\fà5?\u0006­KÈÀ(\u0001ƒÖËµ\u0003\u000b=\fZC\u0006F\t\u0018´!XèaÐºG\u001f=aˆn¯GV´Ð\u001dX\u001c\u0003b\f1ð\u001a\u0017 \u0018´Aø²zˆAÑ“zˆÁ\u0015\fÌW0†\u0018x¸\u0002ƒo\u001c8\u0006Ä¨Ö]ÁÀ¨.ƒÖc¾8\u0006Ä u•‰c@\fZùö¬\u001e¢Û=«‡\u0018\u0018‚é\nÆ\u0010}èuÇ<-ƒÖUfÇê9ƒÖ\u0017Õv¼ÍH \nñõŽ·\u0019\t´!\u000eÙ1\u0018Â \n\u0012‚+è\fZT÷Ì¨êæi¿s^;>cR´0Øë=+2\u001bT\u0006û\u000fä3\u001a\u0018ràÂ\u001a64»£¾>–mh7baèN\nŽ\u0000ú²\"[Äƒ\"\u001b*8x>†Ðlx\u000b#‚›•\u001b\u0006š#¶!Èzˆ\u001a\nNucZ¢*I uw[¢*I uÛQpGœ‰‡®,1˜Ê õ¤®D«‡0D\u000f\u0012Jä‹+´¡\u0002\u001c¯f1†\u0018„/šÜ+Õ†Õð\u0012¥C\u0002m\u0010¾\u0018J\"Ðz±¢ÄP\u0012Ö»£%Æ<\t´!¸ÒÀ$D7|%FH\tÕz@V°…Ä¨Öµ±n\tCt•©¸ðÊ¨Ö“ºŠ\u000b¯\fZ—sÞé’ÏxÎ;\u0011hÝ\u0015œóN\u0004ÚÀ\u0010l!\u0011^\u001b‚ßsÞ‰Pm`\b.¼2ªõÌ«F}PmàuÔ÷Vh\u0007¯£¾·B\u001b\u0012Ø¿$¼6\\A«™å3ð:ú1+C\f¼ŽýKÂ\u0010C\u001a\u0013o}]\u0005Í\u0015Ý1\u0017\u0012£T+¯\n9R¼õE\u0018b¨[·–øF=áhxñ†Q­\u0007\u000b-ê{+¯\u001dr}yFµ®ç¼ÓJõ¦‡“ç¼\u0013Öƒàx¡Œ1D÷2-++\u0018x\u001dUIÂ\u0010=\bŽÇÏ\u0018Cô\u0006U<~Æ õHµáq\u0006\u0006­óú\u001c¥\"¼Ö[=ç(\u0015Öåú\u001c¥\"ÐzÂÑ£É}\n4.;±Ï¨KHÏŠ©º¢÷˜ô$\f1HHŒc\u0012hÝËô¤²`ð2=©,\u0018¢§Ž·\b˜„\u0018\u0014=ú1„×\u0006mÌ‚`ƒðá\u0006úE\f‰õÔ•!†ã:#6©VhCÌ7b“Š@ë¼ŽgÄ\u0018¯õzH<#Æ uá‹·¾\u0018´ž£ë\"Õ‘Dª\u0006\u001b2bˆ”HˆnCFÒXs¨Lb¯\u001dÝÀÄ^\u001bJã#&óW^;\u0018\u0012“ù+´áJÁˆN4Ö\u0015}Ç½^¦zˆ³g9ºê\u0018Ÿ'\fÑUæ\u001cïY¡\nŠ\u001eo}1^ëÑÓž\u0005Á\u0006^'åZÇ LÒ¹3¸Ý=&=×Ïh(!îYçÎ |I%Ø\u0010\u0004ïxë‹\bŸ¡K\u001a\u000fr\u0011hƒå‹\u0007¹\b´a£{OÊµ\u0006á;b|~\u0015>ÓµûqÕ#Q\u0004Ùu¾g¥Ù \u001eÑ×%Èú¼Bô^\t²®ã±\u0010BõJH<åD>¡ÁzÄ©r\u0006­g1qªœ@\u001bº\u0004qªœ@;\u0018\u0012£ºëg4„\tqªœPmp¸çýž•jƒÍ;ï÷\u0010hƒ„DîE ue,Q+[¡\u001d\u0012\u0012µ²\u0015ÚÐ\u001fowL_N õ>Òy¿‡@\u001bxSåŒj½.\u0019§Ê\u0019´Aø¢”O\u0018¢'HuC­l…6\b_!Á\u0015Ú`CjlE\u0013h\u0003C*gˆÁ\u0015Ô˜?$Të*\u0013\u000fP‘Ïh0ª5NM\u0010ªu¹®‘ \u0011h=\u0019·­\bC\fA{¼mE \u001d*\u0013[\u001b„!z\u0013³Fë•@\u001bx\u0003ë„!\u000e^göÚ è±¯F\u0018¢{™ó4Ð\n]tEoÑ%X¡\n‰L‹.\u0001Ö\u0015½E­l….zi¨Ut¿VèÍ\u0000§R\t´+…^_p6\\PÁÃ{÷\u0015Ù•B¯È\u0006É‹\u0014š ›Rh‚¬ëx¤Ð\u0004Y\u000f$£Å¸\"\u001bÜËy\u0001w…v¤\u0003a<\b´Îé\u0012sÑ\u0004Z\u0017ó\u0002.ÖÇ™A\u0013hÝsÅ\u0015t¢ã†\u0010õÌ Wª«~nèLsWhGµ\"ZŒ\u0004Zï\u0014—h1®Ð†$¦Ä\t\u001c\u0002­Gdó\nê\u0005\f·dKŒ„\u0010ª\n¼Ž‘\u0010\u0002­wåË\u0003Q\u0002ÖÍSBû\n]õ!Ï3ƒ^¡\n.·V\u001e'\u0018\\Á™æ\u0012ª\nIL\f/\u0013hÝ¨Ö\u0018^&ÐºðÕŽÅ\u001e\u0002m`\bžpfÐº\u0003;Ó\\BµAeâî\u0001Öó£3Í%Ðz°Pñ \u0006ãµž\u001fÕXŠ&Të® ÆV46Èu”%WhÃñ¯s#d…6„8-Ö¢\t´®-*ž\u0004Ú0(žÙkÝò\u0017p\tÕº¢ŸË&\u0004ZW™xGŒi£®2ç\u001eËJµC®3W`¸S³RmˆT[RTpÔX¢âI¨6\b_T<WhÃœÝ¹\u0011²B\u001bÊíçF\b6¨LL›\u0010hƒÊ$®À\u0010©öèP\u0011ªõ`¡göZ\u0017¾sÙd¥ÚP\u0002îQñ\\¡\u001d¼ŽŠ'Ö…¯'ñµ!ýï1rM¨6HH´ý\t´AB¢í¿B;$$+ZèŠÞc„o¥Ú0Óxî±\u0010h=Ä9ë®Ð\u000eáKâëbP™Ä¨šú\u000fqÕS©\u0004ÙôT*A6=•J\n\u0015wŒð\u0011dƒ©Fÿ \u001bz®è?\u0010d×S©\fZ×ð‚‰\u0010\u0002màt\\¤bÐº5-˜àcÐ\u0006†`o”Aëž+žJeÐ†\u00120æÚ\u0019´jd\u001a\fZÏûã©T\u0006­7\u0003gÁ‰Smà5Ò\u0001Fµ¡2„˜Aë¼ŽÑ/\u0002mz–ö±\u0006\t¦¦<A®:§ÑC\"È†\n84å\t²aW#œâÊgC0\u0016Ê²\"\u001bnKâ\u0002$á†£¡†\u000b\fÚà\u0003PêdÐºÜþ–°Zo<\u0014L`2ª\n\fAÿˆ@\u001b\u001e *xì‹@\u001b*Ö\u0005©3ƒ6ð\u001aõH\u0006mà5ê‘\u0004Ú æeÀ)®Âç€ÆÝJ\u0002íøŒÈÊ\u0019´Á•c[™AëIh\fã3hCD†áN\u0006m \u001aY9ƒ6È5²r\u0006­\u001bÕ\u0018ÆgÐ†°)s\u0005úgŒ)\u0005Bµ!}Ž)\u0005\u0002íšR Ð†ºM\fã\u0013hƒ\n‰)\u0005\u0006­g\u001a1¥À uóT\u0013WàøŒ\u0018%`T\u001bT&\u0012ÆÕË\u0018š<\u0015ÇÊ\u0018Õ\u0006\u001b‚w\u000e\u0018´!™QÕãš\u0019UÝ<µ$¾îåïo_ÿóö_oºý|ÛÞŽþhcV··ù×o>þXö{{\u001bswç‡Ÿn¿ÿz›¯ºÄ2mÛ\u001c\u0010g¼ÖU¦á\u001d1\u0006­ûÆ†yZ\u0006mà5Þ}$Ð\u0006WÐðî#6\u0018ÕÖ\u0012•Ñ×¡ã1]FµABÐ?bÐz×+^¼eÐzÅ³eA°>-Ù²ZˆjÌÓ2†èádÃ<-ƒ6|Æ¬\u001cbPô¨\u001d®¾ÑÐ~è˜§e\fÑyÝñî#ƒÖjÇþ\u0003ƒÖ}c<¦Ë u¹î5±!ºyêxœ‘Q­‡8\u001d'{\u0018´.×½_Ç\u0010\u001cogTë–¯G×dÕFƒoì¸\u0006Ä¨ÖÃÉŽ»ð\fZŸ…‹'€\u0019´Á†döZ\u000f\u0016:îV\u0012ª»AÑñØ\u0017öŒ\u0012Ì\u0015ˆ‹®\u00011ä¢«ù¼]Á\n}‚Yˆ£Èº\u001b˜¼Pd]\u0011g?†\"ë^q®XSd] §ª0dCwªÌÇc\u0018´¡¥Væã1\u0014Zÿ†eÆ\u001f\u0014Z·xe&u\u0014Z×Cì_2hÇºá\u001cedÐŽ\u001eA»sh=jÂþ%£Ú0Ä]æµo\n­+#\u0006B(´^•,3þ Ð\u0006^Ïb\u000f…Ö#Ô2OrShƒÊÌøƒA\u001bÖ\nËlr3hÃ\fUE8\n­óºÎÎ\u0006…Ö*:\u001b\u0014Z7ªèlPh\u0003Cf©’B\u001b\u00182ûç\u0014Z\u000foÐÙ ÐºÊà‚\u0011…6ì\u0004ÎýK\nmøŒsé†A\u001b\u001cXgá\u0018´¥³ÁÍ“aU¨Î»Ù”jƒðÍ»Ù\u0014Ú |×ÅÀ5\t‚\nÁBCÀ\u00171¤eñµžö·$¾v´\u001ffÓ„2D\u0017¾–\u0004Á†ê\nš&ŒjCšÔ’ Ø`CZ\u0016\u0004ën·Íw\u000e\u0018C\fè6'‡(´nCÐ4¡Ð\u0006†$\u0005‹¦ûÆ–T,\u001cû—sû2D/Y´ùÎ\u0001…ÖyÝç;\u0007\u0014Z·!}¾sp\u00194w»†8\u0004\nFµa\u0006§'–Ï`Tûl\u0017Sªõ”´Ï¥\n\u0006m¨=á±/\n­g\u0005=3ªºGï™Q5ðz¶‹)Ct\u001bÒçAL\n­—Zú\u001cËgÐÝÀë¬\u000el°|Y¤ª7¹G\u0016Nên\u0017/r1^\u001b¢'¼ÈE¡uá\u001b‰Q5X¾‘Dª†r-^ä¢\fÑ\u000fÏ$R5d\u0005#‹Tu£:2{­Ûq]¹v\\W®Ål\u001e“\u0010Cè>’r­«;Ú.ëŽ®È†uè9R[·\u0015ÙÀèy‘…\"ë}‚y›‹!\u001b‚Ô¹¤À\n!YT†\bŸu§8»ý”fÝ“—\n•2B´înñ¾\u000bƒ6x\u0017¬p3hƒxà}\u0017\n­G¨Ø\u000egÐ†ú^\twK>£î]ð¾\u000b¥ZWò³;J¨6ð:r\u0018\u0002­\u0017òKä0\u0004Ú 2Q\u0018Z¡\u001dÍÀð‰+´¡\u00198Ÿ€ã\u0012bàõœK¥Â§\u0007d8!K¡u£Zç\u001e\u0001…Ö\u0019Rç\u001e\u0001…Ö\u0019RKÂ\u0010½œUç\\*¥ZW™:_©¤Ðºå«Ñ\u001d%*cøŒÑ\u001d%Ð\u0006†Dwt…6¤Gx„…òÚÀèŽ®T\u001b²ÜšÅ¿º—ÁuÚ«\u0018r]\u0004\\³\u0010Ø 2Qs\"ŸÑ !Qs\"Ðº½>[˜\u0004Z×F¼ïB%D\u0017>¼ïB¡õš\u0013Þw¡Ð\u0006†$ñµ!\u000eiY|­Oä·,¾v@s^\u001br™\u0016í\u0007\"×º¢·¹XA%DWô\u0016å,BµAÑ£œE \nr=·\u001f(Côì¿Ím5\u0006mðèØVcÐ†”´%Yƒê$+0\u0014ò±­Æ\u0018b \u001aÛj\fÚ0JÕ³Ð]W\u0019¬”Qªu•éYè®ûÆ>\u001f˜§Të¾ñìé^bCz´\u001f\b´îeÎv1Ö]AOìµÁõyh‚~Fƒ\\'Y«G°¾Ôî¹;7k\u000bK÷¡ê\n\u0013‰ÌŠ¼é’7Oc0š\nÈ‘!\u0011šuá˜‡1(Íºõ\bÏEhÖÕp^Ü 4ë\u0001Y™×\u001f\u0019´áý„\u0012\u0013ù„\u001fºwÁE;Fµ¥ý\u0000Ÿ¸Rm°x%†ý\t´®â¸hÇ¨6Äz¸hG¡u±.ó\u0018<…6´\u001fæ1x\nmàõ¼hG¡\nÚ¸#´Y%ÄP)Ã\u001bð\fÚÑ~ˆáQBµ×1<J \n¼Ž±y\u0002m¨¶Çœ\u0013Ö½W±y\u0002­3¤ÆØ<60$æœ\b´¡ý\u0010Ã£\u0004Z÷25†G\t´žö×¨Þ\u0010hƒ„Ä0\u00126ðz¾ÝÉlˆa\u0017¿Fõf¥Ú\u0010‡Ô\u0018FZ¡\n325\u001a¯\u0004ÚÀë(±\u0010hƒ\\Ï[Cì3\u001a®¬kN„jÝ\u0015œ…|\u0002­\u0007î-\u0006e\b´Îë\u0016ƒ2\u0004Z?AÒæíeö\u0019-Õvô¾\bÕºåÃƒm\u0014Z\u000f'[\u0016Nê‰.nÃ]Euf¯uWÐ2{møŒ1ÍB$Ä 21ì¿B\u001b’»\u0016k©+´!¹;7¨\b´ÁòeA°\u001e˜µh¼®T\u001b<z‹\u0019\u001c\u0002­'w=fp\b´Îë\u001e38\u0004Z¯{å\u0019˜!¹;\u000bù+Õ†ä®g•\u0005\u0003¯cše¥Ú\u0010˜õ˜f!ÐºÊœuk\u0002­Ûë\u001euk\u0002m\u0010¾¬\bl`HV\u0005Öƒà>\u000f$S·«{™žÔ\u001dW1³r­.!#)×nz\u0010<¢…I„OÿŒ#Z˜\u0004ZùFL‹\u0013hÝ<áŒ4\u0015>]\u001bGfT\n¼NŒªá0áè<o48°sÍ‰|F=t\u001fóà&ýŒ\u0006\t‰¹\u0010BµA\u001b“ ØÁë8#@¨Ö³‚q]%x$A°á\tÖ=æB\bCtEß\u0013£jH8ö¬½¦Ëõž\u0018UÃ Ìž\u0019U]øöÄ¨šºþ³ùåëO·ßþqžÍ¿}ýñö»mÛôg\tÐKbÈúŠ8ZI\fY\u000fB°1Ïõ ìx¼\u001dåžáë‰ãýx†¯+Îc<Ã×K~e»ã0ã\u0012ÂÃ­–ÙW‚¯¯w—\u0012\u001f˜Óo¸FTj|à\u0004_Ouæ–_Î\u001f\u0007ýí\u0019tý*½¿Íñ¹Duý*£>Á×õ«ìÛ\u0013|Ý]Ïçcžà\u001bäçxÆ\u001fÝ2ÏÇmŸÐoàÏýbþ<žñÇ ÿã­\fìx\u0012ûiè›Ì<ã\t¾žËÔíñ\u0004_çÏÜ@|ËÜ¯!dï\u0001§ð†ŠsÞ%£ÞðøkÎ%…×u·¶‘Ãëª[{þi\nSêu”œz\u0003sÆ“O«\u0017MêþäÓ\u001aÔjšýñÀ®=3;ºÛ­Óì§ø†¤­N³Ÿâ\u001bªõóE¹'ø:ÿÛVÞZÁ²\u0003á¿a±¤M³œâ\u001bÂÂVŽ'ø\u0006þÔú¶Í?\u0000åÁrÎÓ¦Oðõ°pÞ7}‚¯ÛÎyäô\t¾n~æ¥Ó'ø†ëžû“ïkðëm\u001fOè×Ãæ¶?žàëÞ¥\u001dÇ\u0013|½25×åžà\u001bô÷>ÓFnÝ\fAílä§èºnÍ^~Š®s¦—™\u0010íIÁÄ0\u001c?Ÿ’{‚¯\u0017ñæÕÕ'øºäÏÓ«Oð\nüŸAm^ÐÓË§}\u00164r|\u0003fA#Ç×Û<ó5¸'øzÁ°\u001fÛ\u0013|ÝsÍ\u0013§Oð\nòs¯oíº„½?¶'øzÂ>Ÿ‰{‚oàÏãñ¶'mÕ\u001d×˜æ3ƒ7$£Üsx]yç\tÔ\u0014¾é¶yLÛ™2Gÿ´óÊêÛœhM’F=¨\u001a³Öœã\u001bØÓgÒ’ÑoHJÇ¸˜?³äÒïhÃï3èÏäÇÐÕ\u001eÇ\f:3|CµmLÓŸâ\u001b’Šq/\u0017ã?á¿ãûÎ¢ÉñÀî\t+:è®eÌ¢IŠo˜\u0007›S\u0011Oðuë<G#r|Ã\u0014Þ>‹&)\fögªVŽoÐ¯9)‘ã\u001bôkG/3“OƒüÏqŒ·‘\u0016•ô¢Ï>Cÿ\u0014ß!?3ôOñ\nE½}ö2s|=µØgQ&Ç×ã“}¦\u0016uÇ\u0011\u000fbß\f©õ~ô'øz|²ÏÔ\"§ß`ßfj‘ã\u001bøÇo\u0018ëõ~ÂÇo\u0018´®µ\u0007öá\u0018´^I:pØŽAë±òÃv\fZ\u0017“\u0003‡í\u0018´!í2†`g­‹Cº€`e!ë\u0001ST\u0011\bÍ\u0006U„\u0011$È\u0006ÁKø¬›?¼MÃhÖGòqvŽ!ëÕ&ì-3dý\u000bât\u000fCÖK(\u0005ÃÅ\fZW•‚áb\u0006­{€‚\n\u0006­7£Î>,Ñ\u0016½Ú\u0019çì\u0019Õº™Žsö\fZ7Ó\u0005çì\u0019´n>JbM]#ÑûñýHt5\u0004®èC¯ÈŽ”\u0016B½\"\u001b’Áè¾\u0011dÝkáž3¡yÓ=\u0000ž4aÈº\u0007ÀR1C6Ø%\\ÖaÐº\u000b(¸æL «î·NkºŠ‡!‹<­)6PÝ\u0012Ñ3x®žÈžÁ½`I|Fƒù8\n5áµA®#8%Ð\u0006Ï…M2Æ\u0010ƒ„D\u0010I¨6h#6É\bÕÕào\u001f\t´!\u0000Áæ/¡ºèÖ:2®ûêou\u000fƒËK³Çý½'7LŽDñ› ëŒ\u000eé¸\u00049ª*\u0004Ù ˆQU!ÐzÈ4÷‚ø74X&œÚdâ¡‡\ts\u001bˆB\u001bâ±¹\bÄ¡\n;L88Ç\u0018b0z88G \u001d!\bnú\u0013hG\b‚\u001bÑ\u0004Úpº­d¶É |¸µA¨6Œ5\u0014ÜÚ`Ð†„\u000e·6\u0018´Á†DÝf5O†\u0007¾K\u0014nVhC—©Då†@ëAê|À”óZw¹sOˆCë6d®\bQè¦[¾Š+žDøš>ÇW\u0013£jèsÖHcV\t1x™\u001ai\fÖƒ…\u001ai\f6È5\u000eb°Ï¨\u0007©qÅ“@\u001b\u0014}¶Ò(Õ†NoÅ\u001b,Œj\u0003¯3£jÐFÜFbTë9t\fi\u0015¾M\u000fÜ[fùt•i8ÝÆ\u0018¢\u001bÕ¹€C¡›\u001e‡´˜Þ\\yÝôô¼%–Ï\u0001X>\u0007C\u0012Ëg˜ØŒ×§.’Ä¨\u001aÂÉ¹]C…ÏP\u0002Ž×§\u0018C\fÚ˜X>CÂÑ²pR¯[\u0016N\u001al\bîa\u0012^\u0017½¢\u0015÷0\u0019´žþÇ=L\u0002Ýt†Ä=L\u0006­Ç!q\u000f“@\u001bâxØŠ@\u001b®¯ÄÃV\fZCz’þ\u001brôx\"ŠPmPôž¥ÿ\u0006áËŒªA\u001b³pR\u000fÌzfTõÀlnªpó¤‡8#švkˆc¹ B©6t{FIÜ®.|#)|\u001arôw­‰6\u0016]B\u0006Þ¬ Ð†·Ï\u0006Î«\u0013è¢;°¹&r\u0019ôÎ\u0013Ž¦Ûë×z\u0018Ct\u001b2p\u0003@7\u0003¯ïü3\u001a\u0012Ž‘ôe\fYÁxp†\u0018‚…=iù\u0018Ö{v¼\u0010M>£có Év\u001dCÝ¸Î¨Öc¾\u001d/Ž2hÝ^ïI\"m¸ÿ¸'FÕPÜ“–qÓmÈ\u001eseÄ£\u001bx\u001d“\u0010+tÕÍÓ~]`¶_\u0017˜í×\u0005fÇuÙq]`v\\\u0017˜+\u0004Døt¹>\u0012óäˆžf\f\\·e€ÃáuçX\u0001CÖ\u0003\u001c<\u001fC\n\u0001\u001f®[\u0013ä¦\u0007À\u0018:aÈ:7pÛú\"dþ\u0005‹^*‹yIB´\u0003\u001a±\n6Dd\u0005\u001c\u0012hƒ¿-•Ë´á@ZÁ`\b¡z3ì' \u0000aÐºÉ‹™y\u0006m\u0018VÀó®\fZ/\\\u0017œä&Ð†RÙœ\f¤Ð†˜½`Ê“Pmè?\u0014Ly2hƒ\nILª¡2T\u0012›j¨\f\u0015ä¢Œ!ºðU$Œ\fZWô¹dÈ¡uE¯ˆÈ\u0018Õºg¬Ø¼dÐ†!\u001cÌ\b^\u0004¥N\u0006­\u0017SãQZ\u0006­çGñ(-ƒ6È5rQ\u0006m\u0010>¬O\u0011hƒG¯ÈE\t´¡\u0010R“\u0000Ø\u0010âÔÄ\u0015\u0018bëš¸\u0002CÅ³Þ“èÉ !‰+0”Û[f¯uË\u0017/Ç\u0012á3ŒÄµ,¾ÖÍSLÊ\u0010ª\nApLÊ\u0010hƒ¢Ç¤\f6hckÜË\u0018VB\u001ašº„j\u0007C0ÓM \nÑS<JË \nÂ‡~1ƒ6h#vY\u0018´nžb\b‡@\u001bV\u001a¶G\t´Á5ôz\u0018´žÜ5Œ\u001f2h=\u000eé[\u0012‡8 /K“:Ns\u0013†\u0018š_\u001dë=\u0004Ú`ù:^\u0011#Ð†FcÇ+b\u0004Ú ×\u001d\nt\u0006­w¨:ž>gÐº\n™wp9´ž&õÎymˆCzVÅÑíuOª8†­ÆžUqtË×±9D$Ä¡èØ\u001c\"Ð\u000eE¿s¹vL6ât7¡ÚÐÛèØÕ%ÐEoÆ+½\fZÏÑGæ\n\fÐ‰½6HÈ¨Ü<\u00192°‘Ä×†¥¤‘Å×úòÆÈŒªnù\u0006Nò1áÓCœI\u0006m ú:Ë7®³|#±|†Ð=Þ»e¼Ö=úxp£jÈ\u001bw\u001cQ!T\u001b:\u001cñ”.ƒÖ'vç©XJõÇ3Iú_£ê‚\u001e\nendstream\nendobj\n6 0 obj\n13206\nendobj\n3 0 obj\n<< /Type /Page /Parent 4 0 R /Resources 7 0 R /Contents 5 0 R /MediaBox [0 0 595 842]\n>>\nendobj\n7 0 obj\n<< /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /ColorSpace << /Cs1 8 0 R\n>> /ExtGState << /Gs1 13 0 R /Gs2 14 0 R >> /Font << /G1 11 0 R /G2 12 0 R\n>> /XObject << /Im1 9 0 R >> >>\nendobj\n9 0 obj\n<< /Length 10 0 R /Type /XObject /Subtype /Image /Width 251 /Height 47 /ColorSpace\n8 0 R /SMask 15 0 R /BitsPerComponent 8 /Filter /FlateDecode >>\nstream\nx\u0001í[Qr\u001d7\fóý/Ò¤?=`ÛI™Ñ\u0004…I¢´r^j'“B \u0000rUåe×ŽßÞÞ¾½ôzûqýñííË_o_ÿþñë¯·ßþüQ»ÿ½;ph\u0007^zØ¿7Ç}|ÁQ'pÏ<öç‚#;ðÚ\u0003[°ƒýïg;\u001dxûÌ¿×Ýƒ;ð\u001f9ð_ùa†\u000e¼ý)øíß¿\u0004\u000eÞ÷úŸîÀ\u000b\u000f<vüÝ£ûûÓþýÀß'yìÔ\u0005wàU\u0007\u001eƒûwÕ÷\u0007þ>Ò`£.8²\u0003/?ðò]\u0015ÏóV½×Ý³;ðóÏ<æÏÞUÇ·wûü¿×Ý³;ðÂ\u0003ÿ%ùâÌ8ð÷éýìÿè›†\u001d˜žy(/XÝ\u0001ìíªñ…zÌ<ÀóI8ðyÚó\u0004ž'ÃÏ»\u001cLÈ†ìð<†Ósé9vác™ÅJñ\u0012‰äèB©\u0000Ñ%™\"Á•¤Ý‘Î’-Ë–™’ùÚ\u0015«Žá¨×b7ØÆrÌ/§nM†\u001b)ó3ñ*ŸÝ—l\nrµKv\u0017\u001f\u0014˜‡v\u0019ˆF§Œ\u0002Ç8ýöÒ\u001eÎí…4ûe\u000fðõå¦ÚXŽ|i¬[÷«2|1¤\u0010/•,9ÓÇ¦…8\u000baþç\u0004\u0016CÊ\u0001˜äi§\u0002(\u0007`ý6.¾¯j§ý÷Ù?'p#m,ÇäÒ¸}Sl”É YYL\u0002}\u001fXZ&þˆ¦.3kÝç]àX\u0016v©\u0007)¨NÃ‡Ýé7–öÁ>¾\b#·êô’7²DŽ\u0016Ò2íÞ\u0011Èd&]\b—ž`‹Íì\u001fÑ‘3³¾«<g\u000e\\'D=\u0018iDµ\u0013>\u0012œeiY_õûÇ»~È}×DÞÈ\u0012YÜì»N[‹Î$.¸céh,6“}DGdfM÷xÄ\u000e0\nqz,¥\u0011U\u0000)c\u0012Ê\npäûª<\fðÆ0ð2ØÈq\u0016N+°sÙ²\u0010OKHË”\u0010t\u001a5ÅeMÁC¹Ú½£·.œ\u000fŒî\fPeÀ‚ç\u0018É§¾¯*GB—>8•ã:ÊØH:—\\F—1R\tRZœ+Ó8\u00192\u0007ˆ®Œg¥\u000bÁ’5\u0011Cf V#Ãzà(3\u0006U\u0006R¹M\"¹~Wµïº6/9IÓË²S9ÓÌíF\u001bFi1\u0012Cf\u0002Ö@\u001cÁ°3¿\u001dØ4\u00162.ñH\u0003s\u00158Ê\n1\\}€üçïªˆ’ÝQíƒS9ÜQff$\u001b%–F©\u0004)-Fö\u0005Pv@ÖŽ;\u00169\u001d{¡q%×ÈUÇÒi°”âU\u0012iÓwÕ¥Ÿòc W\u001fœÊAG\u0019h¤\td\tÆ\fl¸¤eÌ0ºL\u0005Ù0’ž6MÈ\u0004’ç!§\u0002\u0016\u001b–ú%\u0012õ»ª}qféZšÅ®\u000b—€fi‰\u0010\u0006#\u0019Æu>+7,æ}2FÑ\u0011S9PX\\É\u0019±„\fL\u0007Àe@êY\u0010±´4I¤zWE`s\u0000)Cˆ©€ÅS,ÓŒ„Q\nP•à”\u0005cÈ@Tå\f5)\u0003kK¬Ö!²ZÈ—\u001aT%–&‰ÀSïª\bl\u000eÉê\u001cTWlÇ!R`$k\u001c–\u0016§qKiA—ºê¢:K\u0019Ø1²¦\u000eÉª’\u001fä\b—\u0002î+±tMID\u001d|WEæ´{-¨sP]\u0002YG\u0017\"eNÃËU½y¥ÅÈ\u0011[W¹u\u0013ËÀ¦\u0017²:¤¨ÊÒ -\\VÑ4\u0003ÒU“ˆ:û®ŠØºû´Zç º\u0004²¦.¤)ƒKêQ•@ZŒ\u001câº*\u0003kR\u0006Ö–X­CŠª,\nÒºÈjì\u001e\u0019id2Z\u0006sö]\u0015]¸õ*Fˆ\u0001éeA\u001fË¨>™5’\t™xðÒbd§Z'ËjÝNZ\")C Û¨JË \u0011[ƒ\"!Ë9þ®Š\t§Ãd\u0002$\f eNÓYÊœ%2ë\"C2ñà¥ÅÈNµN–Õº´8rš \u0005\u001c\"\u0005\u0019ÉÆ\u0002gvæýø»*ò¹)0ª}\u0000/ƒ¾\u001dJ¶oc¤1i,ˆXZŒ„r*€²\u0003ž§M\u0013¤ÀÍ&5’tÆb)íL²÷#ÞU‘ÏMQí\u0003x\u0019ôíCÉÞ'Xö•R\tRZŒì\u000b l‚iÇ\"'óN\u0007v™EŽ+9c±tF¹„½~z_ú¾*2\u0001êÖMÁ‘\u001c\u0019²GÆeN”1#-FB“\tX\u0003±\u0003ìE‰I‡¡‘À‰yÉzæY00J5ˆÆ‚©£¬\noýõ\u0019Èö€\u001cc#êyŽLØ&ã-È¨(cFZŒìh†—•À2vTe‰I„0`AÄS%\u000b€cNd n‚˜à\u0018äØOêÅŸi²G\u001dû³ððr\u001dÇr#SætHôÊÄ\u0010d i”²,sðÒb$»2ãÍâ\u0018·D¦ã³å4p\u0018\u0011;€Ls\u001a,¥˜I(›€½\u0019FT|’ïÿ\u001b`„D ûFÙ”‘9Mr„Kñ´¯\t¤ÑHç•2§qKii&gÞŒçÖ™f•çÌeB”\u0015bNÈŒ\u0005Ïv‰áµŸ×ã\u000fy;ÿG®ºi¿…ÌyN6\u0007œ·£éX,ÇÉl)Ã—HÎ\\2\u0016bÎ\u001cXŠ£\fŒÔƒ„¬\u000fà-\u0000Òøíõá»*2e_Tû@æ<$Ÿwç\u00049\f\u000b\"–\u0016#£Ò˜LÜác`ÇUkbf6¤T‚,º@³\u0004ŠÀQB\u001a¿½‚|\bd÷L™ó\\\u001a#örö(0ÆiÜRZ\nW¦¯y×”—µ1«r‚ÃÒâ4q)]FFe“É\u0002Á#ÇžÛ¼«\"\u0010-\u0018 Ú\u0007l_ÅÖ%Zú­‡²“ÐÑ¸¾G,1\u0004Œk\u0017—P6AL`&†pµÀÛF™\u0019Ó\"\u0003ã©‡\u0019\u0004\u001aàvÌ¯bÎib´`=È%ÐIèh\\Ó\n‹%°+b×¢³Œ!Ìt\u0012†fÏeÞm£œÓ$–®KÞ\u001dø¤; \u000f¹#?é­Ý±ï\u000eÈ\u001dpÇ;.¥ë’w\u0007>ï\u000eÄCÎÌç½¯;ùÝ\u0001¹\u0003|¼#––KÞ\u001døÔ;\u0010Ïù`>õMÝáï\u000e\u0014;\u0010Ï|!¾¥»\u0003¿À\u000eð™ÿ\u0005nçÞÂ/¹\u0003ÿ\u0000'ö\t¾\nendstream\nendobj\n10 0 obj\n1952\nendobj\n15 0 obj\n<< /Length 16 0 R /Type /XObject /Subtype /Image /Width 251 /Height 47 /ColorSpace\n/DeviceGray /BitsPerComponent 8 /Filter /FlateDecode >>\nstream\nx\u0001åZÑ™«¼\u000e¤\u0004J \u0004JP\t”@\t”à\u0012(\u0012R‚K \u0004J \u0003®¤‘d…$»{þ—û=~°¥™‘l\u0019p²d»ñqý¬í]×õ'kwbë\u0017´QŠùQ#®vƒRÌ¿¿ýôš_\u001b×J¶GÇß_7Wð£\u000bÎ¢³gñîêá7ÔîÅ|7.\\ì\u0012\"ú\n¥\u001fQÎ—Fœqª:CåéJ~Yº\\f;ãX·þŠÒÛóûUéR«ŸqöÜÿ‚ê[E×Z>µž\u000b‚¤_P¶–ðÿ¸G’Íüom$ú\u0014-ÔŸ$Õoh¸ÛÇ?‰cm¿Ö{[$Åz^õ‹\\ãÁÓ=¢øéqORë&á=_•-d’x\\ýóµ–A€Öh“¬ÜÎÇÜP¶¦¡!C=¯\u000fyÛgVÍ‚ïí´i˜UúµëŠŒúEàmŽá\u0014þòÉfõ^:êºšeœŠ\u0014\be\u001d\u0018³6\u001f\u0001³q–¶a¤Ä9¸’ÇU ª€ïäuÍê¿é(.Ì£±mÏ4½u]‡Ò>æÚLHÈô´è–èÑ\npF›Pî[+NÕ\u001bq\u001d\u001eÕ=@í&•\u0001ˆ*(\u0002?^ª·»S\".\u001bžº¤É²9¸ø\u0001ÔÝÛXý#… ëÛ\u0012šrVnÄ^7X,Pvë°¿©T;\bIí\n\u000e÷k\u0013dk\tAMðÛÒY\u0000qIÊl®‘kPø\u0011þ“QžK[9îÚ·•GíÕ³Î±\b ¤~zhõ6\b‘\u0019\u001føw¥×þ›ÒS®\n“ï¾¸<ò)Hy‰mƒ\u000e~ö\\Y9C¸wíµ¦d(%´g”–ó¦ït’ì¥m‘|Í\\Q¸fHm¨Ë\u000b®À\u0012¹â$”Ï$\"#Ô¦µ\u0004%IØìQÛ noÇZaÛ7ÅÎ¶¾œ¦ÝE‰³R‘½WÀ/\n™W=õ}ÜX`k`êðh\n+*®jç\u000e9J†š}¤\u0019ž$6KS\u001a@‚XÔ©Ž\u0000TÈ·F,n\u001f\u0014æ.žYÚæÛÄç\u0006„Ôæ\u000fÌ&x²ôÜÛ\u0003šLŽ¡(^Ÿ0q //¸\u0000“’\u0007B,!„5È\u0000bd\u0006wå¢Õ{€ŠKÊ\n¯ý\u0010uµP\u0019f\u0001|}¤6wkR$saj\t¿º\u001acQâ\u00062\u0005}èÖc%¥‡fN,\u0001jˆ\u0001ÄˆÕW\u001aéÖ€¨çM±o\u000e\u0017±\n\u0013Be;\u001c!µ¥ÓÇ’É°3—˜\u0001Zï‹*«»1\"A\t?\u0019#¸Áþ\f”üÞ¬RwãV&F\u0010¥·`ãÕšAmÏð\nte´ÂD\u0007\u00166EˆåÈÂK÷r\u000b¨„\u0018FQfÇÁ¤ý \u0004\u0002\nDÏ=’mñ„Q£\ta/\u0000KŒÚ\u001a\u0017\u0016\u0012^S\u0000j\fÈUÙ©jn'‡Ð0IL4h\u0000[/»F<ŸqL• Â˜%\u0017¼\"æ­\n ˆá]Í­\tl¢\u0017€âQŸ\u001b\u0017VEÆðÍ8\u0014>Ùƒ Xöka¨-ÂÔv/\u0002GdÏ\u0014–(þdÂ\u0018JÒº90\u000b»„®\u0019ˆ8\u0004˜¡\u001aÄÖF\u0000ÜM§Øc¶^ZÕ¨ãŽ\u0003¾\u0018†Uâ:¾>J1+ænýÌä\u0012nMR˜%¸f\u0010Sð\nD¹·ccVìTÙ\u001a<!,|¿ßè\u0007¥×\u0016\u0005\u000b\u0005çÒý¡ç{\u0017\u0013qÞhé<{Èk‰…™„\n!t£ ÇSÏ›j©‹ËÚ8«ÔN+ìt;º\byšÚ\u0000úAég‹‚U#\u0019¬ÒJ©\u001d8ÎÛÚ\fŒûÝÁ- âP\u001bKalÂÂ+b>·C™\u0003¯{,µl°6B˜»ù†Ÿ>fôk9´0µ\u0010PÙ®j\u0016¶l‚«€$†ZƒL\u0018[«ïßã\u0010‚\u001cV‰Ö3)Ô¥å5Ë*\u0000íýá2›ËÝX*ÅÇA\\¦ñG86\u0010”Í´±‡šŠà‹Ï©#\t\u0014m\fÎîÃ=\u0000\u0014\u0015J5Pz}\u0006ÙCPyÁ±ŠHiÆl:‚ß¢\f FNpbÞÚ\u0004æx†m¦™Q˜Eù‡M©\u0003)\u0014Ý\u001aÜ&Ø\u0012n\u0015÷ÞŠÒõ\u000ewˆ*w|ŒlO†Ç\u0013Ð\u0016e\u00001²{wÙOP¥Åù·åëê\u0019¬ÊƒNä]úU/\u0005%Ž\u0018n;1$Q˜E³ÖðÝx³\u0018¡lý`SOˆ#@p¤7€š™ß7tó~®Lù\u001ag¶­¶\u001d›øUÓ\u00161ãÉQˆ\u0014iÝ\u0014K’\u001dŽó½4E²ŠŠkB`\"G¹á}¤¾\u0019\u001b„_•n\u0005¤—™´K\u0016®½­Q®±´Å*¿\u0006ñžJ÷o\u0013\u0012KÂæ\u0006¥P\u000bÃ³\u0018ïÏ8f‹’5‡«­ðUqk?3\u000euû0chƒr`3.²Ú\u0019 qF(ùãJü\u0012c®ðO¦–gj9Ü/\u0012x+Ý§d\n)ºÁ\u0003ñ\"\u0001SLIÌ¢Úš\u0010˜‘¢\u0019»\u001fU[V[AE1‚ºñ\u0006\"sË•¬*Ü#\u0001ÉTî¥tÿƒöMéþiÁ96N«‹³$ì>·?(ýš'¬jxJQ\u0015”k÷ÍU;$ÕÆ&I`«&“{/ÜKé\u001f\u0004¯W=¿ê\"Ž\\9ÝÀã»†í®/T^Ûåí>Ùµ\u001c%\u0005AÚ²\u0019@† çÓq\u0003õæ5uû…£ª²X\u0012\u001efKA\nrË.\u000f\u000b\u000e†øÌ/ÎÜÇ%ÏŸHl‰Í`Ã\u0004ñ”db\u001eBãªª„­*;Àz\u000f!\u0015[>\t[œé¦³ÁbsP›2Íû'ò†Ôo\u0011‰(ŒN/«†Tï4¿±\u0002íºa×ér·á¶Ü’JÍID3P]¤ÙŠÌ‰\u0004ŠÏ¿°ð\u0015j§\u001b_²’ÊÒÏë\u001d3Xÿ2Q°C¬Y®\u0019‚x5æ2§Y\u001aŸÞ^¨92Õ/ej\n·†RÈí9ÙŠÑ\u001dèÆe“ß¶\u0016äÁLé/€Û\"“¥ÆóÎÉ\u0015“4¾‰\\P¢ö‡CÿÊ¨÷\bÊ§¥f¯SŸ@­ýpèŸ\u0019«ßòõŸ)Ù\u000b“îÃiàºß8ÚI·þÆÚ¾«I~Òúô“ów±;ßüg¿½2_ÿÿ\u0000LÕÖÀ\nendstream\nendobj\n16 0 obj\n1958\nendobj\n13 0 obj\n<< /Type /ExtGState /SM 0.02 >>\nendobj\n14 0 obj\n<< /Type /ExtGState /SA true >>\nendobj\n17 0 obj\n<< /Length 18 0 R /N 3 /Alternate /DeviceRGB /Filter /FlateDecode >>\nstream\nx\u0001–wTSÙ\u0016‡Ï½7½Ð\u0012\" %ô\u001az\t Ò;H\u0015\u0004Q‰I€P\u0002†„&vD\u0005F\u0014\u0011)VdTÀ\u0001G‡\"cE\u0014\u000bƒ‚b×\tò\u0010PÆÁQDEåÝŒk\tï­5óÞšýÇYßÙç·×Ùgï}×º\u0000Pü‚\u0004ÂtX\u0001€4¡X\u0014îëÁ\\\u0012\u0013ËÄ÷\u0002\u0018\u0010\u0001\u000eX\u0001Àáff\u0004GøD\u0002Ôü½=™™¨HÆ³öî.€d»Û,¿P&sÖÿ‘\"7C$\u0006\u0000\nEÕ6<~&\u0017å\u0002”S³Å\u00192ÿ\u0004Êô•)2†12\u0016¡\t¢¬\"ãÄ¯lö§æ+»É˜—&ä¡\u001aYÎ\u0019¼4žŒ»PÞš%á£Œ\u0004¡\\˜%àg£|\u0007e½TIš\u0000å÷(ÓÓøœL\u00000\u0014™_Ìç&¡l‰2E\u0014\u0019î‰ò\u0002\u0000\b”Ä9¼r\u000e‹ù9hž\u0000x¦gäŠ\u0004‰Ib¦\u0011×˜iåèÈfúñ³Sùb1+”ÃMáˆxLÏô´\fŽ0\u0017€¯o–E\u0001%Ym™h‘í­\u001cííYÖæhù¿Ùß\u001e~Sý=ÈzûUñ&ìÏžAŒžYßlì¬/½\u0016\u0000ö$Z›\u001d³¾•U\u0000´m\u0006@åá¬Oï \u0000ò\u0005\u0000´Þœó\u001e†l^’Äâ\f'\u000b‹ììls\u0001Ÿk.+è7ûŸ‚oÊ¿†9÷™ËîûV;¦\u0017?#I\u00153eEå¦§¦KDÌÌ\f\u000e—Ïdý÷\u0010ÿãÀ9iÍÉÃ,œŸÀ\u0017ñ…èUQè”\t„‰h»…<X.d\n„Õá\u00186'\u0007\u0019~k\u0014hu_\u0000}…9P¸I\u0007Èo=\u0000C#\u0003$n?z\u0002}ë[\u00101\nÈ¾¼h­‘¯s2zþçú\u001f\u000b\\ŠnáLA\"Sæö\fdr%¢,\u0019£ß„lÁ\u0002\u0012\u0007t \n4.0\u0002,`\n\u001c€3p\u0003Þ \u0000„€H\u0010\u0003–\u0003.H\u0002i@\u0004²A>Ø\u0000\nA1Ø\u0001vƒjp\u0000ÔzÐ\u0004N‚6p\u0006\\\u0004WÀ\np\u000b\f€G@\n†ÁK0\u0001Þi\b‚ð\u0010\u0015¢Aª\u0016¤\u000f™BÖ\u0010\u001bZ\byCAP8\u0014\u0003ÅC‰\u0010’@ùÐ&¨\u0018*ƒª¡CP=ô#t\u001aº\b]ƒú \u0007Ð 4\u0006ý\u0001}„\u0011˜\u0002Óa\nØ\u0000¶€Ù°;\u001c\bGÂËàDx\u0015œ\u0007\u0017ÀÛáJ¸\u0016>\u000e·Â\u0017á\u001bð\u0000,…_Â“\b@È\b\u0003ÑFX\b\u001bñDBX$\u0001\u0011!k‘\"¤\u0002©Eš\u000e¤\u001b¹H‘qä\u0003\u0006‡¡a˜\u0018\u0016Æ\u0019ã‡YŒábVaÖbJ0Õ˜c˜VL\u0017æ6f\u00103ù‚¥bÕ±¦X'¬?v\t6\u0011›-ÄV``[°—±\u0003Øaì;\u001c\u000eÇÀ\u0019â\u001cp~¸\u0018\\2n5®\u0004·\u000f×Œ»€ëÃ\ná&ñx¼*Þ\u0014ï‚\u000fÁsðb|!¾\n\u001c\u001eß\u001fÆ¿'\tZ\u0004k‚\u000f!– $l$T\u0010\u001a\bç\bý„\u0011Â4Q¨Ot\"†\u0010yÄ\\b)±ŽØA¼I\u001c&N“\u0014I†$\u0017R$)™´TIj\"]&=&½!“É:dGr\u0018Y@^O®$Ÿ _%\u000f’?P”(&\u0014OJ\u001cEBÙN9J¹@y@yC¥R\n¨nÔXª˜ºZO½D}J}/G“3—ó—ãÉ­“«‘k•ë—{%O”×—w—_.Ÿ'_!Jþ¦ü¸\u0002QÁ@ÁS£°V¡Fá´Â=…IEš¢•bˆbšb‰bƒâ5ÅQ%¼’’·\u0012O©@é°Ò%¥!\u001aBÓ¥yÒ¸´M´:ÚeÚ0\u001dG7¤ûÓ“éÅô\u001fè½ô\te%e[å(å\u001cå\u001aå³ÊR\u0006Â0`ø3R\u0019¥Œ“Œ»Œó4æ¹ÏãÏÛ6¯i^ÿ¼)•ù*n*|•\"•f•\u0001•ªLUoÕ\u0014ÕªmªOÔ0j&jajÙjûÕ.«Ï§ÏwžÏ_4ÿäü‡ê°º‰z¸újõÃê=ê“\u001aš\u001a¾\u001a\u0019\u001aU\u001a—4Æ5\u0019šnšÉšåšç4Ç´hZ\u000bµ\u0004ZåZçµ^0•™îÌTf%³‹9¡­®í§-Ñ>¤Ý«=­c¨³Xg£N³Î\u0013]’.[7A·\\·SwBOK/X/_¯Qï¡>QŸ­Ÿ¤¿G¿[ÊÀÐ Ú`‹A›Á¨¡Š¡¿aža£ác#ª‘«Ñ*£Z£;Æ8c¶qŠñ>ã[&°‰I’IÉMSØÔÞT`ºÏ´Ï\fkæh&4«5»Ç¢°ÜYY¬FÖ 9Ã<È|£y›ù+\u000b=‹X‹\u0016Ý\u0016_,í,S-ë,\u001fY)Y\u0005Xm´ê°úÃÚÄšk]c}Ç†jãc³Î¦Ýæµ­©-ßv¿í};š]°Ý\u0016»N»Ïö\u000eö\"û&û1\u0007=‡x‡½\u000e÷Øtv(»„}Õ\u0011ëèá¸ÎñŒã\u0007'{'±ÓI§ßYÎ)Î\nÎ£\u000b\f\u0017ð\u0017Ô-\u0018rÑqá¸\u001cr‘.d.Œ_xp¡ÔUÛ•ãZëúÌM×çvÄmÄÝØ=Ùý¸û+\u000fK\u000f‘G‹Ç”§“ç\u001aÏ\u000b^ˆ—¯W‘W¯·’÷bïjï§>:>‰>>\u0013¾v¾«}/øaý\u0002ývúÝó×ðçú×ûO\u00048\u0004¬\tè\n¤\u0004F\u0004V\u0007>\u000b2\t\u0012\u0005u\u0004ÃÁ\u0001Á»‚\u001f/Ò_$\\Ô\u0016\u0002BüCv…<\t5\f]\u0015ús\u0018.,4¬&ìy¸Ux~xw\u0004-bEDCÄ»HÈÒÈG‹\u0016K\u0016wFÉGÅEÕGME{E—EK—X,Y³äFŒZŒ ¦=\u0016\u001f\u001b\u0015{$vr©÷ÒÝK‡ãìâ\nãî.3\\–³ìÚrµå©ËÏ®_ÁYq*\u001e\u001b\u001f\u001dß\u0010ÿ‰\u0013Â©åL®ô_¹wå\u0004×“»‡û’çÆ+çñ]øeü‘\u0004—„²„ÑD—Ä]‰cI®I\u0015Iã\u0002OAµàu²_òä©””£)3©Ñ©Íi„´ø´ÓB%aŠ°+]3='½/Ã4£0CºÊiÕîU\u0013¢@Ñ‘L(sYf»˜ŽþLõHŒ$›%ƒY\u000b³j²ÞgGeŸÊQÌ\u0011æôäšänË\u001dÉóÉû~5f5wug¾vþ†üÁ5îk\u000e­…Ö®\\Û¹Nw]Áºáõ¾ëm mHÙðËFËe\u001bßnŠÞÔQ Q°¾`h³ïæÆB¹BQá½-Î[\u000elÅl\u0015líÝf³­jÛ—\"^ÑõbËâŠâO%Ü’ëßY}WùÝÌö„í½¥ö¥ûwàv\bwÜÝéºóX™bY^ÙÐ®à]­åÌò¢ò·»Wì¾Va[q`\u000fid´2¨²½J¯jGÕ§ê¤ê\u001ašæ½ê{·íÚÇÛ×¿ßmÓ\u0001\u0003Å\u0007>\u001e\u0014\u001c¼È÷Pk­AmÅaÜá¬ÃÏë¢êº¿g_DíHñ‘ÏG…G¥ÇÂuÕ;Ô×7¨7”6Â’Æ±ãqÇoýàõC{\u0013«éP3£¹ø\u00048!9ñâÇø\u001fïž\f<ÙyŠ}ªé'ýŸö¶ÐZŠZ¡ÖÜÖ‰¶¤6i{L{ßé€Ó\u001dÎ\u001d-?›ÿ|ôŒö™š³ÊgKÏ‘Î\u0015œ›9Ÿw~òBÆ…ñ‹‰\u0017‡:Wt>º´äÒ®°®ÞË—¯^ñ¹r©Û½ûüU—«g®9];}}½í†ýÖ\u001e»ž–_ì~iéµïm½ép³ý–ã­Ž¾\u0005}çú]û/Þöº}åŽÿ\u001b\u0003‹\u0006úî.¾{ÿ^Ü=é}ÞýÑ\u0007©\u000f^?Ìz8ýhýcìã¢'\nO*žª?­ýÕø×f©½ôì ×`Ï³ˆg†¸C/ÿ•ù¯OÃ\u0005Ï©Ï+F´FêG­GÏŒùŒÝz±ôÅðËŒ—Óã…¿)þ¶÷•Ñ«Ÿ~wû½gbÉÄðkÑë™?JÞ¨¾9úÖömçdèäÓwiï¦§ŠÞ«¾?öý¡ûcôÇ‘éìOøO•Ÿ?w|\tüòx&mfæß÷„óû\nendstream\nendobj\n18 0 obj\n2612\nendobj\n8 0 obj\n[ /ICCBased 17 0 R ]\nendobj\n4 0 obj\n<< /Type /Pages /MediaBox [0 0 612 792] /Count 1 /Kids [ 3 0 R ] >>\nendobj\n19 0 obj\n<< /Type /Catalog /Outlines 2 0 R /Pages 4 0 R /Version /1.4 >>\nendobj\n2 0 obj\n<< /First 20 0 R /Last 21 0 R /Count 3 >>\nendobj\n21 0 obj\n<< /Prev 22 0 R /Last 23 0 R /First 24 0 R /Count -4 /Title (FREE LICENSE \\(WITH ATTRIBUTION\\))\n/Parent 25 0 R >>\nendobj\n25 0 obj\n<< >>\nendobj\n24 0 obj\n<< /Count 0 /Title (How to attribute contents?) /Next 26 0 R /Parent 27 0 R\n>>\nendobj\n27 0 obj\n<< >>\nendobj\n26 0 obj\n<< /Prev 28 0 R /Count 0 /Title (Where you can use Flaticon contents:) /Next\n29 0 R /Parent 30 0 R >>\nendobj\n30 0 obj\n<< >>\nendobj\n29 0 obj\n<< /Prev 31 0 R /Count 0 /Title (What you CAN DO:) /Next 32 0 R /Parent 33 0 R\n>>\nendobj\n33 0 obj\n<< >>\nendobj\n32 0 obj\n<< /Prev 34 0 R /Count 0 /Title (What you CAN NOT DO:) /Parent 35 0 R >>\nendobj\n35 0 obj\n<< >>\nendobj\n34 0 obj\n<< /Parent 33 0 R >>\nendobj\n31 0 obj\n<< /Parent 30 0 R >>\nendobj\n28 0 obj\n<< /Parent 27 0 R >>\nendobj\n23 0 obj\n<< /Prev 34 0 R /Count 0 /Title (What you CAN NOT DO:) /Parent 35 0 R >>\nendobj\n22 0 obj\n<< /Parent 36 0 R >>\nendobj\n36 0 obj\n<< >>\nendobj\n20 0 obj\n<< /Dest [ 3 0 R /XYZ 37.44 804.56 null ] /Count 0 /Title (LICENSE TERMS AND CONDITIONS)\n/Next 37 0 R /Parent 38 0 R >>\nendobj\n38 0 obj\n<< >>\nendobj\n37 0 obj\n<< /Prev 39 0 R /Count 0 /Title (LICENSE TERMS AND CONDITIONS) /Next 40 0 R\n/Parent 36 0 R >>\nendobj\n40 0 obj\n<< /Prev 22 0 R /Last 23 0 R /First 24 0 R /Count -4 /Title (FREE LICENSE \\(WITH ATTRIBUTION\\))\n/Parent 25 0 R >>\nendobj\n39 0 obj\n<< /Parent 38 0 R >>\nendobj\n12 0 obj\n<< /Type /Font /Subtype /Type0 /Encoding /Identity-H /DescendantFonts [41 0 R]\n/BaseFont /LMXNPT+NimbusSanL-Regu /ToUnicode 42 0 R >>\nendobj\n42 0 obj\n<< /Length 43 0 R /Filter /FlateDecode >>\nstream\nx\u0001e”ÍŠÛ0\u0014…÷y\n-§‹!Ñ¥\u0019\b†aJ!‹þÐ´\u000fàØr04¶qœEÞ¾WçÜÎ”60\u001fÌ±$_ºÒöõðñ0\u000e«Ù~[¦ö˜WÓ\u000fc·äët[ÚlNù<Œ\u001bëL7´«þ‡¬½4óf+“÷ëš/‡±ŸÌ~¿1fû]¦\\×ån\u001e^ºé”?”ìëÒåe\u0018Ïæáçë\u0011Éñ6Ï¿ò%«ÙmêÚt¹—å>7ó—æ’Í\u0016S\u001f\u000f<\u001fÖû£Ìz\u001fñã>g#\u0015É\fË’Ú©Ë×¹ióÒŒç¼ÙïäWï?É¯Þä±ûçqµã¬Sÿ>ÜÖe\u0012X…\u001a+8D¾0>1\nˆÀä\u0019Uˆ@·c\u0014\u0011Q×JˆÀØsÔ\u0013\"0êZÏˆÀTqTƒ\bŒ\u001d£\u0013\"0ê¨\u0016\u0011\u00183GuˆÀ¤EdD`r\u001cÕ#\u0002cDdEœˆ\u0000cË\bZ,è\u001bFcÁ £`ÊÒ\u0017—·0EÆ\u0013'Â”\u0005\u0003ë²0E¦ÄQ0eéË2‚)\u000bz`Ê‚žî-L‘AGÁ”¥/]\u001e¦,èµT˜² W\u00130eéë™EÀ”\u0005\u0013ß(›.¾ÈÀ‰\u000e¦ÈŠot0E\u0006®å ‡¬X„c\u001bQŽFãÀŠ»í …\fl&\u0007-d`\u00038˜Pj„\u000fv`Å–sø`2iõø`\u0007\u0006­\u001e\u001fìÀÀ‰â[>›\flLÙ•\u0012™îEn‰øñl\u0013\u0006Q²\u0001<L()ÇÃ’EÈ®”µèCÞ(çúÏ\u0001¶á¿\u0003í!I©%³wHªôì\u001dž8žqiðò\u001aR#ôŽg\u0007±ÿ={‡B¹Sž½\u0003&6»‡DRö«Ü*\u001e\u0012ÉDo\u0001*ÉŠM%­+cIÙÕ21ð¬‰EÈV”\u0007 £79R%\u0002+‰þ’TîÁrg¿Ý±ímYäzÅÅŽ›·Ü¨Ã˜ßîþyšË\u0002øû\nÏGvÝ\nendstream\nendobj\n43 0 obj\n623\nendobj\n41 0 obj\n<< /Type /Font /Subtype /CIDFontType2 /BaseFont /LMXNPT+NimbusSanL-Regu /CIDSystemInfo\n<< /Registry (Adobe) /Ordering (Identity) /Supplement 0 >> /W 44 0 R /DW 1000\n/FontDescriptor 45 0 R >>\nendobj\n44 0 obj\n[ 1 [ 611 556 222 500 278 556 556 500 556 833 556 556 278 333 278 222 278\n556 556 500 722 722 556 556 556 667 556 556 556 500 556 611 944 278 ] 36 [\n722 667 722 778 722 ] 42 42 278 44 [ 667 500 778 722 833 556 278 556 556 556\n333 556 556 500 556 222 355 334 191 334 667 333 500 333 667 ] ]\nendobj\n45 0 obj\n<< /Type /FontDescriptor /FontName /LMXNPT+NimbusSanL-Regu /Flags 4 /FontBBox\n[-18 -218 929 741] /ItalicAngle 0 /Ascent 465 /Descent -139 /CapHeight 414\n/StemV 0 /XHeight 310 /MaxWidth 1067 /FontFile2 46 0 R >>\nendobj\n46 0 obj\n<< /Length 47 0 R /Length1 7564 /Filter /FlateDecode >>\nstream\nx\u0001¥Yy\\SWöç¾—\u0004\u0005«\u0001\u0012´Š\u0012\u0002I! bL\"‚\"a\u0015CX\u0005\\Yd7!²(`TŠ\u0016Ñ\"\"cÅ½*ÚªˆÖ:H[gFÔŽµ¶ã¸2ÖqœÖ:N;cÛégÚÚ\u0005ò˜s_ Ûô÷ûg\u0012^Þ»Ë»÷{Ïò=ç^\u0018`\u0018FÂÌf\b3¥ØRWÔõíÒ×±f5ÃŒ›UR˜WP´xN >ÿ\u0016ëô%X1²C\u0012€å/±ìWb­®¤zú$Ã<=–aÀÓb[šwkóÝ\u0018†\u0019\u001f„í›­yµË™9L\u0002–é˜>åyÖBßw§\u0005cù=ìßÍ\u0000£a\u0018îœ¨\u000f\u00110 Ð)d\n©–ôÁ?ú­ðÉ9QðÑ£ßÝÂ\u0006¦•aØ‡Øk\u0002ÃxHµÒiz½Þ —{Éå2,©ð£ö\u0015‹Å\u0012ik§:É\u0012\u001dì£ôí„)ÙvsXNê\\?Qßw\u001a’’Ú˜«\u0005xZ>>yºc\u001c«‰¶Ì\n\u0004Y@l\b10¸ö&œF‹3°\u0002\u0012%\u000e«”iAÛÙÙÕÅ…ö_\u0013õÝ¡8â\u0006¯³]\\\n3\u0005\u000b8)Î)–‰åˆ„B\u0011‹•¾*5V+årÃT\nqšJeƒ\u0013,ÛÀ¾}6g‡5\f|SÖç\u001eÈJ&M\u0015q6\u001f™\\Ü-ºu»àPõ,h{ñpi\u000e@]Y‘•cÅ/\u001e\u0007\bÉ¬›\u0013™›¨—«åñÓÍ\u000bü”ž3§Ÿ=\u0003!Ùk“k¶¨Ô^sÂ\u0012³\u0000²2p\u0005ºÁ›ì\u0013\\'ó\f¢S¢Xœø<\u0011ŸV®7àrðIîEA#P•JGÅÈ>é4\u001c++ë¬›\u001dYw¢ÜúRÌN> Æ–\u001c\b I¶FÏ©NÓhÒªE}Ž¾Ô\f€”í×ê7ÝÝ™\fó\u000bZÙS\u0010^¾+wÉ\u000eëô\u0019Ö9‹wZ#¨\u001c\u0013\u0007opž(!wÆ\u000fQÐ¹d\bÀK\u0010\u0007Î©’L\u001dÂ \u0019F@‚+»WGEýöãå¿®7\u0002\u0018WŸ©H¨\u0010\u0000Ômi«\u000b\bH©äR yûí¦ú\u0000’¶Ýl|þn»y_¸ußÒÜ\u001d‡\u0000\u000eíÉÏÝc\t§Ú‰\u001c¼ÁÞÀ¹'9µó\u0013\u0001 \u000e”D‰UÓ\u0004Ëa/¹øN\f{myù©µF£ý”íÂ‡\u001e]Áw·î…=[ÊÖ¹“+IÖà¹¸àô]ï5>w}›\u0019î¼ÍóÐwá\u000f\bÔÙè\\h\t÷¸Pf\u001cÃ(¤J© T\u001c\u001d\u001f‡ä\u0013ÊØ{\u0010h²\u0018‹W@gHv}ÊŒü¬$5\u0017ê8±!g*Ø–’o\u0006.ÅX“Ô \u000b1éÛqÔ6†\u0011Ã\u0015 ‡ýØÎdò‚½;­]¥R¢ÕKtm]ªØ…º%Å@ïú%%Ð\u0005\u0007Ûõó“\u0012ü§4\u0017-«‰ó¥\u0006L:ÂŠLA\u0000¶b‡÷ðsE¡Ã›õßº\u001bÜÕ‘Aó’££§ì@\n¦¡\u0006Ç\u000bRD\u001f†i¸(ÔÔL‰Jò{SGÛÆ²`Wž\u0012n¼d´lBæÑ\u001d•=\n1Æú3U¯¦<îßR”þœÆg,p\\hª%j¦%e2\u0010x?¢À\u001en,^N }÷íç\u001ao¡ˆ/ž^f‰\t*KnžS—\u0019\u0002\u0010šYa\u0014SZ Ra\u001f!\"¯ÿ’\n\"£®Oe 6Y¢\u000bW\u0010êökM51Â¢NO–çQ7ZLPXNYÇ{ð\u0006q\u0011e3r\u001c^‰:C_G½i§ê\n:±Z¬2 \t¹œêlk+-ò6\u0006)B\nÏÀ).\u0014ÔüÝæ¾ŒL±ËÖ‘\u0000\u0001aä}Š\u000e¹‰lCt\u001eNt*½S&º!d­]\u00101Ë#@\u001b\u001d,ó\u001e¾9AÀ\u0015\\¹;x”ç(19IX°¬¸HÇñÇqÆˆî91éô†©r/\u001c\u0003E-“Qxø%cNÃÊ\u00112ooÍØÚçZ[;Os¡G-\u0000Ð\"\u0012A}uOóÀ\u0002öe:R3þ\u0018\u0004.£«Ó‚¡«‹R êö\u0001¶ô Õ\n,çO‡¥,×Ó'|¸Ð>úöadä\u0018|[„\u0005¥\u00149\u0019òÏ±\u0007\u001c\u0013é\u0010Gq\fÛàM.d˜gÐJuÃl7¬\fé/ñŒmWÄ‘ŠÒã«ÑÃ#ëŽ•Ú:f€&®:5\u0018`rZUlœ59  ÙJ§hÎY\u0000©»ï65\\C›ÈšOtŽ{\u0010aÛ•»¨Ý\u001a\u0016fÝ™»d§5\u001cQÖ J\u000eQ¸\n(µR\u0003 ¹+\u0001\u0014/CÙ->\u0011Vü…ŸA\u0007„ŽÃŽ³ä\u001cTñaˆ¾‡aD™øž\u001b#c\u0018­\u0002yÉÝ \"¨+…‡T!w÷ DÙCf·|ð\"zÆ¾\u0007-Žó½{ÿ\u0011À£û…\u0017Avª\u000b</\u0014Ãw·¸FàÿÌ?äÿÆßC4n8j'Ê\u0015ï\nP²,ý\u0003­‡\u0007gƒð\u000b}7o\\½÷;˜~þÚ].tàwl4½ú¯±‰\u0003\b†0™ƒ×¹\u0004´Ÿ)L\u0014Ãø\u000bž¥s’·\u0004½[«×k‘?1Jˆ±H$”OåÔé0È\u0018À\u0013«ÎuÃvÇ%Œ\u001e#\u000e\u000e«o­|Í ò%]#ìµÕv€™±S\u0017VÄ…xý\u0006Bš_^úÊB—ŒŒ±Ó\u0002ø¾Iþ¥Û‹¬`ßhÌ\u000e\u000b”\u0017° \t 5[Ú\u0001fG\u0004”˜s—@º)X\u001fà.r“>5Ú%éfâÊÕ\u0000s3ÒM q\u0005›&R‘· -}‰çˆQ®£©*˜\u001b¸¤Ë¢.f$\u0016h\u0010\u00150Ëˆû™\u001a/­¹¡ˆ\u001bÙÿDÔ•Q<CáÚ€kÏB®y\n{K™ñØŸ®Žxq÷Ò»{¨ˆ\u001aƒ\u0005'\u001dCÔ~ì\u0018w¢-9\u0011\u0016\u001f\u000fŸ?þû—\u0000±ñá'Š@ÙÖÎ\bm¢.È˜›Ëß»Â·òè\nµPr\u0013Tù¦ôýàx—¿\u0003@æA ¨p>%ê)\fµ/\u0011ðyhÑb´\u001eþ\n\u000föÝ]}Ž/Ÿ8>yw\u001fqåýžÀ\u0005>R°\u000bû\tµùpÞÈþ\u0003u\u0014Ä`\u0003™à–Bdó\u001aŠ­T\u000bT\n\bš†Œw\u0002\u000bè¤\",xâÂÐ9œñÖ\u0014u°°äh]TltÄÁ¬ü}ñ\u0013'ù­1‡\u0017ùNô–œ|êƒÞºs†‰ãGñ!Í» °bã–\u001aµÚlãB÷,^\fóöþi]cŸ)6\u0011\u0016\u0016\u0019¬›ƒBµ\u0013¼e†=G Þè7¿z{\u000eÛPOþòNÞ®\u0003?‰Šqè)^(cds\u0005²µÞ€Ð\fˆ\u0013ÿœFEŒÖ\t4.–àJ°^Á¹98‘ïÌœ˜?ìØ\u000b\u0010?;ª£¨åJ„Ú{\u0004œa==•ëÓg\u0016'k€\\ü]å®E\u001a\u0011ûÖi).^mKûë†\u0005\u0007#ÂÂ\u0000r\u0017Î¨X`HÈó3&\"[ÎY:ã•åe³×´v¯ VO5?\u001eQ©˜0”(¥\u000e4\u0015:³\u0017ŸT¬ß§\fj±ÄÝ\u001dÁyQ^ùyú20:®¬9mÕ;Q1¡£aÔÄ\u0010ÅŒ7êŠOÖÇ\u0003D¯ìÈ{o%yi_ÎZ¯Af½MMSš’™³-)šÀ\u0014\u0014iöæ|\u001dXóÊn\u001fÉ_´ëYkÈü…ñëº-\u0005Çì1\u0000\u0007a$L\u0000¨,á{Èšê„¸Êy“§d­Lˆ¶¥\u0006£\u0007 5ÜBoG\u0006A{S\u0002ÂVûªe\u0002f*G`ÇówøO{ ,J\u0016¥õ×Ó+\u0003Ó•*ý8¸ï$€þw;ÃBaÔî§ÜÆ==>y¶ÈJÄÆ\u001b¹\u0010´1!óÐJB«(\u001b\u0012mé¿\u0004`ë2î/)>V\u0017Eyµ³Ìv<b\u001fÜ‰«\u0014ˆ5µr˜Xy#\tÉH\u0002ó\u000b7\u001bšîìJ\u0003È_ÒÑ\u0000\u0011Ë\u0005Z\u0011fÅ<n\u0017Ò*®\nót®\u0003=d\u0004\u0016û)ÿc\u0004©!o;¦³š\u0001y/9z\u0014î\u001fÅ`‚}1—Ø\u0004.¥¬'Ð/ú\u0013€èK°÷ñŸò]Wù3üG}P\u0003Ì-êëá~K¯ï4Ü»ý::ÂUüiÁ\u0011X¼ÓHÕrþ<u;léDOUc\u000b%\u0015Ê#Ršei¥\\Io¯ƒ9wž\u001cuà€\u000e;iÄÔžzè9ìO±x\u000bÙ¯bª\\†<é¥Å\bŠŽGÔz=µx\\TŠÍ^Ô-Õ°\u0006\u001e¯­%^ž\u001fWzŽ Ò`sÄêå@þqÏ‘Ü\u000bWÍEÊ$hm'ë\u001b65Æ=;9D\u001a\u0014U0wáÚy\u0011ãÃ×_¸\nßiX\n!\u0013¼MÏ­\u0001\\CÇà 7€\u0018<‘g¦Òè\"\u0017Ü\nw\u0001h\u0014N‡£QF˜\\0vDã,Êe\u0002¨;HGÉÁ\bC8¬o)(\u0005ˆ\b\u000b?Pêè8\u0007\u0015æBU\n@µªÐÌ·Â˜\\¥ÂÏO¡Ì™Qá;\u0017l8a˜r¨*u³~š\u0016\u001ckàÞ¸\t³ì3\u0017Oœ8\u0016\u001c™„øùùå\u0018\f9¾*% dO\u000eÞ\u0010\u0005 Jºc£y«Ä\u0017åb\u0018N\\\u0005¯“re k?óÒ²é:è5o»½aýí\u001d©€\nüÈTS\u000fæ€Ú\fn\\ÿGU=õÑ1Ïž©äÆ¡üÍ8êç¢Ï0{ÁÝ\"ˆ91‘yºË9šR\tœƒ1ÖOò\u000böËzwðßô\u0016\u0015õÂˆCM\u0017Gä\u0018ý\u0000ŠÏñ_\u001f®ý}³\t ©åâŠº7[\u0012ç6¿)ú\f*®ñ\u001fœ|•ÿàZyr²vÃþW\u0016wƒßõÊ#0ÿÐ£–ï\u001fÌÌ<ôaóó\u000f\u000ee#\u0004f/Z„\u0006×I-Y)¥æ%Å\u001dž¦{à‹?v³Ü\u001d\\M8w\tMñl\u001cöNc›\bÝ‡>…½½Ô\u0012/‰—ÁË 6¨%\u0006H\u0018yW}¿¥¨¡¾të}ÕŸ]E}’jgõ$öö&öÌªMzDç:?MŒ`Ç4«‚&šP¡TtÈ\u0014O†}\u001a0Ù\u00128Wˆ\u001cÎÀñ‹¹\u0012ûdçÌWÊ,ÇíQ³j:-¶ƒ\u0011|_tùÏ¶d¼Qô¯ÖŒù˜¤ì~¯qý\u0017æBÚ|ÇeQ9„Ûöä.i§›²]¸)+@t\u0005Èµß n†˜\u0016Y\u001f\u0011\u0010\u0011Ò\tîY‘¼”b\u00155\u0001\u001a·†9L°Wt\u001bÃð^›»Äõ]iXýûæ\u0004\u0000\u0015TmÞ\u0000á“'7/XutZ ?9\u0003Á&Çñ\n}sü#0Ã{i'ÿ|lN\u0006\tÉ²'½zžå&ýå×‘hÍU‡\nøÍÍ÷¯Éœeóõ™„¦\u001bR\u0011[ü«ˆRKøô\tæ\u0005Ï_Ð\u0014J\u0003’2\n‹£Ñ\böaÚ\u000fèK¸óG®\u0015\u000b™\u0015å\u0018’\u0000{Îó7ø\u0007\u0017 \u000eét7[Ôö\\0x]Ô…«\fÁ\u0002ž#àÒ†#ò\u000f«@FÀ5ùûà¢q_êîÔ—VÔåhƒË\u0010¿¦³¨êÍhUø32˜Ó|¾6£í˜ï›ò’óƒü¿NF\u0015–,=Ó¿«½ß\u001aRÇz\u001e\t(:º*Ú<G]²jCÜ¦÷\u000fâ&\\S×¶üÕß­†æ¯ß9É?¼nƒêUo!®|ÄU†¸è®\\å‡[6Lrpn\u0014µóp\u0006½\u001f¶ã\u0006A\u0007^\"S0ÿáW;>O+ZV¾lÞ‡¿\"¾1¿\u001f¥Oé®­|µ>:Ò~¢|ážPõ4)'þê‹Ü…Ëù?ôœå¯Z\u0017ÌÃT'5É\u0016´$?cÿƒ-[\u001e\u001dÌ\u0004ÐjTe©T>»qoé…\u0016.ä¨è\f\nL–©O°çàð\u0019þkÞÌÇñßtÃQîa¿7’ð'\"Ot\u000e|F\u00058sTÑ'˜£\u001a\u0019Ì'þ÷,UÆ²ZøßRÕS—ì\u0010ú?å«ç¹Ýüu˜‚²9Íß‚Mè¿£\u0018\u0006ÏIŒÑ/dSõ:Ýiû¨\t!Êe–¾>}|€\u0007˜›\u001aŸ _£'q\u0001˜½Œ¤oÐø¤Õá&\u0012dþ\n /vß¹Óè°B>\fmj\u0011\u0018\u0016u°'\u0007l½\u001dÄNã<2%çŽïú3xðäúFÊ5èÝAêçü@ˆ\u0004“Ê\u001fm¨°\u0003õHëÓï\u001d«kÏô‰‰¢IÏ¤™gkËNÔÇF­<TPt Ž=²;w­\fÄ‘¥4\n\bN±\u001a\u001b·C ¹\u0014Lg.Aªij1Œ¿´`gƒejÖ\"€9ëO—\u0015\u001f³\u001b!)“ÿ‚ÿ\b*ÊØ‹05«&.Ö–¦—¶ÇVÍ\u000bA\t-\u0019Z1åGô.1AdZ½;&f\\À€Ž•®;·©@}Þ{éÖ7í¢®Óoðoñ÷ø?ž:\u0001\t0\u0013fá–\u0012G€OH\u001c©\u0017b=Ž@âø±ð1©ßFÛŒ(“Q(“iXÐ¢[PZr&Ò\u0002!Q\u0001a\u0010uŠ\bÛ¾ÏW1\u001b¤®¬„Kr\u0013`,Þ·å…í.Ýâ‰ã\n7wØÎ4Ä\u0002¬hx‡\u0012Oñý¿sÝ0Z:imVÝ\u0006€°pÏ ôEd7!ü·Ïï\u0000Ø±?Û\u001eRV:«æhÉÆ—ƒRî/ÞVl\u0000øô£¨tßˆ\u0018 ëªÌ¹^#\\]\u0011iÂPÞJ\u0013 \u0005‹@\u0010ÛpX£ªB\u0012\u001dbQ!æ£ºÐá=\u0014ì5‡»ååI3\"ã‚\u0012ªÓ©Vì/Ôl›Ôí\"ä3ëk¬=s\u0000bÖt\u0015'­›5ƒ,\u0012u\nüÓOë3\u001a`ÊÂ†ä”Õë¡Ö\u001e\u001câ?o~bsoõ²S\nq\u00108\u0019è‰\u0011îhØ+È4O\u001aÊÁ0\u0003Ó’L(9ÏãçM(æ\u001b/‚\u0014Ü.\u0013\n\u0011óvhtüÛq\u001föò\u0005¨‰¹¸š\t(w\u00053™î>AX\u000e2¤JR\u0015Nî0á\u00162rg:®GK¤2Ç\u000e¸<LQ…\"¦\u0010øŠs{£Ð›&ËpóXu 7ïÀŠY\u001eÁIÓ¿…Øu¿¶–u7`äà½ª7\u0010ÒTUÝ\u0004ÐT\u001d]žŠGRAöæèò”ÀÀT\u001b\u0019ð‰ŠMÓel)ÆíCXñ–\fmZ\\”¢îó¢Ã5QQ5‡\u000b¾ \u001b‰½¬¸\u000eHKKìÄq\u0000\u0002L%‘ÆÒJ\b˜[\u001a\u0015Yb\n`Èà=>\nè\u001eo´óDFŽ¹¹œãnY'¥ç\u001d­\u0010™Ä\u001aûÔX­Û;q×Þ¯MžMH\u001bÇBE¹h\f\u001cÆ“^Â”±=¤\u0002%#¢’õyh=tZá·lzŠa“!eº¨ë!ÿ)x<tþ¢&²y3Ñá¼4ÿAZ—I,Be„Ïr-R„\u0018#‘TH\u0007õˆE…[{-Ñ-±TIU\u0011ÁÁ\u0011*i•eÉDu¨†¤Ï›<[íA4¡j<uægùÎ„Â(—\u0016WUTA,ßÙÐÜ\bn!ÉPµvß3R©4\u001eª’‚Gã´L>Û\u0003J\u0001õ\u0010æüéi†a¤Ø\u001eŽ\u0018Ç!F5®‰¦f\u0014\u0003žy¡ö\u0010\u0018*\u0015¥£—K¤bªd/)ž9¨•áyËV\u0000Œö§\býÑ W,ËSÌEõ¤eeá>\"Hë¯àÍÍ\n\u0019[\u0010¥rmqA„\tùl34ÂÌ$¾eí~µzïZ¾%9Ä\nPªg‘E>ÇùG\t§\\Îü\u0018g\u001fÊÊ\u0005cRB\u001dôe¶F\u0018#Ég÷\u001d;z¡eÓNBvn\"u ÓGì*¾õ€`Þ­ nd“}Í&\\S;®)\u0003Ç¤»1§Õb\\\u0017â¼Ó$\nðÐlÏ\n\u000eÎ²›+bKãýüâKcE}E\u0007øZû ÓÿÏ\u0002ëã¯¿]½ê›¯\u001fÛp4#ú\u0013=É\u0011ö?2\u0005Èè\u0001\u0018Û<ð>Ér4°%Ž\u0002²†\u000bÝ>Àïng9*q3Îî†³cžâñƒ÷(åîT„è)çL«²ñ03${•iy“\u0005Ó\u001a¿„’hÞ\\ðÏ~Þ¾Š\u001fx\\ô>ßò}5ÎnÁÑð\u0014D”ˆ£¹àÐNo–jÙq$ôo|&Ÿø˜Dö’D¶Ù\u0011@î\f¬pàá\u0011¾!\\y¦\u0019\n9£#¾bè‹?ûPÀ]ÚgØ\u0017s¨¡\u000f¾Ç¾Á?Äþ›\u0006k\u0006k$tå?ýÄ\u0012\u001aã\u001e2\u001a®Ši…ËL\u0013®6N¨«btX—ˆåH¼7Š;™6¼§áÕ†íÞ¤“iÅ»?¾ÓŒ÷\u0007X\u0018/\u001bö¯\u0011]fzðrÃr&^7ðÊ\u0016e2J¼‡ã\u0015GËØ/\u0000ï6œûuI\u000b\u0013Œc\\Åw:ñ:‡};ð~R\u001cÆ˜ñ¾—õfÒ°ý4ö×a[\u0001¾ë‰m\u000b°-\u001fqíÆúÌ¡ö0|6ãµ\u0004ñ-Á»\u0011¯\u0004ìOç6ÁåÁ{ä\u000eSFº˜lÌãóñ\u001eŽãÅ¾íØÇˆw3–Q;øñ`b˜,æ%ü~Œ‰ð\"h‚+Ä„“<ÒH:Ékä\n¹ËN`§³Kñ\u001f>\u001f³ƒœKç^Å}á\u0002Q£èmÑ_Eƒb7±Ÿ¸Hü†øo’`IŒd©Ä&9í2ÆÅß¥ÂåŒË­\u0011Ñ#\u0016Ž¨\u001bq{ÄW#Ù‘Ù#\u000fŒìu\np5¹\u0016º\u001eq}Íõk7…[‚[®[“Û~Ac±L<§øù¹þh\b­™e€£¶ŒG\fCÏÀ<%g=až‚ ¡g\u000eëg\f=‹™‰ÁD36f9SÇT2¥L1SÂT3>Ì\"Ì\u0001uxÍcÒP\nÎR(þ\u0017OƒçK¿Ô?\u0014s%úõaòq¤ÿï}\u001f”k!S%ÌUŽ=UxÑš•xY\u0004$V|*G\u0014áØ\u0012=„Ë‚m¥ÌR¬)Æ§:Ä[‚cø0yL\u0001~\u000bñ\u001až9\u0013ë,X³\fkâð\u001dúÞrüÚp†\u001fpE¿&\u001fÜÃOÁo(žs8ŸtŒ\u0019ß±âJV\bs¤ãˆåÂ“\t¥Qˆ\bVà¨y(¯ÿ»ß[œï›pü¡·ÿ\u0003!H–:\nendstream\nendobj\n47 0 obj\n5681\nendobj\n11 0 obj\n<< /Type /Font /Subtype /Type0 /Encoding /Identity-H /DescendantFonts [48 0 R]\n/BaseFont /FGPION+NimbusSanL-Bold /ToUnicode 49 0 R >>\nendobj\n49 0 obj\n<< /Length 50 0 R /Filter /FlateDecode >>\nstream\nx\u0001]“ÍŠã0\u0010„ï~\n\u001dg\u000fƒ#Y–f \u0018†\u0019\u0006rØ\u001f6»\u000fàHí`ØÈFq\u000eyû•«¼3°†|²ºé*¹ë×ÃÛ!‹ªä)\u001ceQÃ˜b–ëtËAÔIÎcª´Qq\fËö\u000fZ¸ôsU—âãýºÈå†Ií÷•RõÏRr]ò]=¼Äé$_Ví{Ž’ÇtV\u000f¿_PŽ·yþ#\u0017I‹ÚU]§¢\f¥Ý×~þÖ_DÕ(}<Äò~\\î¥êóÄ¯û,ªLT*4G\nS”ëÜ\u0007É}:Kµß•§Û¿—§«$Åÿ^7žU§áó¸îÖ\"Ð†\u000e\u001d\f$Ð>Sj ¶¡d!¶¥ÔB\u0002­PrÀv+ô@³ã©'H`k)=C\u0002[C©‡\u0004ÚHé\u0004\t´šR€\u0004Ú­W„\u0004Ú§\u0006H g{]‚+A€Ž†42 \u001d“ÐÈ€ô\u001e½42 ==jd@ºM‚a\nzÎ¥a˜tœKÃ0é\u0018¡†;ÒosÁ\u0006Ý\u0013‡€;\n6=¤\u0012n1D:^­!Ò1/ƒéIëXˆé\nÉö\u00067H¶´mxƒ ÝNÁ\u0001-S50D¶œÞà\u000672U\u0003¤Û\náÎ€\nÃ1pGúRX>ð_òú­¯{ù±Gá–sY!,/¶kÝš1ÉÇ~ÏÓ¼6Àï/t8\u0000ô\nendstream\nendobj\n50 0 obj\n448\nendobj\n48 0 obj\n<< /Type /Font /Subtype /CIDFontType2 /BaseFont /FGPION+NimbusSanL-Bold /CIDSystemInfo\n<< /Registry (Adobe) /Ordering (Identity) /Supplement 0 >> /W 51 0 R /DW 1000\n/FontDescriptor 52 0 R >>\nendobj\n51 0 obj\n[ 1 [ 611 278 722 667 722 667 278 611 722 833 722 722 778 ] 15 [ 389 556 ]\n18 [ 278 778 556 556 ] 23 [ 333 611 611 ] 27 [ 611 611 333 ] 32 32 278 34\n34 556 36 [ 611 333 944 722 722 722 333 611 611 556 ] ]\nendobj\n52 0 obj\n<< /Type /FontDescriptor /FontName /FGPION+NimbusSanL-Bold /Flags 4 /FontBBox\n[0 -220 932 744] /ItalicAngle 0 /Ascent 478 /Descent -150 /CapHeight 425 /StemV\n0 /XHeight 318 /MaxWidth 1200 /FontFile2 53 0 R >>\nendobj\n53 0 obj\n<< /Length 54 0 R /Length1 4828 /Filter /FlateDecode >>\nstream\nx\u0001}W\u000bTTçµþ÷™sf@T\u001c`f¢\bÃ\bÌˆ8À0Ì\f\u000f\u0015AQ@ž\u0003ò\u0006A\u0011QÁAñQJD\tñAˆQ\u001b#^E$.µÆZMÓÄÆÔæÕÜåMMY\t‹f™u­Ë¨éjëMZnn+Ìá~ÿ\u0001\u0013û¸—Ã?çÿßÞûÛûß‡\u0011cLÃ\u00163Å­kjkˆ;õÎEô<Í˜¿¾qm]}Ãþ,+êGÐçlD‡ß\nŸ8´?B;¢±yë÷>^ mAû+´ßlò¬©+¾T\u0018ÈØŒóh×4×}¯…Å³dÆ´>h‡mªk^;çÝ\u00043Ús\u0019£×\u0019±3Œ‰§¥!&¡mÒâ¡aù¦Jö:¤¡GÑ€F¬“ÏÄ\fÕÄ\fz]¾Iv>Š±ŠñA©]zÈæaÌl¶˜#,jµZÐ\u0005\u0005èõöx§Óé2©Õš9f³Ù•À[ñzƒ^¯7HÛ|bbKå‘\u001f\u000ex_«®úÉ£“Ï}q¶ÎW\u001ešñ£ƒ\u0015Ï×ÙÉ^¨ª`÷|ƒÞßGu«¦gÑ–6¢æ›òí7ÞoßØ˜sø×Ï\u001cþ7ÊØó^{ûûû3Éé4º¬!\u001céiÈ\"\u0003©ß\u0004R.\"ÑpÃëP‰£\u001fŠUcÃB\u00171r\u0013›”®‡1)\u001bk|\u00193ñÙŠ\u0012D\u0003Ùå›ÞWå\u000f¸¤c>ª¿>Š\u0016}pB:ä\u0001yí8!\u0001òš¹¼jƒšK\u0005Ñ4juø\u001c³Å¤\u0017MŠô\t˜€I\u0010\u001fÂcŠxËîÈ\u001b\u0019Ø÷Éá\u0015D1õ/o\u0019ì}†„SÏŸü‘F\u001ešN\u000b(ìÐSE\u0014ûÂ¯_äI\n&Úßöƒ~_qzÃ‹\u000bÝ¥D‹¶_h*}¶6]\u00175»¾¼¶±£íë±´ö×[K÷¿4×:=Üš\u0012µr\nÑŽ-À\tuˆ\u001fB*ÍwšP\u0005Ñ\u001b£Å\u0004‰Ä!bãl4\u001aŒƒõ¥\n˜\u0017\u0001–02ÅëuA\u001auN‘Çä\u0000n\u000e\u001eB8µÜºá\\AZÌ2è\n°«Zm¡aª]]-\b$ú\u0006ùSVD(\t¢ŸyQâœ1JvÖ_\u001b»Mvj]¼l¶“(dæÌ¬ÅBAIUÐ\\c¼Ö‘\u0018;Ë\u0015hsw\u001cnˆž­]E\u0001e}I\n¢U\u0005´G«[ç*Ò\u001b´\nÿö1¦\u0006\u001bÙT $\u0013)\u0016åV¢·h\u001a¶÷©lò#ùÏ²\u0003¢õŒnãE\u001a\u001a­\u0012Ï€¢Ñ\u0001\u0019\u0007\u0014]LÁ\u000e&ìa\nÄ¿(¬¦\u0005Þ1ù¢÷O”\\O·äö_’UþDá½•˜‰µýXÛŠµþLÏ˜\u001bÕå\fp™\u0005\u00185œC‰P\u0005Dö\u000bË‹ŸÿqvY\nQMYöÝ\u000bÞ«@\u0015D•DòÙÀÔªF²\\¾H‘MåE£Ñª!’\u0003e=6g…ã\u001fK_IÁ,\u0016¨Ô\"´ù˜HúH\u0011|q:\u001dÊ9*p‹«[¡–ÙìàŽ¤2ö³\u001a{®\u000b\u0014\tvåÚß¡TZø^\\®3”š×¬‘OÖô6%\u0011¥4÷VÖô6''7÷J\u000f©±ÁÕudÀ½òå#\tƒ‚0hß}ädáe²nZß ÿ²zÞoÛzmff÷»;¶½»?\u001b\bû û\fEï: œ 4X\u0000Í+\u001cÐ\u0005Áü\u001fÓ®†³Û\u0017\u0013ýÏï½Í\u0010ÛØ¶}{›\u0010´ô™«­¿{H°f\u0010½×²y‹‡ÀIÄ\u0011á\u001b±\u001eºdØ#Á\u000e\u001eiÍá ’£“Œcº¹!3§¬\u001dˆ\u0011Ý£—„œ1I¤p¾ßò\u0019XÇ\u0007E;V†³ù@\u0002Å(®g¶p¥è‚ žoc\n÷>`t9íÐ\u0019w8\u001bÑSÉ??ânûÅžŒ¥]×vTŸÙ[;S¾7{sÞ¢ÚP]€ ÎzÇYi\nÔIô±Vçç>šÒÛ\u0011MTÔ÷ŸÏíýôÅ<[Í³EK2m±³Ëòß\u001e#Û<c¶kÒ»²E7S3\u0006.©T&\u0012nÒNyðwÿ%\u000fR—è\u001e\u001bVE^âÜë\u0006ÞóÐ¡êIO¤óò\u001d2òÂe•†Æ1‰›j\u0013ö\u0004Ë'öäÛš\u0002\u0003Å\u0007”,\u000fŸ?'ß9ÿª<L‰dþÉYœðH¥æeô’jêØ\b_Ÿ\u0002\u001dEAG<2q—…^\u0015å@\u000bÐƒ¤×ë@ µ¢\u001d„'{<H\t–H%2»â\nâ\u0014aéÎËž¯l_h4N\u000bµ$EQ‰#š6¯I,\n6<å#?P“÷^ûÂ\fúL~)%Z(ÏýH%<,í®ƒÓÕí+Nª\nó7èô~\u001b´Qa\tI¤\u000bô™ÿ³·VÇ\u001f,\u001eJ[¯\nŸcM¤—8Ê\f ´*–œ@ÉM¨âÑæ[\u000bró%ÀËð\u000fóY}³Ú_Y·óý_\u0011÷O×ÿ°#×O~8»¶Ðó}\n\t~ª2µ¤f¦ðzý@K\nQÁ}ù^÷o_ÌMñ\fÔo¬&zãL~Ý\u001a\u0007¯l‚%vÈéâ1œ<“á6U‚¼^ïz\u001c¤¹Zpî\u001cµFQ\u0017Tõ¤·ÑQn+{ïú5çŸ^N\u0001ÆèàÜÊÕ¶õ½ö¯å©\u0011\u0014™Všà¬Xl2-®\u0010ÝûJH«.£Ò“Ã»’Z7ÔZÌ©1³¨²2‰ì5y9\u001d•6[åîüœÝUvÎ£ñß\bR=3\u0000Q8\\\"\\g×\n‘z§ËÐª†i´v¡ñ”|çÀ\u0001‚­…\u0016]èôÈPá”˜BQòðÛÞ2y”Èoê‡¢ŠhŠ%K¨€œ™Ðð\u0001È\u0019È,Ø•\u000bò„‡@H³F!ÄßK(4îþð…¬¬\u0017nìîøƒ¹DÙ\u0007>Ú•\\›\u0011IdÎ¨MJ©ÍˆˆÈ¨\u0015ë©ðØo÷õ|Ö›Ÿßûé¾žÏ\u0017Ü§„ê®ÂüÎêøøš®‚¼Îš\u0004H\u0005?\u0017k€ `ÂÏaI½\u000eÂMè—»:µo|\u0013¿ï½Ú2°@ñöc«·\tÂ¿{K„{?»Ne\u0015\u0003\u0000Î\u001aT¿¤NxÎD^\u0012h\u000f¤Nùž»µD\u001a’¿‘ÿJHgˆí\u0018ÿX\fŸA¾Ã£\u00127šÚ…JÞ\u000e%êÄbùŽP½Ò~•ä;ïüÔ3°Pt{sêKCéºp}L~ó:•Twa\u0017ø¨XŒ“fMÆ%ÄW\u0017\u000f\u001e\nê\u0004ÎGðBÛMFcJa|Í×o\u001a\u00197Ûv/Ûp*…ß\u0015Â±˜‚$\u0013Ñ\u0012ÿàè\u0004o•pïfÍÜh*/\u0017Âa\u0007\b\u0002ÁbÔßû¿\u0010,D\t¼P´<$FÉC@!Žß\u0015ìÒ\u0015%ËB ¥\u000brE7“®<²JŸpYq£\u000b\\\u001f\nW\u001cf\u0017œ\u001a÷3Ç¦ÓqÞ˜À•Î\u000b”\u001f\u0010­›—1wÚ¡ž\u0013'ÈxALi^I¤\u0012†qESwÏÞ·ÇºT;'džŒKL¹J•ˆ4™Óuá¸+\u0014­ á×ì\u0015žïq¤'\u0011ì²Á¶sY\"c<xp³†©LÐ™Ó\u001e\u000f¿Ñpbiðk\b‚\n\u0011fÔzƒ\t4D`v˜.ø5´+ÚÌ³‰îÝ–\u0017Ï¤ qfl–ó\u001cÍÒû\u001bÂRì­gOSžmïŠ«½4MG.ù\u001cmk^QH9å«gG\u0018‚¦‡‡-ˆ\u0016\u001a^¹@rç¼äp­'Ä:ÕgŠÏ\u0014MPÈÅ\u0017\u000f\u0015Ç;û£côt­cï²ÔÔe\u0001¢ÆW\u0003iÛ\u0011[¹ï‡?¶0×\u001e4†83Q™°±ò‹Û¨Œ\n5™EôíK¸z®±/u^ßº¸Â\nK'\u0018»¶•(7Ýk\u0014Ž=®©¦¿üS!¿8¯˜\u0002\\înœz\f¼z\u0015\u0016Cf©Ä\u001bNQ\u0013Ý\u0010\u000ex[…{£_’ý»L\u0014³ÝrƒÐŒÙü®å:T¼Ö`ç\u001eë2s¥Ñ@ù®ÂÈÈÂ]å7Ý-i!H¨ÒZÜÒÐž‘ûw·î¸ÿ/]}ãŸ\u000fnÞ4ø¹|\u0012[ ¯`\u001a¤AÿtŸHÃÔ/¿uûÏòàƒ/åŸÓ9\n\u001ay„li@¬\u001d=-Ö Í=0ÚÊ×ó¼8\u001dëy.ÍO>ât0÷WÞ×8'„sÞ\niÈ;(ÄÂ\u000bÎ/çÇÇ%îIz\u0016Æ¢x¾\u0004/T\fŽûš§3<Ì\"m2Aé`\u0004O#&kç…]W–š\u001c\u0016\u001dµïÜ´Š–§¦¿²ÍÛ\u0000Úå­÷\u0010yÖË¯‘Ç\u0003•·zäÃäH\nÎZY\u0011³éµ\u0015K\u000f­Ê})9Ñ1Î¨Ô]´’ÜÞK´¦fÕjà?L\u001dþ©ø‹\u0016©Š\u001a\\EˆàŽ»\u0006°\u001cZÑçÀÁ\u001f<O\u0010eùŠÂ/žÛw·8{9²ý©ûž%zvŸjdljÇÕôìÜÜìô«\u001dª\u0011ìi…2±'l\u0014¨ÈÅ­c\tç\u0001\u0015Ù\u0010xÿ¨´£ÐBd)ì(½YàI\u000f\nM÷\u0014È\n]ypwÇÖ/\u001eŒìé\u001f¿5èi\u0019ü|ü\u0004|©\nÑë¸‚\u0010_OÈˆ\u001c/$EO\n\u00195Ú@¾ùDö‡³”ä¯ŒñGq\u0017íÌ$Ju…äU®±5\u001eµP–\u0016A\u0014‘V–à©3á*âÞ¼¹(Êú‡vµ\f¹ç¦á\u001eÊw\u000b\u0001Þ\u0001²WïÊÉí¨²QOgáŠ§+‘2\b\f^/¶J#¸\u001dm°¸Â8.\"1fË¤_ëðI€>8\n0)\u0002s¦\u001a$C\u0018!ŸàÄØe«’ž¢\u0015ûßjÙs#}V¤Þ\f’qaI‚5\u001f\u0011rZXâüE…1Z\u0015…*\u0011¥/.Ý\u0016kŠ/¯hL[w±#ƒ¨ª\"<³dí\"qáÆ|+$Y¼Ò\u0016áŒwF8ª*7¤nFø\u0005\u0002äEb\u001e\">ØM<AÒñ«Z£6[tPž\u001eÐœøs‘Êro\u0004ßn}\u0014œ£5Í\n53©xnˆ5<<€®#{º¥Š\u001cí\u0014ÔQKrˆ$ßaIÂË†Ÿ)vY¼„@ËORÊ7óÿxb•ÿ‚ÿfŒ>ÿãŸ¼\b\u001eÆy<pò\u000fëTŸÈ7\u0019ó=ÎØøqÍ6e§Ç£ü\u001d#âG¼ËÎ\bI¬SºÎ*¤\u0012v\u001aï\u001e¼ÓÑÇÇBÐ>£¾Àöáí@éW'17ÆûT!¬SleV”\u0010ÌíFÿ\u0014ÔSP–aÝ\u000eá\u0002\u000bÁ;\u0013¥“\u001e°\u0006Þ‡Òþ\u0007˜/òq¾\u000e¥\u000bk’4!¬\u001dãÇÐïÖ\u001c`Á\nŽëì<Þ}è³b¬\n…ÏÅmŽ?-3²\u0006¶›õ²?à\u0019§BÚL\u0007éš0Mp\bná¸pYø@øBåRmU½­ú\u0012ùh\u000e2Nñ²øø©8*ùJ\u0006i‹ôcé\u0003éê©j³ºI}Tý\u000b¨)Õ Ú(šŠaIüÞ™l)•'~$–ŽQ|kb2Ç3Q'6\u000b­‰ºÀ¦ÓüÉºˆþäÉºš…R1[Â<¬…µ±-l=[Ç\u001aÙVÄ©*\u0016‡/Ä8¶’¹YédËÆ¢ñÌÿ—óm@ÈŸ0¶\u001a;ýëÃØR¶–µ*gmÂL3\nïÙŽÒ¤ iFm\u0013P¤`dÉ$®&Œ­gkÐ³\u000eµ6àmÄ\u001ea¬ŽÕãY‹òøä\u0012ô5¡g#z–a\n_×‚Çƒ\u0013¾Ãµä[™Âð\u001f‡Ç\u0006\u001fŸ¨9X\u001eÖ4C’mÊ\u0019EØq“RË6Ö\u0002Á6ìZ\u0007}ýßóž\u001c™XŸƒýÓ¢‰Õÿ/Ñß‘b\nendstream\nendobj\n54 0 obj\n3658\nendobj\n55 0 obj\n(License)\nendobj\n56 0 obj\n(Mac OS X 10.10.5 Quartz PDFContext)\nendobj\n57 0 obj\n(wkhtmltopdf 0.12.2.1)\nendobj\n58 0 obj\n(D:20160810081219Z00'00')\nendobj\n1 0 obj\n<< /Title 55 0 R /Producer 56 0 R /Creator 57 0 R /CreationDate 58 0 R /ModDate\n58 0 R >>\nendobj\nxref\n0 59\n0000000000 65535 f \n0000035030 00000 n \n0000020962 00000 n \n0000013323 00000 n \n0000020799 00000 n \n0000000022 00000 n \n0000013302 00000 n \n0000013427 00000 n \n0000020763 00000 n \n0000013626 00000 n \n0000015758 00000 n \n0000029754 00000 n \n0000022353 00000 n \n0000017931 00000 n \n0000017979 00000 n \n0000015779 00000 n \n0000017910 00000 n \n0000018027 00000 n \n0000020742 00000 n \n0000020882 00000 n \n0000021918 00000 n \n0000021019 00000 n \n0000021859 00000 n \n0000021770 00000 n \n0000021171 00000 n \n0000021149 00000 n \n0000021288 00000 n \n0000021266 00000 n \n0000021733 00000 n \n0000021428 00000 n \n0000021406 00000 n \n0000021696 00000 n \n0000021548 00000 n \n0000021526 00000 n \n0000021659 00000 n \n0000021637 00000 n \n0000021896 00000 n \n0000022076 00000 n \n0000022054 00000 n \n0000022316 00000 n \n0000022186 00000 n \n0000023222 00000 n \n0000022503 00000 n \n0000023202 00000 n \n0000023429 00000 n \n0000023735 00000 n \n0000023962 00000 n \n0000029733 00000 n \n0000030448 00000 n \n0000029904 00000 n \n0000030428 00000 n \n0000030655 00000 n \n0000030876 00000 n \n0000031101 00000 n \n0000034849 00000 n \n0000034870 00000 n \n0000034896 00000 n \n0000034949 00000 n \n0000034988 00000 n \ntrailer\n<< /Size 59 /Root 19 0 R /Info 1 0 R /ID [ <80490cee0c7461fb215068e298c47e67>\n<80490cee0c7461fb215068e298c47e67> ] >>\nstartxref\n35135\n%%EOF\n",
 			"file": "/C/Users/philos17/Dropbox/sublime files/license/license.pdf",
+			"file_size": 36473,
+			"file_write_time": 131468439554534132,
 			"settings":
 			{
 				"buffer_size": 36473,
@@ -904,7 +910,10 @@
 			}
 		},
 		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<title>CSS Grid example 2</title>\n\t<meta charset=\"utf-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n\t<style type=\"text/css\">\n\t\t.container {\n\t\t\tdisplay: grid;\n\t\t\t/*\n\t\t\tgrid-template-columns: 1fr 1fr 1fr;\n\t\t\tOR\n\t\t\tgrid-template-columns: 1fr 2fr 1fr;\n\t\t\t*/\n\t\t\t/* if there are many elements with the same unit, do this instead of 1fr 1fr 1fr \n\t\t\tDO times X countUnit\n\t\t\trepeat (times, [countUnit])  */\n\t\t\tgrid-template-columns: repeat(3, 1fr); \n\t\t\t/*grid-template-columns: repeat(4, 1fr 2fr); */\n\t\t\tgrid-gap: 1em;\n\t\t\t/* the divs are fixed to 100px no matter what \n\t\t\tgrid-auto-rows: 100px;*/\n\t\t\t/* for flexible heights , not to overflow */\n\t\t\tgrid-auto-rows: minmax(100px, auto);\n\t\t}\n\n\t\t.nested {\n\t\t\tdisplay: grid;\n\t\t\tgrid-template-columns: repeat(3, 1fr); \n\t\t\tgrid-auto-rows: 70px;\n\t\t\tgrid-gap: 1em;\n\t\t}\n\n\t\t.container > div {\n\t\t\tbackground: #eee;\n\t\t\tpadding: 1em;\n\t\t}\n\n\t\t.container > div:nth-child(odd) {\n\t\t\tbackground-color: #ddd;\n\t\t}\n\n\t\t.nested > div {\n\t\t\tborder: #333 1px solid;\n\t\t\tpadding: 1em;\n\t\t}\n\t</style>\n</head>\n<body>\n\t<div class=\"container\">\n\t\t<div>Lorem ipsum dolor sit amet.</div>\n\t\t<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\n\t\ttempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,\n\t\tquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\n\t\tconsequat. </div>\n\t\t<div class=\"nested\">\n\t\t\t<div>Lorem.</div>\n\t\t\t<div>Lorem.</div>\n\t\t\t<div>Lorem.</div>\n\t\t</div>\n\t\t<div>Lorem ipsum dolor sit amet.</div>\n\t\t<div>Lorem ipsum dolor sit amet.</div>\n\t\t<div>Lorem ipsum dolor sit amet.</div>\n\t\t<div>Lorem ipsum dolor sit amet.</div>\n\t</div>\n</body>\n</html>",
 			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/css grid/index2.html",
+			"file_size": 1809,
+			"file_write_time": 131479610304369897,
 			"settings":
 			{
 				"buffer_size": 1742,
@@ -912,7 +921,10 @@
 			}
 		},
 		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<title>Bootstrap grid example</title>\n\t<meta charset=\"utf-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n\t<style type=\"text/css\">\n\t\t.container {\n\t\t\tdisplay: grid;\n\t\t\tgrid-template-columns: 70% 30%;\n\t\t\t/* if you use both, use grid-gap\n\t\t\tgrid-column-gap: 1em;\n\t\t\tgrid-row-gap: 1em;*/\n\t\t\tgrid-gap: 1em;\n\t\t}\n\n\t\t.container > div {\n\t\t\tbackground: #eee;\n\t\t\tpadding: 1em;\n\t\t}\n\n\t\t.container > div:nth-child(odd) {\n\t\t\tbackground-color: #ddd;\n\t\t}\n\n\t</style>\n\n</head>\n<body>\n\t<div class=\"container\">\n\t\t<div>\n\t\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\n\t\t\ttempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,\n\t\t\tquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\n\t\t\tconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse\n\t\t\tcillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non\n\t\t\tproident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\t\t</div>\n\t\t<div>\n\t\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\n\t\t\ttempor incididun t ut labore et dolore magna aliqua. Ut enim ad minim veniam,\n\t\t\tquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\n\t\t\tconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse\n\t\t\tcillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non\n\t\t\tproident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\t\t</div>\n\t\t<div>\n\t\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\n\t\t\ttempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,\n\t\t\tquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\n\t\t\tconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse\n\t\t\tcillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non\n\t\t\tproident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\t\t</div>\n\t\t<div>\n\t\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\n\t\t\ttempor incididun t ut labore et dolore magna aliqua. Ut enim ad minim veniam,\n\t\t\tquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\n\t\t\tconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse\n\t\t\tcillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non\n\t\t\tproident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\t\t</div>\n\t</div>\n</body>\n</html>",
 			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/css grid/grid.html",
+			"file_size": 2568,
+			"file_write_time": 131479541046014041,
 			"settings":
 			{
 				"buffer_size": 2503,
@@ -920,7 +932,10 @@
 			}
 		},
 		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<title>CSS Grid example 2</title>\n\t<meta charset=\"utf-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n\t<style type=\"text/css\">\n\t\t.container {\n\t\t\tdisplay: grid;\n\t\t\tgrid-template-columns: 1fr 2fr 1fr;\n\t\t\tgrid-auto-rows: minmax(100px, auto);\n\t\t\tgrid-gap: 1em;\n\t\t\t/* put element at the start of each column */\n\t\t\tjustify-items: stretch;\n\t\t\talign-items: stretch;\n\t\t}\n\n\t\t.container > div {\n\t\t\tbackground: #eee;\n\t\t\tpadding: 1em;\n\t\t}\n\n\t\t.container > div:nth-child(odd) {\n\t\t\tbackground-color: #ddd;\n\t\t}\n\n\t\t.box1 {\n\t\t\talign-self: start;\n\t\t\t/*span from col 1 to col 3*/\n\t\t\t/* if there are 3 elements inside a row or a column, ==> there are 4 lines */\n\t\t\t/* knocks elements that do not fit to another column or row*/\n\t\t\tgrid-column:1/3;\n\t\t\tgrid-row: 1/3;\n\t\t}\n\n\t\t.box2 {\n\t\t\talign-self: end;\n\t\t\tgrid-column: 3;\n\t\t\tgrid-row: 1/3;\n\t\t}\n\n\t\t.box3 {\n\t\t\tjustify-self: end;\n\t\t\tgrid-column: 2/4;\n\t\t\tgrid-row: 3;\n\t\t}\n\n\t\t.box4 {\n\t\t\tgrid-column: 1;\t\t\n\t\t\tgrid-row: 2/4;\n\t\t\tborder: 1px solid black;\n\t\t}\n\t</style>\n</head>\n<body>\n\t<div class=\"container\">\n\t\t<div class=\"box box1\">Box 1</div>\n\t\t<div class=\"box box2\">Box 2</div>\n\t\t<div class=\"box box3\">Box 3</div>\n\t\t<div class=\"box box4\">Box 4</div>\n\t</div>\n</body>\n</html>",
 			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/css grid/index3.html",
+			"file_size": 1369,
+			"file_write_time": 131479651162171907,
 			"settings":
 			{
 				"buffer_size": 1306,
@@ -928,7 +943,10 @@
 			}
 		},
 		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<title>CSS Grid example 2</title>\n\t<meta charset=\"utf-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n\t<style type=\"text/css\">\n\t\t.container {\n\t\t\tdisplay: grid;\n\t\t\tgrid-template-columns: 1fr 2fr 1fr;\n\t\t\tgrid-auto-rows: minmax(100px, auto);\n\t\t\tgrid-gap: 1em;\n\t\t\t/* put element at the start of each column */\n\t\t\tjustify-items: stretch;\n\t\t\talign-items: stretch;\n\t\t}\n\n\t\t.container > div {\n\t\t\tbackground: #eee;\n\t\t\tpadding: 1em;\n\t\t}\n\n\t\t.container > div:nth-child(odd) {\n\t\t\tbackground-color: #ddd;\n\t\t}\n\n\t\t.box1 {\n\t\t\t/*align-self: start;*/\n\t\t\t/*span from col 1 to col 3*/\n\t\t\t/* if there are 3 elements inside a row or a column, ==> there are 4 lines */\n\t\t\t/* knocks elements that do not fit to another column or row*/\n\t\t\tgrid-column:1/3;\n\t\t\tgrid-row: 1/3;\n\t\t}\n\n\t\t.box2 {\n\t\t\t/*align-self: end;*/\n\t\t\tgrid-column: 3;\n\t\t\tgrid-row: 1/3;\n\t\t}\n\n\t\t.box3 {\n\t\t\t/*justify-self: end;*/\n\t\t\tgrid-column: 2/4;\n\t\t\tgrid-row: 3;\n\t\t}\n\n\t\t.box4 {\n\t\t\tgrid-column: 1;\t\t\n\t\t\tgrid-row: 2/4;\n\t\t\tborder: 1px solid black;\n\t\t}\n\t</style>\n</head>\n<body>\n\t<div class=\"container\">\n\t\t<div class=\"box box1\">Box 1</div>\n\t\t<div class=\"box box2\">Box 2</div>\n\t\t<div class=\"box box3\">Box 3</div>\n\t\t<div class=\"box box4\">Box 4</div>\n\t</div>\n</body>\n</html>",
 			"file": "/C/Users/philos17/Dropbox/sublime files/tuts/css grid/index4.html",
+			"file_size": 1381,
+			"file_write_time": 131486476961707351,
 			"settings":
 			{
 				"buffer_size": 1318,
@@ -936,25 +954,22 @@
 			}
 		},
 		{
-			"file": "main.css",
-			"settings":
-			{
-				"buffer_size": 6092,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
+			"contents": "* {\n\tmargin: 0 auto;\n}\nnav {\n\toverflow: hidden;\n}\n\nul {\n\tlist-style-type: none;\n}\n\nul.grid-container {\n\tdisplay: grid;\n\tgrid-template-columns: repeat(11, 1fr);\n\tjustify-content: space-around;\n}\n\nnav > ul > li{\n\tdisplay: inline;\n\tpadding: 10px;\n}\n\ndiv#container > p {\n\tpadding: 26px;\n}\n\n.sticky {\n\tposition: fixed;\n\ttop: 0;\n\twidth: 100%;\n\n}\n\n\n/*nav > ul {\n\tborder-top: 10px solid white;\n}*/\n/*\n#li-logo {\n\tposition: relative;\n\ttop: 2.8rem;\n}*/\n\n#li-logo::after {\n\n}\n\n.scrolled {\n\n}",
 			"file": "/C/Users/philos17/Dropbox/sublime files/asteras/main.css",
+			"file_size": 528,
+			"file_write_time": 131648987337164302,
 			"settings":
 			{
-				"buffer_size": 479,
+				"buffer_size": 480,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
+			"contents": "// (function(){document.addEventListener(\"scroll\", function(event){\n// window.onscroll = function() {myFunction()};\n\n// var header = document.querySelector(\".gantry-logo\");\n// var sticky = header.offsetTop;\n\n// function myFunction() {\n//   if (window.pageYOffset >= sticky) {\n//     header.classList.add(\"sticky\");\n//   } else {\n//     header.classList.remove(\"sticky\");\n//   }\n// }\n\n// document.querySelector(\"div.on-scroll\").classList.add(\"scrolled\");\n// }\n\n// (function(){\n// \tdocument.addEventListener(\"scroll\", function(event){\n// \t\tdocument.querySelector(\"div.on-scroll\").classList.add(\"scrolled\");\n// \t})\n// })();\n/**probably will use it */\n// function myFunc (){\n// \tvar elem = document.querySelector(\"div.on-scroll\");\n\n// \tif (elem.classList) {\n// \t\telem.classList.toggle(\"scrolled\");\n// \t} else {\n// \t\tvar classes = elem.className.split(\" \");\n// \t\tvar i = classes.indexOf(\"scrolled\");\n\n// \t\tif (i >= 0) {\n// \t\t\tclasses.splice(i, 1);\n// \t\t} else {\n// \t\t\tclasses.push(\"scrolled\");\n// \t\t\telem.className = classes.join(\" \");\n// \t\t}\n// \t}\n// }\n\n/**used with sticky navbar*/\nwindow.onscroll = function (){\n\tmyFunc();\n}\n\nvar navbar = document.getElementById(\"my-nav\");\nvar sticky = navbar.offsetTop;\n\nfunction myFunc(){\n\tif (window.pageYOffset >= sticky) {\n\t\tnavbar.classList.add(\"sticky\")\n\t} else {\n\t\tnavbar.classList.remove(\"sticky\");\n\t}\n}",
 			"file": "/C/Users/philos17/Dropbox/sublime files/asteras/myscript.js",
+			"file_size": 1399,
+			"file_write_time": 131648990655121062,
 			"settings":
 			{
 				"buffer_size": 1344,
@@ -996,11 +1011,13 @@
 			}
 		},
 		{
+			"contents": "/*\n*\n*  Push Notifications codelab\n*  Copyright 2015 Google Inc. All rights reserved.\n*\n*  Licensed under the Apache License, Version 2.0 (the \"License\");\n*  you may not use this file except in compliance with the License.\n*  You may obtain a copy of the License at\n*\n*      https://www.apache.org/licenses/LICENSE-2.0\n*\n*  Unless required by applicable law or agreed to in writing, software\n*  distributed under the License is distributed on an \"AS IS\" BASIS,\n*  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n*  See the License for the specific language governing permissions and\n*  limitations under the License\n*\n*/\n\n/* eslint-env browser, es6 */\n\n'use strict';\n\nconst applicationServerPublicKey = 'BH_lyjiu8XhW5EmAR3KW1E65PqEK-4gDlXGkilW4x6oMvT4EYm-QxK6Qa32koJi3X1jOwI2FolOpN-ftEpaY6so';\n\nconst pushButton = document.querySelector('.js-push-btn');\n\nlet isSubscribed = false;\nlet swRegistration = null;\n\nfunction urlB64ToUint8Array(base64String) {\n  const padding = '='.repeat((4 - base64String.length % 4) % 4);\n  const base64 = (base64String + padding)\n    .replace(/\\-/g, '+')\n    .replace(/_/g, '/');\n\n  const rawData = window.atob(base64);\n  const outputArray = new Uint8Array(rawData.length);\n\n  for (let i = 0; i < rawData.length; ++i) {\n    outputArray[i] = rawData.charCodeAt(i);\n  }\n  return outputArray;\n}\n\nif('serviceWorker' in navigator && 'PushManager' in window){\n  console.log('Service Worker and Push is suppoerted');\n\n  navigator.serviceWorker.register('sw.js')\n    .then(function(swReg){\n      console.log(\"Service Worker is registered.\", swReg);\n\n      swRegistration = swReg;\n      initializeUI();\n    })\n    .catch(function(error){\n      console.error(\"Service Worker error\", error);\n    });\n} else {\n  console.warn(\"Push messaging is not supported.\");\n  pushButton.textContent = \"Push Not Supported\";\n}\n\nfunction initializeUI(){\n  pushButton.addEventListener('click', function(){\n    pushButton.disabled = true;\n    if(isSubscribed){\n      // TODO: Unsubscribe user\n\n    } else {\n      subscribeUser();\n    }\n  });\n  // Set the initial subscription value\n  swRegistration.pushManager.getSubscription()\n    .then(function(subscription){\n      isSubscribed = !(subscription === null);\n\n      updateSubscriptionOnServer(subscription);\n\n      if (isSubscribed) {\n        console.log(\"User IS subscribed.\");\n      } else {\n        console.log(\"User is NOT subscribed.\");\n      }\n\n      updateBtn();\n    });\n}\n\nfunction updateBtn(){\n  if (isSubscribed) {\n    pushButton.textContent = \"Disable Push Messaging\";\n  } else {\n    pushButton.textContent = \"Enable Push Messaging\";\n  }\n\n  pushButton.disabled = false;\n}\n\nfunction subscribeUser(){\n  const applicationServerKey = urlB64ToUint8Array(applicationServerPublicKey);\n  swRegistration.pushManager.subscribe({\n    userVisibleOnly: true,\n    applicationServerKey: applicationServerKey\n  })\n    .then(function(subscription){\n      console.log('User is subscribed.');\n\n      updateSubscriptionOnServer(subscription);\n\n      isSubscribed = true;\n\n      updateBtn();\n    })\n    .catch(function(err){\n      console.log('Failed to subscribe the user: ', err);\n      updateBtn();\n    });\n}\n\nfunction updateSubscriptionOnServer(subscription){\n  // TODO: Send subscription to application server\n\n  const subscriptionJson = document.querySelector('.js-subscription-json');\n  const subscriptionDetails = document.querySelector('.js-subscription-details');\n  \n  if (subscription) {\n    subscriptionJson.textContent = JSON.stringify(subscription);\n    subscriptionDetails.classList.remove('is-invisible');    \n  } else {\n    subscriptionDetails.classList.add('is-invisible');\n  }\n}\n\n\n",
 			"file": "/C/Users/philos17/Dropbox/sublime files/webpush/push-notifications/app/scripts/main.js",
+			"file_size": 3803,
+			"file_write_time": 131655076006811150,
 			"settings":
 			{
 				"buffer_size": 3667,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -1018,16 +1035,25 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4710,
+				"buffer_size": 4765,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/philos17/Dropbox/sublime files/CFF/2nd#112/main.css",
+			"file": "iframe.php",
 			"settings":
 			{
-				"buffer_size": 2218,
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main.css",
+			"settings":
+			{
+				"buffer_size": 6788,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -1046,6 +1072,7 @@
 			"settings":
 			{
 				"buffer_size": 2339,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -1103,11 +1130,15 @@
 		"/C/Users/philos17/Avocarrot",
 		"/C/Users/philos17/ACTest/avocarrotTest",
 		"/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS",
-		"/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4",
 		"/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover"
 	],
 	"file_history":
 	[
+		"/C/Users/philos17/Dropbox/sublime files/CFF/2nd#112/pull 10 04 18/script.js",
+		"/C/Users/philos17/Dropbox/sublime files/CFF/2nd#112/main.css",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-AngularJS/index.html",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/history.txt",
+		"/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/bird-flying.html",
 		"/C/Users/philos17/Desktop/COM_CONTENT_BLOG/1.txt",
 		"/C/Users/philos17/Desktop/philos-blog_item.php",
 		"/C/Users/philos17/Desktop/philos_blog.xml",
@@ -1230,12 +1261,7 @@
 		"/C/Users/philos17/AppData/Roaming/Sublime Text 3/Packages/Phpcs/phpcs.sublime-settings",
 		"/C/xampp/htdocs/phpSandbox/conditionalsComparisons.php",
 		"/C/xampp/htdocs/phpSandbox/variables.php",
-		"/C/xampp/htdocs/phpSandbox/loops.php",
-		"/C/Users/philos17/Dropbox/sublime files/tuts/SocialBtns/main.css",
-		"/C/Users/philos17/Sync/images/enimerosi_Schisto/labels.txt",
-		"/C/Users/philos17/Dropbox/sublime files/tuts/animatedSocialBtns/animatedSocialBtns.html",
-		"/C/Users/philos17/Dropbox/sublime files/tuts/animatedSocialBtns/main.css",
-		"/C/Users/philos17/Dropbox/sublime files/tuts/Preloader/jquery-3.2.1.js"
+		"/C/xampp/htdocs/phpSandbox/loops.php"
 	],
 	"find":
 	{
@@ -1253,6 +1279,19 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"ifra",
+			"main-grid",
+			"parallax",
+			"portfolio",
+			"z-ind",
+			"10vh",
+			"container",
+			"jumbotron",
+			"top",
+			"jumbotron",
+			"container",
+			"TODO",
+			"top",
 			"TODO",
 			"todo",
 			"top",
@@ -1367,20 +1406,7 @@
 			"display: table-row;",
 			"table-row",
 			"table-row;",
-			"isplay: table-row",
-			"email",
-			"display: table-row;",
-			"display: table-row",
-			"forea",
-			"mail(",
-			",",
-			"');",
-			"ionic/app-scripts\"",
-			"app-scr",
-			"lege",
-			"Root",
-			"lik",
-			"rde"
+			"isplay: table-row"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1477,39 +1503,11 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/bird-flying.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 500,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								460,
-								460
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 48,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "/C/Users/philos17/Downloads/mapFixed.html",
 					"semi_transient": false,
 					"settings":
@@ -1535,11 +1533,11 @@
 						"translation.y": 96.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 35,
+					"stack_index": 34,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "/C/Users/philos17/Dropbox/sublime files/maps/mapLinks.html",
 					"semi_transient": false,
 					"settings":
@@ -1565,11 +1563,11 @@
 						"translation.y": 56.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/css grid/css-grid-house.html",
 					"semi_transient": false,
 					"settings":
@@ -1594,11 +1592,11 @@
 						"translation.y": 364.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "/C/Users/philos17/Sync/images/iom-keelpno-training/2upload/labels.txt",
 					"semi_transient": false,
 					"settings":
@@ -1622,11 +1620,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "/C/Users/philos17/Dropbox/sublime files/2.html",
 					"semi_transient": false,
 					"settings":
@@ -1647,14 +1645,14 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 42.0,
+						"translation.y": 70.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "/C/Users/philos17/Dropbox/sublime files/2.html",
 					"semi_transient": false,
 					"settings":
@@ -1678,11 +1676,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "/C/Users/philos17/Dropbox/sublime files/3.html",
 					"semi_transient": false,
 					"settings":
@@ -1707,11 +1705,11 @@
 						"translation.y": 10622.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 7,
 					"file": "/C/Users/philos17/Dropbox/sublime files/courseraTest.html",
 					"semi_transient": false,
 					"settings":
@@ -1735,11 +1733,11 @@
 						"translation.y": 42.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 34,
+					"stack_index": 33,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 8,
 					"file": "/C/Users/philos17/Sync/επικαιροποίηση χάρτη/mapUpdateMine.html",
 					"semi_transient": false,
 					"settings":
@@ -1765,11 +1763,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 32,
+					"stack_index": 31,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 9,
 					"file": "/C/Users/philos17/Sync/επικαιροποίηση χάρτη/original.html",
 					"semi_transient": false,
 					"settings":
@@ -1795,11 +1793,11 @@
 						"translation.y": 8427.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 33,
+					"stack_index": 32,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 10,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/KN_OS/translation.txt",
 					"semi_transient": false,
 					"settings":
@@ -1823,11 +1821,11 @@
 						"translation.y": 1260.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 49,
+					"stack_index": 47,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 11,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/MathRandom.html",
 					"semi_transient": false,
 					"settings":
@@ -1852,11 +1850,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 45,
+					"stack_index": 44,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 12,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/MathRandomTest.html",
 					"semi_transient": false,
 					"settings":
@@ -1881,11 +1879,11 @@
 						"translation.y": 107.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 55,
+					"stack_index": 52,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 13,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture44/bugs.html",
 					"semi_transient": false,
 					"settings":
@@ -1909,11 +1907,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 46,
+					"stack_index": 45,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 14,
 					"file": "/C/xampp/htdocs/phpSandbox/website8-mysql/dbInstructions.txt",
 					"semi_transient": false,
 					"settings":
@@ -1937,11 +1935,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 50,
+					"stack_index": 48,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 15,
 					"file": "/C/xampp/htdocs/phpSandbox/website8-mysql/posts.php",
 					"semi_transient": false,
 					"settings":
@@ -1966,11 +1964,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 51,
+					"stack_index": 49,
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 16,
 					"file": "/C/xampp/htdocs/phpSandbox/websiteInfoServerClient/logoPhilosLink.html",
 					"semi_transient": false,
 					"settings":
@@ -1994,39 +1992,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 53,
+					"stack_index": 51,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
-					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/history.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 148,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								148,
-								148
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 54,
-					"type": "text"
-				},
-				{
-					"buffer": 19,
+					"buffer": 17,
 					"file": "/C/xampp/htdocs/phpSandbox/website8-mysql/config/db.php",
 					"semi_transient": false,
 					"settings":
@@ -2051,11 +2021,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 52,
+					"stack_index": 50,
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 18,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/bugs/main.css",
 					"semi_transient": false,
 					"settings":
@@ -2080,11 +2050,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 47,
+					"stack_index": 46,
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 19,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/bugs/index.html",
 					"semi_transient": false,
 					"settings":
@@ -2113,7 +2083,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 20,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/project/responsiveGalleryWithDirectionalAwareHover.html",
 					"semi_transient": false,
 					"settings":
@@ -2138,11 +2108,11 @@
 						"translation.y": 76.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 42,
+					"stack_index": 41,
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 21,
 					"file": "/C/Users/philos17/Dropbox/sublime files/asteras/menu.html",
 					"semi_transient": false,
 					"settings":
@@ -2170,7 +2140,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 22,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/project/css/styles.css",
 					"semi_transient": false,
 					"settings":
@@ -2195,11 +2165,11 @@
 						"translation.y": 1159.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 41,
+					"stack_index": 40,
 					"type": "text"
 				},
 				{
-					"buffer": 25,
+					"buffer": 23,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/project/js/scripts.js",
 					"semi_transient": false,
 					"settings":
@@ -2224,11 +2194,11 @@
 						"translation.y": 476.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 37,
+					"stack_index": 36,
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 24,
 					"file": "/C/Users/philos17/Dropbox/sublime files/MyGit/githubInstructions.txt",
 					"semi_transient": false,
 					"settings":
@@ -2252,11 +2222,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 36,
+					"stack_index": 35,
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 25,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/YeomanAndMore/instructions.txt",
 					"semi_transient": false,
 					"settings":
@@ -2280,11 +2250,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 43,
+					"stack_index": 42,
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 26,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/YeomanAndMore/gulpfile.js",
 					"semi_transient": false,
 					"settings":
@@ -2310,39 +2280,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 44,
+					"stack_index": 43,
 					"type": "text"
 				},
 				{
-					"buffer": 29,
-					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-AngularJS/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 119,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								119,
-								119
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 28,
-					"type": "text"
-				},
-				{
-					"buffer": 30,
+					"buffer": 27,
 					"file": "/C/Users/philos17/Downloads/Bug Off!_files/ScrollMagic.js",
 					"semi_transient": false,
 					"settings":
@@ -2367,11 +2309,11 @@
 						"translation.y": 2058.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 38,
+					"stack_index": 37,
 					"type": "text"
 				},
 				{
-					"buffer": 31,
+					"buffer": 28,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture46/index.html",
 					"semi_transient": false,
 					"settings":
@@ -2395,11 +2337,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 31,
+					"stack_index": 30,
 					"type": "text"
 				},
 				{
-					"buffer": 32,
+					"buffer": 29,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture52/js/script1.js",
 					"semi_transient": false,
 					"settings":
@@ -2423,11 +2365,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 30,
+					"stack_index": 29,
 					"type": "text"
 				},
 				{
-					"buffer": 33,
+					"buffer": 30,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture46/js/script.js",
 					"semi_transient": false,
 					"settings":
@@ -2451,11 +2393,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 39,
+					"stack_index": 38,
 					"type": "text"
 				},
 				{
-					"buffer": 34,
+					"buffer": 31,
 					"file": "/C/Users/philos17/Dropbox/sublime files/maps/2.html",
 					"semi_transient": false,
 					"settings":
@@ -2481,11 +2423,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 40,
+					"stack_index": 39,
 					"type": "text"
 				},
 				{
-					"buffer": 35,
+					"buffer": 32,
 					"file": "/C/Users/philos17/Dropbox/sublime files/alma/main.css",
 					"semi_transient": false,
 					"settings":
@@ -2509,11 +2451,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 29,
+					"stack_index": 28,
 					"type": "text"
 				},
 				{
-					"buffer": 36,
+					"buffer": 33,
 					"semi_transient": false,
 					"settings":
 					{
@@ -2540,7 +2482,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 37,
+					"buffer": 34,
 					"semi_transient": false,
 					"settings":
 					{
@@ -2570,7 +2512,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 38,
+					"buffer": 35,
 					"file": "/C/Users/philos17/Dropbox/sublime files/license/license.pdf",
 					"semi_transient": false,
 					"settings":
@@ -2598,7 +2540,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 39,
+					"buffer": 36,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/map.html",
 					"semi_transient": false,
 					"settings":
@@ -2628,7 +2570,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 40,
+					"buffer": 37,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/css grid/index2.html",
 					"semi_transient": false,
 					"settings":
@@ -2657,7 +2599,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 41,
+					"buffer": 38,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/css grid/grid.html",
 					"semi_transient": false,
 					"settings":
@@ -2686,7 +2628,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 42,
+					"buffer": 39,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/css grid/index3.html",
 					"semi_transient": false,
 					"settings":
@@ -2715,7 +2657,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 43,
+					"buffer": 40,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/css grid/index4.html",
 					"semi_transient": false,
 					"settings":
@@ -2750,49 +2692,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 44,
-					"file": "main.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6092,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4914,
-								4914
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 4184.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 45,
+					"buffer": 41,
 					"file": "/C/Users/philos17/Dropbox/sublime files/asteras/main.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 479,
+						"buffer_size": 480,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								336,
-								336
+								179,
+								181
 							]
 						],
 						"settings":
@@ -2801,14 +2714,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 76.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 46,
+					"buffer": 42,
 					"file": "/C/Users/philos17/Dropbox/sublime files/asteras/myscript.js",
 					"semi_transient": false,
 					"settings":
@@ -2836,7 +2749,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 47,
+					"buffer": 43,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/responsiveGalleryWithDirectionalAwareHover.html",
 					"semi_transient": false,
 					"settings":
@@ -2865,7 +2778,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 48,
+					"buffer": 44,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture52/mine/js/script.js",
 					"semi_transient": false,
 					"settings":
@@ -2894,7 +2807,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 49,
+					"buffer": 45,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture54/js/script.js",
 					"semi_transient": false,
 					"settings":
@@ -2926,11 +2839,11 @@
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
-					"buffer": 50,
+					"buffer": 46,
 					"file": "/C/Users/philos17/Dropbox/sublime files/webpush/push-notifications/app/scripts/main.js",
 					"semi_transient": false,
 					"settings":
@@ -2956,11 +2869,11 @@
 						"translation.y": 1291.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 51,
+					"buffer": 47,
 					"file": "/C/Users/philos17/Dropbox/sublime files/2.html",
 					"semi_transient": false,
 					"settings":
@@ -2989,20 +2902,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 52,
+					"buffer": 48,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4710,
+						"buffer_size": 4765,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4158,
-								4158
+								2290,
+								2290
 							]
 						],
 						"settings":
@@ -3012,33 +2925,61 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1053.0,
+						"translation.y": 341.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 53,
-					"file": "/C/Users/philos17/Dropbox/sublime files/CFF/2nd#112/main.css",
+					"buffer": 49,
+					"file": "iframe.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2218,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								590,
-								590
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 50,
+					"file": "main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6788,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4302,
+								4302
 							]
 						],
 						"settings":
@@ -3047,14 +2988,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 330.0,
+						"translation.y": 3679.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 54,
+					"buffer": 51,
 					"file": "script.js",
 					"semi_transient": false,
 					"settings":
@@ -3066,8 +3007,8 @@
 						"selection":
 						[
 							[
-								363,
-								363
+								296,
+								296
 							]
 						],
 						"settings":
@@ -3077,14 +3018,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 546.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 55,
+					"buffer": 52,
 					"file": "script2.js",
 					"semi_transient": false,
 					"settings":
@@ -3096,8 +3037,8 @@
 						"selection":
 						[
 							[
-								1456,
-								2131
+								1994,
+								1994
 							]
 						],
 						"settings":
@@ -3105,10 +3046,10 @@
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 756.0,
+						"translation.y": 294.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -3154,13 +3095,13 @@
 		"cols":
 		[
 			0.0,
-			0.546001802004,
+			0.470652924065,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.509505799521,
+			0.463884430177,
 			1.0
 		]
 	},
@@ -3207,7 +3148,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 2,
 	"settings":
 	{
 	},

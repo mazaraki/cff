@@ -181,7 +181,7 @@ span[onclick~="open"] {
 	margin: 0;
 }
 
-.parallax-start, .parallax {
+.parallax-start, .parallax, .parallax-middle {
 	background-image: url('parallax.png');
 	height: 50vh;
 	background-attachment: fixed;
@@ -190,7 +190,14 @@ span[onclick~="open"] {
 	background-size: cover;
 }
 
+.parallax-middle {
+	height: 40vh;
+}
+
 div.container {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0;
 	padding-top: 10vh;
 }
 
@@ -234,13 +241,54 @@ div.container {
 	box-shadow: 0.15rem 0.15rem 0.15rem #4fd6dd;
 }*/
 
+/*#about > h4 {
+	grid-area: headerAbout;
+}
 
-iframe {
+#about > p:nth-child(1) {
+	grid-area: par1;
+}
+
+#about > p:nth-child(2) {
+	grid-area: par2;
+}*/
+/* MAIN GRID */
+/*.main-grid {
+	display: grid;*/
+	/*grid-template-columns: auto auto auto;*/
+	/*grid-template-areas: 
+	'headerAbout par1 par1 par1'
+	'headerAbout par2 par2 par2';
+	
+	grid-gap: 2rem;
+
+}*/
+
+
+#about, #portfolio {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	/*grid-template-areas: 
+	'headerAbout par1'
+	'headerAbout par2';*/
+	grid-gap: 2rem;
+}
+
+#portfolio {
+	top: 5vh;
+}
+
+#about > h4, #portfolio > h4 {
+	grid-column: 1 / 2;
+}
+
+
+/*iframe {
 	position: absolute;
 	top: 10vh;
 	width: 100px;
 	height: 100px;
-}
+}*/
 
 footer {
 	position: fixed;
@@ -304,7 +352,7 @@ footer > div > div {
 
 
 .hoverContact:hover {
-	cursor: url('infinitycur.cur', pointer);
+	cursor: url(infinitycur.cur), pointer;
 	font-size: 	110%;
 	-webkit-transform: scale(0.9);
 	-webkit-transform-origin: 50% 50%;

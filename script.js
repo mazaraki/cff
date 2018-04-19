@@ -41,8 +41,8 @@ function makeVisibleFooter() {
 $(window).on("scroll touchmove", function () {
   $('header').toggleClass('tiny', $(document).scrollTop() > 0);
   $('#logo').toggleClass('tinyLogo', $(document).scrollTop() > 0);
-  $('footer').toggleClass('bigFooter', $(document).scrollTop() > 540);
-  $('.fa-chevron-up').toggleClass('scrolledFa', $(document).scrollTop() > 540);
+  $('footer').toggleClass('bigFooter', $(document).scrollTop() > 840);
+  $('.fa-chevron-up').toggleClass('scrolledFa', $(document).scrollTop() > 840);
   // $('.fa-bars').toggleClass('tinyBurger', $(document).scrollTop() > 0);
   // if ($(document).scrollTop() > 540) {
   //   $('footer').toggleClass('tinyFooter');//, $(document).scrollTop() > 540);
