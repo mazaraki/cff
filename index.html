@@ -13,6 +13,8 @@
     <!-- Styles -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">    
     <link rel="stylesheet" type="text/css" href="main.css">
     
   </head>
@@ -26,8 +28,7 @@
       <a href="#contact" class="links">Contact</a>
     </div>
     <header>
-      <span></span>
-      <span onclick="openNav();"><!-- Menu --><i class="fas fa-bars"></i></span>
+      <span onclick="openNav();"><!-- Menu --><i onclick="openNav();" class="fas fa-bars"></i></span>
       <!-- @TODO: transform like the toTop btn -->
       <span><a href="#"><img id="logo" src="infinity.png" alt=""></a></span>
     </header>
@@ -38,11 +39,28 @@
     <div class="parallax-start"></div>
     <div class="container main-grid" id="top">
   		<div id="about">
-        <h4>About meeee</h4>
-        <p>Web developer.<br> Currently working as web developer - webmaster.</p>
+        <h4>About me</h4>
+        <p>Web developer.<br>Currently working as web developer - webmaster.<br>Follow me:<br>
+          <!-- SOCIAL -->
+          <span class="social-media">
+            <a class="fab fa-facebook-f" href="https://www.facebook.com/dimitra.mazaraki" target="_blank"></a>
+          </span>
+          <span class="social-media">
+            <a class="fab fa-twitter" href="https://twitter.com/mitsaki_m" target="_blank"></a>
+          </span>
+          <span class="social-media">
+            <a class="fab fa-github" href="https://github.com/miminaki" target="_blank"></a>
+          </span>
+          <span class="social-media">
+            <a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/dimitramazaraki/" target="_blank"></a>
+          </span>
+          <span class="social-media">
+            <a class="fab fa-codepen" href="https://codepen.io/DimitraMazaraki/" target="_blank"></a>
+          </span>
+        </p>
       </div>
     </div>
-    <br><br><br>
+    <!-- <br><br><br> -->
     <div class="parallax-middle"></div>
     <div class="container main-grid">
       <div id="portfolio">
@@ -51,7 +69,7 @@
         <object data="http://www.yme.gov.gr/index.php?getwhat=1&oid=543&id=&tid=543"></object>
       </div>
     </div>
-    <br><br><br>
+    <!-- <br><br><br> -->
     <div class="parallax-start"></div>
       <div class="parallax-start"></div>
     </div>

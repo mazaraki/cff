@@ -1,5 +1,7 @@
 * {
 	margin: 0 auto;
+	font-family: 'Lato', Helvetica, sans-serif;
+
 }
 
 /** custom scrollbar. not working on IE/edge and mozilla */
@@ -110,14 +112,16 @@ span i {
 	top: -1rem;
 	right: 2vw;
 	font-size: 3rem;
-	margin-left: 50px;
-	-webkit-transform: scale(1.0) rotate(180deg);	
-	-moz-transform: scale(1.0) rotate(180deg);	
-	-o-transform: scale(1.0) rotate(180deg);	
-	-ms-transform: scale(1.0) rotate(180deg);	
-	transform: scale(1.0) rotate(180deg);	
+	margin-left: 50px;	
 }
 
+.sidenav .closeBtn:hover {
+	-webkit-transform: scale(1.0) rotate(180deg) translate(-15px, 0);	
+	-moz-transform: scale(1.0) rotate(180deg) translate(-15px, 0);	
+	-o-transform: scale(1.0) rotate(180deg) translate(-15px, 0);	
+	-ms-transform: scale(1.0) rotate(180deg) translate(-15px, 0);	
+	transform: scale(1.0) rotate(180deg) translate(-15px, 0);
+}
 #mainContainer {
 	-webkit-transition: margin-left .5s ;
 	-moz-webkit-transition: margin-left .5s ;
@@ -190,6 +194,10 @@ span[onclick~="open"] {
 	background-size: cover;
 }
 
+.parallax-start {
+	height: 20vh;
+}
+
 .parallax-middle {
 	height: 40vh;
 }
@@ -199,6 +207,21 @@ div.container {
 	margin: 0 auto;
 	padding: 0;
 	padding-top: 10vh;
+	background-color: white;
+}
+
+br {
+	background-color: white !important;
+}
+
+.social-media {
+	padding: 0 1vw 0 0;
+}
+
+.social-media *:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	color: #4fd6dd;
 }
 
 @media screen and (max-width: 768px){
@@ -264,6 +287,10 @@ div.container {
 
 }*/
 
+a:hover, header span:hover {
+	cursor: url(infinitycur.cur), pointer;
+}
+
 
 #about, #portfolio {
 	display: grid;
@@ -272,6 +299,8 @@ div.container {
 	'headerAbout par1'
 	'headerAbout par2';*/
 	grid-gap: 2rem;
+	background-color: white;
+	/*margin: 0 0 15px;*/
 }
 
 #portfolio {
@@ -280,8 +309,12 @@ div.container {
 
 #about > h4, #portfolio > h4 {
 	grid-column: 1 / 2;
+	font-size: xx-large;
 }
 
+#about > p, #portfolio > p {
+	font-size: x-large;
+}
 
 /*iframe {
 	position: absolute;
