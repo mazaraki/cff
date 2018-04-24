@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"gridar",
+				"grid-template-areas"
+			],
+			[
+				"para",
+				"parallax-start"
+			],
+			[
+				"grid-t",
+				"grid-template-columns"
+			],
+			[
+				"iframe",
+				"iframe-id"
+			],
+			[
 				"grid-template",
 				"grid-template-areas"
 			],
@@ -498,22 +514,6 @@
 			[
 				"long",
 				"longitude"
-			],
-			[
-				"lat",
-				"latitude"
-			],
-			[
-				"get",
-				"getCurrentPosition"
-			],
-			[
-				"flex",
-				"flex-direction"
-			],
-			[
-				"word",
-				"word-wrap"
 			]
 		]
 	},
@@ -536,7 +536,6 @@
 			"settings":
 			{
 				"buffer_size": 25115,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -550,10 +549,10 @@
 			}
 		},
 		{
-			"file": "/C/Users/philos17/Sync/images/iom-keelpno-training/2upload/labels.txt",
+			"file": "/C/Users/philos17/Sync/images/iom-keelpno-training/2upload/labelsEN.txt",
 			"settings":
 			{
-				"buffer_size": 266,
+				"buffer_size": 246,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -600,7 +599,6 @@
 			"settings":
 			{
 				"buffer_size": 438,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -632,7 +630,6 @@
 			"settings":
 			{
 				"buffer_size": 2673,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -644,7 +641,6 @@
 			"settings":
 			{
 				"buffer_size": 5280,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -656,7 +652,6 @@
 			"settings":
 			{
 				"buffer_size": 1168,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -712,7 +707,6 @@
 			"settings":
 			{
 				"buffer_size": 539,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -724,7 +718,6 @@
 			"settings":
 			{
 				"buffer_size": 3349,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -780,7 +773,6 @@
 			"settings":
 			{
 				"buffer_size": 1336,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -894,7 +886,6 @@
 			"settings":
 			{
 				"buffer_size": 36473,
-				"encoding": "Western (Windows 1252)",
 				"line_ending": "Unix"
 			}
 		},
@@ -961,7 +952,6 @@
 			"settings":
 			{
 				"buffer_size": 480,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -973,6 +963,14 @@
 			"settings":
 			{
 				"buffer_size": 1344,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main.css",
+			"settings":
+			{
+				"buffer_size": 8027,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -1035,34 +1033,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4765,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "iframe.php",
-			"settings":
-			{
-				"buffer_size": 0,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "main.css",
-			"settings":
-			{
-				"buffer_size": 6788,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "script.js",
-			"settings":
-			{
-				"buffer_size": 2095,
+				"buffer_size": 6207,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -1072,6 +1043,15 @@
 			"settings":
 			{
 				"buffer_size": 2339,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "script.js",
+			"settings":
+			{
+				"buffer_size": 2095,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -1134,7 +1114,10 @@
 	],
 	"file_history":
 	[
+		"/C/Users/philos17/Dropbox/sublime files/CFF/2nd#112/pull 10 04 18/main.css",
+		"/C/Users/philos17/Dropbox/sublime files/CFF/2nd#112/pull 10 04 18/index.html",
 		"/C/Users/philos17/Dropbox/sublime files/CFF/2nd#112/pull 10 04 18/script.js",
+		"/C/Users/philos17/Dropbox/sublime files/CFF/2nd#112/pull 10 04 18/iframe.php",
 		"/C/Users/philos17/Dropbox/sublime files/CFF/2nd#112/main.css",
 		"/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-AngularJS/index.html",
 		"/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/history.txt",
@@ -1258,10 +1241,7 @@
 		"/C/Users/philos17/Dropbox/sublime files/tuts/VertHorCentered/index.html",
 		"/C/xampp/htdocs/phpSandbox/websiteInfoServerClient/1.html",
 		"/C/xampp/htdocs/phpSandbox/websiteInfoServerClient/logoPhilosLink.html",
-		"/C/Users/philos17/AppData/Roaming/Sublime Text 3/Packages/Phpcs/phpcs.sublime-settings",
-		"/C/xampp/htdocs/phpSandbox/conditionalsComparisons.php",
-		"/C/xampp/htdocs/phpSandbox/variables.php",
-		"/C/xampp/htdocs/phpSandbox/loops.php"
+		"/C/Users/philos17/AppData/Roaming/Sublime Text 3/Packages/Phpcs/phpcs.sublime-settings"
 	],
 	"find":
 	{
@@ -1279,6 +1259,24 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"start",
+			"about",
+			"z-in",
+			"#about",
+			"container {",
+			"main-grid",
+			"contac",
+			"portfol",
+			"contact",
+			"contact me",
+			"sidenav",
+			"closeBtn",
+			"closeNav",
+			"footer",
+			"makeVisibleFooter",
+			"display: gr",
+			"top {",
+			"about",
 			"ifra",
 			"main-grid",
 			"parallax",
@@ -1388,25 +1386,7 @@
 			"διαβατ",
 			"ροιας",
 			"τιλήνη",
-			"ηχανι",
-			"μας",
-			"τιλήνη",
-			"ίου",
-			"μεταξ",
-			"βαδ",
-			"display: table-row",
-			"<div class=\"photo-container-row\" style=\"display: table-row;\">",
-			"display: table-row;",
-			"display: table-row",
-			"display: table-row;",
-			"/MyMedia/pdfs/apotelesmata-17-10-17/",
-			"display: table-row;",
-			"display: table-row",
-			"filippiada",
-			"display: table-row;",
-			"table-row",
-			"table-row;",
-			"isplay: table-row"
+			"ηχανι"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1503,7 +1483,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1533,7 +1513,7 @@
 						"translation.y": 96.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 34,
+					"stack_index": 33,
 					"type": "text"
 				},
 				{
@@ -1563,7 +1543,7 @@
 						"translation.y": 56.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
@@ -1589,27 +1569,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 364.0,
+						"translation.y": 379.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "/C/Users/philos17/Sync/images/iom-keelpno-training/2upload/labels.txt",
+					"file": "/C/Users/philos17/Sync/images/iom-keelpno-training/2upload/labelsEN.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 266,
+						"buffer_size": 246,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								266,
-								266
+								246,
+								246
 							]
 						],
 						"settings":
@@ -1620,7 +1600,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -1645,10 +1625,10 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 70.0,
+						"translation.y": 44.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -1676,7 +1656,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -1702,10 +1682,10 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 10622.0,
+						"translation.y": 11036.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
@@ -1733,7 +1713,7 @@
 						"translation.y": 42.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 33,
+					"stack_index": 32,
 					"type": "text"
 				},
 				{
@@ -1763,7 +1743,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 31,
+					"stack_index": 30,
 					"type": "text"
 				},
 				{
@@ -1790,10 +1770,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8427.0,
+						"translation.y": 9018.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 32,
+					"stack_index": 31,
 					"type": "text"
 				},
 				{
@@ -1818,10 +1798,10 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1260.0,
+						"translation.y": 1341.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 47,
+					"stack_index": 46,
 					"type": "text"
 				},
 				{
@@ -1850,7 +1830,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 44,
+					"stack_index": 43,
 					"type": "text"
 				},
 				{
@@ -1879,7 +1859,7 @@
 						"translation.y": 107.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 52,
+					"stack_index": 51,
 					"type": "text"
 				},
 				{
@@ -1907,7 +1887,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 45,
+					"stack_index": 44,
 					"type": "text"
 				},
 				{
@@ -1935,7 +1915,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 48,
+					"stack_index": 47,
 					"type": "text"
 				},
 				{
@@ -1964,7 +1944,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 49,
+					"stack_index": 48,
 					"type": "text"
 				},
 				{
@@ -1992,7 +1972,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 51,
+					"stack_index": 50,
 					"type": "text"
 				},
 				{
@@ -2021,7 +2001,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 50,
+					"stack_index": 49,
 					"type": "text"
 				},
 				{
@@ -2050,7 +2030,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 46,
+					"stack_index": 45,
 					"type": "text"
 				},
 				{
@@ -2079,7 +2059,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
@@ -2108,7 +2088,7 @@
 						"translation.y": 76.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 41,
+					"stack_index": 40,
 					"type": "text"
 				},
 				{
@@ -2136,7 +2116,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
@@ -2162,10 +2142,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1159.0,
+						"translation.y": 1241.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 40,
+					"stack_index": 39,
 					"type": "text"
 				},
 				{
@@ -2191,10 +2171,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 476.0,
+						"translation.y": 510.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 36,
+					"stack_index": 35,
 					"type": "text"
 				},
 				{
@@ -2222,7 +2202,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 35,
+					"stack_index": 34,
 					"type": "text"
 				},
 				{
@@ -2250,7 +2230,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 42,
+					"stack_index": 41,
 					"type": "text"
 				},
 				{
@@ -2280,7 +2260,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 43,
+					"stack_index": 42,
 					"type": "text"
 				},
 				{
@@ -2306,10 +2286,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2058.0,
+						"translation.y": 2205.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 37,
+					"stack_index": 36,
 					"type": "text"
 				},
 				{
@@ -2337,7 +2317,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 30,
+					"stack_index": 29,
 					"type": "text"
 				},
 				{
@@ -2365,7 +2345,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 29,
+					"stack_index": 28,
 					"type": "text"
 				},
 				{
@@ -2393,7 +2373,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 38,
+					"stack_index": 37,
 					"type": "text"
 				},
 				{
@@ -2423,7 +2403,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 39,
+					"stack_index": 38,
 					"type": "text"
 				},
 				{
@@ -2451,7 +2431,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 28,
+					"stack_index": 27,
 					"type": "text"
 				},
 				{
@@ -2478,7 +2458,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 25,
+					"stack_index": 24,
 					"type": "text"
 				},
 				{
@@ -2505,10 +2485,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 28.0,
+						"translation.y": 30.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 24,
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
@@ -2536,7 +2516,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 26,
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
@@ -2566,7 +2546,7 @@
 						"translation.y": 202.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 19,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
@@ -2595,7 +2575,7 @@
 						"translation.y": 168.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 20,
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
@@ -2624,7 +2604,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
@@ -2653,7 +2633,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 23,
+					"stack_index": 22,
 					"type": "text"
 				},
 				{
@@ -2682,13 +2662,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 22,
+					"stack_index": 21,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -2704,8 +2684,8 @@
 						"selection":
 						[
 							[
-								179,
-								181
+								125,
+								125
 							]
 						],
 						"settings":
@@ -2714,10 +2694,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 76.0,
+						"translation.y": 81.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -2733,8 +2713,8 @@
 						"selection":
 						[
 							[
-								1269,
-								1282
+								894,
+								894
 							]
 						],
 						"settings":
@@ -2742,14 +2722,43 @@
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 544.0,
+						"translation.y": 354.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 43,
+					"file": "main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8027,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3633,
+								3633
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3225.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 44,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/responsiveGalleryWithDirectionalAwareHover/responsiveGalleryWithDirectionalAwareHover.html",
 					"semi_transient": false,
 					"settings":
@@ -2778,7 +2787,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 44,
+					"buffer": 45,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture52/mine/js/script.js",
 					"semi_transient": false,
 					"settings":
@@ -2800,14 +2809,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 126.0,
+						"translation.y": 135.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 27,
+					"stack_index": 26,
 					"type": "text"
 				},
 				{
-					"buffer": 45,
+					"buffer": 46,
 					"file": "/C/Users/philos17/Dropbox/sublime files/tuts/Coursera-HTML-CSS-JS/fullstack-course4/fullstack-course4-master/examples/Lecture54/js/script.js",
 					"semi_transient": false,
 					"settings":
@@ -2833,17 +2842,17 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 15,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
-					"buffer": 46,
+					"buffer": 47,
 					"file": "/C/Users/philos17/Dropbox/sublime files/webpush/push-notifications/app/scripts/main.js",
 					"semi_transient": false,
 					"settings":
@@ -2866,14 +2875,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 48.0,
-						"translation.y": 1291.0,
+						"translation.y": 1383.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 47,
+					"buffer": 48,
 					"file": "/C/Users/philos17/Dropbox/sublime files/2.html",
 					"semi_transient": false,
 					"settings":
@@ -2885,8 +2894,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								409,
+								409
 							]
 						],
 						"settings":
@@ -2898,24 +2907,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 48,
+					"buffer": 49,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4765,
+						"buffer_size": 6207,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2290,
-								2290
+								3271,
+								3271
 							]
 						],
 						"settings":
@@ -2925,73 +2934,44 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 341.0,
+						"translation.y": 1103.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 49,
-					"file": "iframe.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 50,
-					"file": "main.css",
+					"file": "script2.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6788,
+						"buffer_size": 2339,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4302,
-								4302
+								1170,
+								1170
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 3679.0,
+						"translation.y": 315.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -3007,8 +2987,8 @@
 						"selection":
 						[
 							[
-								296,
-								296
+								1936,
+								1936
 							]
 						],
 						"settings":
@@ -3021,35 +3001,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 52,
-					"file": "script2.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2339,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1994,
-								1994
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 294.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -3148,7 +3100,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 2,
+	"selected_group": 1,
 	"settings":
 	{
 	},

@@ -1,5 +1,6 @@
 * {
 	margin: 0 auto;
+	/*height: 1000px;*/
 	font-family: 'Lato', Helvetica, sans-serif;
 
 }
@@ -31,7 +32,7 @@ nav {
 	background-color: #4fd6dd !important;
 	position: fixed;
 	border: 1.6vw solid #4fd6dd;
-	z-index: 1001;
+	z-index: 1003;
 	height: 20.4vh;
 }
 
@@ -185,7 +186,7 @@ span[onclick~="open"] {
 	margin: 0;
 }
 
-.parallax-start, .parallax, .parallax-middle {
+.parallax-start, .parallax, .parallax-middle, .div--parallax {
 	background-image: url('parallax.png');
 	height: 50vh;
 	background-attachment: fixed;
@@ -195,7 +196,7 @@ span[onclick~="open"] {
 }
 
 .parallax-start {
-	height: 20vh;
+	height: 10vh;
 }
 
 .parallax-middle {
@@ -207,8 +208,35 @@ div.container {
 	margin: 0 auto;
 	padding: 0;
 	padding-top: 10vh;
-	background-color: white;
+	/*background-color: white;*/
 }
+
+div.main-grid {
+	display: inline-grid;
+	position: absolute;
+	/*position: relative;*/
+	left: 0;
+	grid-template-columns: 50% 50%;/*2fr 2fr;*/
+	grid-template-rows: auto;
+	grid-row-gap: 2vw;
+}
+
+div.main-grid2 {
+	max-width: 30%;
+	display: inline-grid;
+	position: absolute;
+	/*position: relative;*/
+	left: 35%;
+	right: -200	px;
+	grid-template-columns: 50% 50%;/*2fr 2fr;*/
+	grid-template-rows: auto;
+	grid-row-gap: 2vw;
+}
+/*div.#top {
+	display: inline-grid;
+	grid-template-rows: 2fr 2fr;*/
+	/*grid-template-areas: */
+/*}*/
 
 br {
 	background-color: white !important;
@@ -305,6 +333,14 @@ a:hover, header span:hover {
 
 #portfolio {
 	top: 5vh;
+}
+
+#about {
+	z-index: 1004;
+}
+
+#about > h4 {
+	border: 3rem solid white;
 }
 
 #about > h4, #portfolio > h4 {
